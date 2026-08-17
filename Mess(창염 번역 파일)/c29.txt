@@ -307,7 +307,7 @@ $Ub$H[F_Target=1][ClearBox][FreezeMouth]……[UnfreezeMouth]아이크.[Pause=4]
 그렇게 나이 차가 있어 보이지도 않는데[FreezeMouth]…[UnfreezeMouth][A]
 [F_Target=1][ClearBox][FaceCommand=S]베오크인 너희들은
 믿기 힘들겠지만[FreezeMouth]…[UnfreezeMouth][A][ClearBox][FaceCommand=A]실제로 [Pause=2]우리 용린족은
-천 년 이상을[FreezeMouth]…[UnfreezeMouth] 살 수 있어.[A][ClearBox]어느 정도 성장한 이후로는[FreezeMouth]…[UnfreezeMouth][Pause=4]
+1000년 이상을[FreezeMouth]…[UnfreezeMouth] 살 수 있어.[A][ClearBox]어느 정도 성장한 이후로는[FreezeMouth]…[UnfreezeMouth][Pause=4]
 외견도 극단적으로 늙지 않게 되지.[A][ClearBox]그 증거로, [Pause=2]고르드아에서 너와 만난
 쿠르트나가 왕자는 기억하고 있지?[A]
 [F_Target=3][ClearBox]그래, [Pause=2]좋은 녀석이었지.[A]
@@ -400,7 +400,7 @@ $Ub$H[F_Target=0][ClearBox][FreezeMouth]…[UnfreezeMouth]저는 이나[FreezeMo
 [F_Target=3][ClearBox]네가 나시르의 손녀라고[FreezeMouth]!?[UnfreezeMouth][A]
 [F_Target=0][ClearBox]베오크인 여러분들은
 믿기 힘드시겠지만[FreezeMouth]…[UnfreezeMouth][A][ClearBox]실제로 [Pause=2]저희 용린족은
-천 년 이상 살 수 있어요.[A][ClearBox]어느 정도 성장하고 나면[FreezeMouth]…[UnfreezeMouth][Pause=4]
+1000년 이상 살 수 있어요.[A][ClearBox]어느 정도 성장하고 나면[FreezeMouth]…[UnfreezeMouth][Pause=4]
 외견이 극단적으로 늙지 않게 되죠.[A]
 [F_Target=3][ClearBox]1000년[FreezeMouth]…[UnfreezeMouth]
 [FreezeMouth]……[UnfreezeMouth]상상이 안 가[FreezeMouth]……[UnfreezeMouth][A]

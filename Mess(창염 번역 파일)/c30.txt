@@ -39,7 +39,7 @@ MS_30_GMAP_B_02
 
 MS_30_OP_01A
 
-[Scene=背景会話][LoadBackground=天幕個人用-夜][Trigger][F_Target=3][LoadPortrait_L=ENA][F_Target=1][LoadPortrait_L=IKE2][F_Target=3][ClearBox][FreezeMouth]……[UnfreezeMouth]백로 공주는[Pause=2]
+[Scene=背景会話][LoadBackground=天幕個人用-夜][Trigger][F_Target=3][LoadPortrait_L=ENA][F_Target=1][LoadPortrait_L=IKE2][F_Target=3][ClearBox][FreezeMouth]……[UnfreezeMouth]백로공주는[Pause=2]
 이곳에서 조금 남하한 곳에 있는
 그리트네아 탑에 있어요.[A]
 [F_Target=1][ClearBox]어떻게 알고 있는 거야?[A]
