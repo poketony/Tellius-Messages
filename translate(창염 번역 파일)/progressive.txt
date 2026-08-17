@@ -1,0 +1,20 @@
+﻿MESS_PROG_ASK
+
+프로그레시브 모드로 표시하겠습니까?[X]
+
+MESS_PROG_YES
+
+  예  [X]
+
+MESS_PROG_NO
+
+아니요[X]
+
+MESS_PROG_PROG
+
+화면 표시 모드는 프로그레시브 모드로 설정되었습니다.[X]
+
+MESS_PROG_INTR
+
+화면 표시 모드는 인터레이스 모드로 설정되었습니다.[X]
+
