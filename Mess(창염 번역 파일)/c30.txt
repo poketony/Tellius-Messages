@@ -513,7 +513,7 @@ MS_30_BT_R3
 
 MS_30_BT_R4
 
-[Scene=上下会話][Face='KOYUJO' Pos='0'][S_Target=0]イ[FreezeMouth]……[UnfreezeMouth]이나님[FreezeMouth]!?[UnfreezeMouth][Pause=4]
+[Scene=上下会話][Face='KOYUJO' Pos='0'][S_Target=0]이[FreezeMouth]…… [UnfreezeMouth]이나님[FreezeMouth]!?[UnfreezeMouth][Pause=4]
 말도 안 돼[FreezeMouth]……[UnfreezeMouth][Pause=3]
 처형당했을 텐데[FreezeMouth]……[UnfreezeMouth][A][X]
 

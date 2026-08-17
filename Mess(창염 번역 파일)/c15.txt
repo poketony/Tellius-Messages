@@ -286,7 +286,7 @@ MS_15_OP_05_A
 몇 마리 남아 있을지도 모르잖아.[A]
 [S_Target=0][FaceCommand=A]이 [Pause=2]멍청아[FreezeMouth]![UnfreezeMouth][Pause=4]
 왜 백로가 비싸게 팔리겠냐?[Pause=4]
-거의 없으니까지.[A][ClearBox]벌써 20년 전 얘기라고.[Pause=4]
+거의 없으니까 그래.[A][ClearBox]벌써 20년 전 얘기라고.[Pause=4]
 폭도들이 [Pause=2]셀리노스의 숲을 전부 태워 버리고[Pause=3]
 백로들을 [Pause=2]전~부 죽여 버렸잖냐.[A][ClearBox]정말이지 [Pause=3]지금 생각해도
 제정신이 아니야.[Pause=4]
@@ -324,7 +324,7 @@ MS_15_OP_05_B
 몇 마리 남아 있을지도 모르잖아.[A]
 [F_Target=1][ClearBox][FaceCommand=A]이 [Pause=2]멍청아[FreezeMouth]![UnfreezeMouth][Pause=4]
 왜 백로가 비싸게 팔리겠냐?[Pause=4]
-거의 없으니까지.[A][ClearBox]벌써 20년 전 얘기라고.[Pause=4]
+거의 없으니까 그래.[A][ClearBox]벌써 20년 전 얘기라고.[Pause=4]
 폭도들이 [Pause=2]셀리노스의 숲을 전부 태워 버리고[Pause=3]
 백로들을 [Pause=2]전~부 죽여 버렸잖냐.[A][ClearBox]정말이지 [Pause=3]지금 생각해도
 제정신이 아니야.[Pause=4]

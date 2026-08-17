@@ -1439,7 +1439,7 @@ db 0
 Text_71E4:
 .stringn "\x04R字幕会話|\x01c\x02F0\x04V0VOICE_KAISOU_KAI6_2_11|\x04s1000|\x02w3왜, \x02w5\x02w2\x02w2내 힘은 사라진 거야.\x02w7\x02w2\x02w1\n"
 .stringn "왜, \x02w5\x02w2\x02w2내 혈족을 빼앗은 거야.\x02w7\x02w3\x02w2\x02w0\n"
-.stringn "왜,\x02w5\x02w5\x02w1 왜,\x02w5\x02w5\x02w1\x02w0 왜 ・・・\x02w5\x11\x01P\x02v0"
+.stringn "왜,\x02w5\x02w5\x02w1 왜,\x02w5\x02w5\x02w1\x02w0 왜…\x02w5\x11\x01P\x02v0"
 db 0
 .align 4
 //MS_0407d_PEN6_02

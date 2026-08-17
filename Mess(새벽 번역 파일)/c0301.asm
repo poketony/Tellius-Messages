@@ -425,7 +425,7 @@ Text_18CC:
 .stringn "벌써 \x02w2저기까지 온 건가\x02mc……\x02md\x11\x10이건 \x02w2이제 글렀군\x02mc……\x02md\x02w4\n"
 .stringn "우리 군은 패할 거다\x02mc……\x02md\x02w4\n"
 .stringn "내 눈은 틀림없어.\x11\n"
-.stringn "\x0711\x081D그, \x02w1그런 발언은 \x02w2삼가해 주십시오\x02mc!\x02md\x02w4\n"
+.stringn "\x0711\x081D그, \x02w1그런 발언은 \x02w2삼가 주십시오\x02mc!\x02md\x02w4\n"
 .stringn "병사들의 사기가 떨어집니다.\x11\n"
 .stringn "\x0700아니, \x02w3망했어.\x02w4\n"
 .stringn "이젠 망했어. \x02w4분명 망했다니까.\x02w4\n"

@@ -491,7 +491,7 @@ MS_11_TK04
 
 MS_11_DIE_KEVIN
 
-[Scene=上下会話][Face='KEVIN' Pos='0'][S_Target=0][FaceCommand=o]が[FreezeMouth]…[UnfreezeMouth][Pause=2]훗[FreezeMouth]……[UnfreezeMouth][Pause=3]
+[Scene=上下会話][Face='KEVIN' Pos='0'][S_Target=0][FaceCommand=o]커[FreezeMouth]…[UnfreezeMouth][Pause=2]헉[FreezeMouth]……[UnfreezeMouth][Pause=3]
 [FreezeMouth]…[UnfreezeMouth]크리미아 [Pause=2]만세[FreezeMouth]……[UnfreezeMouth]엣[FreezeMouth]![UnfreezeMouth][A][X]
 
 MS_11_DIE_CHAP

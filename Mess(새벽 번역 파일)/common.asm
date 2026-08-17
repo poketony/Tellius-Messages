@@ -394,7 +394,7 @@ db 0
 
 //0x1F10C
 Text_1F0EC:
-.stringn "복사할 데이터을 선택해 주십시오"
+.stringn "복사할 데이터를 선택해 주십시오"
 db 0
 .align 4
 //FM_EXP_COPY_SRC
@@ -14131,7 +14131,7 @@ db 0
 
 //0xB524
 Text_B504:
-.stringn "보물 상자의 열쇠를 열 수 있다\n"
+.stringn "보물 상자를 열 수 있다\n"
 .stringn "안의 아이템은 자동으로 입수된다"
 db 0
 .align 4

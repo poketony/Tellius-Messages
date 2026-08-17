@@ -182,7 +182,7 @@ MS_17_OP_04
 [F_Target=4][ClearBox][FreezeMouth]……[UnfreezeMouth]조익족인가요.[Pause=4]
 다른 특징은?[A]
 [F_Target=1][ClearBox]음, [Pause=2]머리가 길어[FreezeMouth]![UnfreezeMouth][Pause=4]
-이렇게 [Pause=2]반짝반짝~한 금발이였어.[Pause=2]
+이렇게 [Pause=2]반짝반짝~한 금발이었어.[Pause=2]
 피부도 [Pause=2]엄청 하얗고[FreezeMouth]…[UnfreezeMouth][A][ClearBox]아[FreezeMouth]![UnfreezeMouth][Pause=4] 그리고 [Pause=2]날개가 하얀 색이었어[FreezeMouth]![UnfreezeMouth][A][FaceCommand=D]
 [F_Target=1][LoadPortrait_L=TIAMAT][F_Target=3][ClearBox]틀림없는 거지, [Pause=2]티아마트?[A]
 [F_Target=1][ClearBox]그래. [Pause=4]나도 봤어.[A][FaceCommand=D]

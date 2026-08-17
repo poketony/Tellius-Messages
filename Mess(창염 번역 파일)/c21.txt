@@ -385,7 +385,7 @@ MS_21_EV_X
 너는 국왕을 거스르고 [Pause=2]
 죽을 각오가 되어 있나?[A]
 [F_Target=3][ClearBox]백성을 희생시킬 바에는 차라리[FreezeMouth]…[UnfreezeMouth][A]
-[F_Target=4][ClearBox][FreezeMouth]…[UnfreezeMouth]거스르다 처형되면
+[F_Target=4][ClearBox][FreezeMouth]…[UnfreezeMouth]거스르다가 처형되면
 네 부모와 형제도 가만두지 않을 거다.[Pause=4]
 그런데도 말인가?[A]
 [F_Target=3][ClearBox][FreezeMouth]…[UnfreezeMouth][FreezeMouth]!![UnfreezeMouth][A]
@@ -446,7 +446,7 @@ MS_21_EV_X_B
 살아남은 자와[FreezeMouth]…[UnfreezeMouth][Pause=3] 그 가족들을 [Pause=4]부탁한다[FreezeMouth]…[UnfreezeMouth][A]
 [F_Target=4][ClearBox][FreezeMouth]……[UnfreezeMouth]예[FreezeMouth]![UnfreezeMouth][Pause=4]
 [FreezeMouth]……[UnfreezeMouth]시하람 대장님.[A]
-[F_Target=5][ClearBox]隊長か[FreezeMouth]…[UnfreezeMouth][Pause=3] 네게 그렇게
+[F_Target=5][ClearBox]대장이라[FreezeMouth]… [UnfreezeMouth][Pause=3] 네게 그렇게
 불린 게[FreezeMouth]…[UnfreezeMouth][Pause=2] 몇 년 만인지 모르겠군.[A]
 [F_Target=4][ClearBox]무운을 빕니다.[A][ClearBox]그리고[FreezeMouth]…[UnfreezeMouth][Pause=2] 오랫동안[FreezeMouth]……[UnfreezeMouth]
 [FaceCommand=c]신세 많이 졌습니다[FreezeMouth]…[UnfreezeMouth][FreezeMouth]![UnfreezeMouth][A]

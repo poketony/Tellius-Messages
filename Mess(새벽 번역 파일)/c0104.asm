@@ -48,7 +48,7 @@ db 0
 
 //0x28D0
 Text_28B0:
-.stringn "\x05FL|KURTHf||\x04R上下会話|\x0700\x080Dす\x02mc…\x02md\x02w2\x02ec죄송합니다\x02mc……\x02md\x02w4\n"
+.stringn "\x05FL|KURTHf||\x04R上下会話|\x0700\x080D죄\x02mc… \x02md\x02w2\x02ec죄송합니다\x02mc……\x02md\x02w4\n"
 .stringn "\x02eo이런 상태로는\x02mc……\x02md\x02w4\n"
 .stringn "정말 방해가 되겠군요\x11\x10\x02mc………\x02md\x02w3여기서부터는\x02w2\n"
 .stringn "자신의 힘으로 어떻게든 해 보겠습니다.\x02w4\n"

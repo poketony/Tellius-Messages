@@ -97,7 +97,7 @@ Text_30DC:
 .stringn "\x0705속셈이 있다고 \x02w2대놓고 말하지 마.\x11\n"
 .stringn "\x0716그치만 \x02w3아이크씨는\n"
 .stringn "상당히 둔하니까 어쩔 수 없어.\x02w4\n"
-.stringn "확실하게 말 안 하면 전달이 안되는걸?\x11\n"
+.stringn "확실하게 말 안 하면 전달이 안 되는걸?\x11\n"
 .stringn "\x0705전달받은 내용에 대해서\n"
 .stringn "대답할 생각은 없는데 말이지.\x11\n"
 .stringn "\x0716지금은 그걸로 \x02w3괜찮아.\x02w5\n"

@@ -188,7 +188,7 @@ MS_27_OP_03_a
 
 MS_27_OP_03_a2
 
-[Scene=背景会話][LoadBackground=天幕-昼][Trigger][F_Target=1][LoadPortrait_L=IKE2][F_Target=3][LoadPortrait_L=ERINCIA2][F_Target=4][LoadPortrait_L=ULYSSES][F_Target=1][ClearBox]용케 [Pause=2]적에 손에 안 넘어갔는걸[FreezeMouth]…[UnfreezeMouth][A]
+[Scene=背景会話][LoadBackground=天幕-昼][Trigger][F_Target=1][LoadPortrait_L=IKE2][F_Target=3][LoadPortrait_L=ERINCIA2][F_Target=4][LoadPortrait_L=ULYSSES][F_Target=1][ClearBox]용케 [Pause=2]적의 손에 안 넘어갔는걸[FreezeMouth]…[UnfreezeMouth][A]
 [F_Target=4][ClearBox][FreezeMouth]……[UnfreezeMouth]레닝님께서 [Pause=2]공주님께
 필요할지도 모른다고 말씀하셨기에[Pause=2]
 제가 왕궁에서 가지고 나왔습니다.[A][ClearBox]레닝님께서는, [Pause=2]마지막 순간까지도

@@ -1099,7 +1099,7 @@ db 0
 
 //0x4E28
 Text_4E08:
-.stringn "\x05FL|HETZEL|TIBARN||\x04R上下会話|\x0700\x080Dル\x02mc…\x02md\x02w3루칸 공\x02mc……\x02md\x02w4\n"
+.stringn "\x05FL|HETZEL|TIBARN||\x04R上下会話|\x0700\x080D루\x02mc… \x02md\x02w3루칸 공\x02mc……\x02md\x02w4\n"
 .stringn "적이\x02mc……\x02md\x02mc!\x02md\x02w4 도움을\x02mc……\x02md\x11\n"
 .stringn "\x0711\x081D라피엘이 신세를 졌다고 하더군.\x02w4\n"
 .stringn "그 답례로\x02mc……\x02md\x02w3\n"

@@ -1,0 +1,5354 @@
+.arm.big
+.open "tut.m.ori", "root/Mess/tut.m", 0x00000000
+.loadtable "fe9k.tbl"
+//original file size: 165fe
+//original list pointer: 1427c
+//original list count:17c
+.org 0x0
+dw File_End
+dw String_pointers-0x20
+dw 0x0
+dw 0x17C//total count
+dw 0x0
+dw 0x0
+dw 0x0
+dw 0x0
+Normal_String:
+//0xCEC
+Text_CCC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「턴제」에 대해서\n"
+.stringn "설명할게.$K$P이 게임은$w2\n"
+.stringn "플레이어가 조작하는 $Ub$H「아군 유닛」,$w3\n"
+.stringn "컴퓨터가 조작하는 $Ub$H「적 유닛」$MC……$MD$K$P이 유닛들의 행동을$w3\n"
+.stringn "반복하면서 진행돼.$K"
+db 0
+.align 4
+//MS_T00ターン_01
+
+//0xDD4
+Text_DB4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|다시 말해, $w2\n"
+.stringn "한쪽의 군사 행동이 끝나면$w3\n"
+.stringn "남은 쪽의 군사 행동이 시작된다는 거야.$K$P이때 군이 행동하는 차례를$w2\n"
+.stringn "「페이즈」$w1라고 해.$K$P「적 유닛」의 차례는――$K"
+db 0
+.align 4
+//MS_T00ターン_02
+
+//0xE94
+Text_E74:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|「ENEMY PHASE」\n"
+.stringn "(에너미 페이즈)$w1,$K$P플레이어가 조작하는\n"
+.stringn "「아군 유닛」의 차례는――$K"
+db 0
+.align 4
+//MS_T00ターン_03
+
+//0xF14
+Text_EF4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|「PLAYER PHASE」\n"
+.stringn "(플레이어 페이즈)$w1라고 불러.$K$P그리고, 이 두 페이즈를\n"
+.stringn "합한 것을 「턴」$w1이라고 하는 거야.$K$P그래서 $w2플레이어 페이즈가 끝나도\n"
+.stringn "「1턴 종료」$w1가 아니지.$w4\n"
+.stringn "조심해 줘.$K"
+db 0
+.align 4
+//MS_T00ターン_04
+
+//0x1008
+Text_FE8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「턴제」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T00ターン_05
+
+//0x2F4
+Text_2D4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「맵 메뉴」에 대해서\n"
+.stringn "설명할게.$K$P「맵 메뉴」는, $w2아군 전체나\n"
+.stringn "게임 전체를 다루는 메뉴야.$w3\n"
+.stringn "#P033#P034 버튼을 누르면 나와.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_01
+
+//0x3B0
+Text_390:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|「맵 메뉴」에는\n"
+.stringn "「부대」 $w2「지침」 $w2「환경」 $w2「중단」 $w2「종료」\n"
+.stringn "의 5가지 항목이 있어.$K$P각 항목에 대해서 $w3\n"
+.stringn "간단히 설명할게.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_02
+
+//0x45C
+Text_43C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|우선, 《부대》$w3\n"
+.stringn "이걸로 $w2맵 위에 있는 모든 아군 유닛의\n"
+.stringn "정보를 한눈에 볼 수 있어.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_03
+
+//0x4D4
+Text_4B4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그리고 $w2뭐, $w2이런 느낌으로\n"
+.stringn "아군 유닛의 정보 목록이\n"
+.stringn "표시되지.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_04
+
+//0x534
+Text_514:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이렇게 $w3컨트롤 스틱#P02C이나\n"
+.stringn "십자 버튼#P031의 좌우로$w2\n"
+.stringn "페이지를 넘길 수 있어.$K$P그리고 $w2위의 바에 커서를 맞춰서\n"
+.stringn "#P027 버튼을 누르면 $w2그 항목의 순서대로\n"
+.stringn "유닛을 정렬할 수 있지.$K$P그럼, $w2한번 해 볼게.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_05
+
+//0x650
+Text_630:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|정렬된 항목과 $w3정렬 방법은\n"
+.stringn "위의 빨간색 테두리 안에 표시되어 있어.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_06
+
+//0x6AC
+Text_68C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|다음은, 《지침》$w3\n"
+.stringn "이걸로 게임을 진행하면서$w2\n"
+.stringn "기본적인 조작을 확인할 수 있어.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_07
+
+//0x724
+Text_704:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|게임의 진행에 맞춰 등장한 지침은$w2\n"
+.stringn "언제든지 볼 수 있어.$K$P이미 본 항목은 하얀색으로,$w3\n"
+.stringn "아직 보지 않은 항목은$w2\n"
+.stringn "초록색으로 빛나고 있지.$K$P회색 항목은$w2\n"
+.stringn "아직 볼 수 없는 항목이야$MC…$MD$K$P게임의 진행에 따라$w2\n"
+.stringn "조금씩 볼 수 있게 돼.$K$P조작을 잊어 버렸거나$w2\n"
+.stringn "한 번 더 보고 싶은 경우에는$w1\n"
+.stringn "이 《지침》을 선택해 줘.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_08
+
+//0x89C
+Text_87C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|다음은, 《환경》$w3\n"
+.stringn "이걸로 $w2게임의 여러 가지 설정을\n"
+.stringn "바꿀 수 있어.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_09
+
+//0x900
+Text_8E0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|메시지 속도를 변경한다든가,$w3\n"
+.stringn "각 윈도우 표시를 켜거나 끈다든가$MC……$MD$K$P여러 가지$w3\n"
+.stringn "설정을 $w2변경할 수 있지.$w4\n"
+.stringn "네 마음에 드는 게임 환경을 만들어 봐.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_10
+
+//0x9C4
+Text_9A4:
+.stringn "$RTUT会話|$s0$FS$c0ANNA|그리고, 《중단》$w3\n"
+.stringn "이건 $w3게임을 도중에 그만둘 때$w3\n"
+.stringn "지금 상황을 저장해 둘 수 있어.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_11
+
+//0xA40
+Text_A20:
+.stringn "$RTUT会話|$s0$FS$c0ANNA|이런 식으로 게임을 중단할 거냐고\n"
+.stringn "물어볼 텐데,$K$P「예」를 고르면 중단 데이터가\n"
+.stringn "작성될 거야.$K$P중단한 데이터는 $w2「파일 메뉴」의\n"
+.stringn "「중단부터 시작」으로\n"
+.stringn "재개할 수 있어.$K$P한 번 다시 시작하면$w2\n"
+.stringn "전의 중단 데이터는 사라져 버리니까\n"
+.stringn "주의해 줘.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_12
+
+//0xB58
+Text_B38:
+.stringn "$RTUT会話|$s0$FS$c0ANNA|마지막으로, 《종료》$w3\n"
+.stringn "플레이어가 조작하는 턴을 끝내고$w3\n"
+.stringn "컴퓨터가 조작하는 턴으로 넘기는 거야.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_13
+
+//0xBD4
+Text_BB4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|아직 행동할 수 있는 아군 유닛이 남았지만$w3\n"
+.stringn "딱히 움직일 필요가 없는 경우 같은 때에\n"
+.stringn "사용해 줘.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_14
+
+//0xC4C
+Text_C2C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「맵 메뉴」에 대한 지침은\n"
+.stringn "끝이야.$K$P「맵 메뉴」는 $w2\n"
+.stringn "플레이어 페이즈라면 언제든지 열 수 있어.$w3\n"
+.stringn "잘 쓰도록 해.$K"
+db 0
+.align 4
+//MS_T00マップメニュー_15
+
+//0x20
+Text_0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「주인공」에 대해서\n"
+.stringn "설명할게.$K$P이 게임의 「주인공」은$w2\n"
+.stringn "「아이크」라고 하는 소년이야.$K"
+db 0
+.align 4
+//MS_T00主人公_01
+
+//0x98
+Text_78:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이야기는$w2\n"
+.stringn "아이크를 중심으로 진행되어 가.$K$P$s1$FA그 도중에 주인공인$w2\n"
+.stringn "아이크의 HP가 「0」이 되면$w3\n"
+.stringn "「게임 오버」가 돼.$K$P즉, $w2거기서 이야기가 끝나 버려서$w3\n"
+.stringn "다시 시작하는 수밖에 없어.$w4\n"
+.stringn "조심해 줘.$K$P$s1$FS그리고 $w2주인공에게는 $w2다른 유닛은 \n"
+.stringn "쓸 수 없는 「명령」$w1이나 「요청」$w1과 같은\n"
+.stringn "커맨드도 있어.$K$P이 커맨드들의 내용은 $w2\n"
+.stringn "따로 설명할 테니까 $K$P지금은 우선 $w2게임 안에서 $w1\n"
+.stringn "주인공은 특별한 존재라는 것을$w2\n"
+.stringn "기억해 둬.$K"
+db 0
+.align 4
+//MS_T00主人公_02
+
+//0x288
+Text_268:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「주인공」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T00主人公_03
+
+//0x22B0
+Text_2290:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「레벨 업」에 대해서\n"
+.stringn "설명할게.$K$P유닛은 싸우거나 $w2지팡이를 써서$w2\n"
+.stringn "경험을 쌓아 $w2강해져 가.$K$P얼마나 경험을 쌓았는지는$w2\n"
+.stringn "「경험치」로 표시되는데,$w2\n"
+.stringn "싸우는 방식에 따라 획득량이 변해.$K$P그럼, $w2한번 싸워 볼게.$K"
+db 0
+.align 4
+//MS_T01Lvup_01
+
+//0x23D8
+Text_23B8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|어라라$MC…$MD$w4\n"
+.stringn "지금은 $w2공격이 빗나가 버렸네.$K$P공격이 맞지 않았을 때,$w2\n"
+.stringn "경험치를 얻을 수는 있는데$w2\n"
+.stringn "아주 조금밖에 안 돼.$K$P그럼, $w2정신을 차리고 다시 한번$MC…$MD$K"
+db 0
+.align 4
+//MS_T01Lvup_02
+
+//0x24AC
+Text_248C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|응, $w2이번에는 맞혔네.$K$P맞혔을 때는 $w3보다 많은 경험치를$w2\n"
+.stringn "획득할 수 있어.$K$P이걸로 $w2적 유닛은 약해져 있을 거야.$w4\n"
+.stringn "그럼, $w2마지막으로 한 번 더$MC…$MD$K"
+db 0
+.align 4
+//MS_T01Lvup_03
+
+//0x257C
+Text_255C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|해냈다$MC!$MD$w3 적 유닛을 쓰러뜨렸어$MC!$MD$K$P적 유닛을 쓰러뜨리면, $w2더 많은\n"
+.stringn "경험치를 획득할 수 있어.$K$P이런 식으로 전투를 반복하고,$w3\n"
+.stringn "경험치를 쌓아가는 거야.$K$P그리고, $w2경험치가 「100」$w1이 되면$w2\n"
+.stringn "마침내 「레벨 업」을 하는 거지.$K"
+db 0
+.align 4
+//MS_T01Lvup_04
+
+//0x268C
+Text_266C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|레벨 업을 하면$w2\n"
+.stringn "「힘」$w1이나 「수비」$w1 같은\n"
+.stringn "각 스테이터스 수치가 올라가.$K$P스테이터스가 올라가면\n"
+.stringn "전투가 유리하게 되지$MC…$MD$w3\n"
+.stringn "즉, $w2강해진다는 거야.$K$P하지만, $w2레벨 업의 대가로$w2\n"
+.stringn "경험치는 100만큼 없어지게 돼.$K$P경험치가 「120」 있다면$w2\n"
+.stringn "레벨 업 후에는$w2\n"
+.stringn "「20」이 된다는 거지.$K"
+db 0
+.align 4
+//MS_T01Lvup_05
+
+//0x27F4
+Text_27D4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「레벨 업」에 대한 지침은\n"
+.stringn "끝이야.$K$P계속 $w2조작할 수 있는 유닛은\n"
+.stringn "많아지게 될 테니까,$K$P효율적으로 강해지기 위해$w2\n"
+.stringn "다른 유닛의 레벨이나 경험치도$w2\n"
+.stringn "고려하면서 싸워 보자.$K"
+db 0
+.align 4
+//MS_T01Lvup_06
+
+//0x2D24
+Text_2D04:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「스킬」에 대해서\n"
+.stringn "설명할게.$K$P「스킬」이란$w2\n"
+.stringn "유닛이 가지고 있는\n"
+.stringn "다양한 능력들을 말하는 거야.$K$P예를 들면 이런 경우.$w4\n"
+.stringn "「스킬」이 없고\n"
+.stringn "적 유닛에게 공격받았을 때――$K"
+db 0
+.align 4
+//MS_T01スキル_01
+
+//0x2E04
+Text_2DE4:
+.stringn "$RTUT会話|$c1ANNA|한 번 $w2적 유닛의 공격을 받은 후$w3\n"
+.stringn "「반격」$w1이라는 형태로$w2\n"
+.stringn "아군 유닛이 공격하게 되는데,$K"
+db 0
+.align 4
+//MS_T01スキル_02
+
+//0x2E80
+Text_2E60:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|아군 유닛이 「매복」$w1이라는\n"
+.stringn "스킬을 가지고 있다면, 어떻게 될까?$K"
+db 0
+.align 4
+//MS_T01スキル_03
+
+//0x2EE4
+Text_2EC4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이 매복이라는 스킬은,$w2\n"
+.stringn "항상 선제공격할 수 있는 능력을\n"
+.stringn "발휘하게 해 줘.$K$P매복 스킬을 가진 유닛이$w2\n"
+.stringn "아까처럼\n"
+.stringn "적의 공격을 받았을 때――$K"
+db 0
+.align 4
+//MS_T01スキル_04
+
+//0x2F9C
+Text_2F7C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|봐봐$MC!$MD$w3 아군 유닛이\n"
+.stringn "먼저 공격했어$MC!$MD$K$P보통은 $w2공격을 가하는 쪽이\n"
+.stringn "먼저 공격하지만,$K$P아군 유닛이 매복 스킬을\n"
+.stringn "가지고 있었으니까$w2\n"
+.stringn "먼저 공격한 거야.$K$P이렇게 「스킬」을 가지고 있으면,$w2\n"
+.stringn "일반적으로는 할 수 없는 행동을 하거나,$w2\n"
+.stringn "능력이 향상되곤 해.$K"
+db 0
+.align 4
+//MS_T01スキル_05
+
+//0x30E4
+Text_30C4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「스킬」에 대한 지침은\n"
+.stringn "끝이야.$K$P이 외에도 $w2다양한 능력을 발휘하는\n"
+.stringn "스킬이 있는데,$K$P특정 유닛에게만 있거나$w2\n"
+.stringn "조건을 충족해야만 가질 수 있는 것도\n"
+.stringn "있으니까 조심해.$K"
+db 0
+.align 4
+//MS_T01スキル_06
+
+//0x1048
+Text_1028:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「이동 범위」에 대해서\n"
+.stringn "설명할게.$K$P이동 범위란, $w2이동이나 공격처럼$w2\n"
+.stringn "유닛을 행동시킬 수 있는\n"
+.stringn "범위를 말하는 거야.$K$P유닛을 이동시키려면,$w2\n"
+.stringn "우선 $w2커서를 써.$K$P커서는$w2\n"
+.stringn "컨트롤 스틱#P02C이나$w2\n"
+.stringn "십자 버튼#P031으로 움직일 수 있어.$K$Ub$H\n"
+.stringn "$P먼저 $w2이 커서를 $w1이동시키고 싶은\n"
+.stringn "유닛에게 맞춰 봐.$K"
+db 0
+.align 4
+//MS_T01移動_01
+
+//0x11D0
+Text_11B0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|유닛에 커서를 맞추면$w2\n"
+.stringn "그대로 #P027 버튼을 눌러.$K$P그러면 $w2유닛을\n"
+.stringn "조작할 수 있어.$K"
+db 0
+.align 4
+//MS_T01移動_02
+
+//0x1260
+Text_1240:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지금 $w2색으로 표시되어 있는 범위가\n"
+.stringn "잘 보이지?$K$P이동할 수 있는 범위는 「파란」색으로,$w3\n"
+.stringn "공격 가능한 범위는 「주황」색으로$w2\n"
+.stringn "표시돼.$K$P이동이나 공격을 할 수 있는 $w1범위는$w2\n"
+.stringn "유닛에 따라 다르니까\n"
+.stringn "조심해.$K$P아, $w2어떻게\n"
+.stringn "이동하는지도 설명해야지.$w2\n"
+.stringn "우선, $w2이동할 곳을 정해.$K$P컨트롤 스틱#P02C을 움직이면$w2\n"
+.stringn "유닛에게서 화살표가 그려질 거야.$w3\n"
+.stringn "나중에 $w2이 화살표를 따라서 유닛이 움직이지.$K"
+db 0
+.align 4
+//MS_T01移動_03
+
+//0x141C
+Text_13FC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|화살표로 이동할 곳을 정하고,$w2\n"
+.stringn "#P027 버튼을 누르면$w2\n"
+.stringn "유닛이 $w1그곳으로 이동해.$K"
+db 0
+.align 4
+//MS_T01移動_04
+
+//0x1490
+Text_1470:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼, $w2바로$w2\n"
+.stringn "이동시켜 볼게.$K"
+db 0
+.align 4
+//MS_T01移動_05
+
+//0x14D4
+Text_14B4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이동이 끝나니$w3\n"
+.stringn "오른쪽에 메뉴가 표시됐네.$K$P이 메뉴가$w2\n"
+.stringn "유닛의 「커맨드」를 표시하고 있는\n"
+.stringn "「유닛 메뉴」$w1야.$K$P「커맨드」$w1라는 건$w2\n"
+.stringn "유닛이 취할 수 있는 행동을 말해.$K$Ub$H\n"
+.stringn "$P여기서는 이동한 유닛을$w1\n"
+.stringn "대기시킬게.$K$P컨트롤 스틱#P02C을 아래로 움직여서$w2\n"
+.stringn "「대기」를 선택하고,$K$Ub$H\n"
+.stringn "$P#P027 버튼으로 결정하면$w2\n"
+.stringn "이동을 끝내고 대기하게 되지.$K"
+db 0
+.align 4
+//MS_T01移動_06
+
+//0x166C
+Text_164C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「이동 범위」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T01移動_07
+
+//0x16AC
+Text_168C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「공격(직접)」에 대해서\n"
+.stringn "설명할게.$K$P지금 $w2파란색 유닛과 빨간색 유닛이\n"
+.stringn "있지?$K$P파랑은 조작할 수 있는 「아군 유닛」이고,$w2\n"
+.stringn "빨강은 싸우고 있는 상대인 「적 유닛」이야.$K$P그럼, $w2아군 유닛을 $w2적 유닛 옆으로\n"
+.stringn "이동시켜 볼게.$w4\n"
+.stringn "그러면――$K"
+db 0
+.align 4
+//MS_T01攻撃_01
+
+//0x17CC
+Text_17AC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|유닛 메뉴 중에$w2\n"
+.stringn "「공격」$w1 커맨드가\n"
+.stringn "표시되지.$K$P만약 공격할 수 있는 무기가 없으면$w2\n"
+.stringn "이 「공격」 커맨드는\n"
+.stringn "표시되지 않으니까 조심해.$K$P다음으로 「공격」을 선택하면,$w3\n"
+.stringn "공격할 무기를 선택하는 메뉴가$w2\n"
+.stringn "표시되지.$K"
+db 0
+.align 4
+//MS_T01攻撃_02
+
+//0x18DC
+Text_18BC:
+.stringn "$RTUT小会話|$ND$W2이런 느낌으로$w2\n"
+.stringn "그 유닛이 가지고 있는\n"
+.stringn "모든 무기들이 표시돼.$K$P공격에 사용할 무기는$w2\n"
+.stringn "컨트롤 스틱#P02C의\n"
+.stringn "위아래로 선택할 수 있어.$K$Ub$H\n"
+.stringn "$P오른쪽 아래 윈도우에는$w2\n"
+.stringn "지금 고르고 있는 무기의\n"
+.stringn "정보가 표시되지.$K$P공격에 사용할 무기를 고르고$w2\n"
+.stringn "#P027 버튼을 누르면$K$P그 무기를 장비하고$w2\n"
+.stringn "배틀을 하게 돼.$K"
+db 0
+.align 4
+//MS_T01攻撃_03
+
+//0x1A2C
+Text_1A0C:
+.stringn "$RTUT小会話|$ND$W1배틀로 들어갈 때는, $w2실제로 전투가\n"
+.stringn "일어나기 전에 $w2자신의 유닛과$w1\n"
+.stringn "적 유닛의 정보가 표시되는데,$K$P그게 지금 왼쪽 위에 있는 표야.$w4\n"
+.stringn "이걸$w2\n"
+.stringn "「전투 정보 윈도우」라고 해.$K$Ub$H\n"
+.stringn "$P파란색으로 표시된 윈도우 안이$w2\n"
+.stringn "자신의 유닛의 정보고,$K$Ub$H\n"
+.stringn "$P빨간색으로 표시된 윈도우 안이$w2\n"
+.stringn "적 유닛의 정보야.$K$Ub$H\n"
+.stringn "$P그럼, $w2다음은 싸울 상대를 선택할게.$K$P공격 범위 내에 복수의 적 유닛이\n"
+.stringn "있을 때는 $w2커서로 선택해서$w1\n"
+.stringn "결정하게 될 거야.$K$P이번에는 한 유닛밖에 없으니까$w2\n"
+.stringn "그대로 #P027 버튼을 누르면\n"
+.stringn "전투가 시작돼.$K"
+db 0
+.align 4
+//MS_T01攻撃_04
+
+//0x1C50
+Text_1C30:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「공격(직접)」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T01攻撃_05
+
+//0x28D0
+Text_28B0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「소지품(사용)」에 대해서\n"
+.stringn "설명할게.$K$P이번에는 $w2「상처약」$w1을 써서\n"
+.stringn "HP를 회복해 볼 거야.$K$P우선, $w2커서를 유닛에 맞추고\n"
+.stringn "#P027 버튼으로 결정해.$K"
+db 0
+.align 4
+//MS_T01持物_01
+
+//0x2998
+Text_2978:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이동 범위가 표시될 텐데,$w2\n"
+.stringn "지금은 $w2같은 장소에 그대로\n"
+.stringn "#P027 버튼을 누를게.$K"
+db 0
+.align 4
+//MS_T01持物_02
+
+//0x2A04
+Text_29E4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|유닛 메뉴가 표시됐지?$w4\n"
+.stringn "그중 「소지품」에 커서를 맞춰서\n"
+.stringn "#P027 버튼을 눌러.$K"
+db 0
+.align 4
+//MS_T01持物_03
+
+//0x2A84
+Text_2A64:
+.stringn "$RTUT小会話|$ND$W2표시되어 있는 게$w2\n"
+.stringn "유닛이 가지고 있는\n"
+.stringn "모든 무기와 $w2아이템이야.$K$P커서를 조작해서,$w2\n"
+.stringn "「상처약」$w1을\n"
+.stringn "선택해 볼게.$K"
+db 0
+.align 4
+//MS_T01持物_04
+
+//0x2B1C
+Text_2AFC:
+.stringn "$RTUT小会話|$ND$W3커서를\n"
+.stringn "「상처약」$w1에 맞추고\n"
+.stringn "#P027 버튼을 누르면$K$Ub$H\n"
+.stringn "$P그 아이템을 어떻게 할지\n"
+.stringn "결정하는 메뉴가\n"
+.stringn "표시되지.$K$Ub$H\n"
+.stringn "$P여기서는$w2\n"
+.stringn "「사용」에 커서를 맞추고\n"
+.stringn "#P027 버튼을 누를게.$K"
+db 0
+.align 4
+//MS_T01持物_05
+
+//0x2BF0
+Text_2BD0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이런 식으로 $w2「상처약」을 써서\n"
+.stringn "HP를 회복할 수 있어.$K"
+db 0
+.align 4
+//MS_T01持物_05_02
+
+//0x2C40
+Text_2C20:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「소지품(사용)」에 대한 지침은\n"
+.stringn "끝이야.$K$P지금은 $w2이동하지 않고 소지품을 사용했지만$w2\n"
+.stringn "이동하고 나서도 똑같이 할 수 있어.$K$P근처에 적이 있을 때는$w2\n"
+.stringn "안전한 곳으로 이동해서$w1\n"
+.stringn "사용하는 편이 좋겠지.$K"
+db 0
+.align 4
+//MS_T01持物_06
+
+//0x1C94
+Text_1C74:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「밀어내기」에 대해서\n"
+.stringn "설명할게.$K$P밀어내기는 「기승계 유닛」$w1 이외의 유닛이\n"
+.stringn "사용할 수 있는 커맨드야.$K$P그리고 $w2조건만 만족하면$w2\n"
+.stringn "밀어낼 상대는\n"
+.stringn "누구라도 가능해.$K$P그럼, $w2적 유닛에게 시험해 볼게.$K$P먼저 $w2아군 유닛을 적 유닛 옆으로\n"
+.stringn "이동시킬 거야.$K"
+db 0
+.align 4
+//MS_T01体当_01
+
+//0x1DC4
+Text_1DA4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|유닛 메뉴에$w2\n"
+.stringn "「밀어내기」라는 커맨드가\n"
+.stringn "표시되어 있네.$K$P이 커맨드로, $w2옆에 있는 유닛을$w1\n"
+.stringn "1칸 이동시킬 수 있어.$K$P커서를 밀어내기에 맞추고,$w2\n"
+.stringn "#P027 버튼을 누르면 돼.$K"
+db 0
+.align 4
+//MS_T01体当_02
+
+//0x1EAC
+Text_1E8C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그러면 $w2서로의 무게를 알려 주는\n"
+.stringn "윈도우가 표시되지.$K$P밀어내기를 당하는 쪽의 무게가$w2\n"
+.stringn "하는 쪽의 무게의 「+2 이하」$w1라면\n"
+.stringn "밀어내기를 할 수 있어.$K$P이 윈도우를 보면――$K$Ub$H\n"
+.stringn "$P밀어내는 쪽이 「10」$w1이고$K$Ub$H\n"
+.stringn "밀어내기를 당하는 쪽의 무게가 「12」$w1라고\n"
+.stringn "적혀 있지?$K$P+2 이하니까$w2\n"
+.stringn "밀어내기를 할 수 있겠네.$K$P그럼, $w2바로 해 볼게.$K"
+db 0
+.align 4
+//MS_T01体当_02_02
+
+//0x203C
+Text_201C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|뭐, $w2이런 느낌이야.$K$P하지만 $w2「밀어내기」는$w2\n"
+.stringn "1칸 밀어낼 수 있어도$w2\n"
+.stringn "대미지를 주지는 못하니까 조심해.$K$P또, $w2적 유닛뿐만 아니라$K$P「아군 유닛」$Ub$H$K$P초록색인 「기타 유닛」$Ub$H$K$P노란색인 「우군 유닛」에게도$Ub$H\n"
+.stringn "밀어내기를 할 수 있어.$K"
+db 0
+.align 4
+//MS_T01体当_03
+
+//0x2178
+Text_2158:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로\n"
+.stringn "「밀어내기」에 대한 지침은 끝이야.$K$P복습을 하자면$w2\n"
+.stringn "「밀어내기」의 조건은 두 개였지.$K$P1. 「기승계 유닛」이 아닐 것.$w4\n"
+.stringn "    탈것을 타고 있는 유닛은\n"
+.stringn "   「밀어내기」를 할 수 없어.$K$P2. 상대의 무게가\n"
+.stringn "   자신의 무게 「+2 이하」일 것.$K$P이걸 잊지 마.$K"
+db 0
+.align 4
+//MS_T01体当_04
+
+//0x54AC
+Text_548C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「인계」에 대해서\n"
+.stringn "설명할게.$K$P구출한 유닛은 「내리기」 이외에도$w2\n"
+.stringn "다른 유닛에게 「인도」하거나,$w3\n"
+.stringn "반대로 「인수」할 수 있어.$K$P이걸 「인계」라고 해.$K$P$MC…$MD라고 $w3말해도\n"
+.stringn "알아듣기 힘들겠지.$w4\n"
+.stringn "지금부터 $w2구체적인 예를 보여 줄게.$K"
+db 0
+.align 4
+//MS_T02引継ぎ_01
+
+//0x55D4
+Text_55B4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|어머, $w2큰일이야$MC!$MD$w4\n"
+.stringn "아군 유닛이 적에게 둘러싸여 있어.$K$P게다가 동행 유닛도 있어서$w2\n"
+.stringn "스테이터스가 낮아졌기 때문에$w3\n"
+.stringn "싸우는 건 불리해.$K$P적어도 동행 유닛을 내려 주고 싶은데,$w2\n"
+.stringn "주위가 유닛으로 막혔으니까$w2\n"
+.stringn "그것도 안 되겠네.$K$P이럴 때 쓸 수 있는 게 「인계」야.$w4\n"
+.stringn "지금부터 $w3인계를 사용해서\n"
+.stringn "이 불리한 상황을 돌파해 볼게.$K"
+db 0
+.align 4
+//MS_T02引継ぎ_02
+
+//0x5738
+Text_5718:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지금, $w3유닛 메뉴에\n"
+.stringn "「인계」$w1라는\n"
+.stringn "커맨드가 표시됐지?$K$P이건 동행하고 있는 유닛을$w3\n"
+.stringn "다른 유닛에게 인도하는 커맨드야.$K$P하지만 $w3구출할 때와 마찬가지로, $w3동행 유닛이\n"
+.stringn "인수하는 쪽의 유닛 무게 「-2 이하」가$w1\n"
+.stringn "아니면 $w3인도할 수 없어.$K$P그리고, $w3인수하는 쪽에$w3\n"
+.stringn "동행 유닛이 있는 경우에도$w3\n"
+.stringn "인도할 수 없지.$K$P그럼 $w3「인계」$w1를 써 볼게.$w3\n"
+.stringn "유닛 메뉴의 「인계」$w1를 선택하고,$w3\n"
+.stringn "#P027 버튼을 누르면 돼.$K"
+db 0
+.align 4
+//MS_T02引継ぎ_03
+
+//0x592C
+Text_590C:
+.stringn "$RTUT小会話|$ND$W2동행하고 있는 유닛의\n"
+.stringn "무게가 「10」$w1이고,$K$Ub$H\n"
+.stringn "$P인수하는 상대 유닛의 무게는\n"
+.stringn "「23」$w1으로 되어 있네.$K$P인수하는 쪽의 무게\n"
+.stringn "-2 이하니까 인계할 수 있어.$w4\n"
+.stringn "이대로 #P027 버튼으로 결정할게.$K$P"
+db 0
+.align 4
+//MS_T02引継ぎ_03_2
+
+//0x5A0C
+Text_59EC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|자, $w2이걸로 인계가 끝났어.$w4\n"
+.stringn "인계한 후에도$w2\n"
+.stringn "계속 행동할 수 있지.$K$Ub$H\n"
+.stringn "$P그리고 $w2인수를 한 아군 유닛을\n"
+.stringn "이동시켜서, $w2동행 유닛을\n"
+.stringn "안전한 곳으로 도망치게 할 수 있어.$K$P물론, $w2인도를 한 유닛의\n"
+.stringn "스테이터스는 원래대로 돌아오니까$w3\n"
+.stringn "아까보다 유리하네.$K"
+db 0
+.align 4
+//MS_T02引継ぎ_04
+
+//0x5B48
+Text_5B28:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이런 식으로 $w2인도를 잘 쓰면\n"
+.stringn "위험을 회피할 수 있어.$w4\n"
+.stringn "어때, $w3편리하지?$K$P이걸로 「인도」에 대한 지침은 끝이야.$w4\n"
+.stringn "다음은 $w2동행 유닛을 데려오는 방법$MC……$MD$w3\n"
+.stringn "다시 말해서 「인수」$w1네.$K$P"
+db 0
+.align 4
+//MS_T02引継ぎ_05
+
+//0x5C34
+Text_5C14:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|아까처럼$w3\n"
+.stringn "동행 유닛이 있는 아군 유닛이$w2\n"
+.stringn "적 유닛에게 둘러싸여 있어.$K$P스테이터스도 내려가 있으니까$w3\n"
+.stringn "싸우는 것도 불리하고,$K$P동행 유닛을 내리면$w2\n"
+.stringn "적 유닛의 공격을 받게 될 거야$MC……$MD$w3\n"
+.stringn "상당히 위험한 상황이네.$K$P하지만 $w2강 건너에\n"
+.stringn "아군 유닛이 있어.$K$Ub$H\n"
+.stringn "$P이제부터 $w3이 아군 유닛에게\n"
+.stringn "동행 유닛을 인계해서,$w3\n"
+.stringn "위기를 헤쳐 나갈 거야.$K$P아군 유닛을 인접시켜서$w2\n"
+.stringn "동행 유닛을\n"
+.stringn "「인계」$w1로 인수해 볼게.$K"
+db 0
+.align 4
+//MS_T02引継ぎ_06
+
+//0x5E20
+Text_5E00:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|아까와 마찬가지로\n"
+.stringn "유닛 메뉴에 「인계」$w1라는\n"
+.stringn "커맨드가 표시됐지?$K$P「인계」 커맨드는,$w3\n"
+.stringn "동행 유닛의 인도도 $w2인수도\n"
+.stringn "할 수 있는 커맨드야.$K$P물론, $w2이때도 인수하는 쪽의\n"
+.stringn "무게 -2 이하가 아니면\n"
+.stringn "인수할 수 없어.$K$P또한, $w2이미 동행 유닛이 있을 때도$w3\n"
+.stringn "「인계」할 수 없지$MC……$MD$w3\n"
+.stringn "이것도 아까랑 똑같네.$K$P그럼, $w3동행 유닛을 인수할게.$w4\n"
+.stringn "유닛 메뉴의 「인계」를 선택하고,$w3\n"
+.stringn "#P027 버튼으로 결정하면 돼.$K"
+db 0
+.align 4
+//MS_T02引継ぎ_07
+
+//0x6014
+Text_5FF4:
+.stringn "$RTUT小会話|$ND$W2동행하고 있는 유닛의\n"
+.stringn "무게가 「10」$w1이고,$K$Ub$H\n"
+.stringn "$P인수하는\n"
+.stringn "상대 유닛의 무게는\n"
+.stringn "「23」$w1이니까.$K$P인수하는 쪽의 무게\n"
+.stringn "「-2 이하」$w1라서\n"
+.stringn "인계할 수 있어.$K"
+db 0
+.align 4
+//MS_T02引継ぎ_07_2
+
+//0x60E4
+Text_60C4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|자, $w2이걸로\n"
+.stringn "인수가 됐어.$K\n"
+.stringn "「인계」 후에도$w2\n"
+.stringn "이어서 행동할 수 있지.$K$P기승계 유닛의 경우 $w2#P028 취소나,$w2\n"
+.stringn "다른 행동을 하면 「재이동」$w1이 가능하니까$w2\n"
+.stringn "강 건너로 이동할게.$K"
+db 0
+.align 4
+//MS_T02引継ぎ_08
+
+//0x61D4
+Text_61B4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|응, $w2이걸로 $w2최악의 상태는 벗어났네.$K$P이런 식으로 $w3동행하고 있는 유닛을\n"
+.stringn "「인계」로 인수해서$w3\n"
+.stringn "안전한 지역으로 이동시킬 수 있어.$K"
+db 0
+.align 4
+//MS_T02引継ぎ_09
+
+//0x6294
+Text_6274:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「인계」에 대한 지침은 끝이야.$w4\n"
+.stringn "무척 편리한 커맨드니까$w2\n"
+.stringn "잘 쓰도록 해.$K"
+db 0
+.align 4
+//MS_T02引継ぎ_10
+
+//0x37EC
+Text_37CC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「기승계 유닛」에 대해서\n"
+.stringn "설명할게.$K$P기승계 유닛이라는 건,$w2\n"
+.stringn "「말」 $Ub$H「페가수스」 $Ub$H「드래곤」$Ub$H에\n"
+.stringn "탄 유닛을 말하는 거야.$K"
+db 0
+.align 4
+//MS_T02騎乗_01
+
+//0x38A4
+Text_3884:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이런 유닛들은 「이동력」$w1이 높은 데다가,$w2\n"
+.stringn "「재이동」$w1까지 할 수 있어.$K$P이 재이동에 대해$w2\n"
+.stringn "왼쪽의 말을 탄 유닛을 써서$w2\n"
+.stringn "간단히 설명해 줄게.$K"
+db 0
+.align 4
+//MS_T02騎乗_02
+
+//0x3968
+Text_3948:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|처음으로 일단 $w2아군 유닛을$w2\n"
+.stringn "바로 앞에 있는 적 유닛 옆으로 이동시킬게.$K"
+db 0
+.align 4
+//MS_T02騎乗_03
+
+//0x39C4
+Text_39A4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그리고, $w2적 유닛을 공격할 거야.$K"
+db 0
+.align 4
+//MS_T02騎乗_04
+
+//0x3A00
+Text_39E0:
+.stringn "$RTUT会話|$c1ANNA|원래대로라면$w2\n"
+.stringn "여기서 행동이 끝날 텐데,$w3\n"
+.stringn "이동 범위가 표시되어 있지?$K"
+db 0
+.align 4
+//MS_T02騎乗_05
+
+//0x3A60
+Text_3A40:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이렇게 각 커맨드를 사용한 후에도$w2\n"
+.stringn "이동력만 남아 있으면$w3\n"
+.stringn "한 번 더 이동할 수 있어.$K$P이걸 「재이동」이라고 하는 거야.$K\n"
+.stringn "그러면 $w2재이동해서$w3\n"
+.stringn "대기를 선택할게.$K"
+db 0
+.align 4
+//MS_T02騎乗_06
+
+//0x3B30
+Text_3B10:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|자, $w2이걸로 행동은 종료$MC…$MD$w3야.$K"
+db 0
+.align 4
+//MS_T02騎乗_07
+
+//0x3B74
+Text_3B54:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「기승계 유닛」$w1에 대한 지침은\n"
+.stringn "끝이야.$K$P재이동이 있으면,$w2\n"
+.stringn "공격한 후에 바로 적에게서 멀어지기$MC……$MD$K$P즉 「히트 앤 런」이\n"
+.stringn "가능하니까, $w2무척 편리하지.$w4\n"
+.stringn "잘 활용해 봐.$K"
+db 0
+.align 4
+//MS_T02騎乗_08
+
+//0x4468
+Text_4448:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「구출」에 대해서\n"
+.stringn "설명할게.$K$P「구출」$w1은 「아군 유닛」,$Ub$H\n"
+.stringn "「기타 유닛」 $Ub$H「우군 유닛」$Ub$H 등을\n"
+.stringn "태워서 동행하는 걸 말해.$K"
+db 0
+.align 4
+//MS_T02救出_01
+
+//0x4520
+Text_4500:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|「구출」은 유닛끼리\n"
+.stringn "인접하면 할 수 있어.$K"
+db 0
+.align 4
+//MS_T02救出_02
+
+//0x456C
+Text_454C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 $w2해 볼게.$w4\n"
+.stringn "먼저 $w2아군 유닛을\n"
+.stringn "유닛 옆으로 이동시킬 거야.$K"
+db 0
+.align 4
+//MS_T02救出_03
+
+//0x45DC
+Text_45BC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|메뉴를 봐봐.$w4\n"
+.stringn "「구출」이라는 커맨드가$w2\n"
+.stringn "표시됐지?$K$P이 「구출」$w1에\n"
+.stringn "커서를 맞추고 #P027 버튼.$w3\n"
+.stringn "그리고 구출하고 싶은 유닛을 선택해.$K"
+db 0
+.align 4
+//MS_T02救出_04
+
+//0x4694
+Text_4674:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지금 $w2표시된 건$w2\n"
+.stringn "유닛 간의 무게를 알려 주는\n"
+.stringn "윈도우야.$K$P구출되는 쪽의 무게가$w2\n"
+.stringn "구출하는 쪽의 무게 「-2」$w1 이하라면\n"
+.stringn "구출할 수 있어.$K$P이 윈도우를 보면,$K$Ub$H\n"
+.stringn "아군 유닛의 무게가 「23」$w1이고$K$Ub$H\n"
+.stringn "대상 유닛의 무게는 「10」$w1이니까\n"
+.stringn "-2 이하인 걸 알 수 있지?$w4\n"
+.stringn "구출이 가능하다는 거야.$K$P그럼 $w2바로 #P027 버튼을 눌러서$w2\n"
+.stringn "유닛을 구출해 보자$MC!$MD$K"
+db 0
+.align 4
+//MS_T02救出_05
+
+//0x4828
+Text_4808:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|자, $w2이걸로 구출 완료야.$K$P구출한 유닛에게는$w3\n"
+.stringn "「동행 아이콘」이 표시되지.$K$P동행할 수 있는 유닛은 1명까지니까,$w3\n"
+.stringn "이 아이콘이 붙어 있는 유닛은$w3\n"
+.stringn "다른 유닛을 구출할 수 없어.$K$P그리고 $w2구출한 유닛은$w2\n"
+.stringn "「기술」, $w2「속도」$w1라고 하는 스테이터스가\n"
+.stringn "절반이 되어 버리니까 $w4조심해.$K$P그 대신 $w2동행 유닛,$w2\n"
+.stringn "즉 $w2구출된 유닛은$w2\n"
+.stringn "적의 공격을 일절 받지 않아.$K$P이 동행 유닛은$w2\n"
+.stringn "구출한 유닛의 HP가 0이 되었을 때,$w2\n"
+.stringn "그 장소 부근에 내려져.$K$P구출에서 $w2중요한 게 하나 더 남았어.$K$P기승계 유닛은$w2\n"
+.stringn "구출할 수는 있지만,$w2\n"
+.stringn "구출될 수는 없다는 거야.$K$P이거, $w3은근 까먹기 쉬우니까$w2\n"
+.stringn "기억해 둬.$K$P그럼, $w3다음은 구출한 유닛을\n"
+.stringn "맵상으로 되돌리는 방법$MC……$MD$w4\n"
+.stringn "「내리기」$w1에 대해서 설명할게.$K"
+db 0
+.align 4
+//MS_T02救出_06
+
+//0x4B54
+Text_4B34:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|먼저 $w2구출 중인 아군 유닛에\n"
+.stringn "커서를 맞춰서$w2\n"
+.stringn "유닛 메뉴를 표시하면 돼.$K$P이번에는 이동하지 않지만,$w2\n"
+.stringn "이동한 후에도 가능해.$K"
+db 0
+.align 4
+//MS_T02救出_07
+
+//0x4BF8
+Text_4BD8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|자 그럼 $w2봐봐,$w2\n"
+.stringn "「내리기」라는 커맨드가\n"
+.stringn "표시됐지?$K$P내리는 게 가능한 곳은, $w2이제부터\n"
+.stringn "주황색으로 표시될 곳$MC……$MD$w3\n"
+.stringn "구출한 유닛과 인접한 장소야.$K$P다른 유닛이 있는 장소나$w2\n"
+.stringn "이동할 수 없는 지형에는$w2\n"
+.stringn "내리게 할 수 없으니까 조심해.$K$P먼저 커서를$w2\n"
+.stringn "「내리기」$w1에 맞추고 #P027 버튼$K$P그리고 $w2내릴 장소를 정하고\n"
+.stringn "#P027 버튼을 눌러.$K"
+db 0
+.align 4
+//MS_T02救出_08
+
+//0x4D84
+Text_4D64:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|자, $w2이런 느낌으로\n"
+.stringn "구출한 유닛을 내리는 거야.$K$P하지만 $w2내린 유닛은$w2\n"
+.stringn "그 턴 동안 행동할 수 없으니까\n"
+.stringn "조심해.$K"
+db 0
+.align 4
+//MS_T02救出_09
+
+//0x4E1C
+Text_4DFC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「구출」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T02救出_10
+
+//0x4E58
+Text_4E38:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「소지품(교환)」에 대해서\n"
+.stringn "설명할게.$K$P소지품은 $w2아군 유닛에게 인접하면\n"
+.stringn "교환할 수 있어.$w4\n"
+.stringn "잠깐 $w2해 볼게.$K$P우선 $w2유닛을 교환하고 싶은\n"
+.stringn "상대 유닛 옆까지\n"
+.stringn "이동시킬 거야.$K"
+db 0
+.align 4
+//MS_T02交換_01
+
+//0x4F44
+Text_4F24:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|자, $w2표시된 유닛 메뉴를 봐봐.$w4\n"
+.stringn "「교환」$w1이라는 커맨드가 있지?$w4\n"
+.stringn "여기에 커서를 맞추고 $w2#P027 버튼을 눌러.$K"
+db 0
+.align 4
+//MS_T02交換_02
+
+//0x4FE4
+Text_4FC4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|다음은 소지품 교환을 할\n"
+.stringn "상대를 선택해.$K$P지금은 $w2인접한 유닛이 2명 있네.$w4\n"
+.stringn "일단$w2\n"
+.stringn "오른쪽 유닛과 교환해 볼게.$K$P오른쪽 유닛에 커서를 맞추고,$w2\n"
+.stringn "#P027 버튼을 눌러. $w4그러면――$K"
+db 0
+.align 4
+//MS_T02交換_03
+
+//0x50D0
+Text_50B0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이렇게 $w2서로의 소지품이\n"
+.stringn "표시되지.$K$Ub$H\n"
+.stringn "$P이번에는 $w2왼쪽 유닛의 「상처약」을\n"
+.stringn "오른쪽 유닛에게 건네 볼게.$K$P커서를 「상처약」에 맞추고,$w2\n"
+.stringn "#P027 버튼을 눌러.$K"
+db 0
+.align 4
+//MS_T02交換_04
+
+//0x5198
+Text_5178:
+.stringn "$RTUT会話|$s3$FS$c3ANNA|지금 $w2오른쪽 유닛의\n"
+.stringn "아무것도 없는 곳에\n"
+.stringn "커서가 있지?$K$P여기서 #P027 버튼을 누르면,$w2\n"
+.stringn "왼쪽 유닛의 「상처약」을$w2\n"
+.stringn "오른쪽 유닛에게 건네줄 수 있어.$K$P해 볼 테니까, $w2봐봐.$K"
+db 0
+.align 4
+//MS_T02交換_05
+
+//0x5274
+Text_5254:
+.stringn "$RTUT会話|$s3$FS$c3ANNA|자, $w2이렇게\n"
+.stringn "교환할 수 있었어.$K$P$s3$FA뭐?$w4 지금은 물건만 넘긴 것뿐이니까\n"
+.stringn "교환이 아니라고?$K$P$s3$FS걱정하지 마. $w4방금 아무것도 없던 곳에\n"
+.stringn "놨었던 커서를, $w2소지품 위에 놓으면\n"
+.stringn "교환할 수 있게 되니까.$K$P교환은 $w2위쪽 칸――$w3무기든\n"
+.stringn "아래쪽 칸――$w3아이템이든\n"
+.stringn "할 수 있어.$K$P"
+db 0
+.align 4
+//MS_T02交換_06
+
+//0x53BC
+Text_539C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|또, $w2교환 후에도$w2\n"
+.stringn "계속해서 행동할 수 있지.$K"
+db 0
+.align 4
+//MS_T02交換_07
+
+//0x5410
+Text_53F0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「소지품(교환)」에 대한 지침은\n"
+.stringn "끝이야.$K\n"
+.stringn "소지품은 $w2무기, $w2아이템을\n"
+.stringn "각각 4가지씩밖에 못 가지니까$w3\n"
+.stringn "조심해.$K"
+db 0
+.align 4
+//MS_T02交換_08
+
+//0x6308
+Text_62E8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「승리 조건(제압)」에 대해서\n"
+.stringn "설명할게.$K$P「제압」이란,$w2\n"
+.stringn "맵상에 있는 「제압 지점」$w1을\n"
+.stringn "주인공인 아이크로 제압하는 걸 말해.$K"
+db 0
+.align 4
+//MS_T02制圧_01
+
+//0x63B0
+Text_6390:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|하지만 $w2대부분의 경우 「제압 지점」$w1에는\n"
+.stringn "맵에서의 적 유닛 리더$MC……$MD$w3\n"
+.stringn "「보스」가 있어.$K$P그러니까 $w2제압하기 전에\n"
+.stringn "우선 보스를 쓰러뜨려야겠지.$K$P제압은 「아이크」만$w2\n"
+.stringn "사용할 수 있는 커맨드지만,$w2\n"
+.stringn "보스를 쓰러뜨리는 건 다른 유닛도 가능해.$K$P그럼, $w2해 볼게.$K"
+db 0
+.align 4
+//MS_T02制圧_02
+
+//0x64EC
+Text_64CC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|자, $w2이렇게 「보스」를 쓰러뜨렸어.$w4\n"
+.stringn "다음으로 주인공인 아이크를$w3\n"
+.stringn "제압 지점으로 이동시킬 거야.$K"
+db 0
+.align 4
+//MS_T02制圧_03
+
+//0x6560
+Text_6540:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|유닛 메뉴를 봐봐.$w4\n"
+.stringn "「제압」이라는 커맨드가$w2\n"
+.stringn "표시되어 있지?$K$P이걸 선택하고 $w2#P027 버튼을 누르면\n"
+.stringn "정말 제압할 거냐고 물어볼 거야.$K$P「예」를 선택하면 「제압」은 완료,$w3\n"
+.stringn "이 맵은 클리어한 것이 되지.$K"
+db 0
+.align 4
+//MS_T02制圧_04
+
+//0x6658
+Text_6638:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|음, $w3뭐 $w3이런 느낌이야.$w4\n"
+.stringn "이 맵의 클리어 조건은 달성됐기 때문에$w3\n"
+.stringn "다음 맵으로 넘어가게 돼.$K$Ub$H\n"
+.stringn "$P클리어 조건은 $w3왼쪽 화면 상단의\n"
+.stringn "「지형 윈도우」$w1 아래에\n"
+.stringn "표시되어 있어.$K$P새로운 맵으로 넘어갔을 때,$w3\n"
+.stringn "먼저 그 맵의 클리어 조건을\n"
+.stringn "확인해 두는 게 좋아.$K"
+db 0
+.align 4
+//MS_T02制圧_05
+
+//0x677C
+Text_675C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「승리 조건(제압)」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T02制圧_06
+
+//0x3C58
+Text_3C38:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「무기(3상성)」에 대해서\n"
+.stringn "설명할게.$K$P$Ub$H「검」 $Ub$H$w4「도끼」 $Ub$H$w4「창」 $Ub$H$w4그리고 「활」.$Ub$H$w4\n"
+.stringn "이 무기들에는 유리, $w2불리한\n"
+.stringn "「상성」이 있어.$K\n"
+.stringn "그 상성은$w2\n"
+.stringn "「3상성」$w1이라는 관계로 되어 있지.$K$P전투를 유리하게 끌고 나가려면$w2\n"
+.stringn "이 3상성을 기억해 두는 편이 좋아.$K$P먼저 $w2검과 도끼에 대해서인데,$w2\n"
+.stringn "$Ub$H「검」$Ub$H$w4은 「도끼」$Ub$H$w4에 $Ub$H$w4강하고$Ub$H$w4,\n"
+.stringn "「도끼」는 「검」에 약해$Ub$H.$K$P다음은 도끼와 창이네.$w4\n"
+.stringn "$Ub$H「도끼」는 「창」$Ub$H$w4에 $Ub$H$w4강하고$Ub$H$w4,\n"
+.stringn "「창」은 「도끼」에 약해$Ub$H.$K$P마지막으로 창과 검.$w4\n"
+.stringn "$Ub$H「창」은 「검」에 $Ub$H대해서 $Ub$H강하고$Ub$H,\n"
+.stringn "「검」은 「창」에 $Ub$H약해.$K$P$Ub$H이것이 「무기의 3상성」이야.$w4\n"
+.stringn "「검」 「도끼」 「창」은, $w2이런 관계로\n"
+.stringn "이루어져 있지.$K$P$Ub$H참고로 $w2「활」$Ub$H$w4은$w3\n"
+.stringn "이 $Ub$H$w4「무기의 3상성」에\n"
+.stringn "영향받지 않으니까 $w2조심해.$K$P$MC…$MD말로 해도 알아듣기 어렵지?\n"
+.stringn "지금부터 $w2실제로 봐 보자.$K"
+db 0
+.align 4
+//MS_T02武器３すくみ_01
+
+//0x4018
+Text_3FF8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지금 $w2「검사」인 아군 유닛과$w2\n"
+.stringn "「전사」인 적 유닛이 있네.$K"
+db 0
+.align 4
+//MS_T02武器３すくみ_02
+
+//0x4078
+Text_4058:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|아군 유닛인 검사는, $w3「철의 검」$w1을\n"
+.stringn "장비하고 있어.$K"
+db 0
+.align 4
+//MS_T02武器３すくみ_03
+
+//0x40D0
+Text_40B0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|적 유닛인 전사는, $w3「철의 도끼」$w1를\n"
+.stringn "장비하고 있지.$K$P즉, $w2검과 도끼의 싸움이라는 거야.$w4\n"
+.stringn "그럼 $w2봐 볼까.$K"
+db 0
+.align 4
+//MS_T02武器３すくみ_04
+
+//0x4160
+Text_4140:
+.stringn "$RTUT小会話|$ND$W1장비 무기 뒤에$w2\n"
+.stringn "화살표가 표시되어 있지?$w4\n"
+.stringn "이게 「3상성」을 나타내고 있어.$K$P「검」$w1은 「도끼」$w1에 강하니까$K$Ub$H\n"
+.stringn "$P「철의 검」$w1을 장비하고 있는\n"
+.stringn "아군 유닛의 무기에는 위쪽 화살표가,$K$Ub$H\n"
+.stringn "「철의 도끼」$w1를 장비하고 있는\n"
+.stringn "적 유닛의 무기에는 아래쪽 화살표가$w2\n"
+.stringn "표시되어 있는 거야.$K$P$Ub$H\n"
+.stringn "$P아군 유닛은 $w2적 유닛에게\n"
+.stringn "원래는 10인데$w2\n"
+.stringn "11이나 대미지를 주고,$K$P$Ub$H\n"
+.stringn "$P반대로 적 유닛은 $w2아군 유닛에게\n"
+.stringn "원래는 6인데$w3\n"
+.stringn "5대미지밖에 줄 수 없어.$K\n"
+.stringn "실제로 싸워 볼게.$K"
+db 0
+.align 4
+//MS_T02武器３すくみ_05
+
+//0x4368
+Text_4348:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|어때?$w3\n"
+.stringn "예상한 대로 결과가 나왔지?$K$P"
+db 0
+.align 4
+//MS_T02武器３すくみ_06
+
+//0x43AC
+Text_438C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「무기(3상성)」에 대한 지침은\n"
+.stringn "끝이야.$K\n"
+.stringn "검, $w2도끼, $w2창, $w2그리고 활$MC…$MD$w3\n"
+.stringn "이 무기의 3상성을 잘 이용하면,$w3\n"
+.stringn "전투를 유리하게 이끌어갈 수 있을 거야.$K"
+db 0
+.align 4
+//MS_T02武器３すくみ_07
+
+//0x31BC
+Text_319C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「방문」에 대해서\n"
+.stringn "설명할게.$K$P게임을 진행하다 보면,$w2\n"
+.stringn "「집」이나 「술집」이 있는 맵이\n"
+.stringn "등장할 거야.$K$P그 건물의 「문」이 열려 있으면\n"
+.stringn "「방문」할 수 있고, $w3닫혀 있으면\n"
+.stringn "방문할 수 없어.$K$P여기 집은 문이 열려 있지?$w4\n"
+.stringn "그러니까 방문할 수 있겠네.$w4\n"
+.stringn "실제로 해 볼게.$K$P먼저 $w2유닛을 입구 앞으로\n"
+.stringn "이동시킬 거야.$K"
+db 0
+.align 4
+//MS_T02訪問_01
+
+//0x333C
+Text_331C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그러면 $w2유닛 메뉴에\n"
+.stringn "「방문」$w1 커맨드가 나타나.$K$P이 커맨드를 선택해서$w2\n"
+.stringn "방문할 수 있지.$K$P그럼 $w2바로$w2\n"
+.stringn "「방문」에 커서를 맞추고\n"
+.stringn "#P027 버튼으로 결정할게.$K"
+db 0
+.align 4
+//MS_T02訪問_02
+
+//0x34DC
+Text_34BC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|$MC…$MD뭐, $w2이런 느낌이야.$w4\n"
+.stringn "방문하면 $w2아이템이라든가\n"
+.stringn "여러 가지 물건을 획득할 수 있어.$K$P맵상에서 집이나 술집을 발견하면$w2\n"
+.stringn "방문시켜 봐.$w4\n"
+.stringn "분명 좋은 물건을 얻을 수 있을 거야.$K"
+db 0
+.align 4
+//MS_T02訪問_04
+
+//0x35B8
+Text_3598:
+.stringn "$RTUT会話|$c1ANNA|그리고 $w2여기서 주의할 점 하나.$w4\n"
+.stringn "맵상에 있는 「야만족」$w1이나 「도적」$w1 같은\n"
+.stringn "유닛이 존재하는 경우가 있어.$K$P여기서는 야만족을 써서\n"
+.stringn "설명할게.$K$P이 유닛은$w2\n"
+.stringn "다른 유닛들과 달리,$w2\n"
+.stringn "집을 습격해 $w2부숴 버릴 때가 있어.$K"
+db 0
+.align 4
+//MS_T02訪問_05
+
+//0x36B0
+Text_3690:
+.stringn "$RTUT会話|$c1ANNA|집이나 술집이 부서지면$w3\n"
+.stringn "방문할 수 없어.$K$P그래도 $w2야만족이나 도적보다 빨리\n"
+.stringn "방문해 두면 돼.$K$P문이 닫혀서$w2\n"
+.stringn "습격당할 걱정이 없어지거든.$K$P야만족이나 도적이 있는 맵은$w2\n"
+.stringn "집이 부서질 수 있다는 걸\n"
+.stringn "염두에 두고 싸우도록 해.$K"
+db 0
+.align 4
+//MS_T02訪問_06
+
+//0x37B0
+Text_3790:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「방문」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T02訪問_07
+
+//0x3420
+Text_3400:
+.stringn "$R背景会話|$B村-昼|$<$F3$P$FCLME|$F1$FS$F1$FCL_GRANDPA|으음?$w4 이런 외진 곳까지\n"
+.stringn "용케 왔구먼.$K$P빈손으로 돌려보내기도 그렇지.$w4\n"
+.stringn "이 「상처약」이라도$w2\n"
+.stringn "가져가도록 하게나.$K"
+db 0
+.align 4
+//MS_T02訪問_VIL
+
+//0x8258
+Text_8238:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「공격(직접)2」에 대해서\n"
+.stringn "설명할게.$K$P적 유닛에게 인접해서$w2\n"
+.stringn "유닛 메뉴에서 「공격」을 고르고,$w2\n"
+.stringn "무기를 선택하면――$K"
+db 0
+.align 4
+//MS_T03攻撃２_01
+
+//0x8300
+Text_82E0:
+.stringn "$RTUT小会話|$ND$W1이렇게 「전투 정보 윈도우」가\n"
+.stringn "표시돼.$K$P여기서부터 대략적인 공격의 흐름은$w2\n"
+.stringn "「공격(직접)」$w1에서 설명하니까$w2\n"
+.stringn "그쪽을 봐 줘.$K$Ub$H\n"
+.stringn "$P이번에는 $w2이 윈도우에\n"
+.stringn "표시되어 있는 4개의 항목을$w2\n"
+.stringn "간단히 설명할게.$K"
+db 0
+.align 4
+//MS_T03攻撃２_01_2
+
+//0x83F8
+Text_83D8:
+.stringn "$RTUT小会話|$ND$W1우선 《HP》――$w3\n"
+.stringn "유닛의 체력이야.$K$P이게 「0」$w1이 되면$w2\n"
+.stringn "그 유닛은 두 번 다시 전투에\n"
+.stringn "참가할 수 없게 돼.$K$P아군 유닛의 체력은 0이 되지 않도록,$w2\n"
+.stringn "반대로 적 유닛의 체력은 0이 되도록$w2\n"
+.stringn "전투를 진행해 줘.$K"
+db 0
+.align 4
+//MS_T03攻撃２_02
+
+//0x84F4
+Text_84D4:
+.stringn "$RTUT小会話|$ND$W1다음은 《위력》――$w3\n"
+.stringn "상대에게 주는 대미지야.$K$P아군 유닛이 공격할 때,$w2\n"
+.stringn "상대의 HP에서 이 수치를 빼면$w2\n"
+.stringn "공격 후 상대의 HP를 알 수 있지.$K$P이 경우 $w2아군 유닛의 위력이 4고$w2\n"
+.stringn "적 유닛의 HP가 19니까,$w2\n"
+.stringn "19-4로 남은 HP는 15가 될 거야.$K$P반대로 $w2만약 적 유닛의 공격을\n"
+.stringn "받는다면, $w3남은 HP가$w2\n"
+.stringn "19-4로 15가 되겠지.$K"
+db 0
+.align 4
+//MS_T03攻撃２_03
+
+//0x8684
+Text_8664:
+.stringn "$RTUT小会話|$ND$W1그리고 《명중》――$w3\n"
+.stringn "공격이 성공할 확률이야.$K$P수치가 클수록$w2\n"
+.stringn "공격이 잘 맞지.$K$P이 경우$w2\n"
+.stringn "아군 유닛은 88퍼센트의 확률로\n"
+.stringn "공격을 성공시키고,$K$P적 유닛은 98퍼센트의 확률로\n"
+.stringn "공격을 성공시키겠지.$K$P$MC……$MD$w3명중으로만 보면$w2\n"
+.stringn "아군이 조금 불리하네.$K"
+db 0
+.align 4
+//MS_T03攻撃２_04
+
+//0x87B8
+Text_8798:
+.stringn "$RTUT小会話|$ND$W1마지막으로 《필살》――$w3\n"
+.stringn "공격에서 필살이 발동할 확률이야.$K$P필살이 발동하면,$w2\n"
+.stringn "위력이 평소의 3배가 돼.$K$P이런 식으로 위력이 4인 경우에는$w2\n"
+.stringn "필살이 발동하면 $w2상대에게$w2\n"
+.stringn "4×3이니 12의 대미지를 주겠지.$K"
+db 0
+.align 4
+//MS_T03攻撃２_05
+
+//0x88A0
+Text_8880:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상이 $w3전투 정보 윈도우의\n"
+.stringn "각 항목에 대한\n"
+.stringn "간단한 설명이야.$K$P이 정보는$w2\n"
+.stringn "상대에 따라서 변화해.$K$P지금 상태를 #P028 버튼으로 한 번 취소하고,$w2\n"
+.stringn "오른쪽에 있는 적 유닛과의\n"
+.stringn "정보를 보면――$K"
+db 0
+.align 4
+//MS_T03攻撃２_06
+
+//0x8988
+Text_8968:
+.stringn "$RTUT小会話|$ND$W1방금 전 유닛과 비교해서\n"
+.stringn "이쪽이 더 약한 것 같네$MC……$MD$w4\n"
+.stringn "이런 식으로 $w2비교해 볼 수도 있어.$K"
+db 0
+.align 4
+//MS_T03攻撃２_07
+
+//0x8A08
+Text_89E8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「공격(직접)2」에 대한 지침은\n"
+.stringn "끝이야.$K$P전투를 효율적으로 진행하려면$w3\n"
+.stringn "전투 정보 윈도우를 사용해서$w2\n"
+.stringn "여러 적을 비교하며 싸우면 돼.$K"
+db 0
+.align 4
+//MS_T03攻撃２_08
+
+//0x6CEC
+Text_6CCC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「지팡이」에 대해서\n"
+.stringn "설명할게.$K$P「지팡이」에는 $w2HP를 회복하는 것,$w3\n"
+.stringn "아군의 공격을 돕는 것,$w3\n"
+.stringn "상태 이상을 회복하는 것$MC……$MD$K$P그 외에도$w2\n"
+.stringn "여러 종류가 있어.$K$P또, $w2지팡이에 따라서$w2\n"
+.stringn "사용 범위가 다른 것도 있지.$w4\n"
+.stringn "대부분의 경우에는――$K"
+db 0
+.align 4
+//MS_T03杖_01
+
+//0x6E10
+Text_6DF0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지금처럼\n"
+.stringn "유닛에게 인접해야\n"
+.stringn "사용할 수 있지만――$K"
+db 0
+.align 4
+//MS_T03杖_02
+
+//0x6E68
+Text_6E48:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이런 식으로$w2\n"
+.stringn "멀리서 아군을 회복하기 위해$w2\n"
+.stringn "사용하는 지팡이나――$K"
+db 0
+.align 4
+//MS_T03杖_03
+
+//0x6EC0
+Text_6EA0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|마찬가지로 원거리지만$w2\n"
+.stringn "적을 상대로 쓰는 지팡이도 있어.$K"
+db 0
+.align 4
+//MS_T03杖_04
+
+//0x6F0C
+Text_6EEC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼, $w3이 지팡이를\n"
+.stringn "실제로 어떻게 쓰는지$w2\n"
+.stringn "보여 줄게.$K$P지금부터 쓸 건$w2\n"
+.stringn "가장 대표적인 지팡이$MC……$MD$w4\n"
+.stringn "HP를 회복시키는 「라이브」야.$K$P먼저 $w3상대 유닛 옆으로 이동시키고,$w2\n"
+.stringn "유닛 메뉴에서 「지팡이」$w1를 선택해.$K$P그리고 $w3사용할 지팡이, $w2쓸 상대 유닛을\n"
+.stringn "차례로 선택하면 돼.$w4\n"
+.stringn "이건 $w3무기 공격과 같은 흐름이야.$K"
+db 0
+.align 4
+//MS_T03杖_05
+
+//0x7078
+Text_7058:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|자, $w3유닛의 HP가 회복됐답니다$w3~$K$P그리고 $w3지금 본 대로$w2\n"
+.stringn "지팡이를 쓰면$w2\n"
+.stringn "경험치도 얻을 수 있어.$K$P그 값은 「지팡이」의 종류에 따라\n"
+.stringn "변할 거야.$K$P그리고 $w2회복계 지팡이는$w2\n"
+.stringn "100% 성공하지만$w3\n"
+.stringn "공격 보조형 지팡이는 실패하는 경우가 있어.$K$P이 경우 $w2획득하는 경험치는$w2\n"
+.stringn "원래의 값보다 줄어드니까\n"
+.stringn "조심해.$K"
+db 0
+.align 4
+//MS_T03杖_06
+
+//0x71E8
+Text_71C8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「지팡이」에 대한 지침은 끝이야.$K"
+db 0
+.align 4
+//MS_T03杖_07
+
+//0x67C4
+Text_67A4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「승리 조건(적 전멸)」에 대해서\n"
+.stringn "설명할게.$K$P이 승리 조건은 $w3맵상에 있는\n"
+.stringn "모든 적 유닛을 쓰러뜨리는 걸로\n"
+.stringn "달성할 수 있어.$K$P적 유닛의 수는$w3\n"
+.stringn "물론 $w3전부 세 봐도\n"
+.stringn "알겠지만,$K$PSTART/PAUSE#P032 버튼으로도 볼 수 있어.\n"
+.stringn "「상황」에서 확인하는 편이$w2\n"
+.stringn "알기 쉬울 거야.$K$P바로 $w3해 볼게.$K"
+db 0
+.align 4
+//MS_T03全滅_01
+
+//0x6918
+Text_68F8:
+.stringn "$RTUT小会話|$ND$W1왼쪽 윈도우를 봐봐.$K$P아군과 적의 유닛 수가$w2\n"
+.stringn "표시되어 있지?$K"
+db 0
+.align 4
+//MS_T03全滅_02
+
+//0x697C
+Text_695C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지금은 $w2아군 유닛이 3명 있고,$K$Ub$H\n"
+.stringn "적 유닛은 4명 있네.$K$P이 적 유닛의 수를 0으로 만들면$w3\n"
+.stringn "「적 전멸」 조건을 달성하고$w3\n"
+.stringn "맵 클리어를 할 수 있어.$K$P$s1$FA하지만――$K"
+db 0
+.align 4
+//MS_T03全滅_03
+
+//0x6A48
+Text_6A28:
+.stringn "$RTUT会話|$c1ANNA|봐봐$MC!$MD$w4 적의 수가 늘었어$MC!$MD$K$P$s1$FS이런 식으로 $w2맵에 따라서$w2\n"
+.stringn "도중에 $w3적 유닛이\n"
+.stringn "「증원」$w1될 수 있지.$K$P한 번 더 $w3「상황」$w1을 보고\n"
+.stringn "적의 수를 확인해 볼게.$K"
+db 0
+.align 4
+//MS_T03全滅_04
+
+//0x6B28
+Text_6B08:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|방금까진 적 유닛이 4명이었는데,$w3\n"
+.stringn "「증원」으로 2명이 늘어서$Ub$H\n"
+.stringn "적 유닛 수가 $w26명이 되어 버렸어.$K$P증원이 오기 전에$w2\n"
+.stringn "모든 적 유닛을 쓰러뜨리면\n"
+.stringn "문제는 없지만,$K$P남아 있을 때 증원이 오면$w3\n"
+.stringn "그만큼 적 유닛도 쓰러뜨려야$w1\n"
+.stringn "맵 클리어를 할 수 있지.$K$P게다가 $w3이 증원은$w2\n"
+.stringn "한 번만 있는 게 아니야.$w4\n"
+.stringn "조심해.$K"
+db 0
+.align 4
+//MS_T03全滅_05
+
+//0x6CA0
+Text_6C80:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「승리 조건(적 전멸)」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T03全滅_06
+
+//0x7224
+Text_7204:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「지형 효과」에 대해서\n"
+.stringn "설명할게.$K$P평지, $w2벼랑, $w2강, $w2바다$MC……$MD$w4\n"
+.stringn "그 장소가 어떤 곳인지$w3\n"
+.stringn "나타낸 것을 「지형」$w1이라고 해.$K$P유닛은$w2\n"
+.stringn "싸울 때 $w2어느 지형에 있는가에 따라$w2\n"
+.stringn "여러 가지 영향을 받아.$K$P그 영향을 「지형 효과」$w1라고\n"
+.stringn "하는 거지.$K$Ub$H\n"
+.stringn "$P지금부터 $w2그걸 설명할게.$w4\n"
+.stringn "먼저 $w3커서를 움직여 볼 테니까$w2\n"
+.stringn "화면 왼쪽 위의 윈도우에 주목해.$K"
+db 0
+.align 4
+//MS_T03地形効果_01
+
+//0x73D4
+Text_73B4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|어때?$w4 커서를 움직였더니$w2\n"
+.stringn "윈도우의 내용이 바뀌었지?$K$P이 윈도우는 「지형 정보 윈도우」$w1라고\n"
+.stringn "불리는 것으로, $w3커서가 있는 곳의\n"
+.stringn "지형에 대한 정보가 표시돼.$K$P그리고, $w2그 내용은$w3\n"
+.stringn "크게 두 개로 $w2「지형명」$w1과 「지형 효과」$w1가\n"
+.stringn "표시되지.$K$P「지형명」$w1은 $w2그 지형의 이름,$w3\n"
+.stringn "「지형 효과」$w1는 $w2방금 잠깐 얘기했던\n"
+.stringn "전투에 미치는 영향을 뜻하는 말이야.$K$P그럼, $w3이 지형 정보 윈도우에$w2\n"
+.stringn "적혀 있는 지형 효과에 대해$w2\n"
+.stringn "각각의 항목과 함께 설명할게.$K$Ub$H\n"
+.stringn "$PAVO(Avoidable: 지형 회피)――$w4\n"
+.stringn "즉, $w2지형이 회피에 끼치는 영향이야.$K$P이 수치가 높을수록 $w2적 유닛의\n"
+.stringn "공격을 피하기 쉬워지지.$K$P반대로 $w2이 수치가 높은 지형에\n"
+.stringn "적 유닛이 있으면$w2\n"
+.stringn "아군의 공격도 피하기 쉬워지고.$K"
+db 0
+.align 4
+//MS_T03地形効果_02
+
+//0x76F4
+Text_76D4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|DEF(Defence: 지형 방어)――$w4\n"
+.stringn "이건 지형이 수비에 끼치는 영향이야.$K$P이 수치가 높을수록$w3\n"
+.stringn "적 유닛의 무기 공격으로\n"
+.stringn "받는 대미지가 적어지지.$K$P그 반대도 마찬가지니까 $w2조심해.$K"
+db 0
+.align 4
+//MS_T03地形効果_03
+
+//0x77CC
+Text_77AC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|MDF(Magic Defence: 지형 마방)――$w4\n"
+.stringn "지형이 마법 방어에 끼치는 영향이야.$K$P이 수치가 높을수록$w3\n"
+.stringn "적 유닛의 마법 공격으로 받는\n"
+.stringn "대미지가 적어지지.$K$P그리고 그 반대도$MC……$MD$w3\n"
+.stringn "집요하게 말하지 않아도 알지?$w4\n"
+.stringn "미안해.$K$Ub$H\n"
+.stringn "$P지금의 경우 $w3오른쪽에 있는\n"
+.stringn "적 유닛을 공격한다고 해 보자.$K$P유닛을 적 유닛의 왼쪽으로 이동시키고$w3\n"
+.stringn "공격해도 상관없지만――$K"
+db 0
+.align 4
+//MS_T03地形効果_04
+
+//0x7968
+Text_7948:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이러면 $w2지형 효과에\n"
+.stringn "변화가 없지?$K$P싸우는 건 똑같지만,$w3\n"
+.stringn "더 유리한 곳에서 하는 게 좋지 않을까?$w4\n"
+.stringn "적 유닛의 아래에 커서를 맞추면――$K"
+db 0
+.align 4
+//MS_T03地形効果_05
+
+//0x7A10
+Text_79F0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지형 정보 윈도우를 봐봐.$w4\n"
+.stringn "「AVO」$w1와 「DEF」$w1 수치가\n"
+.stringn "올라갔지?$K$P이런 「수풀」$w1에서는, 「평지」$w1에 비해\n"
+.stringn "평소보다 공격을 쉽게 피하거나$w2\n"
+.stringn "대미지가 적어지기도 해.$K$P"
+db 0
+.align 4
+//MS_T03地形効果_06
+
+//0x7AFC
+Text_7ADC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「지형 효과」에 대한 지침은\n"
+.stringn "끝이야.$K$P그저 유닛을 움직일 뿐만 아니라$w3\n"
+.stringn "「지형 효과」도 생각한다면,$w2\n"
+.stringn "더욱 유리하게 싸워 나갈 수 있겠지.$K"
+db 0
+.align 4
+//MS_T03地形効果_07
+
+//0x7BA8
+Text_7B88:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「적의 이동 범위」에 대해서\n"
+.stringn "설명할게.$K$P맵상에서 $w2커서를 적 유닛에\n"
+.stringn "겹치면, $w3아군 유닛과 마찬가지로$w2\n"
+.stringn "이동 범위와 공격 범위가 표시돼.$K"
+db 0
+.align 4
+//MS_T03敵範囲_01
+
+//0x7C68
+Text_7C48:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|적 유닛에 커서를 겹친 채로$w3\n"
+.stringn "#P027 버튼을 누르면――$K"
+db 0
+.align 4
+//MS_T03敵範囲_02
+
+//0x7CC0
+Text_7CA0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|주황색으로\n"
+.stringn "적 유닛의 「공격 범위」$w1가\n"
+.stringn "표시되지.$K$P범위가 표시된 적 유닛에게는\n"
+.stringn "「적의 공격 범위」$w1 아이콘이\n"
+.stringn "표시되고.$K$P보통 $w2커서를 적 유닛에게서 치우면$w2\n"
+.stringn "이동 범위와 공격 범위는 사라지지만$w2\n"
+.stringn "이 범위는 남길 수 있어.$K"
+db 0
+.align 4
+//MS_T03敵範囲_03
+
+//0x7DDC
+Text_7DBC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그대로 $w3적의 공격 범위를\n"
+.stringn "표시하지 않은 다른 유닛에\n"
+.stringn "커서를 맞추고 $w3#P027 버튼을 누르면――$K"
+db 0
+.align 4
+//MS_T03敵範囲_04
+
+//0x7E60
+Text_7E40:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|적의 공격 범위가$w2\n"
+.stringn "합쳐서 표시되지.$K$P아래에 있는 적 유닛에게도$w2\n"
+.stringn "똑같이 해 보면――$K"
+db 0
+.align 4
+//MS_T03敵範囲_05
+
+//0x7ED8
+Text_7EB8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이것도 범위가 합쳐져서 표시됐네.$w4\n"
+.stringn "이런 식으로 $w2차례차례 적의 공격 범위를\n"
+.stringn "겹쳐서 표시해 나갈 수 있어.$K$P지금 $w2아군 유닛이$w2\n"
+.stringn "정면으로 적의 공격을 받는\n"
+.stringn "장소에 있지?$K$P이 표시를 이용해서$w2\n"
+.stringn "적의 공격을 받지 않는 곳으로\n"
+.stringn "이동시킬게.$K"
+db 0
+.align 4
+//MS_T03敵範囲_06
+
+//0x7FEC
+Text_7FCC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|뭐, 이런 느낌이야.$K$P그리고, $w2이 적의 공격 범위를\n"
+.stringn "지우고 싶을 때는$w2\n"
+.stringn "#P028 버튼을 써.$K$P지우고 싶은 적 유닛에\n"
+.stringn "커서를 맞추고$w3\n"
+.stringn "#P028 버튼을 누르면――$K"
+db 0
+.align 4
+//MS_T03敵範囲_07
+
+//0x80AC
+Text_808C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|봐봐, $w3지워졌지?$K$P그다음 $w3공격 범위를 표시한 적 유닛이\n"
+.stringn "없는 곳으로 움직여서$w3\n"
+.stringn "#P028 버튼을 누르면――$K"
+db 0
+.align 4
+//MS_T03敵範囲_08
+
+//0x814C
+Text_812C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|표시한 적의 공격 범위를$w2\n"
+.stringn "한 번에 다 지울 수 있어.$K"
+db 0
+.align 4
+//MS_T03敵範囲_09
+
+//0x81A8
+Text_8188:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「적의 공격 범위」에 대한 지침은\n"
+.stringn "끝이야.$K$P적으로부터 공격받지 않는 곳으로$w2\n"
+.stringn "아군 유닛을 움직일 때\n"
+.stringn "무척 편리한 기능이니까 $w4잘 써봐.$K"
+db 0
+.align 4
+//MS_T03敵範囲_10
+
+//0x9D14
+Text_9CF4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「공격(간접, 원거리)」에 대해서\n"
+.stringn "설명할게.$K$P먼저 $w3「간접 공격」.$K$P간접 공격이라는 건$w2\n"
+.stringn "「1칸」 떨어진 적 유닛에게$w2\n"
+.stringn "공격하는 걸 말하는 거야.$K$P투척창이나 투척도끼,$w2\n"
+.stringn "그리고 활이나 마법 등으로$w2\n"
+.stringn "할 수 있지.$K$P그럼 직접 해 볼게.$w4\n"
+.stringn "먼저 아군 유닛을$w2\n"
+.stringn "적 유닛의 1칸 앞까지 움직일 거야.$K"
+db 0
+.align 4
+//MS_T04間接攻撃_01
+
+//0x9E7C
+Text_9E5C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그리고 $w2유닛 메뉴에서\n"
+.stringn "「공격」을 선택하고 #P027 버튼――$K$P1칸 떨어진 곳에서 공격하는 것\n"
+.stringn "말고는 $w2직접 공격과\n"
+.stringn "같은 흐름으로 진행하면 돼.$K"
+db 0
+.align 4
+//MS_T04間接攻撃_02
+
+//0x9F30
+Text_9F10:
+.stringn "$RTUT小会話|$ND$W1다만 $w2상대도 마찬가지로\n"
+.stringn "간접 공격할 수 있는\n"
+.stringn "무기를 장비하고 있으면――$K"
+db 0
+.align 4
+//MS_T04間接攻撃_03
+
+//0x9F88
+Text_9F68:
+.stringn "$RTUT会話|$s1$FA$c1ANNA|이렇게 「반격」$w1을 받아 버리지.$K$P$s1$FS무기에는 「직접·간접」$w1 둘 다 되는 것도 있으니까$w2\n"
+.stringn "싸우기 전에 적 유닛이 장비하고 있는\n"
+.stringn "무기를 확인해 둬.$K"
+db 0
+.align 4
+//MS_T04間接攻撃_04
+
+//0xA03C
+Text_A01C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|다음은 「원거리 공격」.$K$P「원거리 공격」$w1이란, 2칸 이상 떨어진\n"
+.stringn "적 유닛을 공격하는 걸 말해.$K$P일부 「활」$w1과 「마법」$w1만 가능하고,$w2\n"
+.stringn "좀처럼 반격당할 일은 없지.$K$P나중에――$K$Ub$H\n"
+.stringn "맵상에서 「슈터」$w1라는 무기가\n"
+.stringn "등장할 거야.$K$P여기에 타면$w2\n"
+.stringn "사정거리가 상당히 넓어지는\n"
+.stringn "「아치 공격」$w1을 할 수 있어.$K"
+db 0
+.align 4
+//MS_T04間接攻撃_05
+
+//0xA1AC
+Text_A18C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|하지만 $w2이 슈터는$w2\n"
+.stringn "「아처」$w1나 「스나이퍼」$w1 같은\n"
+.stringn "일부 유닛밖에 쓸 수 없어.$K$P그리고 $w2적 유닛도 써 올 테니까$w3\n"
+.stringn "조심해.$K"
+db 0
+.align 4
+//MS_T04間接攻撃_06
+
+//0xA268
+Text_A248:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「공격(간접, 원거리)」에 대한 지침은\n"
+.stringn "끝이야.$K$P간접 공격이나 원거리 공격은 $w2경우에 따라서\n"
+.stringn "상대의 반격을 일절 받지 않고\n"
+.stringn "공격할 수도 있어. $w4잘 써봐.$K"
+db 0
+.align 4
+//MS_T04間接攻撃_07
+
+//0xA834
+Text_A814:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「상황 화면」에 대해서\n"
+.stringn "설명할게.$K$P배틀 맵상에서$w2\n"
+.stringn "START/PAUSE#P032 버튼을 누르면$w3\n"
+.stringn "현재 상황을 확인할 수 있는 화면이 표시돼.$K$P그 화면에서는 $w3적·아군 유닛의 수와$w3\n"
+.stringn "승리$w1/패배 조건, $w3맵 전체의 모양 등을\n"
+.stringn "볼 수 있지.$K$P그럼 $w2START/PAUSE#P032 버튼을 눌러서$w2\n"
+.stringn "실제로 봐 볼게.$K"
+db 0
+.align 4
+//MS_T04状況_01
+
+//0xA98C
+Text_A96C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이 화면이 「상황 화면」$w1이야.$K$P지금부터 $w2상황 화면에 대해$w2\n"
+.stringn "간단히 설명해 줄게.$K$Ub$H\n"
+.stringn "$P맨 위의 윈도우는$w2\n"
+.stringn "현재 장 번호와 $w2제목을\n"
+.stringn "표시하고 있어.$K$Ub$H\n"
+.stringn "$P그 옆에는 $w2현재 턴 수와$w2\n"
+.stringn "소지금이 표시되어 있지.$K"
+db 0
+.align 4
+//MS_T04状況_02
+
+//0xAA9C
+Text_AA7C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|중앙 오른쪽에는 $w2현재 플레이 중인\n"
+.stringn "맵의 축소도가 표시되어 있어.$K$P하늘색이 아군 유닛, $w2초록색이 기타 유닛,$w2\n"
+.stringn "노란색이 우군 유닛,$w2\n"
+.stringn "그리고 빨간색이 적 유닛이야.$K$P각각의 둥근 색 중에서$w2\n"
+.stringn "특히 더 눈에 띄게 표시되어 있는 게$w2\n"
+.stringn "리더 유닛이지.$K"
+db 0
+.align 4
+//MS_T04状況_03
+
+//0xABC0
+Text_ABA0:
+.stringn "$RTUT小会話|$ND$W1왼쪽에는 군 단위로 각각의\n"
+.stringn "유닛 수가 표시되어 있어.$K$P맵상에$w2\n"
+.stringn "어느 군 유닛이 얼마나 있는지$w2\n"
+.stringn "확인할 수 있지.$K$P여기서 #P027 버튼을 누르면――$K"
+db 0
+.align 4
+//MS_T04状況_04
+
+//0xAC84
+Text_AC64:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이런 식으로 $w2그 맵의 클리어 조건과$w2\n"
+.stringn "각 군의 리더를 알 수 있어.$w4\n"
+.stringn "더 자세히 설명하자면――$K$Ub$H\n"
+.stringn "$P화면 중앙 부분의 윈도우가$w2\n"
+.stringn "그 맵에서의\n"
+.stringn "「승리 조건」, 「패배 조건」이야.$K$P어느 한 가지 조건을 달성하면,$w2\n"
+.stringn "클리어나 게임 오버가 돼.$K$P맵에 따라서는$w2\n"
+.stringn "조건이 2개인 경우도 있으니까$w3\n"
+.stringn "조심해.$K$Ub$H\n"
+.stringn "$P그 옆에 표시되어 있는 건$w2\n"
+.stringn "「플레이 횟수」$w1와 「플레이 시간」$w1이야.$K$P「플레이 횟수」$w1는,$w2\n"
+.stringn "이 게임을 플레이하고 있는 횟수야.$K$P게임을 끝까지 해 1번 클리어한 다음$w3\n"
+.stringn "한 번 더 플레이하면$w2\n"
+.stringn "2회차째가 되겠지.$K$P클리어 후 난이도를 바꿔서 해도$w2\n"
+.stringn "플레이 횟수는 리셋되지 않아.$K$P즉 $w2노멀 1회, $w2하드 1회를\n"
+.stringn "클리어한 후의 플레이 횟수는\n"
+.stringn "3회차가 된다는 거지.$K$P다만, $w2클리어 직전의 데이터를\n"
+.stringn "몇 번이나 로드해 클리어해도\n"
+.stringn "클리어 횟수는 늘어나지 않아.$K$P그 아래의 「플레이 시간」$w1은\n"
+.stringn "서장 시작부터 $w2지금까지\n"
+.stringn "한 시간의 합계야.$K$P이건 $w2플레이 횟수와 달리$w2\n"
+.stringn "게임을 클리어하면\n"
+.stringn "리셋돼.$K"
+db 0
+.align 4
+//MS_T04状況_05
+
+//0xB07C
+Text_B05C:
+.stringn "$RTUT会話|$s0$FS$c0ANNA|맨 아래의 윈도우가$w2\n"
+.stringn "「리더 유닛」$w1 윈도우야.$K$P각 군의 리더가$w2\n"
+.stringn "표시되지.$K$P이 상태에서 커서를 적 유닛 쪽으로\n"
+.stringn "이동시키면――$K"
+db 0
+.align 4
+//MS_T04状況_06
+
+//0xB134
+Text_B114:
+.stringn "$RTUT会話|$s0$FS$c0ANNA|적군의 리더 유닛$MC……$MD$w4\n"
+.stringn "보스 유닛이 표시돼.$K$P기타 유닛과 우군 유닛의$w2\n"
+.stringn "리더 유닛도 확인할 수 있지만,$K$P경우에 $w2따라서는\n"
+.stringn "존재하지 않을 수도 있어.$K$P"
+db 0
+.align 4
+//MS_T04状況_07
+
+//0xB214
+Text_B1F4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「상황 화면」에 대한 지침은\n"
+.stringn "끝이야.$K$P이 상황 화면에는$w2\n"
+.stringn "여러 가지 정보가 모여 있으니까,$w2\n"
+.stringn "잘 이용해 줘.$K"
+db 0
+.align 4
+//MS_T04状況_08
+
+//0x8AB8
+Text_8A98:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「진격」에 대해서\n"
+.stringn "설명할게.$K$P진격에서는 전투를 시작하기 전에$w3\n"
+.stringn "여러 가지 $w1준비를 할 수 있어.$K$P그럼 $w3각 항목에 대해서$w2\n"
+.stringn "간단히 설명할게.$K$Ub$H\n"
+.stringn "$P《진격 선택》――$w4\n"
+.stringn "배틀 맵, $w3즉 전장으로 진격시킬\n"
+.stringn "유닛을 선택할 수 있어.$K"
+db 0
+.align 4
+//MS_T04進撃_01
+
+//0x8BD8
+Text_8BB8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|위에 나와 있는 숫자는$w3\n"
+.stringn "맵별로 출격할 수 있는\n"
+.stringn "유닛 수의 제한이야.$K$P오른쪽이 $w2이 맵에서 출격할 수 있는 최대 수,$w3\n"
+.stringn "왼쪽이 $w2지금 $w2출격시키기로 한\n"
+.stringn "유닛의 수지.$K$P어느 유닛을 출격시킬지$w3\n"
+.stringn "어느 유닛을 남게 할지를$w3\n"
+.stringn "여기서 결정하는 거야.$K"
+db 0
+.align 4
+//MS_T04進撃_02
+
+//0x8CF8
+Text_8CD8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|《배치 변경》――$w4\n"
+.stringn "유닛끼리 초기 배치를$w2\n"
+.stringn "바꿀 수 있어.$K"
+db 0
+.align 4
+//MS_T04進撃_03
+
+//0x8D60
+Text_8D40:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|먼저 $w3움직이고 싶은 유닛에\n"
+.stringn "커서를 맞추고 #P027 버튼,$K$P그런 다음 $w3이동할 곳에\n"
+.stringn "커서를 맞추고 $w3#P027 버튼을 누르면――$K$Ub$H\n"
+.stringn "$P지금, $w3유닛의 위치가 바뀌었지?$w4\n"
+.stringn "이런 식으로$w3\n"
+.stringn "유닛의 배치를 변경할 수 있어.$K$P파란색으로 표시된 진형 내라면$w3\n"
+.stringn "유닛이 없는 곳이라도$w2\n"
+.stringn "바꿀 수 있지.$K"
+db 0
+.align 4
+//MS_T04進撃_04
+
+//0x8EB8
+Text_8E98:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|《맵 보기》――$w4\n"
+.stringn "전장이 될 배틀 맵을\n"
+.stringn "관찰할 수 있어.$K"
+db 0
+.align 4
+//MS_T04進撃_05
+
+//0x8F1C
+Text_8EFC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이런 느낌으로 $w3맵상의 지형이라든가$w2\n"
+.stringn "적의 위치 등을$w2\n"
+.stringn "직접 확인할 수 있지.$K$P맵의 공략 방법을$w3\n"
+.stringn "생각할 때 편리해.$K"
+db 0
+.align 4
+//MS_T04進撃_05_2
+
+//0x8FBC
+Text_8F9C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|《소지품 정리》――$w4\n"
+.stringn "유닛 간 소지품 교환 등$w2\n"
+.stringn "출격을 위한 소지품 정리를 할 수 있어.$K"
+db 0
+.align 4
+//MS_T04進撃_06
+
+//0x9038
+Text_9018:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|먼저 $w3행동할 유닛을 선택하고,$w3\n"
+.stringn "「교환」, $w1「장비」, $w1「해제」를 통해$w3\n"
+.stringn "소지품의 정리를 하는 거야.$K$P출격하지 않는 유닛과의\n"
+.stringn "소지품 교환도 가능해.$K"
+db 0
+.align 4
+//MS_T04進撃_07
+
+//0x90F0
+Text_90D0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|《상황》――$w4\n"
+.stringn "맵의 축소도와 $w1적 유닛의 수,$w2\n"
+.stringn "승리·$w1패배 조건 등을 볼 수 있어.$K"
+db 0
+.align 4
+//MS_T04進撃_08
+
+//0x9168
+Text_9148:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이 커맨드는 $w3배틀 맵상에서도\n"
+.stringn "START/PAUSE#P032 버튼을 눌러서$w3\n"
+.stringn "확인할 수 있어.$K"
+db 0
+.align 4
+//MS_T04進撃_09
+
+//0x91EC
+Text_91CC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|《환경》――$w4\n"
+.stringn "게임의 여러 가지 설정을\n"
+.stringn "변경할 수 있지.$K"
+db 0
+.align 4
+//MS_T04進撃_10
+
+//0x924C
+Text_922C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|메시지 속도 변경, $w3전투 화면 연출 등$w2\n"
+.stringn "취향에 맞는 게임 환경을\n"
+.stringn "설정할 수 있어.$K$P이 커맨드도 $w3배틀 맵상에서\n"
+.stringn "맵 메뉴로$w2\n"
+.stringn "실행할 수 있지.$K"
+db 0
+.align 4
+//MS_T04進撃_11
+
+//0x9324
+Text_9304:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|《기록》――$w4\n"
+.stringn "게임 데이터를\n"
+.stringn "저장할 수 있어.$K"
+db 0
+.align 4
+//MS_T04進撃_12
+
+//0x9380
+Text_9360:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지금까지 사용한 파일에 덮어쓰거나,$w3\n"
+.stringn "새로 다른 파일에\n"
+.stringn "저장할 수 있지.$K"
+db 0
+.align 4
+//MS_T04進撃_13
+
+//0x93F4
+Text_93D4:
+.stringn "$RTUT会話|$s0$FS$c0ANNA|《전투 개시》――$w4\n"
+.stringn "준비를 마치고 배틀 맵으로 이동하게 돼.$w4\n"
+.stringn "드디어 $w3전투가 시작되는 거지.$K$P하지만 $w3이걸 선택하고 #P027 버튼으로$w2\n"
+.stringn "바로 시작되는 게 아니라――$K"
+db 0
+.align 4
+//MS_T04進撃_14
+
+//0x94B0
+Text_9490:
+.stringn "$RTUT会話|$s0$FS$c0ANNA|먼저 $w3확인 화면이\n"
+.stringn "표시돼.$K$P전투를 시작할 거라면 「예」$w1를,$w3\n"
+.stringn "깜빡한 것이나 변경하고 싶은 게 있다면\n"
+.stringn "「아니요」$w1를 선택해 줘.$K$P한번 $w3전투가 시작되면\n"
+.stringn "진격으로 돌아갈 수 없으니까$w4\n"
+.stringn "신중하게 선택해야 돼.$K"
+db 0
+.align 4
+//MS_T04進撃_15
+
+//0x9598
+Text_9578:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「진격」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T04進撃_16
+
+//0xA328
+Text_A308:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「승리 조건(적장 격파)」에 대해서\n"
+.stringn "설명할게.$K$P어느 맵의 적군에도$w2\n"
+.stringn "반드시라고 해도 될 만큼 $w2그 군의 리더$MC…$MD$w4\n"
+.stringn "「보스 유닛」이 존재해.$K$Ub$H\n"
+.stringn "$P그리고, 적장인 보스 유닛을 쓰러뜨리는 것이$w2\n"
+.stringn "「적장 격파」$w1라는 승리 조건인 거지.$K$P어느 유닛이 $w2보스 유닛인지는$MC……$MD$w4\n"
+.stringn "START/PAUSE#P032 버튼으로 여는\n"
+.stringn "상황 화면으로 $w2바로 확인할 수 있어.$K"
+db 0
+.align 4
+//MS_T04敵将の撃破_01
+
+//0xA4B8
+Text_A498:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이게 $w2그 상황 화면인데$MC……$MD$K$P오른쪽에 $w2맵 전체를 위에서 본 화면이$w2\n"
+.stringn "표시되어 있지?$K$P이 파란 동그라미가 아군 유닛,$w2\n"
+.stringn "빨간 동그라미가 적 유닛이야.$K$P그리고 빨간 동그라미 중에서도$w2\n"
+.stringn "특히 눈에 띄게 표시되어 있는 게\n"
+.stringn "보스 유닛이지.$K$P참고로 $w2여기서\n"
+.stringn "#P027 버튼을 누르면,$w2\n"
+.stringn "「승리/패배 조건」이 표시돼.$K"
+db 0
+.align 4
+//MS_T04敵将の撃破_02
+
+//0xA638
+Text_A618:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|여기서의 승리 조건은 적장 격파$MC……$MD$w4\n"
+.stringn "즉 $w2보스 유닛을 쓰러뜨리면$w2\n"
+.stringn "맵 클리어가 되는 거야.$K$Ub$H\n"
+.stringn "$P만약 $w2방문하지 않은\n"
+.stringn "집이나 술집이 있으면$w3\n"
+.stringn "잊지 말고 방문해 줘.$K"
+db 0
+.align 4
+//MS_T04敵将の撃破_03
+
+//0xA714
+Text_A6F4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「승리 조건(적장 격파)」에 대한 지침은\n"
+.stringn "끝이야.$K$P적장$MC……$MD$w4 보스 유닛만 쓰러뜨리면 되는\n"
+.stringn "맵이지만, $w3그만큼$w2\n"
+.stringn "갑작스럽게 맵 클리어가 될 때도 있어.$K$P보스 유닛과의 싸움이 다가오면$w2\n"
+.stringn "놓친 것이 없나$w2\n"
+.stringn "생각하면서 싸워 줘.$K"
+db 0
+.align 4
+//MS_T04敵将の撃破_04
+
+//0x95D4
+Text_95B4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「특효」에 대해서\n"
+.stringn "설명할게.$K$P「특효」란, $w2공격할 때$w2\n"
+.stringn "어떤 조건을 만족시킴으로써 $w2평소 이상의\n"
+.stringn "대미지를 줄 수 있는 것을 말해.$K$P페가수스 나이트나 드래곤 나이트 같은$w2\n"
+.stringn "「비행계 유닛」이 「활」로 공격당하는\n"
+.stringn "경우가 그렇지.$K"
+db 0
+.align 4
+//MS_T04特効_01
+
+//0x96E4
+Text_96C4:
+.stringn "$RTUT小会話|$ND$W1지금 $w2표시되어 있는 건\n"
+.stringn "아군 유닛의 스테이터스 화면이야.$K$P왼쪽 아래를 봐봐.$w4\n"
+.stringn "「특효」라는 항목에$w2\n"
+.stringn "「비행」이라고 표기되어 있지?$K$P이건 $w2지금 장비한 무기로$w2\n"
+.stringn "특효가 발생하는\n"
+.stringn "유닛을 나타내고 있는 거야.$K$P페가수스 나이트는 비행계 유닛이니까$w2\n"
+.stringn "활로 공격당하면 「특효」가 발생해서$w2\n"
+.stringn "큰 대미지를 입게 되지.$K"
+db 0
+.align 4
+//MS_T04特効_02
+
+//0x983C
+Text_981C:
+.stringn "$RTUT小会話|$ND$W1그리고 $w2아군 유닛의\n"
+.stringn "무기 아이콘을 봐봐.$w4\n"
+.stringn "하얗게 빛나고 있지?$K$P이건 「특효」가\n"
+.stringn "발생한다는 의미야.$K$P이렇게 전투 정보 윈도우에서도$w2\n"
+.stringn "「특효」의 발생 여부를\n"
+.stringn "알 수 있어.$K$P그럼 $w2실제로 싸워 볼게.$K"
+db 0
+.align 4
+//MS_T04特効_03
+
+//0x9948
+Text_9928:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|봤어?$w4\n"
+.stringn "엄청난 대미지였지.$K$P이건 활이라는 무기가$w2\n"
+.stringn "비행계 유닛에게 특효가 있어서$w2\n"
+.stringn "강한 위력을 발휘했던 거야.$K$P이외에도 특정 유닛에 대해$w2\n"
+.stringn "특효가 발생하는 무기가 있어.$K$P기마계 유닛에 특효가 있는 《나이트 킬러》$w2\n"
+.stringn "중보병 등에 강한 《아머 킬러》$w2\n"
+.stringn "그 외에도 여러 특효 무기들이 있지.$K$P새로운 무기를 입수하거나,$w2\n"
+.stringn "적 유닛이 낯선 무기를 가지고 있다면$w2\n"
+.stringn "확인해 봐.$K"
+db 0
+.align 4
+//MS_T04特効_04
+
+//0x9B0C
+Text_9AEC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그리고, $w3라구즈$MC……$MD\n"
+.stringn "화신하는 병종에 대해서 말인데,$w2\n"
+.stringn "변신하기 전에는――$K"
+db 0
+.align 4
+//MS_T04特効_05
+
+//0x9B74
+Text_9B54:
+.stringn "$RTUT小会話|$ND$W1별다른 특효를 가지지 않고$w2\n"
+.stringn "일반 전투 정보 윈도우가\n"
+.stringn "표시되지만――$K"
+db 0
+.align 4
+//MS_T04特効_06
+
+//0x9BC8
+Text_9BA8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|화신하고 있는 상태에서\n"
+.stringn "전투하면――$K"
+db 0
+.align 4
+//MS_T04特効_07
+
+//0x9C08
+Text_9BE8:
+.stringn "$RTUT小会話|$ND$W1특효가 발생할 때가 있어.$w4\n"
+.stringn "이건 화신해서$w3\n"
+.stringn "유닛의 특성이 변했기 때문이야.$K$P"
+db 0
+.align 4
+//MS_T04特効_08
+
+//0x9C7C
+Text_9C5C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「특효」에 대한 지침은\n"
+.stringn "끝이야.$K$P「특효」는 특정 조건에서 발생하니까$w3\n"
+.stringn "유닛과 무기의 관계에$w2\n"
+.stringn "충분히 주의하면서 싸우도록 해.$K"
+db 0
+.align 4
+//MS_T04特効_09
+
+//0xBF84
+Text_BF64:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「스테이터스 화면」에 대해서\n"
+.stringn "설명할게.$K$P배틀 맵상에서$w3\n"
+.stringn "커서를 유닛에 맞추고\n"
+.stringn "#P02A 버튼을 누르면――$K"
+db 0
+.align 4
+//MS_T05パラメータ_01
+
+//0xC018
+Text_BFF8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이렇게 유닛의 상세한 정보를$w1\n"
+.stringn "확인할 수 있는 화면으로 바꿀 수 있어.$w4\n"
+.stringn "이 화면을 「스테이터스 화면」이라고 해.$K$Ub$H\n"
+.stringn "$P스테이터스 화면은 총 3페이지가 있고,$w3\n"
+.stringn "컨트롤 스틱#P02C의 좌우로\n"
+.stringn "페이지를 바꿀 수 있지.$K"
+db 0
+.align 4
+//MS_T05パラメータ_02
+
+//0xC10C
+Text_C0EC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 $w3표시되어 있는\n"
+.stringn "항목에 대해서$w2\n"
+.stringn "구체적으로 설명해 줄게.$K$P우선 모든 페이지에 공통으로 표시되는$w2\n"
+.stringn "맨 위쪽 가로로 긴 윈도우에 대해서야.$K$Ub$H\n"
+.stringn "$P왼쪽 위는 $w2그 유닛의 이름,$K$Ub$H\n"
+.stringn "$P그리고 배틀 맵상에서의 유닛의 모습.$K$Ub$H\n"
+.stringn "$P그 옆은 「직업」, $w2유닛의 「레벨」$w2\n"
+.stringn "지금까지 얻은 「경험치」$w2\n"
+.stringn "그리고 「체력」이 나와 있지.$K$P뒤의 위를 향하는 화살표는$w2\n"
+.stringn "스테이터스 화면의 3번째 페이지에 있는\n"
+.stringn "「바이오리듬」$w1을 나타내고 있는 거야.$K$Ub$H\n"
+.stringn "$P그리고 가운데가 유닛의 얼굴,$K$Ub$H\n"
+.stringn "$P그 옆이 「이동할 수 있는 칸 수」,\n"
+.stringn "유닛의 「무게」,$K$P「동행 유닛」$MC……$MD$w3\n"
+.stringn "이건 유닛을 구출하고 있을 때 나타나.$K$P「상태」에는 유닛이 「독」 등에 걸려서$w2\n"
+.stringn "정상적이지 않을 때\n"
+.stringn "상태를 나타내는 아이콘이 나타나지.$K$Ub$H\n"
+.stringn "$P이렇게 $w2맨 위의 윈도우는\n"
+.stringn "유닛에게 있어서 $w2가장 기본적인 정보가\n"
+.stringn "표시되어 있어.$K$P다음으로 그 외의 윈도우$MC……$MD$w4\n"
+.stringn "각 페이지에 대해서\n"
+.stringn "간단히 설명할게.$K"
+db 0
+.align 4
+//MS_T05パラメータ_03
+
+//0xC4B0
+Text_C490:
+.stringn "$RTUT小会話|$ND$W0먼저 1번째 페이지는$w4\n"
+.stringn "크게 나눠서$w2\n"
+.stringn "3개의 윈도우로 이루어져 있어.$K$Ub$H\n"
+.stringn "$P개인 능력을 보여 주는\n"
+.stringn "「퍼스널 데이터」 윈도우.$K$Ub$H\n"
+.stringn "$P지금 유닛의\n"
+.stringn "전투 능력을 보여 주는 윈도우.$K$Ub$H\n"
+.stringn "$P가지고 있는 무기와 도구를 알 수 있는\n"
+.stringn "「소지품」 윈도우.$K"
+db 0
+.align 4
+//MS_T05パラメータ_04
+
+//0xC5B0
+Text_C590:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|1번째 페이지에는$w2\n"
+.stringn "유닛의 능력에 대한 정보가\n"
+.stringn "표시되어 있는 거야.$K$P다음으로 2번째 페이지네.$K"
+db 0
+.align 4
+//MS_T05パラメータ_05
+
+//0xC61C
+Text_C5FC:
+.stringn "$RTUT小会話|$ND$W02번째 페이지는 크게 나눠서\n"
+.stringn "4개의 윈도우로 이루어져 있어.$K$Ub$H\n"
+.stringn "$P체격을 나타내는 「빌드」$w1 윈도우.$K$Ub$H\n"
+.stringn "$P유닛의 특성을 나타내는\n"
+.stringn "「타입」$w1 윈도우.$w4\n"
+.stringn "이건 「특효」와 관련이 있어.$K$Ub$H\n"
+.stringn "$P쓸 수 있는 무기의 종류와 레벨이 적힌\n"
+.stringn "「웨폰 레벨」$w1 윈도우.$K$P여기는 유닛이 라구즈일 경우\n"
+.stringn "「화신 게이지」$w1가 대신 표시돼.$K$Ub$H\n"
+.stringn "$P가지고 있는 「스킬」$w1과 그\n"
+.stringn "「커패시티」$w1를 나타내는 윈도우.$K"
+db 0
+.align 4
+//MS_T05パラメータ_06
+
+//0xC7C8
+Text_C7A8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|2번째 페이지에는\n"
+.stringn "유닛의 특징, $w2특성이\n"
+.stringn "표시되어 있는 거지.$K$P마지막으로 3번째 페이지야.$K"
+db 0
+.align 4
+//MS_T05パラメータ_07
+
+//0xC838
+Text_C818:
+.stringn "$RTUT小会話|$ND$W03번째 페이지는 크게 나눠서\n"
+.stringn "5개의 윈도우로 이루어져 있어.$K$Ub$H\n"
+.stringn "$P유닛의 속성을 나타내는\n"
+.stringn "「어트리뷰트」 윈도우.$K$Ub$H\n"
+.stringn "$P감정이나 상태 변화의 주기를 나타내는\n"
+.stringn "「바이오리듬」$w1 윈도우.$K$Ub$H\n"
+.stringn "$P아이크에게 받은 명령이나\n"
+.stringn "요청의 내용이 표시되는\n"
+.stringn "「명령」$w1 윈도우.$K$Ub$H\n"
+.stringn "$P지원으로 인한 효과를 표시하는\n"
+.stringn "「지원 효과」$w1 윈도우.$K$Ub$H\n"
+.stringn "$P어느 유닛과 지원을 맺고 있는지\n"
+.stringn "알 수 있는 「지원 관계」$w1 윈도우.$K"
+db 0
+.align 4
+//MS_T05パラメータ_08
+
+//0xC9E4
+Text_C9C4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|3번째 페이지는 다른 유닛과의\n"
+.stringn "관계 등을 중심으로\n"
+.stringn "표시되어 있어.$K$P각 항목의\n"
+.stringn "더 자세한 설명은\n"
+.stringn "#P02A 버튼의 도움말로 확인해 줘.$K"
+db 0
+.align 4
+//MS_T05パラメータ_09
+
+//0xCA8C
+Text_CA6C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「스테이터스 화면」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T05パラメータ_10
+
+//0xBAA4
+Text_BA84:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「도움말 표시」에 대해서\n"
+.stringn "설명할게.$K$P무슨 말인지 모를 때$w3\n"
+.stringn "#P02A 버튼을 누르면, $w3간단한 해설을 해 주는\n"
+.stringn "윈도우가 표시돼.$K$P이 윈도우를 「도움말」$w1이라고 해.$K$P실제로 해 볼게.$w4\n"
+.stringn "커서를 유닛에 맞추고 #P02A 버튼을\n"
+.stringn "누르면 스테이터스 화면이 열려.$K"
+db 0
+.align 4
+//MS_T05ヘルプ_01
+
+//0xBBE8
+Text_BBC8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이 스테이터스 화면 자체도$w2\n"
+.stringn "유닛의 정보를 해설해 주는\n"
+.stringn "「도움말」이라고 할 수 있지만,$K$P지금은 그 중에서도$w3\n"
+.stringn "더욱 세밀한 항목에 대해서\n"
+.stringn "봐 볼 거야.$K$P먼저 $w3#P02A 버튼을 눌러 보면――$K"
+db 0
+.align 4
+//MS_T05ヘルプ_02
+
+//0xBCD0
+Text_BCB0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이렇게 $w3도움말 윈도우가 열리고$w3\n"
+.stringn "커서가 가리키는 내용을 해설해 줘.$K$P이 상태에서 커서를 움직이면,$w3\n"
+.stringn "그 화면 내 다른 항목의$w2\n"
+.stringn "「도움말」$w1을 볼 수도 있지.$K"
+db 0
+.align 4
+//MS_T05ヘルプ_03
+
+//0xBDA4
+Text_BD84:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|한 번 더 #P02A 버튼이나\n"
+.stringn "#P028 버튼을 누르면,$w3\n"
+.stringn "「도움말」은 사라져.$K$P그 외에도――$K"
+db 0
+.align 4
+//MS_T05ヘルプ_04
+
+//0xBE14
+Text_BDF4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|부대 화면이나――$K"
+db 0
+.align 4
+//MS_T05ヘルプ_05
+
+//0xBE40
+Text_BE20:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|전투 정보 윈도우,$K"
+db 0
+.align 4
+//MS_T05ヘルプ_06
+
+//0xBE70
+Text_BE50:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|맵 메뉴 등 $w2대부분의 항목에서\n"
+.stringn "간결하게 설명을 해 주지.$K"
+db 0
+.align 4
+//MS_T05ヘルプ_07
+
+//0xBECC
+Text_BEAC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|뭔가 곤란한 일이나$w3\n"
+.stringn "모르는 항목이 있으면$w2\n"
+.stringn "아무튼 #P02A 버튼을 눌러 봐.$K"
+db 0
+.align 4
+//MS_T05ヘルプ_08
+
+//0xBF3C
+Text_BF1C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「도움말 표시」$w1에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T05ヘルプ_09
+
+//0xCAD4
+Text_CAB4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「소지품(버리기)」에 대해서\n"
+.stringn "설명할게.$K$P소지품은 한 유닛 당$w2\n"
+.stringn "무기와 도구를 각각\n"
+.stringn "최대 4개까지밖에 가질 수 없어.$K$P그래서 무기나 아이템이 4개나 있을 때\n"
+.stringn "또 필요한 물건이 있으면$w2\n"
+.stringn "어떻게든 해야만 하지.$K$P무기나 아이템을 받거나$w2\n"
+.stringn "보물 상자에서 획득한 경우에는$w2\n"
+.stringn "「수송대」가 있다면 보낼 수 있지만$MC……$MD$K$P그렇지 않을 때는$w2\n"
+.stringn "필요 없는 물건을 과감하게\n"
+.stringn "버리는 것도 하나의 방법이야.$K$P지금부터 $w3그 방법에 대해서\n"
+.stringn "설명할게.$K"
+db 0
+.align 4
+//MS_T05捨てる_01
+
+//0xCCC8
+Text_CCA8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|먼저 $w2표시된 유닛 메뉴에서부터\n"
+.stringn "「소지품」$w1을 선택해.$K"
+db 0
+.align 4
+//MS_T05捨てる_02
+
+//0xCD24
+Text_CD04:
+.stringn "$RTUT小会話|$ND$W2가지고 있는\n"
+.stringn "무기와 아이템이\n"
+.stringn "표시됐지?$K$P이 중에서$MC…$MD$w3 그래,$w3\n"
+.stringn "이번에는 「투척도끼」$w1를\n"
+.stringn "버려 볼게.$K$P커서를 투척도끼에 맞추고\n"
+.stringn "#P027 버튼을 누르면,$K$P아이템을 어떻게 할지\n"
+.stringn "물어보는 윈도우가\n"
+.stringn "표시돼.$K"
+db 0
+.align 4
+//MS_T05捨てる_03
+
+//0xCE18
+Text_CDF8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|여기서, 커서를 「버리기」$w1에 맞추고\n"
+.stringn "#P027 버튼을 누르는 거야.$K"
+db 0
+.align 4
+//MS_T05捨てる_04
+
+//0xCE74
+Text_CE54:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|정말로 버릴 건지 확인하는데$w3\n"
+.stringn "여기서 「예」$w1에 커서를 맞추고$Ub$H\n"
+.stringn "#P027 버튼으로 아이템을 버리면 돼.$K$Ub$H\n"
+.stringn "$P이때 $w3「아니요」$w1를 선택하면$w3\n"
+.stringn "한 단계 전의 「장비」$w1나 「버리기」$w1인\n"
+.stringn "유닛 메뉴로 돌아가.$K"
+db 0
+.align 4
+//MS_T05捨てる_05
+
+//0xCF70
+Text_CF50:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그리고 $w3게임 진행에 필요한\n"
+.stringn "「중요 아이템」$w1은\n"
+.stringn "버릴 수 없어.$K"
+db 0
+.align 4
+//MS_T05捨てる_06
+
+//0xCFD8
+Text_CFB8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「소지품(버리기)」에 대한 지침은\n"
+.stringn "끝이야.$K\n"
+.stringn "한 번 버린 소지품은$w2\n"
+.stringn "두 번 다시 돌아오지 않으니까$w3\n"
+.stringn "버릴 때는 $w3충분히 주의해 줘.$K"
+db 0
+.align 4
+//MS_T05捨てる_07
+
+//0xB2A4
+Text_B284:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「마법(3상성)」에 대해서\n"
+.stringn "설명할게.$K$P$Ub$H마법에도 무기처럼$w2\n"
+.stringn "「3상성」이 있어.$K$P이 3상성을 기억해 두면\n"
+.stringn "보다 유리하게 전투를 진행할 수 있지.$K$P$Ub$H마법에는 「화염」 $Ub$H$w4「바람」 $Ub$H$w4「번개」,$Ub$H$w4\n"
+.stringn "그리고 「빛」$Ub$H$w4이 있어.$K$P먼저 $w3「화염」$w1과 「바람」$w1의 관계 말인데,$w3\n"
+.stringn "$Ub$H화염$Ub$H$w4은 바람에 $Ub$H$w4$Ub$H강하고$Ub$H$w4\n"
+.stringn "바람은 화염에 $Ub$H약해.$w4$K$P다음은 「바람」과 「번개」의 관계야.$w4\n"
+.stringn "$Ub$H바람은 번개에 $Ub$H$w4$Ub$H$w4강하고,$Ub$H$w4\n"
+.stringn "번개는 바람에 $Ub$H$w4약해.$K$P마지막으로 「번개」와 「화염」의 관계야.$w4\n"
+.stringn "$Ub$H번개는 화염에 $Ub$H$w4$Ub$H강하고,$Ub$H$w4\n"
+.stringn "화염은 번개에 $Ub$H약해.$K$P$Ub$H이게 「마법의 3상성」이야.$w4\n"
+.stringn "「화염」, 「바람」, 「번개」는 $w3이러한 관계로\n"
+.stringn "이루어져 있어.$K$P$Ub$H그리고 「빛」$Ub$H$w4 마법은$w3\n"
+.stringn "이 $Ub$H$w4「마법의 3상성」$w1에\n"
+.stringn "영향받지 않지.$K$P그럼 $w3이 「마법의 3상성」$w1의 영향을\n"
+.stringn "실제로 봐 볼게.$K"
+db 0
+.align 4
+//MS_T05魔法３すくみ_01
+
+//0xB61C
+Text_B5FC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지금 $w3「마도사」$w1인 아군 유닛과$w3\n"
+.stringn "적 유닛이 1명씩 있지?$K"
+db 0
+.align 4
+//MS_T05魔法３すくみ_02
+
+//0xB680
+Text_B660:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|아군 유닛인 마도사는$w3\n"
+.stringn "화염 마법 「파이어」$w1를\n"
+.stringn "장비하고 있어.$K"
+db 0
+.align 4
+//MS_T05魔法３すくみ_03
+
+//0xB6E4
+Text_B6C4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그리고 $w3적 유닛인 마도사는\n"
+.stringn "바람 마법 「윈드」$w1를\n"
+.stringn "장비하고 있지.$K$P그리고 $w3이 두 유닛의\n"
+.stringn "싸움 말인데――$K"
+db 0
+.align 4
+//MS_T05魔法３すくみ_04
+
+//0xB77C
+Text_B75C:
+.stringn "$RTUT小会話|$ND$W1각 유닛이$w2\n"
+.stringn "장비하고 있는 마법을 봐봐.$w4\n"
+.stringn "화살표가 표시되어 있지?$K$P이게 「3상성」$w1의\n"
+.stringn "유불리를 나타내고 있는 거야.$K$P화염은 바람에 강하니까,$K$Ub$H\n"
+.stringn "$P「파이어」$w1에는 위쪽 화살표가,$K$P$Ub$H\n"
+.stringn "$P「윈드」에는 아래쪽 화살표가$w2\n"
+.stringn "표시되어 있는 거지.$K$Ub$H\n"
+.stringn "$P결과적으로 $w3파이어로 공격하는\n"
+.stringn "아군 유닛이 주는 대미지는\n"
+.stringn "원래는 8인데 9가 되고,$K$Ub$H\n"
+.stringn "$P윈드로 공격하는\n"
+.stringn "적 유닛이 주는 대미지는$w2\n"
+.stringn "원래는 7인데 6이 되는 거야.$K$P그럼, $w2실제로 싸워 볼게.$K"
+db 0
+.align 4
+//MS_T05魔法３すくみ_05
+
+//0xB988
+Text_B968:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|응.$w4\n"
+.stringn "전투 정보대로 결과가 나왔네.$w4\n"
+.stringn "이게 「마법의 3상성」$w1이야.$K$P"
+db 0
+.align 4
+//MS_T05魔法３すくみ_06
+
+//0xB9F4
+Text_B9D4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「마법(3상성)」에 대한 지침은\n"
+.stringn "끝이야.$K$P「무기의 3상성」$w1처럼, $w2잘 쓰면$w2\n"
+.stringn "상당히 유리하게 싸울 수 있어.$w4\n"
+.stringn "기억해 둬.$K"
+db 0
+.align 4
+//MS_T05魔法３すくみ_07
+
+//0xDC94
+Text_DC74:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「소지품(교환)2」에 대해서\n"
+.stringn "설명할게.$K$P다른 데서도 설명했지만$w3\n"
+.stringn "기승계 유닛은 $w3행동 후에\n"
+.stringn "재이동할 수 있어.$K$P그걸 이용한 $w3괜찮은\n"
+.stringn "테크닉이 있지.$w4\n"
+.stringn "그걸 지금부터 알려 줄게.$K$P지금 $w3적 유닛과 1칸을 띄우고\n"
+.stringn "아군인 전사 유닛,$K$P그 뒤에\n"
+.stringn "아군인 기승계 유닛$MC……$MD$w4\n"
+.stringn "액스 나이트가 있네.$K$P여기서 $w3전사 유닛이 가지고 있는\n"
+.stringn "무기를 보면――$K"
+db 0
+.align 4
+//MS_T06交換２_01
+
+//0xDE4C
+Text_DE2C:
+.stringn "$RTUT小会話|$ND$W2무기 정보의 사정이\n"
+.stringn "「1」$w1이라고 적혀 있지?$K$P이건 $w3이 유닛이\n"
+.stringn "장비하고 있는 「철의 도끼」$w1가$K$P인접하지 않으면\n"
+.stringn "공격할 수 없는 무기라는 뜻이야.$K$P적의 옆으로 이동해서$w2\n"
+.stringn "공격해도 $w3다음 턴에$w3\n"
+.stringn "반대로 공격을 받게 되겠지.$K$P그럼 다음으로 액스 나이트를\n"
+.stringn "봐 보자.$K"
+db 0
+.align 4
+//MS_T06交換２_02
+
+//0xDF74
+Text_DF54:
+.stringn "$RTUT小会話|$ND$W2무기 정보의 사정이$w2\n"
+.stringn "「1-2」$w1라고 되어 있지?$K$P이건 인접하지 않고$w3\n"
+.stringn "1칸 떨어진 곳에서도\n"
+.stringn "공격할 수 있다는 뜻이야.$K$P이 무기와 기승계 유닛을\n"
+.stringn "잘 쓰면$w2\n"
+.stringn "이런 공격을 할 수 있어.$K"
+db 0
+.align 4
+//MS_T06交換２_03
+
+//0xE048
+Text_E028:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|먼저 액스 나이트로 「공격」을 선택하고,$w3\n"
+.stringn "투척도끼로 적 유닛을 공격할게.$K"
+db 0
+.align 4
+//MS_T06交換２_04
+
+//0xE0AC
+Text_E08C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|기승계 유닛은\n"
+.stringn "이동력이 남아 있으면\n"
+.stringn "재이동할 수 있지?$K$P여기서 $w3아군 전사 유닛의\n"
+.stringn "옆으로 이동시켜 보자.$K"
+db 0
+.align 4
+//MS_T06交換２_05
+
+//0xE144
+Text_E124:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|다음으로 전사 유닛에\n"
+.stringn "커서를 맞춘 뒤 $w3이동하지 않고$w2\n"
+.stringn "유닛 메뉴를 열어 볼게.$K"
+db 0
+.align 4
+//MS_T06交換２_06
+
+//0xE1B4
+Text_E194:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|유닛 메뉴 중에\n"
+.stringn "「공격」 커맨드가\n"
+.stringn "없지?$K$P전사가 들고 있는 「철의 도끼」$w1는\n"
+.stringn "사정이 「1」이니까 $w2인접하지 않으면\n"
+.stringn "공격할 수가 없어.$K$Ub$H\n"
+.stringn "$P하지만, 여기서 「교환」$w1을 선택해\n"
+.stringn "방금 옆으로 이동시켰던 액스 나이트로부터\n"
+.stringn "공격에 사용됐던 투척도끼를 받아서――$K"
+db 0
+.align 4
+//MS_T06交換２_07
+
+//0xE2D4
+Text_E2B4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|#P028 버튼으로\n"
+.stringn "유닛 메뉴로 돌아가 보자.$w4\n"
+.stringn "그러면――$K"
+db 0
+.align 4
+//MS_T06交換２_08
+
+//0xE328
+Text_E308:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|봐봐$MC!$MD $w4유닛 메뉴에\n"
+.stringn "「공격」 커맨드가 나타났어$MC!$MD$K$P그리고 $w3이렇게 $w3투척도끼를 획득해서\n"
+.stringn "공격 범위가 넓어졌기 때문에, $w41칸 떨어진\n"
+.stringn "적도 공격할 수 있게 됐지.$K$P그럼, $w4바로 공격해 볼게.$w4\n"
+.stringn "메뉴에서 「공격」, $w2「투척도끼」를 선택해.$K"
+db 0
+.align 4
+//MS_T06交換２_09
+
+//0xE450
+Text_E430:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이런 식으로 $w3기승계 유닛과\n"
+.stringn "「교환」을 잘 사용하면$w2\n"
+.stringn "효율적으로 싸울 수 있어. $w4기억해 둬.$K"
+db 0
+.align 4
+//MS_T06交換２_10
+
+//0xE4D0
+Text_E4B0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「소지품(교환)2」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T06交換２_11
+
+//0xD078
+Text_D058:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「색적 맵」에 대해서\n"
+.stringn "설명할게.$K$P「색적」$w1이란,$w3\n"
+.stringn "이렇게 아군 유닛의\n"
+.stringn "주위만 보이는 상태를 말해.$K$P그 외의 장소는$w3\n"
+.stringn "어둡거나 $w2안개가 껴 있거나 해서$w2\n"
+.stringn "적 유닛의 모습이 보이지 않지.$K$P그래서 $w3보이지 않는 곳으로 이동하는 경로나$w3\n"
+.stringn "이동하는 곳에 적 유닛이 있을 때는――$K"
+db 0
+.align 4
+//MS_T06策敵_01
+
+//0xD1BC
+Text_D19C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이렇게$w3\n"
+.stringn "강제로 대기하게 돼.$K$P이동이 끝날 때까지는$w3\n"
+.stringn "보이는 범위가 변하지 않으니까,$w3\n"
+.stringn "무작정 이동하는 건 위험해.$K$P색적 맵에서 $w3유닛이 볼 수 있는 범위는\n"
+.stringn "대부분의 유닛이 3칸인데$w3\n"
+.stringn "개중에는 더 넓게 볼 수 있는 유닛도 있어.$K"
+db 0
+.align 4
+//MS_T06策敵_02
+
+//0xD2DC
+Text_D2BC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지금 $w3화면에 있는 건 도적 유닛이야.$w4\n"
+.stringn "아까랑 비교해서$w3\n"
+.stringn "보이는 범위가 확실히 넓지?$K$P그리고 $w3도적 유닛이 없어도$w2\n"
+.stringn "어떤 아이템을 사용하면$w2\n"
+.stringn "보이는 범위를 넓힐 수 있어.$K"
+db 0
+.align 4
+//MS_T06策敵_03
+
+//0xD3B8
+Text_D398:
+.stringn "$RTUT小会話|$ND$W3그 아이템이란 바로 이거,$w3\n"
+.stringn "「횃불」$w1이야.$K$P사용한 유닛이\n"
+.stringn "볼 수 있는 범위를\n"
+.stringn "4칸 넓혀 주지.$K$P바로 사용해 볼게.$K"
+db 0
+.align 4
+//MS_T06策敵_04
+
+//0xD448
+Text_D428:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|보이는 범위를 세어 볼게.$w4\n"
+.stringn "유닛으로부터 1,$w1 2,$w1 3$MC……$MD$w4\n"
+.stringn "총 7칸이 보여.$K$P원래 보이는 범위 3칸에서$w2\n"
+.stringn "4칸만큼 늘어나서$w2\n"
+.stringn "7칸이 보이게 된 거야.$K$P하지만――$K"
+db 0
+.align 4
+//MS_T06策敵_05
+
+//0xD530
+Text_D510:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|봤어?$w4\n"
+.stringn "지금 $w3보이는 범위가 줄어들었어.$K$P횃불은 턴이 지날수록$w3\n"
+.stringn "보이는 범위가 줄어드니까$w4\n"
+.stringn "조심해.$K"
+db 0
+.align 4
+//MS_T06策敵_06
+
+//0xD5D4
+Text_D5B4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「색적 맵」에 대한 지침은\n"
+.stringn "끝이야.$K$P색적 맵은 $w3생각지도 못한 곳에$w1\n"
+.stringn "적이 있는 경우가 많아.$K$P아이템이나 유닛을 잘 사용하면서\n"
+.stringn "신중하게 싸우도록 해.$K"
+db 0
+.align 4
+//MS_T06策敵_07
+
+//0xD69C
+Text_D67C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「승리 조건(방위)」에 대해서\n"
+.stringn "설명할게.$K"
+db 0
+.align 4
+//MS_T06防衛_01
+
+//0xD6E8
+Text_D6C8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|「방위」라는 건, $w3정해진 턴 동안$w3\n"
+.stringn "맵상에 있는 「방위 지점」$w1을 지키는 거야.$K"
+db 0
+.align 4
+//MS_T06防衛_02
+
+//0xD760
+Text_D740:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지금 말한 「정해진 턴 수」$w1는\n"
+.stringn "화면 왼쪽 상단의\n"
+.stringn "승리 조건에 표시되어 있어.$K$Ub$H\n"
+.stringn "$P그 밑에 표시되어 있는 게\n"
+.stringn "현재의 턴 수$MC……$MD$w4\n"
+.stringn "이 둘을 비교하면서 싸워 줘.$K$Ub$H\n"
+.stringn "$P$s1$FA이 방위는$MC……$MD$w4\n"
+.stringn "여태까지의 승리 조건과는$w2\n"
+.stringn "조금 다른 점이 있어.$K$P바로 $w3이쪽에서 습격하는 게 아니라$w3\n"
+.stringn "적의 공격으로부터 방위 지점을 지켜내는$MC……$MD$w4\n"
+.stringn "즉, $w3수비전이라는 거야.$K$P공격하려고\n"
+.stringn "무리하게 튀어나와서$w3\n"
+.stringn "적에게 방위 지점을 빼앗기기라도 하면――$K"
+db 0
+.align 4
+//MS_T06防衛_03
+
+//0xD954
+Text_D934:
+.stringn "$RTUT会話|$s1$FA$c1ANNA|패배$MC……$MD$w4\n"
+.stringn "즉 게임 오버가 될 거야.$K$P그리고, 다른 승리 조건과 마찬가지로$w2\n"
+.stringn "주인공인 「아이크」$w1가 쓰러져도$w2\n"
+.stringn "게임 오버야. $w4조심해.$K$P"
+db 0
+.align 4
+//MS_T06防衛_04
+
+//0xDA10
+Text_D9F0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|하지만 $w3그렇다고 해서$w2\n"
+.stringn "계속 방어 지점에 있는 것도$w2\n"
+.stringn "좋은 방법은 아니야.$K$P방위 지점에 접근하는 적을$w2\n"
+.stringn "쓰러뜨릴 수 있는 유닛이 있으면$w2\n"
+.stringn "적극적으로 공격하는 것도 하나의 방법이지.$K"
+db 0
+.align 4
+//MS_T06防衛_05
+
+//0xDAD4
+Text_DAB4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|공격은 최대의 방어$MC……$MD$w4\n"
+.stringn "먼 나라의 격언이었지.$K$P싸울 방법을 궁리하면서$w2\n"
+.stringn "정해진 턴 동안$w3\n"
+.stringn "방위 지점을 잘 지켜 봐.$K"
+db 0
+.align 4
+//MS_T06防衛_06
+
+//0xDB80
+Text_DB60:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「승리 조건(방위)」에 대한 지침은\n"
+.stringn "끝이야.$K$P「승리 조건(방위)」은$w3\n"
+.stringn "다른 승리 조건과 비교했을 때$w2\n"
+.stringn "좀 더 $w3변수가 커.$K$P적의 수도 장난 아니게 많고.$w4\n"
+.stringn "치고 나갈지, $w3수비를 굳힐지$MC……$MD$w4\n"
+.stringn "곰곰이 생각하면서 행동해.$K"
+db 0
+.align 4
+//MS_T06防衛_07
+
+//0xE9F4
+Text_E9D4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「소지품(장비)」에 대해서\n"
+.stringn "설명할게.$K$P먼저 $w3커서를 유닛에 맞추고$w2\n"
+.stringn "이동시키지 않은 채 #P027 버튼으로$w2\n"
+.stringn "유닛 메뉴를 표시할게.$K$P물론 $w3이동하고 나서라도\n"
+.stringn "괜찮아.$K"
+db 0
+.align 4
+//MS_T07装備_01
+
+//0xEACC
+Text_EAAC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|유닛 메뉴에서$w3\n"
+.stringn "「소지품」에 커서를 맞추고$w2\n"
+.stringn "#P027 버튼을 누르면――$K"
+db 0
+.align 4
+//MS_T07装備_02
+
+//0xEB38
+Text_EB18:
+.stringn "$RTUT小会話|$ND$W2그 유닛의 「소지품」$w1이\n"
+.stringn "표시됐지?$K$P여기서, $w3커서가 있는 곳을\n"
+.stringn "봐 줘.$K$Ub$H\n"
+.stringn "$P「철의 검」$w1에\n"
+.stringn "「E」라는 아이콘이\n"
+.stringn "표시되어 있네.$K$P이건, $w2이 유닛이$w2\n"
+.stringn "지금 $w2철의 검을\n"
+.stringn "장비하고 있다는 뜻이야.$K$P여기서 $w3장비하고 있는 무기를\n"
+.stringn "바꿔 볼게.$K$P커서를 「철의 검」$w1에서\n"
+.stringn "「강철의 검」으로 이동시킨 뒤$w3\n"
+.stringn "#P027 버튼을 누르면――$K"
+db 0
+.align 4
+//MS_T07装備_03
+
+//0xECD0
+Text_ECB0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이번에는 $w3그 무기를 어떻게 할지\n"
+.stringn "물어볼 거야.$K$Ub$H\n"
+.stringn "$P거기서 「장비」$w1에 커서를 맞추고\n"
+.stringn "#P027 버튼을 눌러.$K"
+db 0
+.align 4
+//MS_T07装備_04
+
+//0xED60
+Text_ED40:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|화면을 봐봐.$w4\n"
+.stringn "「E」 아이콘의 위치가 「철의 검」에서\n"
+.stringn "「강철의 검」으로 바뀌었지?$K$P「E」는 Equipment(장비)의 E야$MC……$MD\n"
+.stringn "즉, 이 아이콘이 붙어 있는\n"
+.stringn "무기를 장비하고 있다는 뜻이지.$K$P유닛이 장비하고 있는\n"
+.stringn "무기가 「철의 검」$w1에서 「강철의 검」$w1으로\n"
+.stringn "변경됐어.$K$P적 유닛으로부터 공격을 받았을 때$w3\n"
+.stringn "장비하고 있는 무기로 반격할 테니까$w2\n"
+.stringn "무엇을 장비하고 있는지는 $w3상당히 중요해.$K$P그리고 $w3이 「장비」를 실행한 후에도$w2\n"
+.stringn "계속해서 행동할 수 있어.$K"
+db 0
+.align 4
+//MS_T07装備_05
+
+//0xEF50
+Text_EF30:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「소지품(장비)」에 대한 지침은\n"
+.stringn "끝이야.$K$P장비를 실행하는 유닛뿐만 아니라$w3\n"
+.stringn "그 주위에 있는 적 유닛도$w2\n"
+.stringn "계산에 넣으면서 장비하도록 해.$K"
+db 0
+.align 4
+//MS_T07装備_06
+
+//0xE51C
+Text_E4FC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「승리 조건(이탈)」에 대해서\n"
+.stringn "설명할게.$K"
+db 0
+.align 4
+//MS_T07離脱_01
+
+//0xE568
+Text_E548:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이 승리 조건은 $w3맵상의 노란 곳$MC……$MD$w4\n"
+.stringn "「이탈 지점」$w1에서 $w3주인공인 아이크를\n"
+.stringn "「이탈」$w1시키는 것으로 달성돼.$K$Ub$H\n"
+.stringn "$P하지만 $w3「제압」$w1과는 다르게$w2\n"
+.stringn "아이크 이외의 다른 아군 유닛도$w2\n"
+.stringn "이탈시킬 수 있어.$K$P그럼 $w3먼저 $w3아군 유닛을\n"
+.stringn "이탈시켜 볼게.$K"
+db 0
+.align 4
+//MS_T07離脱_02
+
+//0xE6AC
+Text_E68C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이탈 지점으로 유닛이 이동하면$w3\n"
+.stringn "유닛 메뉴에$w2\n"
+.stringn "「이탈」이라는 커맨드가 나타나.$K$P여기서 「이탈」$w1을 선택하면$w3\n"
+.stringn "확인 후$w3, 그 유닛은 맵에서\n"
+.stringn "이탈하게 될 거야.$K"
+db 0
+.align 4
+//MS_T07離脱_03
+
+//0xE780
+Text_E760:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|하지만 $w3아군 유닛이 이탈해도$w2\n"
+.stringn "그 맵을 클리어한 것으로\n"
+.stringn "처리되지는 않아.$K$P그 대신 $w3아군 유닛을\n"
+.stringn "많이 이탈시킨다면$w2\n"
+.stringn "나중에 좋은 일이 있을 거야.$K$P다음으로, $w3맵의 클리어 조건인\n"
+.stringn "아이크의 이탈을\n"
+.stringn "해 볼게.$K"
+db 0
+.align 4
+//MS_T07離脱_04
+
+//0xE88C
+Text_E86C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|아이크를 이탈 지점으로 이동시키면$w2\n"
+.stringn "유닛 메뉴에 「이탈」$w1이라는\n"
+.stringn "커맨드가 표시돼.$K$P여기서 「이탈」$w1을 선택하면\n"
+.stringn "확인 후에――$K"
+db 0
+.align 4
+//MS_T07離脱_05
+
+//0xE938
+Text_E918:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|자, $w3이렇게\n"
+.stringn "클리어 조건인 「이탈」을 달성해서$w3\n"
+.stringn "다음 맵으로 진행할 수 있게 됐어.$K$P"
+db 0
+.align 4
+//MS_T07離脱_06
+
+//0xE9AC
+Text_E98C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「승리 조건(이탈)」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T07離脱_07
+
+//0xF3BC
+Text_F39C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「기타 유닛」에 대해서\n"
+.stringn "설명할게.$K"
+db 0
+.align 4
+//MS_T08中立ユニット_01
+
+//0xF404
+Text_F3E4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|게임을 진행하다 보면, $w3이런\n"
+.stringn "초록색 유닛이 등장할 거야.$w4\n"
+.stringn "이걸 $w3「기타 유닛」이라고 해.$K$P기타 유닛은$w3\n"
+.stringn "적과 아군 어느 쪽에도 속하지 않은 유닛이라$w3\n"
+.stringn "플레이어는 조작할 수 없어.$K"
+db 0
+.align 4
+//MS_T08中立ユニット_02
+
+//0xF4E8
+Text_F4C8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|기타 유닛은$w2\n"
+.stringn "「적 유닛」$w1의 차례가\n"
+.stringn "끝난 후의――$K"
+db 0
+.align 4
+//MS_T08中立ユニット_03
+
+//0xF544
+Text_F524:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|「OTHER PHASE」(아더 페이즈)\n"
+.stringn "가 오면 행동하게 돼.$K"
+db 0
+.align 4
+//MS_T08中立ユニット_04
+
+//0xF590
+Text_F570:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이 중에는$w2\n"
+.stringn "대화를 하면 아군이 되는 유닛이\n"
+.stringn "존재할 때도 있어.$K"
+db 0
+.align 4
+//MS_T08中立ユニット_05
+
+//0xF644
+Text_F624:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|기타 유닛을 보면서$w3\n"
+.stringn "대화가 가능한지$w3\n"
+.stringn "확인해 보는 것도 좋을 거야.$K$P그 외에도 뭔가$w2\n"
+.stringn "좋은 일이 있을지도 몰라.$K"
+db 0
+.align 4
+//MS_T08中立ユニット_06
+
+//0xF6F8
+Text_F6D8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「기타 유닛」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T08中立ユニット_07
+
+//0xF5E8
+Text_F5C8:
+.stringn "$R上下会話|$c0SOLDIERB|어때요, $w3함께 싸우지 않겠습니까?$K\n"
+.stringn "$c1SOLDIERG|함께 싸우죠.$K"
+db 0
+.align 4
+//MS_T08中立ユニット_Talk
+
+//0xF740
+Text_F720:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「보물 상자」에 대해서\n"
+.stringn "설명할게.$K"
+db 0
+.align 4
+//MS_T08宝箱_01
+
+//0xF780
+Text_F760:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|맵상에 「보물 상자」$w1가 놓여 있는\n"
+.stringn "경우가 있어.$K$P대부분의 $w3「보물 상자」$w1에는 「열쇠」$w1가 필요해서$w2\n"
+.stringn "보통 유닛은 열 수 없지.$K"
+db 0
+.align 4
+//MS_T08宝箱_02
+
+//0xF82C
+Text_F80C:
+.stringn "$RTUT会話|$s3$FS$c3ANNA|하지만 $w3「소지품」$w1에 「보물 열쇠」$w1가 있다면\n"
+.stringn "보물 상자를 열 수 있어.$K"
+db 0
+.align 4
+//MS_T08宝箱_03
+
+//0xF894
+Text_F874:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 $w3해 볼게.$w4\n"
+.stringn "먼저 $w3「보물 열쇠」를 가진 유닛을$w3\n"
+.stringn "보물 상자 옆으로 이동시킬 거야.$K"
+db 0
+.align 4
+//MS_T08宝箱_04
+
+//0xF918
+Text_F8F8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|유닛 메뉴에$w2\n"
+.stringn "「보물 상자」가 표시됐지?$w4\n"
+.stringn "이건 보물 열쇠를 가지고 있어서 그런 거야.$K$P「보물 상자」$w1를 선택하고 #P027 버튼으로$w3\n"
+.stringn "보물 상자를 열게.$K"
+db 0
+.align 4
+//MS_T08宝箱_05
+
+//0xF9C8
+Text_F9A8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이렇게 「보물 열쇠」를 가지고 있으면,$w3\n"
+.stringn "어떤 유닛이라도 열 수 있어.$K$P「소지품」$w1에서 「보물 열쇠」$w1를 선택해도\n"
+.stringn "내용은 변하지 않아.$K$P그리고 도적 유닛이라면$w2\n"
+.stringn "열쇠가 없어도\n"
+.stringn "보물 상자를 열 수 있지.$K\n"
+.stringn "하지만 도적 유닛의 경우에는$w2\n"
+.stringn "돈이 필요할 때가 있으니까$w2\n"
+.stringn "조심해.$K"
+db 0
+.align 4
+//MS_T08宝箱_06
+
+//0xFB08
+Text_FAE8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「보물 상자」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T08宝箱_07
+
+//0xEFFC
+Text_EFDC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「대화」에 대해서\n"
+.stringn "설명할게.$K$P게임 도중에 $w3유닛끼리\n"
+.stringn "대화를 할 수 있는 경우가 있어.$w4\n"
+.stringn "먼저 $w2조작할 유닛을 선택하고――$K"
+db 0
+.align 4
+//MS_T08話す_01
+
+//0xF0A0
+Text_F080:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그다음 $w2말을 걸 유닛의 옆에$w3\n"
+.stringn "그 유닛을 이동시키면 돼.$K"
+db 0
+.align 4
+//MS_T08話す_02
+
+//0xF0FC
+Text_F0DC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|유닛 메뉴에$w3\n"
+.stringn "「대화」$w1라는 커맨드가\n"
+.stringn "나타났지?$K$P커서를 「대화」$w1에 맞추고\n"
+.stringn "#P027 버튼을 누르면――$K"
+db 0
+.align 4
+//MS_T08話す_03
+
+//0xF1E8
+Text_F1C8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이렇게 $w3유닛끼리\n"
+.stringn "「대화」할 수 있어.$K$P그리고, $w3대화 상대는$w3\n"
+.stringn "아군 유닛뿐만이 아니라$K$P적 유닛이나 $w3초록색의 「기타 유닛」,$w3\n"
+.stringn "노란색의 「우군 유닛」$w1도 될 수 있지.$K$P「대화」함으로써, $w3뭔가 정보를 얻거나$w3\n"
+.stringn "혹시 아군이 된다거나 하는$MC……$MD$w4\n"
+.stringn "일이 있을지도 모르지.$K$P그리고 $w3대화를 종료한 후에$w3\n"
+.stringn "다른 커맨드를 선택할 수 있어.$K"
+db 0
+.align 4
+//MS_T08話す_04
+
+//0xF380
+Text_F360:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「대화」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T08話す_05
+
+//0xF194
+Text_F174:
+.stringn "$R上下会話|$c0SOLDIERB|오랜만입니다.$K\n"
+.stringn "$c1SOLDIERB|안녕하세요, $w3또 만났네요.$K"
+db 0
+.align 4
+//MS_T08話す_Talk
+
+//0x1047C
+Text_1045C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「지원」에 대해서\n"
+.stringn "설명할게.$K$P「지원」$w1이란,$w3\n"
+.stringn "특정 유닛끼리 친해져서$w2\n"
+.stringn "「지원 관계」를 맺는 걸 말하는 거야.$K$P그러기 위해서는 $w3함께 출격하는\n"
+.stringn "횟수를 늘릴 필요가 있어.$K$P일정 단계 이상으로 친해지면$w3\n"
+.stringn "「거점」에서 「지원 관계」를$w2\n"
+.stringn "맺을 수 있지.$K$Ub$H\n"
+.stringn "$P그리고 $w2지원 관계를 맺는 법 말인데$MC……$MD$w4\n"
+.stringn "먼저 $w3거점 메뉴에서$w2\n"
+.stringn "「지원」$w1을 선택하면 돼.$K"
+db 0
+.align 4
+//MS_T09支援_01
+
+//0x10614
+Text_105F4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그러면$w2\n"
+.stringn "이렇게 유닛 목록과$K$Ub$H\n"
+.stringn "$P친해진 유닛이나$w2\n"
+.stringn "지원 관계에 있는 유닛이$w2\n"
+.stringn "표시되지.$K$Ub$H\n"
+.stringn "$P여기서는 $w3아이크를 선택할게.$K"
+db 0
+.align 4
+//MS_T09支援_02
+
+//0x106D0
+Text_106B0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|다음은 $w3「지원 관계」$w1를\n"
+.stringn "맺을 상대를 고르는 거야.$K$P지원 관계를 맺기 위한\n"
+.stringn "「지원 회화」$w1를 할 수 있는 유닛은$w2\n"
+.stringn "하얀 글자로 표시되어 있어.$K$Ub$H\n"
+.stringn "$P그럼$w3\n"
+.stringn "바로 해 볼게.$w4\n"
+.stringn "이 경우에 $w3상대는 티아마트구나.$K$Ub$H\n"
+.stringn "$P이번에는 $w3「지원 회화」를\n"
+.stringn "할 거냐고 물어볼 거야.$w4\n"
+.stringn "지금은 문제가 없으니까 $w2「예」를 고를게.$K"
+db 0
+.align 4
+//MS_T09支援_03
+
+//0x10834
+Text_10814:
+.stringn "$RTUT会話|$s2$FS$c2ANNA|그러면 $w3두 사람 사이에서 회화가 이루어지고$w2\n"
+.stringn "「지원 관계」가 맺어지게 돼.$w4\n"
+.stringn "지금은 잠깐 회화를 생략할게.$K$Ub$H\n"
+.stringn "$P$s2$FA아, 그런데 $w3여기서 하나 주의할 점$MC!$MD$w4\n"
+.stringn "「지원 관계」는$w2\n"
+.stringn "혼자서 「5번」$w1까지밖에 못 해.$K$P지원 관계에 있는 유닛과\n"
+.stringn "보다 친해지면$w2\n"
+.stringn "한 번 더 $w3지원 회화가 발생하지.$K$P그때 회화를 하면, $w3유닛끼리의\n"
+.stringn "친함을 나타내는 「지원 레벨」$w1은 올라가지만$w3\n"
+.stringn "「지원 회화」$w1의 남은 횟수가 줄어들게 돼.$K"
+db 0
+.align 4
+//MS_T09支援_04
+
+//0x109F8
+Text_109D8:
+.stringn "$RTUT会話|$s2$FS$c2ANNA|지원 레벨은 $w2「C」$w4→「B」$Ub$H→「A」$Ub$H\n"
+.stringn "단계가 있고, 말한 순서대로 상승해.$w4\n"
+.stringn "즉 $w2특정 상대에게 3번까지 가능하다는 얘기야.$K$Ub$H\n"
+.stringn "$P하지만 $w3거기서 지원 레벨을 A로 하면$w2\n"
+.stringn "5번 중 3번을 써버리는 거니까,\n"
+.stringn "2번밖에 남지 않게 되지.$K$P어느 유닛을 상대로$w2\n"
+.stringn "어느 레벨까지 올릴지$w3\n"
+.stringn "잘 생각해서 지원 관계를 맺어 줘.$K"
+db 0
+.align 4
+//MS_T09支援_05
+
+//0x10B54
+Text_10B34:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|$Ub$H지원 관계를 맺은 유닛은$w2\n"
+.stringn "실제 전투 때$w2\n"
+.stringn "「지원 효과」$w1를 받을 수 있어.$K$P이건 $w3지원 관계를 맺은 유닛이$w2\n"
+.stringn "3칸 안에 있을 때$Ub$H$w2\n"
+.stringn "전투와 관련된 파라미터가 상승하는 걸 말해.$K$Ub$H\n"
+.stringn "$P즉 $w3싸움을 유리하게\n"
+.stringn "진행할 수 있다는 거지.$K$P지원 효과로 받는 효과는$w3\n"
+.stringn "스테이터스 화면에서 확인할 수 있어.$K$P"
+db 0
+.align 4
+//MS_T09支援_06
+
+//0x10CBC
+Text_10C9C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이게 $w3그 스테이터스 화면――$w3\n"
+.stringn "유닛 위에서 #P02A 버튼을 누르면 표시돼.$w4\n"
+.stringn "지원 효과는 3페이지에 있어.$K$P이걸 보니 $w2아이크는$w3\n"
+.stringn "티아마트와 지원 관계를 맺음으로써$K$P방어가 +1, $w3명중이 +7,\n"
+.stringn "회피가 +15나 올라갔네.$K$P하지만 $w3방금 전에 말했듯이$w3\n"
+.stringn "3칸 안에 있지 않으면\n"
+.stringn "지원 효과는 받을 수 없으니까 조심해.$K"
+db 0
+.align 4
+//MS_T09支援_07
+
+//0x10E2C
+Text_10E0C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「지원」에 대한 지침은\n"
+.stringn "끝이야.$K$P지원 효과는$w2\n"
+.stringn "상대 유닛 및 지원 관계의 깊이$MC…$MD$w3\n"
+.stringn "지원 레벨에 따라 변화해.$K$P그러니까 $w3「지원 관계」$w1를\n"
+.stringn "맺을 때는 조심해 줘.$K"
+db 0
+.align 4
+//MS_T09支援_08
+
+//0xFB44
+Text_FB24:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「명령」에 대해서\n"
+.stringn "설명할게.$K$P「명령」$w1이란,$w3\n"
+.stringn "모든 아군 유닛의 행동을 지시하는\n"
+.stringn "커맨드야.$K$P할 수 있는 건$w2\n"
+.stringn "주인공인 아이크 한 명뿐이지$MC……$MD$w3\n"
+.stringn "다른 유닛에겐 $w2이 커맨드가 나오지 않아.$K$P그리고 $w2이 명령 말인데, $w3플레이어 페이즈에\n"
+.stringn "조작하지 않은 아군 유닛을$w3\n"
+.stringn "컴퓨터에게 조작시키는 커맨드야.$K$P아이크가 명령을 하고 있을 때는$w3\n"
+.stringn "플레이어 페이즈가 끝난 후에$w3\n"
+.stringn "미행동 유닛이 명령에 따라 행동하는 거지.$K$P어떻게 쓰는 거냐면――$K"
+db 0
+.align 4
+//MS_T09命令_01
+
+//0xFD40
+Text_FD20:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|먼저$w3\n"
+.stringn "아이크의 유닛 메뉴에서$w2\n"
+.stringn "「명령」$w1을 선택해.$K$Ub$H\n"
+.stringn "$P그러면$w2\n"
+.stringn "명령할 수 있는 내용의 메뉴가$w3\n"
+.stringn "표시되지.$K$P하늘색 글자로 되어 있는 항목은$w3\n"
+.stringn "지금 $w2명령하고 있는 항목을$w2\n"
+.stringn "나타내고 있는 거야.$K$P「명령」 내용은 $w2모두 4가지야.$w4\n"
+.stringn "플레이어가 조작하지 않을 때$w2\n"
+.stringn "명령에 따라 행동하게 된다고 했지?$K$P그러면 $w2명령의 내용에 대해서$w2\n"
+.stringn "위부터 순서대로 설명할게.$K"
+db 0
+.align 4
+//MS_T09命令_02
+
+//0xFED8
+Text_FEB8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|먼저 《집합》$w4\n"
+.stringn "아이크를 목표로$w2\n"
+.stringn "아군 유닛이 이동하는 거야.$K$P아이크 주위에 병력을 집중시킬 때나,$w3\n"
+.stringn "맵상에 분산된 유닛을$w2\n"
+.stringn "모을 때 사용하면 편리해.$K"
+db 0
+.align 4
+//MS_T09命令_03
+
+//0xFFA8
+Text_FF88:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|다음으로 《정지》$w4\n"
+.stringn "아군 유닛이 지금 장소에서 움직이지 않게 돼.$K$P아무것도 명령하지 않았을 때는$w2\n"
+.stringn "《정지》가 기본적으로 설정되어 있지.$K$P아군 유닛을 움직이기 싫을 때,$w3\n"
+.stringn "컴퓨터가 움직일 필요가 없을 때에는$w3\n"
+.stringn "이 명령을 선택해 놓으면 돼.$K"
+db 0
+.align 4
+//MS_T09命令_04
+
+//0x100A4
+Text_10084:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그리고 《지정》$w4\n"
+.stringn "플레이어가 지정한 장소로 이동하는 거야.$K$P거기서 이동하는데 몇 턴이 걸리든\n"
+.stringn "얼마나 멀리 있든 상관없어.$K"
+db 0
+.align 4
+//MS_T09命令_05
+
+//0x10138
+Text_10118:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지정된 지점은\n"
+.stringn "이렇게 하늘색 고리로\n"
+.stringn "표시돼.$K"
+db 0
+.align 4
+//MS_T09命令_05_2
+
+//0x1018C
+Text_1016C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|마지막으로 《회피》$w4\n"
+.stringn "적 유닛으로부터 공격을 받지 않을 것 같은\n"
+.stringn "안전한 곳으로 이동하는 거야.$K$P만약 안전한 곳이 없다면$w3\n"
+.stringn "일단 대미지를 잘 받지 않는\n"
+.stringn "장소로 이동하게 돼.$K"
+db 0
+.align 4
+//MS_T09命令_06
+
+//0x10248
+Text_10228:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|명령은 $w3유닛을 이동시키는 거야.$w4\n"
+.stringn "그러니까 $w3도중에 적 유닛이 있어도\n"
+.stringn "공격할 일은 없어.$K$P적 유닛을 공격하고 싶다면,$w3\n"
+.stringn "스스로 아군 유닛을 조작해야 해.$K$P물론 $w3그때는 유닛의 행동이 끝나서\n"
+.stringn "대기 상태가 되기 때문에$w3\n"
+.stringn "「명령」 행동을 할 수 없으니까 $w4조심해.$K$P"
+db 0
+.align 4
+//MS_T09命令_07
+
+//0x10384
+Text_10364:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「명령」에 대한 지침은\n"
+.stringn "끝이야.$K$P명령은 $w3잠시 필요 없는 유닛을\n"
+.stringn "플레이어 페이즈 후에 이동시키는\n"
+.stringn "보조적인 커맨드지.$K$P잘 사용하면 $w3모든 유닛을 움직이는\n"
+.stringn "번거로움을 $w2줄일 수 있어.$K"
+db 0
+.align 4
+//MS_T09命令_08
+
+//0x11814
+Text_117F4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「화신」에 대해서\n"
+.stringn "설명할게.$K"
+db 0
+.align 4
+//MS_T10化身_01
+
+//0x11854
+Text_11834:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|유닛의 종류는 「베오크」$w1와,$K"
+db 0
+.align 4
+//MS_T10化身_02
+
+//0x1188C
+Text_1186C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|「라구즈」$w1로 나뉘어.$K$P평소에는 둘 다 비슷한 모습이지만$w2\n"
+.stringn "라구즈는 싸우기 위해서 모습을 바꿀 수 있어.$w4\n"
+.stringn "그걸 「화신」$w1이라고 부르지.$K$P그리고 $w2화신하기 위해서\n"
+.stringn "모인 「힘」을 나타내는 게이지$MC……$MD$w4$Ub$H\n"
+.stringn "「화신 게이지」$w1라고 불리는 게 있어.$K"
+db 0
+.align 4
+//MS_T10化身_03
+
+//0x119B0
+Text_11990:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|화신 게이지는$w2\n"
+.stringn "턴이 지날 때마다 4씩 상승하고,$K"
+db 0
+.align 4
+//MS_T10化身_03_1
+
+//0x119FC
+Text_119DC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|공격당하면$w2 2씩 올라가.$K"
+db 0
+.align 4
+//MS_T10化身_03_2
+
+//0x11A3C
+Text_11A1C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그리고, $w2화신 게이지가 20이 되면\n"
+.stringn "화신하는 거지.$K"
+db 0
+.align 4
+//MS_T10化身_03_3
+
+//0x11A88
+Text_11A68:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|「화신」$w1 중인 유닛은 강력해.$K"
+db 0
+.align 4
+//MS_T10化身_04
+
+//0x11AC4
+Text_11AA4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|하지만 $w2라구즈는$w2\n"
+.stringn "계속 화신 상태로 있을 수 없어.$K$P화신 중에는 $w2턴이 지날 때마다\n"
+.stringn "게이지가 3씩 줄고, $w2게다가 전투를 하면\n"
+.stringn "1씩 줄어들거든.$K$P그 결과 $w2화신 게이지가\n"
+.stringn "0이 되면――$K"
+db 0
+.align 4
+//MS_T10化身_05
+
+//0x11BA4
+Text_11B84:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이렇게$w2\n"
+.stringn "화신이 풀리게 돼.$K$P그렇게 $w2또\n"
+.stringn "게이지가 쌓이면 화신하고$MC……$MD$w4\n"
+.stringn "이걸 $w1반복하는 거야.$K$P라구즈만의$w2\n"
+.stringn "이 특수 능력을 잘 살리면$w2\n"
+.stringn "분명 전투를 유리하게 진행할 수 있겠지.$K"
+db 0
+.align 4
+//MS_T10化身_06
+
+//0x11C8C
+Text_11C6C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「화신」에 대한 지침은\n"
+.stringn "끝이야.$K$P화신 중이라고 해서 $w2너무\n"
+.stringn "파고들지 말고 $w2화신 게이지를\n"
+.stringn "신경 쓰면서 싸우도록 해.$K"
+db 0
+.align 4
+//MS_T10化身_07
+
+//0x11D28
+Text_11D08:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「소지품(장비)2」에 대해서\n"
+.stringn "설명할게.$K$P아이템은 $w2대부분 사용하는 걸로\n"
+.stringn "효과를 발휘하지만, $w2개중에는 「장비」$w1해야\n"
+.stringn "효과가 나타나는 것들도 있어.$K$P예를 들면――$K"
+db 0
+.align 4
+//MS_T10装備２_01
+
+//0x11DF4
+Text_11DD4:
+.stringn "$RTUT小会話|$ND$W2아이템란을 봐봐.$w4\n"
+.stringn "「라구즈 가드」$w1라는\n"
+.stringn "도구가 있지?$K$P#P02A 버튼의 도움말로,$w2\n"
+.stringn "이 아이템의 설명을\n"
+.stringn "보면――$K"
+db 0
+.align 4
+//MS_T10装備２_02
+
+//0x11E90
+Text_11E70:
+.stringn "$RTUT会話|$s3$FS$c3ANNA|「장비하면~」$w1이라고 적혀 있네.$w4\n"
+.stringn "즉 이 아이템은 장비하는 걸로$w2\n"
+.stringn "효과가 나타난다는 거야.$K$P장비 방법은\n"
+.stringn "무기와 다를 게 없어.$K"
+db 0
+.align 4
+//MS_T10装備２_03
+
+//0x11F38
+Text_11F18:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이걸로 $w2이 아이템의\n"
+.stringn "효과를 얻게 됐어.$K$P하지만 개중에는 $w2누구나 장비 가능한\n"
+.stringn "것은 아닌 아이템도 있어.$w2\n"
+.stringn "주의하도록 해.$K"
+db 0
+.align 4
+//MS_T10装備２_04
+
+//0x11FEC
+Text_11FCC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「소지품(장비)2」에 대한 지침은\n"
+.stringn "끝이야.$K$P여러 번 말하지만,$w2\n"
+.stringn "이런 아이템은$w2\n"
+.stringn "장비하지 않으면 효과가 없어.$K$P즉, $w2가지고 있는 것만으로는$w2\n"
+.stringn "아무 쓸모도 없다는 거지.$w4\n"
+.stringn "잊지 마.$K"
+db 0
+.align 4
+//MS_T10装備２_05
+
+//0x120E0
+Text_120C0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「비행계 유닛」에 대해서\n"
+.stringn "설명할게.$K$P이건 「기승계 유닛」$w1의 연장선으로\n"
+.stringn "「페가수스」, $w1「드래곤」$w1과 같은\n"
+.stringn "하늘을 나는 유닛을 말하는 거야.$K$P하늘을 날고 있으니까$w2\n"
+.stringn "기마계 유닛은 이동할 수 없는 강 같은 곳도\n"
+.stringn "날아서 이동할 수 있어.$K"
+db 0
+.align 4
+//MS_T10飛行_01
+
+//0x121F4
+Text_121D4:
+.stringn "$RTUT会話|$s1$FA$c1ANNA|하지만 $w2반대로 하늘을 날고 있으니까,$w2\n"
+.stringn "지형 효과의 혜택을\n"
+.stringn "받을 수는 없어.$K$P게다가――$K"
+db 0
+.align 4
+//MS_T10飛行_02
+
+//0x1226C
+Text_1224C:
+.stringn "$RTUT会話|$s1$FA$c1ANNA|활 공격에는 엄청 약해서$w2\n"
+.stringn "「특효」가 발생하게 돼.$K$P이동할 곳이나 역할을 잘 생각하지 않으면\n"
+.stringn "일방적으로 당하고 말 거야.$w4\n"
+.stringn "조심해.$K"
+db 0
+.align 4
+//MS_T10飛行_03
+
+//0x12310
+Text_122F0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「비행계 유닛」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T10飛行_04
+
+//0x10EF8
+Text_10ED8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「요청」에 대해서\n"
+.stringn "설명할게.$K$P「요청」$w1이란, $w2우군 유닛에게$w2\n"
+.stringn "행동을 지시하는 아이크 전용 커맨드야.$K$P우군 유닛은 $w2요청 지시에 따라\n"
+.stringn "행동할 거야.$K$P구체적으로 어떤 건지――$w4\n"
+.stringn "지금부터 간단히 설명할게.$K"
+db 0
+.align 4
+//MS_T10要請_01
+
+//0x11000
+Text_10FE0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|먼저 $w2아이크의 유닛 메뉴에서\n"
+.stringn "「요청」$w1을 선택해서 #P027 버튼을 눌러.$w4\n"
+.stringn "그러면――$K$Ub$H\n"
+.stringn "$P이런 메뉴가 표시될 거야.$K$P노란색으로 표시되어 있는 건$w2\n"
+.stringn "현재 요청의 내용이야.$K$P요청의 종류로는 $w2전부 4가지가 있는데$w2\n"
+.stringn "아무것도 안 하면 $w2우군 유닛은\n"
+.stringn "독자적으로 판단해서 행동할 거야.$K$P그럼, $w2구체적인 내용을\n"
+.stringn "위에서부터 순서대로 설명할게.$K"
+db 0
+.align 4
+//MS_T10要請_02
+
+//0x1117C
+Text_1115C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|먼저 《임의》――$w4\n"
+.stringn "우군 유닛이 $w1자체적인 판단으로\n"
+.stringn "행동해.$K$P아이크가 $w1아무것도 요청하지 않을 때는$w2\n"
+.stringn "이걸로 선택되어 있어.$K$P우군 유닛에게$w2\n"
+.stringn "특별히 지시할 게 없으면$w2\n"
+.stringn "이걸 골라 놓으면 돼.$K"
+db 0
+.align 4
+//MS_T10要請_03
+
+//0x11268
+Text_11248:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|다음으로 《정지》――$w4\n"
+.stringn "우군 유닛이$w2\n"
+.stringn "지금 있는 곳에서 대기하는 거야.$K$P이 요청을 받은 유닛은$w3\n"
+.stringn "행동을 정지하고$w2\n"
+.stringn "그 자리에서 움직이지 않게 돼.$K"
+db 0
+.align 4
+//MS_T10要請_04
+
+//0x11314
+Text_112F4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그리고 《이동》――$w4\n"
+.stringn "플레이어가 지정한 곳으로$w3\n"
+.stringn "우군 유닛이 이동하는 거야.$K$P이건 「명령」 커맨드의 「지정」과 마찬가지로$w2\n"
+.stringn "한 턴으로는 닿지 않는$w2\n"
+.stringn "먼 곳에서도 가능해.$K"
+db 0
+.align 4
+//MS_T10要請_05
+
+//0x113E0
+Text_113C0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이동 요청된 장소는\n"
+.stringn "이렇게 노란색 고리로\n"
+.stringn "표시되네.$K$P만약 「명령」으로 지정된 장소와\n"
+.stringn "같은 곳이라도, 하늘색과 노란색 고리가\n"
+.stringn "겹쳐서 표시되니까 괜찮아.$K"
+db 0
+.align 4
+//MS_T10要請_05_2
+
+//0x1149C
+Text_1147C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|마지막으로 《회피》――$w4\n"
+.stringn "적 유닛의 공격을 받지 않을 것 같은\n"
+.stringn "안전한 곳으로 이동하는 거야.$K$P만약 $w2안전한 곳이 없다면,$w2\n"
+.stringn "받는 대미지가 가장 적을 것 같은 곳으로$w2\n"
+.stringn "이동해.$K"
+db 0
+.align 4
+//MS_T10要請_06
+
+//0x11568
+Text_11548:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|「요청」$w1도 「명령」$w1과 같이 이동에 관한\n"
+.stringn "것이기 때문에, $w2중간에 적 유닛이 있어도$w2\n"
+.stringn "공격할 수는 없어.$K$P하지만 $w3「임의」$w1일 때는$w2\n"
+.stringn "우군 유닛이 독자적인 행동을 취하니까$w3\n"
+.stringn "싸움을 걸 수도 있지.$K$P우군 유닛의 행동은$w2\n"
+.stringn "PARTNER PHASE\n"
+.stringn "(파트너 페이즈)$w1에 행해지는데,$K$P이때는 $w2플레이어 페이즈 후이자$w3\n"
+.stringn "에너미 페이즈 전이야.$K"
+db 0
+.align 4
+//MS_T10要請_07
+
+//0x116F0
+Text_116D0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「요청」에 대한 지침은\n"
+.stringn "끝이야.$K$P우군 유닛은 $w2기타 유닛과\n"
+.stringn "마찬가지로 $w2플레이어가 못 움직이지만$w3\n"
+.stringn "어느 정도 $w2행동을 제어할 수 있어.$K$P강력하게 적을 무찌르는 킬러 유닛으로 쓸지$w3\n"
+.stringn "아군의 방패로서 싸우게 할지――$w4\n"
+.stringn "생각해서 쓰면 도움이 되는 존재야.$K"
+db 0
+.align 4
+//MS_T10要請_08
+
+//0x12C58
+Text_12C38:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「클래스 체인지」에 대해서\n"
+.stringn "설명할게.$K$P베오크 유닛은$w2\n"
+.stringn "특정 조건을 만족함으로써$w2\n"
+.stringn "「상급 클래스」의 유닛이 될 수 있어.$K$P「상급 클래스」의 유닛이 되면$w2\n"
+.stringn "강해지는 데다가$w3\n"
+.stringn "사용할 수 있는 무기가 늘기도 해.$K$P이 상급 클래스가 되는 것을\n"
+.stringn "「클래스 체인지」$w1라고 하지.$K$P클래스 체인지를 하는$w2\n"
+.stringn "방법은 두 종류가 있어.$w4\n"
+.stringn "그걸 지금부터 설명할 거야.$K"
+db 0
+.align 4
+//MS_T11クラスチェンジ_01
+
+//0x12DEC
+Text_12DCC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|먼저 $w2첫 번째 방법――$w3\n"
+.stringn "상급 클래스가 되기 전인 유닛을\n"
+.stringn "레벨 20으로 만드는 거야.$K$P그리고 이 상태에서$w2\n"
+.stringn "경험치를 100만큼 더 얻으면,$w3\n"
+.stringn "보통의 경우에는 레벨 업을 하겠지만――$K"
+db 0
+.align 4
+//MS_T11クラスチェンジ_02
+
+//0x12EB0
+Text_12E90:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이렇게 클래스 체인지를 하게 돼.$K$P레벨은 다시 1이 되고$w2\n"
+.stringn "경험치도 0이 되어 버리지만,$w3\n"
+.stringn "능력치는 전보다 올라가게 되지.$K$P다음으로 $w2또 하나의$w2\n"
+.stringn "「클래스 체인지」 방법 말인데――$K"
+db 0
+.align 4
+//MS_T11クラスチェンジ_03
+
+//0x12F84
+Text_12F64:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지금 레벨 12인 유닛이 있지?$w4\n"
+.stringn "이 유닛의\n"
+.stringn "소지품을 봐 볼게.$K"
+db 0
+.align 4
+//MS_T11クラスチェンジ_04
+
+//0x12FEC
+Text_12FCC:
+.stringn "$RTUT会話|$s3$FS$c3ANNA|「마스터 프루프」$w1라는\n"
+.stringn "아이템을 가지고 있지?$K$P레벨 10 이상의 유닛이$w2\n"
+.stringn "이 아이템을 사용하면$w2\n"
+.stringn "클래스 체인지할 수 있어.$K$P이 유닛의 레벨은 12니까,$w3\n"
+.stringn "아이템을 사용하면$w2\n"
+.stringn "클래스 체인지를 할 수 있겠지.$K$P이런 클래스 체인지는 한 번뿐이야.$w4\n"
+.stringn "다음에는 레벨 20이 돼도,$w3\n"
+.stringn "그 이상 경험치를 손에 넣을 수 없어.$K$P그리고 $w3원래부터 상급 유닛이었던 경우에도\n"
+.stringn "클래스 체인지를 할 수 없으니까$w2\n"
+.stringn "조심해.$K"
+db 0
+.align 4
+//MS_T11クラスチェンジ_05
+
+//0x131C0
+Text_131A0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「클래스 체인지」에 대한 지침은\n"
+.stringn "끝이야.$K$P"
+db 0
+.align 4
+//MS_T11クラスチェンジ_06
+
+//0x12358
+Text_12338:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「훔치기」에 대해서\n"
+.stringn "설명할게.$K$P도적 유닛은$w3\n"
+.stringn "적 유닛의 소지품을\n"
+.stringn "훔칠 수 있어.$K$P하지만 $w3훔칠 수 있는 건\n"
+.stringn "장비하지 않은\n"
+.stringn "소지품뿐이야.$K$P그럼, $w3아군의 도적 유닛으로\n"
+.stringn "적 유닛의 소지품을\n"
+.stringn "훔쳐 볼게.$K$P먼저 $w3도적 유닛을$w3\n"
+.stringn "적 유닛 옆으로 이동시킬 거야.$K"
+db 0
+.align 4
+//MS_T11盗む_01
+
+//0x12498
+Text_12478:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|「훔치기」 위해서는,$w3\n"
+.stringn "적 유닛에게$w3\n"
+.stringn "인접해 있으면 돼.$K$P그리고 $w3유닛 메뉴에서$w1\n"
+.stringn "「훔치기」 커맨드를 선택하고$w3\n"
+.stringn "그 후에 물건을 훔칠 상대 유닛을 정하는 거야.$K"
+db 0
+.align 4
+//MS_T11盗む_02
+
+//0x12560
+Text_12540:
+.stringn "$RTUT小会話|$ND$W1그러면 $w3훔칠 상대 유닛이 가지고 있는\n"
+.stringn "무기, $w3아이템이 표시돼.$K$P이 유닛은 「철의 검」$w1과\n"
+.stringn "「상처약」$w1을 가지고 있네.$K$P하지만 $w3철의 검은 장비하고 있으니까\n"
+.stringn "훔칠 수 없어.$K$P여기서는 「상처약」을 훔쳐야겠지.$w4\n"
+.stringn "상처약을 선택하고 #P027 버튼을 누를게.$K"
+db 0
+.align 4
+//MS_T11盗む_03
+
+//0x1267C
+Text_1265C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|자, $w3이렇게 적 유닛의 「상처약」$w1을\n"
+.stringn "「훔치기」$w1할 수 있었어.$K$P단, $w3소지품은\n"
+.stringn "무조건 훔칠 수 있는 게 아니야.$K$P상대보다 $w3속도가 1 이상 높고,$w3\n"
+.stringn "훔치고 싶은 물건의 무게보다 자신의 힘이\n"
+.stringn "1이라도 높아야 하지.$K"
+db 0
+.align 4
+//MS_T11盗む_04
+
+//0x12768
+Text_12748:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「훔치기」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T11盗む_05
+
+//0x127A4
+Text_12784:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「문」에 대해서\n"
+.stringn "설명할게.$K"
+db 0
+.align 4
+//MS_T11扉_01
+
+//0x127E0
+Text_127C0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|게임을 진행하다 보면,$w3\n"
+.stringn "이런 「문」$w1이 있는 방이\n"
+.stringn "나올 거야.$K"
+db 0
+.align 4
+//MS_T11扉_02
+
+//0x12844
+Text_12824:
+.stringn "$RTUT会話|$s3$FS$c3ANNA|소지품에 「문 열쇠」$w1가 있으면\n"
+.stringn "어느 유닛이든지$w2\n"
+.stringn "문을 열 수가 있어.$K$P「문 열쇠」$w1가 없는 경우에도\n"
+.stringn "도적 유닛이라면$w2\n"
+.stringn "문을 열 수 있지.$K$P하지만 $w3도적 유닛으로 할 때는$w2\n"
+.stringn "돈이 필요할 수도 있어.$w4\n"
+.stringn "조심해.$K"
+db 0
+.align 4
+//MS_T11扉_03
+
+//0x12954
+Text_12934:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼, $w3「문 열쇠」$w1를 가진 유닛으로\n"
+.stringn "시험해 볼게.$K$P먼저 $w3유닛을\n"
+.stringn "문 앞으로 이동시킬 거야.$K"
+db 0
+.align 4
+//MS_T11扉_04
+
+//0x129DC
+Text_129BC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|「문 열쇠」$w1를 가지고 있으면,$w3\n"
+.stringn "유닛 메뉴에 「문」$w1이라는\n"
+.stringn "커맨드가 표시돼.$K$P커맨드를 선택하고 $w2「문」을 열자.$K"
+db 0
+.align 4
+//MS_T11扉_05
+
+//0x12A84
+Text_12A64:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|자. $w4문이 열렸지?$K$P「소지품」$w1에서\n"
+.stringn "「문 열쇠」$w1를 선택해서 사용해도\n"
+.stringn "효과는 똑같아.$K$P이상으로$MC……$MD$w4 아$MC!$MD$w3 맞다,$w3\n"
+.stringn "하나 더$w2\n"
+.stringn "해야 할 말이 있었지.$K$P「문」은 공격해서$w3\n"
+.stringn "파괴할 수도 있어.$K$P「문 열쇠」$w1가 없어도,$w2\n"
+.stringn "「도적 유닛」$w1이 없어도,$w3\n"
+.stringn "야만적이지만 부숴버릴 수 있지.$K$P그런 경우에는$w2\n"
+.stringn "도끼가 편리할 거야.$K"
+db 0
+.align 4
+//MS_T11扉_06
+
+//0x12C1C
+Text_12BFC:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「문」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T11扉_07
+
+//0x13208
+Text_131E8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「승리 조건(도달)」에 대해서\n"
+.stringn "설명할게.$K$P「도달」$w1은, $w3「도달 지점」에$Ub$H\n"
+.stringn "주인공인 아이크, $w4$Ub$H또는 아군 유닛이\n"
+.stringn "도착하는 걸 말해.$K$P「이탈」$w1이나 「제압」$w1과 다른 점은$w2\n"
+.stringn "주인공인 아이크 말고도$w2\n"
+.stringn "도달하면 맵이 클리어된다는 거야.$K$P그럼 $w3아군 유닛을\n"
+.stringn "도달시켜 볼게.$K"
+db 0
+.align 4
+//MS_T12到達_01
+
+//0x1335C
+Text_1333C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|도달 지점으로 아군 유닛을 이동시키면$w2\n"
+.stringn "유닛 메뉴에$w2\n"
+.stringn "「도달」$w1이라는 커맨드가 나타나.$K$Ub$H\n"
+.stringn "$P여기서 「예」$w1를 선택하고\n"
+.stringn "A 버튼을 누르면$w3\n"
+.stringn "이 맵은 클리어돼.$K"
+db 0
+.align 4
+//MS_T12到達_02
+
+//0x13430
+Text_13410:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이런 느낌이야.$K$P이때 $w3적 유닛이 남아 있는지나$w2\n"
+.stringn "도달한 유닛이 아이크인지는\n"
+.stringn "전혀 상관없어.$K$P이미 말했지만$w3\n"
+.stringn "그건 잊지 마.$K"
+db 0
+.align 4
+//MS_T12到達_03
+
+//0x134F4
+Text_134D4:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그리고 $w3맵에 따라서는$w3\n"
+.stringn "정해진 턴 내에\n"
+.stringn "도달해야 하는 맵도 있어.$K$P느긋하게 싸우고 있다간$w2\n"
+.stringn "게임 오버가 될지도 몰라.$w4\n"
+.stringn "조심해.$K$P턴 수가 정해져 있을 때는$w2\n"
+.stringn "왼쪽 위의 승리 조건에\n"
+.stringn "몇 턴인지 표시되어 있어.$K$P반대로 $w3거기에 표시가 없으면$w2\n"
+.stringn "턴 수에 제한이 없다고 봐도 되겠지?$K"
+db 0
+.align 4
+//MS_T12到達_04
+
+//0x1365C
+Text_1363C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「승리 조건(도달)」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T12到達_05
+
+//0x136A4
+Text_13684:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「이동 코스트」$w1에 대해서\n"
+.stringn "설명할게.$K$P「이동 코스트」란,$w3\n"
+.stringn "간단히 말하자면$w3\n"
+.stringn "지형의 험함을 수치화한 거야.$K$P예를 들어 $w3「사막」$w1이라는 지형이\n"
+.stringn "있다고 치자.$K"
+db 0
+.align 4
+//MS_T16移動コスト_01
+
+//0x13780
+Text_13760:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|여기서 $w3「이동력」$w1이 높은\n"
+.stringn "기마계 유닛을$w2\n"
+.stringn "이동시키려고 하면――$K"
+db 0
+.align 4
+//MS_T16移動コスト_02
+
+//0x137E8
+Text_137C8:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|위의 사막에서 표시되는 이동 범위가$w2\n"
+.stringn "아래의 평지에 비해서 좁지?$K$P사막은 $w3기마계 유닛이 이동하기엔\n"
+.stringn "이동 코스트가 높아$MC……$MD$w4\n"
+.stringn "즉, $w3이동하기 어렵다는 거지.$K$P실제로 얼마나 줄어드는지\n"
+.stringn "화살표를 늘려서\n"
+.stringn "봐 볼게.$K"
+db 0
+.align 4
+//MS_T16移動コスト_03
+
+//0x138F0
+Text_138D0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|어때?$w4 위의 사막은 아래의 평지에 비해서\n"
+.stringn "명백히 화살표가 짧지?$K$P그 외에도 「제너럴」$w1같이\n"
+.stringn "무거운 갑옷을 입고 있는 유닛도$w3\n"
+.stringn "평지에 비해$w3 이동하기 어려워져.$K$P그 외의 유닛도 $w3대부분\n"
+.stringn "이동하기 힘들어지는데,$w3\n"
+.stringn "개중에는 영향을 받지 않는 유닛도 있어.$K"
+db 0
+.align 4
+//MS_T16移動コスト_04
+
+//0x13A2C
+Text_13A0C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼, 그 영향을 받지 않는 유닛인$MC……$MD$w3\n"
+.stringn "$Ub$H「도적 유닛」$w1과$w2\n"
+.stringn "$Ub$H「비행계 유닛」$w1을 봐 볼게.$K"
+db 0
+.align 4
+//MS_T16移動コスト_05
+
+//0x13AC0
+Text_13AA0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|먼저 도적 유닛,$w3\n"
+.stringn "이동 범위를 보면 알 수 있듯이\n"
+.stringn "평지와 같은 정도로 이동할 수 있어.$K"
+db 0
+.align 4
+//MS_T16移動コスト_06
+
+//0x13B30
+Text_13B10:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|다음으로 $w3비행계 유닛――$K"
+db 0
+.align 4
+//MS_T16移動コスト_07
+
+//0x13B68
+Text_13B48:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이쪽도 $w3평지와 다를 게 없네.$K$P비행계 유닛은 $w3하늘을 날고 있으니까\n"
+.stringn "사막뿐만 아니라$w3\n"
+.stringn "지형의 영향이 거의 없어.$K"
+db 0
+.align 4
+//MS_T16移動コスト_08
+
+//0x13C00
+Text_13BE0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|지금은 $w3사막을 예로 들어서 말했지만,$w3\n"
+.stringn "다른 지형에도 $w3각각의\n"
+.stringn "이동 코스트가 있어.$K$P도적 유닛이나 비행계 유닛으로\n"
+.stringn "알 수 있듯이, $w3이동 코스트는\n"
+.stringn "병종에 따라 달라지니까 기억해 둬.$K"
+db 0
+.align 4
+//MS_T16移動コスト_09
+
+//0x13CE0
+Text_13CC0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「이동 코스트」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T16移動コスト_10
+
+//0x13D24
+Text_13D04:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그럼 「주가(재행동)」에 대해서\n"
+.stringn "설명할게.$K$P「주가」는$w3\n"
+.stringn "「뤼시온」$w1만이 사용할 수 있어.$K$P여기서는$w3\n"
+.stringn "뤼시온이 지닌\n"
+.stringn "「재행동」$w1에 대해서 설명할 거야.$K$P먼저 $w3이미 행동을 끝낸\n"
+.stringn "아군 유닛의 옆으로 이동시킬게.$K"
+db 0
+.align 4
+//MS_T19呪歌_01
+
+//0x13E34
+Text_13E14:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그러면 $w3유닛 메뉴에\n"
+.stringn "「주가」$w1라는 커맨드가\n"
+.stringn "표시돼.$K$P이 「주가」$w1는, 인접한\n"
+.stringn "대기 상태의 아군 유닛 1명에게\n"
+.stringn "사용할 수 있어.$K$P사용 방법은 공격과 마찬가지로$w3\n"
+.stringn "먼저 메뉴에서 「주가」를 고르고,$w3\n"
+.stringn "상대를 선택한 후 #P027 버튼을 누르면 돼.$K"
+db 0
+.align 4
+//MS_T19呪歌_02
+
+//0x13F48
+Text_13F28:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|유닛이\n"
+.stringn "원래 색으로 돌아왔지?$K$P이건 $w3유닛이$w3\n"
+.stringn "한 번 더\n"
+.stringn "행동할 수 있게 됐다는 뜻이야.$K$P이렇게$w3\n"
+.stringn "한 번 행동을 종료했던 유닛을\n"
+.stringn "다시 행동할 수 있게 하는 게 바로$MC…$MD$w3 주가지.$K$P주가$w1를 사용하면,$w3\n"
+.stringn "경험치를 10 얻을 수 있어.$K"
+db 0
+.align 4
+//MS_T19呪歌_03
+
+//0x14080
+Text_14060:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|그리고, $w3 뤼시온은\n"
+.stringn "라구즈니까$w3\n"
+.stringn "화신도 할 수 있지.$K"
+db 0
+.align 4
+//MS_T19呪歌_04
+
+//0x140E0
+Text_140C0:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이 상태에서 $w3화신 전과 마찬가지로\n"
+.stringn "「주가」$w1를 사용하면――$K$P"
+db 0
+.align 4
+//MS_T19呪歌_05
+
+//0x1413C
+Text_1411C:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|봐봐$MC!$MD$w4 주위에 있는\n"
+.stringn "모든 유닛의\n"
+.stringn "색이 원래대로 돌아왔어.$K$P이처럼 $w3화신해 있을 때는$w3\n"
+.stringn "모든 인접해 있는 유닛에게\n"
+.stringn "효과가 있어.$K$P최대 4명의 유닛을$w3\n"
+.stringn "행동 가능하게 만들 수 있으니까$w3\n"
+.stringn "잘 사용해 봐.$K"
+db 0
+.align 4
+//MS_T19呪歌_06
+
+//0x14234
+Text_14214:
+.stringn "$RTUT会話|$s1$FS$c1ANNA|이상으로 「주가(재행동)」에 대한 지침은\n"
+.stringn "끝이야.$K"
+db 0
+.align 4
+//MS_T19呪歌_07
+
+//0x2DC
+Text_2BC:
+.stringn "#S46－Demonstration－#s"
+db 0
+.align 4
+//MS_T_Demo
+
+//0x2C8
+Text_2A8:
+.stringn "다시 한번 듣겠습니까?"
+db 0
+.align 4
+//MS_T_r
+
+String_pointers:
+	dw Text_CCC-0x20
+	dw 0x0
+	dw Text_DB4-0x20
+	dw 0x10
+	dw Text_E74-0x20
+	dw 0x20
+	dw Text_EF4-0x20
+	dw 0x30
+	dw Text_FE8-0x20
+	dw 0x40
+	dw Text_2D4-0x20
+	dw 0x50
+	dw Text_390-0x20
+	dw 0x68
+	dw Text_43C-0x20
+	dw 0x80
+	dw Text_4B4-0x20
+	dw 0x98
+	dw Text_514-0x20
+	dw 0xB0
+	dw Text_630-0x20
+	dw 0xC8
+	dw Text_68C-0x20
+	dw 0xE0
+	dw Text_704-0x20
+	dw 0xF8
+	dw Text_87C-0x20
+	dw 0x110
+	dw Text_8E0-0x20
+	dw 0x128
+	dw Text_9A4-0x20
+	dw 0x140
+	dw Text_A20-0x20
+	dw 0x158
+	dw Text_B38-0x20
+	dw 0x170
+	dw Text_BB4-0x20
+	dw 0x188
+	dw Text_C2C-0x20
+	dw 0x1A0
+	dw Text_0-0x20
+	dw 0x1B8
+	dw Text_78-0x20
+	dw 0x1C8
+	dw Text_268-0x20
+	dw 0x1D8
+	dw Text_2290-0x20
+	dw 0x1E8
+	dw Text_23B8-0x20
+	dw 0x1F6
+	dw Text_248C-0x20
+	dw 0x204
+	dw Text_255C-0x20
+	dw 0x212
+	dw Text_266C-0x20
+	dw 0x220
+	dw Text_27D4-0x20
+	dw 0x22E
+	dw Text_2D04-0x20
+	dw 0x23C
+	dw Text_2DE4-0x20
+	dw 0x24C
+	dw Text_2E60-0x20
+	dw 0x25C
+	dw Text_2EC4-0x20
+	dw 0x26C
+	dw Text_2F7C-0x20
+	dw 0x27C
+	dw Text_30C4-0x20
+	dw 0x28C
+	dw Text_1028-0x20
+	dw 0x29C
+	dw Text_11B0-0x20
+	dw 0x2AA
+	dw Text_1240-0x20
+	dw 0x2B8
+	dw Text_13FC-0x20
+	dw 0x2C6
+	dw Text_1470-0x20
+	dw 0x2D4
+	dw Text_14B4-0x20
+	dw 0x2E2
+	dw Text_164C-0x20
+	dw 0x2F0
+	dw Text_168C-0x20
+	dw 0x2FE
+	dw Text_17AC-0x20
+	dw 0x30C
+	dw Text_18BC-0x20
+	dw 0x31A
+	dw Text_1A0C-0x20
+	dw 0x328
+	dw Text_1C30-0x20
+	dw 0x336
+	dw Text_28B0-0x20
+	dw 0x344
+	dw Text_2978-0x20
+	dw 0x352
+	dw Text_29E4-0x20
+	dw 0x360
+	dw Text_2A64-0x20
+	dw 0x36E
+	dw Text_2AFC-0x20
+	dw 0x37C
+	dw Text_2BD0-0x20
+	dw 0x38A
+	dw Text_2C20-0x20
+	dw 0x39B
+	dw Text_1C74-0x20
+	dw 0x3A9
+	dw Text_1DA4-0x20
+	dw 0x3B7
+	dw Text_1E8C-0x20
+	dw 0x3C5
+	dw Text_201C-0x20
+	dw 0x3D6
+	dw Text_2158-0x20
+	dw 0x3E4
+	dw Text_548C-0x20
+	dw 0x3F2
+	dw Text_55B4-0x20
+	dw 0x402
+	dw Text_5718-0x20
+	dw 0x412
+	dw Text_590C-0x20
+	dw 0x422
+	dw Text_59EC-0x20
+	dw 0x434
+	dw Text_5B28-0x20
+	dw 0x444
+	dw Text_5C14-0x20
+	dw 0x454
+	dw Text_5E00-0x20
+	dw 0x464
+	dw Text_5FF4-0x20
+	dw 0x474
+	dw Text_60C4-0x20
+	dw 0x486
+	dw Text_61B4-0x20
+	dw 0x496
+	dw Text_6274-0x20
+	dw 0x4A6
+	dw Text_37CC-0x20
+	dw 0x4B6
+	dw Text_3884-0x20
+	dw 0x4C4
+	dw Text_3948-0x20
+	dw 0x4D2
+	dw Text_39A4-0x20
+	dw 0x4E0
+	dw Text_39E0-0x20
+	dw 0x4EE
+	dw Text_3A40-0x20
+	dw 0x4FC
+	dw Text_3B10-0x20
+	dw 0x50A
+	dw Text_3B54-0x20
+	dw 0x518
+	dw Text_4448-0x20
+	dw 0x526
+	dw Text_4500-0x20
+	dw 0x534
+	dw Text_454C-0x20
+	dw 0x542
+	dw Text_45BC-0x20
+	dw 0x550
+	dw Text_4674-0x20
+	dw 0x55E
+	dw Text_4808-0x20
+	dw 0x56C
+	dw Text_4B34-0x20
+	dw 0x57A
+	dw Text_4BD8-0x20
+	dw 0x588
+	dw Text_4D64-0x20
+	dw 0x596
+	dw Text_4DFC-0x20
+	dw 0x5A4
+	dw Text_4E38-0x20
+	dw 0x5B2
+	dw Text_4F24-0x20
+	dw 0x5C0
+	dw Text_4FC4-0x20
+	dw 0x5CE
+	dw Text_50B0-0x20
+	dw 0x5DC
+	dw Text_5178-0x20
+	dw 0x5EA
+	dw Text_5254-0x20
+	dw 0x5F8
+	dw Text_539C-0x20
+	dw 0x606
+	dw Text_53F0-0x20
+	dw 0x614
+	dw Text_62E8-0x20
+	dw 0x622
+	dw Text_6390-0x20
+	dw 0x630
+	dw Text_64CC-0x20
+	dw 0x63E
+	dw Text_6540-0x20
+	dw 0x64C
+	dw Text_6638-0x20
+	dw 0x65A
+	dw Text_675C-0x20
+	dw 0x668
+	dw Text_3C38-0x20
+	dw 0x676
+	dw Text_3FF8-0x20
+	dw 0x68C
+	dw Text_4058-0x20
+	dw 0x6A2
+	dw Text_40B0-0x20
+	dw 0x6B8
+	dw Text_4140-0x20
+	dw 0x6CE
+	dw Text_4348-0x20
+	dw 0x6E4
+	dw Text_438C-0x20
+	dw 0x6FA
+	dw Text_319C-0x20
+	dw 0x710
+	dw Text_331C-0x20
+	dw 0x71E
+	dw Text_34BC-0x20
+	dw 0x72C
+	dw Text_3598-0x20
+	dw 0x73A
+	dw Text_3690-0x20
+	dw 0x748
+	dw Text_3790-0x20
+	dw 0x756
+	dw Text_3400-0x20
+	dw 0x764
+	dw Text_8238-0x20
+	dw 0x773
+	dw Text_82E0-0x20
+	dw 0x783
+	dw Text_83D8-0x20
+	dw 0x795
+	dw Text_84D4-0x20
+	dw 0x7A5
+	dw Text_8664-0x20
+	dw 0x7B5
+	dw Text_8798-0x20
+	dw 0x7C5
+	dw Text_8880-0x20
+	dw 0x7D5
+	dw Text_8968-0x20
+	dw 0x7E5
+	dw Text_89E8-0x20
+	dw 0x7F5
+	dw Text_6CCC-0x20
+	dw 0x805
+	dw Text_6DF0-0x20
+	dw 0x811
+	dw Text_6E48-0x20
+	dw 0x81D
+	dw Text_6EA0-0x20
+	dw 0x829
+	dw Text_6EEC-0x20
+	dw 0x835
+	dw Text_7058-0x20
+	dw 0x841
+	dw Text_71C8-0x20
+	dw 0x84D
+	dw Text_67A4-0x20
+	dw 0x859
+	dw Text_68F8-0x20
+	dw 0x867
+	dw Text_695C-0x20
+	dw 0x875
+	dw Text_6A28-0x20
+	dw 0x883
+	dw Text_6B08-0x20
+	dw 0x891
+	dw Text_6C80-0x20
+	dw 0x89F
+	dw Text_7204-0x20
+	dw 0x8AD
+	dw Text_73B4-0x20
+	dw 0x8BF
+	dw Text_76D4-0x20
+	dw 0x8D1
+	dw Text_77AC-0x20
+	dw 0x8E3
+	dw Text_7948-0x20
+	dw 0x8F5
+	dw Text_79F0-0x20
+	dw 0x907
+	dw Text_7ADC-0x20
+	dw 0x919
+	dw Text_7B88-0x20
+	dw 0x92B
+	dw Text_7C48-0x20
+	dw 0x93B
+	dw Text_7CA0-0x20
+	dw 0x94B
+	dw Text_7DBC-0x20
+	dw 0x95B
+	dw Text_7E40-0x20
+	dw 0x96B
+	dw Text_7EB8-0x20
+	dw 0x97B
+	dw Text_7FCC-0x20
+	dw 0x98B
+	dw Text_808C-0x20
+	dw 0x99B
+	dw Text_812C-0x20
+	dw 0x9AB
+	dw Text_8188-0x20
+	dw 0x9BB
+	dw Text_9CF4-0x20
+	dw 0x9CB
+	dw Text_9E5C-0x20
+	dw 0x9DD
+	dw Text_9F10-0x20
+	dw 0x9EF
+	dw Text_9F68-0x20
+	dw 0xA01
+	dw Text_A01C-0x20
+	dw 0xA13
+	dw Text_A18C-0x20
+	dw 0xA25
+	dw Text_A248-0x20
+	dw 0xA37
+	dw Text_A814-0x20
+	dw 0xA49
+	dw Text_A96C-0x20
+	dw 0xA57
+	dw Text_AA7C-0x20
+	dw 0xA65
+	dw Text_ABA0-0x20
+	dw 0xA73
+	dw Text_AC64-0x20
+	dw 0xA81
+	dw Text_B05C-0x20
+	dw 0xA8F
+	dw Text_B114-0x20
+	dw 0xA9D
+	dw Text_B1F4-0x20
+	dw 0xAAB
+	dw Text_8A98-0x20
+	dw 0xAB9
+	dw Text_8BB8-0x20
+	dw 0xAC7
+	dw Text_8CD8-0x20
+	dw 0xAD5
+	dw Text_8D40-0x20
+	dw 0xAE3
+	dw Text_8E98-0x20
+	dw 0xAF1
+	dw Text_8EFC-0x20
+	dw 0xAFF
+	dw Text_8F9C-0x20
+	dw 0xB0F
+	dw Text_9018-0x20
+	dw 0xB1D
+	dw Text_90D0-0x20
+	dw 0xB2B
+	dw Text_9148-0x20
+	dw 0xB39
+	dw Text_91CC-0x20
+	dw 0xB47
+	dw Text_922C-0x20
+	dw 0xB55
+	dw Text_9304-0x20
+	dw 0xB63
+	dw Text_9360-0x20
+	dw 0xB71
+	dw Text_93D4-0x20
+	dw 0xB7F
+	dw Text_9490-0x20
+	dw 0xB8D
+	dw Text_9578-0x20
+	dw 0xB9B
+	dw Text_A308-0x20
+	dw 0xBA9
+	dw Text_A498-0x20
+	dw 0xBBD
+	dw Text_A618-0x20
+	dw 0xBD1
+	dw Text_A6F4-0x20
+	dw 0xBE5
+	dw Text_95B4-0x20
+	dw 0xBF9
+	dw Text_96C4-0x20
+	dw 0xC07
+	dw Text_981C-0x20
+	dw 0xC15
+	dw Text_9928-0x20
+	dw 0xC23
+	dw Text_9AEC-0x20
+	dw 0xC31
+	dw Text_9B54-0x20
+	dw 0xC3F
+	dw Text_9BA8-0x20
+	dw 0xC4D
+	dw Text_9BE8-0x20
+	dw 0xC5B
+	dw Text_9C5C-0x20
+	dw 0xC69
+	dw Text_BF64-0x20
+	dw 0xC77
+	dw Text_BFF8-0x20
+	dw 0xC8B
+	dw Text_C0EC-0x20
+	dw 0xC9F
+	dw Text_C490-0x20
+	dw 0xCB3
+	dw Text_C590-0x20
+	dw 0xCC7
+	dw Text_C5FC-0x20
+	dw 0xCDB
+	dw Text_C7A8-0x20
+	dw 0xCEF
+	dw Text_C818-0x20
+	dw 0xD03
+	dw Text_C9C4-0x20
+	dw 0xD17
+	dw Text_CA6C-0x20
+	dw 0xD2B
+	dw Text_BA84-0x20
+	dw 0xD3F
+	dw Text_BBC8-0x20
+	dw 0xD4F
+	dw Text_BCB0-0x20
+	dw 0xD5F
+	dw Text_BD84-0x20
+	dw 0xD6F
+	dw Text_BDF4-0x20
+	dw 0xD7F
+	dw Text_BE20-0x20
+	dw 0xD8F
+	dw Text_BE50-0x20
+	dw 0xD9F
+	dw Text_BEAC-0x20
+	dw 0xDAF
+	dw Text_BF1C-0x20
+	dw 0xDBF
+	dw Text_CAB4-0x20
+	dw 0xDCF
+	dw Text_CCA8-0x20
+	dw 0xDDF
+	dw Text_CD04-0x20
+	dw 0xDEF
+	dw Text_CDF8-0x20
+	dw 0xDFF
+	dw Text_CE54-0x20
+	dw 0xE0F
+	dw Text_CF50-0x20
+	dw 0xE1F
+	dw Text_CFB8-0x20
+	dw 0xE2F
+	dw Text_B284-0x20
+	dw 0xE3F
+	dw Text_B5FC-0x20
+	dw 0xE55
+	dw Text_B660-0x20
+	dw 0xE6B
+	dw Text_B6C4-0x20
+	dw 0xE81
+	dw Text_B75C-0x20
+	dw 0xE97
+	dw Text_B968-0x20
+	dw 0xEAD
+	dw Text_B9D4-0x20
+	dw 0xEC3
+	dw Text_DC74-0x20
+	dw 0xED9
+	dw Text_DE2C-0x20
+	dw 0xEE9
+	dw Text_DF54-0x20
+	dw 0xEF9
+	dw Text_E028-0x20
+	dw 0xF09
+	dw Text_E08C-0x20
+	dw 0xF19
+	dw Text_E124-0x20
+	dw 0xF29
+	dw Text_E194-0x20
+	dw 0xF39
+	dw Text_E2B4-0x20
+	dw 0xF49
+	dw Text_E308-0x20
+	dw 0xF59
+	dw Text_E430-0x20
+	dw 0xF69
+	dw Text_E4B0-0x20
+	dw 0xF79
+	dw Text_D058-0x20
+	dw 0xF89
+	dw Text_D19C-0x20
+	dw 0xF97
+	dw Text_D2BC-0x20
+	dw 0xFA5
+	dw Text_D398-0x20
+	dw 0xFB3
+	dw Text_D428-0x20
+	dw 0xFC1
+	dw Text_D510-0x20
+	dw 0xFCF
+	dw Text_D5B4-0x20
+	dw 0xFDD
+	dw Text_D67C-0x20
+	dw 0xFEB
+	dw Text_D6C8-0x20
+	dw 0xFF9
+	dw Text_D740-0x20
+	dw 0x1007
+	dw Text_D934-0x20
+	dw 0x1015
+	dw Text_D9F0-0x20
+	dw 0x1023
+	dw Text_DAB4-0x20
+	dw 0x1031
+	dw Text_DB60-0x20
+	dw 0x103F
+	dw Text_E9D4-0x20
+	dw 0x104D
+	dw Text_EAAC-0x20
+	dw 0x105B
+	dw Text_EB18-0x20
+	dw 0x1069
+	dw Text_ECB0-0x20
+	dw 0x1077
+	dw Text_ED40-0x20
+	dw 0x1085
+	dw Text_EF30-0x20
+	dw 0x1093
+	dw Text_E4FC-0x20
+	dw 0x10A1
+	dw Text_E548-0x20
+	dw 0x10AF
+	dw Text_E68C-0x20
+	dw 0x10BD
+	dw Text_E760-0x20
+	dw 0x10CB
+	dw Text_E86C-0x20
+	dw 0x10D9
+	dw Text_E918-0x20
+	dw 0x10E7
+	dw Text_E98C-0x20
+	dw 0x10F5
+	dw Text_F39C-0x20
+	dw 0x1103
+	dw Text_F3E4-0x20
+	dw 0x1119
+	dw Text_F4C8-0x20
+	dw 0x112F
+	dw Text_F524-0x20
+	dw 0x1145
+	dw Text_F570-0x20
+	dw 0x115B
+	dw Text_F624-0x20
+	dw 0x1171
+	dw Text_F6D8-0x20
+	dw 0x1187
+	dw Text_F5C8-0x20
+	dw 0x119D
+	dw Text_F720-0x20
+	dw 0x11B5
+	dw Text_F760-0x20
+	dw 0x11C3
+	dw Text_F80C-0x20
+	dw 0x11D1
+	dw Text_F874-0x20
+	dw 0x11DF
+	dw Text_F8F8-0x20
+	dw 0x11ED
+	dw Text_F9A8-0x20
+	dw 0x11FB
+	dw Text_FAE8-0x20
+	dw 0x1209
+	dw Text_EFDC-0x20
+	dw 0x1217
+	dw Text_F080-0x20
+	dw 0x1225
+	dw Text_F0DC-0x20
+	dw 0x1233
+	dw Text_F1C8-0x20
+	dw 0x1241
+	dw Text_F360-0x20
+	dw 0x124F
+	dw Text_F174-0x20
+	dw 0x125D
+	dw Text_1045C-0x20
+	dw 0x126D
+	dw Text_105F4-0x20
+	dw 0x127B
+	dw Text_106B0-0x20
+	dw 0x1289
+	dw Text_10814-0x20
+	dw 0x1297
+	dw Text_109D8-0x20
+	dw 0x12A5
+	dw Text_10B34-0x20
+	dw 0x12B3
+	dw Text_10C9C-0x20
+	dw 0x12C1
+	dw Text_10E0C-0x20
+	dw 0x12CF
+	dw Text_FB24-0x20
+	dw 0x12DD
+	dw Text_FD20-0x20
+	dw 0x12EB
+	dw Text_FEB8-0x20
+	dw 0x12F9
+	dw Text_FF88-0x20
+	dw 0x1307
+	dw Text_10084-0x20
+	dw 0x1315
+	dw Text_10118-0x20
+	dw 0x1323
+	dw Text_1016C-0x20
+	dw 0x1333
+	dw Text_10228-0x20
+	dw 0x1341
+	dw Text_10364-0x20
+	dw 0x134F
+	dw Text_117F4-0x20
+	dw 0x135D
+	dw Text_11834-0x20
+	dw 0x136B
+	dw Text_1186C-0x20
+	dw 0x1379
+	dw Text_11990-0x20
+	dw 0x1387
+	dw Text_119DC-0x20
+	dw 0x1397
+	dw Text_11A1C-0x20
+	dw 0x13A7
+	dw Text_11A68-0x20
+	dw 0x13B7
+	dw Text_11AA4-0x20
+	dw 0x13C5
+	dw Text_11B84-0x20
+	dw 0x13D3
+	dw Text_11C6C-0x20
+	dw 0x13E1
+	dw Text_11D08-0x20
+	dw 0x13EF
+	dw Text_11DD4-0x20
+	dw 0x13FF
+	dw Text_11E70-0x20
+	dw 0x140F
+	dw Text_11F18-0x20
+	dw 0x141F
+	dw Text_11FCC-0x20
+	dw 0x142F
+	dw Text_120C0-0x20
+	dw 0x143F
+	dw Text_121D4-0x20
+	dw 0x144D
+	dw Text_1224C-0x20
+	dw 0x145B
+	dw Text_122F0-0x20
+	dw 0x1469
+	dw Text_10ED8-0x20
+	dw 0x1477
+	dw Text_10FE0-0x20
+	dw 0x1485
+	dw Text_1115C-0x20
+	dw 0x1493
+	dw Text_11248-0x20
+	dw 0x14A1
+	dw Text_112F4-0x20
+	dw 0x14AF
+	dw Text_113C0-0x20
+	dw 0x14BD
+	dw Text_1147C-0x20
+	dw 0x14CD
+	dw Text_11548-0x20
+	dw 0x14DB
+	dw Text_116D0-0x20
+	dw 0x14E9
+	dw Text_12C38-0x20
+	dw 0x14F7
+	dw Text_12DCC-0x20
+	dw 0x150F
+	dw Text_12E90-0x20
+	dw 0x1527
+	dw Text_12F64-0x20
+	dw 0x153F
+	dw Text_12FCC-0x20
+	dw 0x1557
+	dw Text_131A0-0x20
+	dw 0x156F
+	dw Text_12338-0x20
+	dw 0x1587
+	dw Text_12478-0x20
+	dw 0x1595
+	dw Text_12540-0x20
+	dw 0x15A3
+	dw Text_1265C-0x20
+	dw 0x15B1
+	dw Text_12748-0x20
+	dw 0x15BF
+	dw Text_12784-0x20
+	dw 0x15CD
+	dw Text_127C0-0x20
+	dw 0x15D9
+	dw Text_12824-0x20
+	dw 0x15E5
+	dw Text_12934-0x20
+	dw 0x15F1
+	dw Text_129BC-0x20
+	dw 0x15FD
+	dw Text_12A64-0x20
+	dw 0x1609
+	dw Text_12BFC-0x20
+	dw 0x1615
+	dw Text_131E8-0x20
+	dw 0x1621
+	dw Text_1333C-0x20
+	dw 0x162F
+	dw Text_13410-0x20
+	dw 0x163D
+	dw Text_134D4-0x20
+	dw 0x164B
+	dw Text_1363C-0x20
+	dw 0x1659
+	dw Text_13684-0x20
+	dw 0x1667
+	dw Text_13760-0x20
+	dw 0x167B
+	dw Text_137C8-0x20
+	dw 0x168F
+	dw Text_138D0-0x20
+	dw 0x16A3
+	dw Text_13A0C-0x20
+	dw 0x16B7
+	dw Text_13AA0-0x20
+	dw 0x16CB
+	dw Text_13B10-0x20
+	dw 0x16DF
+	dw Text_13B48-0x20
+	dw 0x16F3
+	dw Text_13BE0-0x20
+	dw 0x1707
+	dw Text_13CC0-0x20
+	dw 0x171B
+	dw Text_13D04-0x20
+	dw 0x172F
+	dw Text_13E14-0x20
+	dw 0x173D
+	dw Text_13F28-0x20
+	dw 0x174B
+	dw Text_14060-0x20
+	dw 0x1759
+	dw Text_140C0-0x20
+	dw 0x1767
+	dw Text_1411C-0x20
+	dw 0x1775
+	dw Text_14214-0x20
+	dw 0x1783
+	dw Text_2BC-0x20
+	dw 0x1791
+	dw Text_2A8-0x20
+	dw 0x179B
+Function_Strings:
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x5E, 0x81, 0x5B, 0x83, 0x93, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x5E, 0x81, 0x5B, 0x83, 0x93, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x5E, 0x81, 0x5B, 0x83, 0x93, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x5E, 0x81, 0x5B, 0x83, 0x93, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x5E, 0x81, 0x5B, 0x83, 0x93, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x30, 0x39, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x31, 0x30, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x31, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x31, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x31, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x31, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x83, 0x7D, 0x83, 0x62, 0x83, 0x76, 0x83, 0x81, 0x83, 0x6A, 0x83, 0x85, 0x81, 0x5B, 0x5F, 0x31, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x8E, 0xE5, 0x90, 0x6C, 0x8C, 0xF6, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x8E, 0xE5, 0x90, 0x6C, 0x8C, 0xF6, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x30, 0x8E, 0xE5, 0x90, 0x6C, 0x8C, 0xF6, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x4C, 0x76, 0x75, 0x70, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x4C, 0x76, 0x75, 0x70, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x4C, 0x76, 0x75, 0x70, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x4C, 0x76, 0x75, 0x70, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x4C, 0x76, 0x75, 0x70, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x4C, 0x76, 0x75, 0x70, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x83, 0x58, 0x83, 0x4C, 0x83, 0x8B, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x83, 0x58, 0x83, 0x4C, 0x83, 0x8B, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x83, 0x58, 0x83, 0x4C, 0x83, 0x8B, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x83, 0x58, 0x83, 0x4C, 0x83, 0x8B, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x83, 0x58, 0x83, 0x4C, 0x83, 0x8B, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x83, 0x58, 0x83, 0x4C, 0x83, 0x8B, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x88, 0xDA, 0x93, 0xAE, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x88, 0xDA, 0x93, 0xAE, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x88, 0xDA, 0x93, 0xAE, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x88, 0xDA, 0x93, 0xAE, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x88, 0xDA, 0x93, 0xAE, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x88, 0xDA, 0x93, 0xAE, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x88, 0xDA, 0x93, 0xAE, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x8D, 0x55, 0x8C, 0x82, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x8D, 0x55, 0x8C, 0x82, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x8D, 0x55, 0x8C, 0x82, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x8D, 0x55, 0x8C, 0x82, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x8D, 0x55, 0x8C, 0x82, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x8E, 0x9D, 0x95, 0xA8, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x8E, 0x9D, 0x95, 0xA8, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x8E, 0x9D, 0x95, 0xA8, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x8E, 0x9D, 0x95, 0xA8, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x8E, 0x9D, 0x95, 0xA8, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x8E, 0x9D, 0x95, 0xA8, 0x5F, 0x30, 0x35, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x8E, 0x9D, 0x95, 0xA8, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x91, 0xCC, 0x93, 0x96, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x91, 0xCC, 0x93, 0x96, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x91, 0xCC, 0x93, 0x96, 0x5F, 0x30, 0x32, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x91, 0xCC, 0x93, 0x96, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x31, 0x91, 0xCC, 0x93, 0x96, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x88, 0xF8, 0x8C, 0x70, 0x82, 0xAC, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x88, 0xF8, 0x8C, 0x70, 0x82, 0xAC, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x88, 0xF8, 0x8C, 0x70, 0x82, 0xAC, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x88, 0xF8, 0x8C, 0x70, 0x82, 0xAC, 0x5F, 0x30, 0x33, 0x5F, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x88, 0xF8, 0x8C, 0x70, 0x82, 0xAC, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x88, 0xF8, 0x8C, 0x70, 0x82, 0xAC, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x88, 0xF8, 0x8C, 0x70, 0x82, 0xAC, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x88, 0xF8, 0x8C, 0x70, 0x82, 0xAC, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x88, 0xF8, 0x8C, 0x70, 0x82, 0xAC, 0x5F, 0x30, 0x37, 0x5F, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x88, 0xF8, 0x8C, 0x70, 0x82, 0xAC, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x88, 0xF8, 0x8C, 0x70, 0x82, 0xAC, 0x5F, 0x30, 0x39, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x88, 0xF8, 0x8C, 0x70, 0x82, 0xAC, 0x5F, 0x31, 0x30, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x52, 0x8F, 0xE6, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x52, 0x8F, 0xE6, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x52, 0x8F, 0xE6, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x52, 0x8F, 0xE6, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x52, 0x8F, 0xE6, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x52, 0x8F, 0xE6, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x52, 0x8F, 0xE6, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x52, 0x8F, 0xE6, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x7E, 0x8F, 0x6F, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x7E, 0x8F, 0x6F, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x7E, 0x8F, 0x6F, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x7E, 0x8F, 0x6F, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x7E, 0x8F, 0x6F, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x7E, 0x8F, 0x6F, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x7E, 0x8F, 0x6F, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x7E, 0x8F, 0x6F, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x7E, 0x8F, 0x6F, 0x5F, 0x30, 0x39, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8B, 0x7E, 0x8F, 0x6F, 0x5F, 0x31, 0x30, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8C, 0xF0, 0x8A, 0xB7, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8C, 0xF0, 0x8A, 0xB7, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8C, 0xF0, 0x8A, 0xB7, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8C, 0xF0, 0x8A, 0xB7, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8C, 0xF0, 0x8A, 0xB7, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8C, 0xF0, 0x8A, 0xB7, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8C, 0xF0, 0x8A, 0xB7, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x8C, 0xF0, 0x8A, 0xB7, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x90, 0xA7, 0x88, 0xB3, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x90, 0xA7, 0x88, 0xB3, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x90, 0xA7, 0x88, 0xB3, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x90, 0xA7, 0x88, 0xB3, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x90, 0xA7, 0x88, 0xB3, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x90, 0xA7, 0x88, 0xB3, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x95, 0x90, 0x8A, 0xED, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x95, 0x90, 0x8A, 0xED, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x95, 0x90, 0x8A, 0xED, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x95, 0x90, 0x8A, 0xED, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x95, 0x90, 0x8A, 0xED, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x95, 0x90, 0x8A, 0xED, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x95, 0x90, 0x8A, 0xED, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x96, 0x4B, 0x96, 0xE2, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x96, 0x4B, 0x96, 0xE2, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x96, 0x4B, 0x96, 0xE2, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x96, 0x4B, 0x96, 0xE2, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x96, 0x4B, 0x96, 0xE2, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x96, 0x4B, 0x96, 0xE2, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x32, 0x96, 0x4B, 0x96, 0xE2, 0x5F, 0x56, 0x49, 0x4C, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8D, 0x55, 0x8C, 0x82, 0x82, 0x51, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8D, 0x55, 0x8C, 0x82, 0x82, 0x51, 0x5F, 0x30, 0x31, 0x5F, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8D, 0x55, 0x8C, 0x82, 0x82, 0x51, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8D, 0x55, 0x8C, 0x82, 0x82, 0x51, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8D, 0x55, 0x8C, 0x82, 0x82, 0x51, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8D, 0x55, 0x8C, 0x82, 0x82, 0x51, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8D, 0x55, 0x8C, 0x82, 0x82, 0x51, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8D, 0x55, 0x8C, 0x82, 0x82, 0x51, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8D, 0x55, 0x8C, 0x82, 0x82, 0x51, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8F, 0xF1, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8F, 0xF1, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8F, 0xF1, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8F, 0xF1, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8F, 0xF1, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8F, 0xF1, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x8F, 0xF1, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x91, 0x53, 0x96, 0xC5, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x91, 0x53, 0x96, 0xC5, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x91, 0x53, 0x96, 0xC5, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x91, 0x53, 0x96, 0xC5, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x91, 0x53, 0x96, 0xC5, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x91, 0x53, 0x96, 0xC5, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x92, 0x6E, 0x8C, 0x60, 0x8C, 0xF8, 0x89, 0xCA, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x92, 0x6E, 0x8C, 0x60, 0x8C, 0xF8, 0x89, 0xCA, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x92, 0x6E, 0x8C, 0x60, 0x8C, 0xF8, 0x89, 0xCA, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x92, 0x6E, 0x8C, 0x60, 0x8C, 0xF8, 0x89, 0xCA, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x92, 0x6E, 0x8C, 0x60, 0x8C, 0xF8, 0x89, 0xCA, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x92, 0x6E, 0x8C, 0x60, 0x8C, 0xF8, 0x89, 0xCA, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x92, 0x6E, 0x8C, 0x60, 0x8C, 0xF8, 0x89, 0xCA, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x93, 0x47, 0x94, 0xCD, 0x88, 0xCD, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x93, 0x47, 0x94, 0xCD, 0x88, 0xCD, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x93, 0x47, 0x94, 0xCD, 0x88, 0xCD, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x93, 0x47, 0x94, 0xCD, 0x88, 0xCD, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x93, 0x47, 0x94, 0xCD, 0x88, 0xCD, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x93, 0x47, 0x94, 0xCD, 0x88, 0xCD, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x93, 0x47, 0x94, 0xCD, 0x88, 0xCD, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x93, 0x47, 0x94, 0xCD, 0x88, 0xCD, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x93, 0x47, 0x94, 0xCD, 0x88, 0xCD, 0x5F, 0x30, 0x39, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x33, 0x93, 0x47, 0x94, 0xCD, 0x88, 0xCD, 0x5F, 0x31, 0x30, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8A, 0xD4, 0x90, 0xDA, 0x8D, 0x55, 0x8C, 0x82, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8A, 0xD4, 0x90, 0xDA, 0x8D, 0x55, 0x8C, 0x82, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8A, 0xD4, 0x90, 0xDA, 0x8D, 0x55, 0x8C, 0x82, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8A, 0xD4, 0x90, 0xDA, 0x8D, 0x55, 0x8C, 0x82, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8A, 0xD4, 0x90, 0xDA, 0x8D, 0x55, 0x8C, 0x82, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8A, 0xD4, 0x90, 0xDA, 0x8D, 0x55, 0x8C, 0x82, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8A, 0xD4, 0x90, 0xDA, 0x8D, 0x55, 0x8C, 0x82, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8F, 0xF3, 0x8B, 0xB5, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8F, 0xF3, 0x8B, 0xB5, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8F, 0xF3, 0x8B, 0xB5, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8F, 0xF3, 0x8B, 0xB5, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8F, 0xF3, 0x8B, 0xB5, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8F, 0xF3, 0x8B, 0xB5, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8F, 0xF3, 0x8B, 0xB5, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x8F, 0xF3, 0x8B, 0xB5, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x30, 0x35, 0x5F, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x30, 0x39, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x31, 0x30, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x31, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x31, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x31, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x31, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x31, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x90, 0x69, 0x8C, 0x82, 0x5F, 0x31, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x93, 0x47, 0x8F, 0xAB, 0x82, 0xCC, 0x8C, 0x82, 0x94, 0x6A, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x93, 0x47, 0x8F, 0xAB, 0x82, 0xCC, 0x8C, 0x82, 0x94, 0x6A, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x93, 0x47, 0x8F, 0xAB, 0x82, 0xCC, 0x8C, 0x82, 0x94, 0x6A, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x93, 0x47, 0x8F, 0xAB, 0x82, 0xCC, 0x8C, 0x82, 0x94, 0x6A, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x93, 0xC1, 0x8C, 0xF8, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x93, 0xC1, 0x8C, 0xF8, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x93, 0xC1, 0x8C, 0xF8, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x93, 0xC1, 0x8C, 0xF8, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x93, 0xC1, 0x8C, 0xF8, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x93, 0xC1, 0x8C, 0xF8, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x93, 0xC1, 0x8C, 0xF8, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x93, 0xC1, 0x8C, 0xF8, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x34, 0x93, 0xC1, 0x8C, 0xF8, 0x5F, 0x30, 0x39, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x70, 0x83, 0x89, 0x83, 0x81, 0x81, 0x5B, 0x83, 0x5E, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x70, 0x83, 0x89, 0x83, 0x81, 0x81, 0x5B, 0x83, 0x5E, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x70, 0x83, 0x89, 0x83, 0x81, 0x81, 0x5B, 0x83, 0x5E, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x70, 0x83, 0x89, 0x83, 0x81, 0x81, 0x5B, 0x83, 0x5E, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x70, 0x83, 0x89, 0x83, 0x81, 0x81, 0x5B, 0x83, 0x5E, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x70, 0x83, 0x89, 0x83, 0x81, 0x81, 0x5B, 0x83, 0x5E, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x70, 0x83, 0x89, 0x83, 0x81, 0x81, 0x5B, 0x83, 0x5E, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x70, 0x83, 0x89, 0x83, 0x81, 0x81, 0x5B, 0x83, 0x5E, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x70, 0x83, 0x89, 0x83, 0x81, 0x81, 0x5B, 0x83, 0x5E, 0x5F, 0x30, 0x39, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x70, 0x83, 0x89, 0x83, 0x81, 0x81, 0x5B, 0x83, 0x5E, 0x5F, 0x31, 0x30, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x77, 0x83, 0x8B, 0x83, 0x76, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x77, 0x83, 0x8B, 0x83, 0x76, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x77, 0x83, 0x8B, 0x83, 0x76, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x77, 0x83, 0x8B, 0x83, 0x76, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x77, 0x83, 0x8B, 0x83, 0x76, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x77, 0x83, 0x8B, 0x83, 0x76, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x77, 0x83, 0x8B, 0x83, 0x76, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x77, 0x83, 0x8B, 0x83, 0x76, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x83, 0x77, 0x83, 0x8B, 0x83, 0x76, 0x5F, 0x30, 0x39, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x8E, 0xCC, 0x82, 0xC4, 0x82, 0xE9, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x8E, 0xCC, 0x82, 0xC4, 0x82, 0xE9, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x8E, 0xCC, 0x82, 0xC4, 0x82, 0xE9, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x8E, 0xCC, 0x82, 0xC4, 0x82, 0xE9, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x8E, 0xCC, 0x82, 0xC4, 0x82, 0xE9, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x8E, 0xCC, 0x82, 0xC4, 0x82, 0xE9, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x8E, 0xCC, 0x82, 0xC4, 0x82, 0xE9, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x96, 0x82, 0x96, 0x40, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x96, 0x82, 0x96, 0x40, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x96, 0x82, 0x96, 0x40, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x96, 0x82, 0x96, 0x40, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x96, 0x82, 0x96, 0x40, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x96, 0x82, 0x96, 0x40, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x35, 0x96, 0x82, 0x96, 0x40, 0x82, 0x52, 0x82, 0xB7, 0x82, 0xAD, 0x82, 0xDD, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8C, 0xF0, 0x8A, 0xB7, 0x82, 0x51, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8C, 0xF0, 0x8A, 0xB7, 0x82, 0x51, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8C, 0xF0, 0x8A, 0xB7, 0x82, 0x51, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8C, 0xF0, 0x8A, 0xB7, 0x82, 0x51, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8C, 0xF0, 0x8A, 0xB7, 0x82, 0x51, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8C, 0xF0, 0x8A, 0xB7, 0x82, 0x51, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8C, 0xF0, 0x8A, 0xB7, 0x82, 0x51, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8C, 0xF0, 0x8A, 0xB7, 0x82, 0x51, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8C, 0xF0, 0x8A, 0xB7, 0x82, 0x51, 0x5F, 0x30, 0x39, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8C, 0xF0, 0x8A, 0xB7, 0x82, 0x51, 0x5F, 0x31, 0x30, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8C, 0xF0, 0x8A, 0xB7, 0x82, 0x51, 0x5F, 0x31, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8D, 0xF4, 0x93, 0x47, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8D, 0xF4, 0x93, 0x47, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8D, 0xF4, 0x93, 0x47, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8D, 0xF4, 0x93, 0x47, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8D, 0xF4, 0x93, 0x47, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8D, 0xF4, 0x93, 0x47, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x8D, 0xF4, 0x93, 0x47, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x96, 0x68, 0x89, 0x71, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x96, 0x68, 0x89, 0x71, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x96, 0x68, 0x89, 0x71, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x96, 0x68, 0x89, 0x71, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x96, 0x68, 0x89, 0x71, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x96, 0x68, 0x89, 0x71, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x36, 0x96, 0x68, 0x89, 0x71, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x37, 0x91, 0x95, 0x94, 0xF5, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x37, 0x91, 0x95, 0x94, 0xF5, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x37, 0x91, 0x95, 0x94, 0xF5, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x37, 0x91, 0x95, 0x94, 0xF5, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x37, 0x91, 0x95, 0x94, 0xF5, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x37, 0x91, 0x95, 0x94, 0xF5, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x37, 0x97, 0xA3, 0x92, 0x45, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x37, 0x97, 0xA3, 0x92, 0x45, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x37, 0x97, 0xA3, 0x92, 0x45, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x37, 0x97, 0xA3, 0x92, 0x45, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x37, 0x97, 0xA3, 0x92, 0x45, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x37, 0x97, 0xA3, 0x92, 0x45, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x37, 0x97, 0xA3, 0x92, 0x45, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x92, 0x86, 0x97, 0xA7, 0x83, 0x86, 0x83, 0x6A, 0x83, 0x62, 0x83, 0x67, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x92, 0x86, 0x97, 0xA7, 0x83, 0x86, 0x83, 0x6A, 0x83, 0x62, 0x83, 0x67, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x92, 0x86, 0x97, 0xA7, 0x83, 0x86, 0x83, 0x6A, 0x83, 0x62, 0x83, 0x67, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x92, 0x86, 0x97, 0xA7, 0x83, 0x86, 0x83, 0x6A, 0x83, 0x62, 0x83, 0x67, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x92, 0x86, 0x97, 0xA7, 0x83, 0x86, 0x83, 0x6A, 0x83, 0x62, 0x83, 0x67, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x92, 0x86, 0x97, 0xA7, 0x83, 0x86, 0x83, 0x6A, 0x83, 0x62, 0x83, 0x67, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x92, 0x86, 0x97, 0xA7, 0x83, 0x86, 0x83, 0x6A, 0x83, 0x62, 0x83, 0x67, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x92, 0x86, 0x97, 0xA7, 0x83, 0x86, 0x83, 0x6A, 0x83, 0x62, 0x83, 0x67, 0x5F, 0x54, 0x61, 0x6C, 0x6B, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x95, 0xF3, 0x94, 0xA0, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x95, 0xF3, 0x94, 0xA0, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x95, 0xF3, 0x94, 0xA0, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x95, 0xF3, 0x94, 0xA0, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x95, 0xF3, 0x94, 0xA0, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x95, 0xF3, 0x94, 0xA0, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x95, 0xF3, 0x94, 0xA0, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x98, 0x62, 0x82, 0xB7, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x98, 0x62, 0x82, 0xB7, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x98, 0x62, 0x82, 0xB7, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x98, 0x62, 0x82, 0xB7, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x98, 0x62, 0x82, 0xB7, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x38, 0x98, 0x62, 0x82, 0xB7, 0x5F, 0x54, 0x61, 0x6C, 0x6B, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x8E, 0x78, 0x89, 0x87, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x8E, 0x78, 0x89, 0x87, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x8E, 0x78, 0x89, 0x87, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x8E, 0x78, 0x89, 0x87, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x8E, 0x78, 0x89, 0x87, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x8E, 0x78, 0x89, 0x87, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x8E, 0x78, 0x89, 0x87, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x8E, 0x78, 0x89, 0x87, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x96, 0xBD, 0x97, 0xDF, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x96, 0xBD, 0x97, 0xDF, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x96, 0xBD, 0x97, 0xDF, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x96, 0xBD, 0x97, 0xDF, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x96, 0xBD, 0x97, 0xDF, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x96, 0xBD, 0x97, 0xDF, 0x5F, 0x30, 0x35, 0x5F, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x96, 0xBD, 0x97, 0xDF, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x96, 0xBD, 0x97, 0xDF, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x30, 0x39, 0x96, 0xBD, 0x97, 0xDF, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x89, 0xBB, 0x90, 0x67, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x89, 0xBB, 0x90, 0x67, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x89, 0xBB, 0x90, 0x67, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x89, 0xBB, 0x90, 0x67, 0x5F, 0x30, 0x33, 0x5F, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x89, 0xBB, 0x90, 0x67, 0x5F, 0x30, 0x33, 0x5F, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x89, 0xBB, 0x90, 0x67, 0x5F, 0x30, 0x33, 0x5F, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x89, 0xBB, 0x90, 0x67, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x89, 0xBB, 0x90, 0x67, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x89, 0xBB, 0x90, 0x67, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x89, 0xBB, 0x90, 0x67, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x91, 0x95, 0x94, 0xF5, 0x82, 0x51, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x91, 0x95, 0x94, 0xF5, 0x82, 0x51, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x91, 0x95, 0x94, 0xF5, 0x82, 0x51, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x91, 0x95, 0x94, 0xF5, 0x82, 0x51, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x91, 0x95, 0x94, 0xF5, 0x82, 0x51, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x94, 0xF2, 0x8D, 0x73, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x94, 0xF2, 0x8D, 0x73, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x94, 0xF2, 0x8D, 0x73, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x94, 0xF2, 0x8D, 0x73, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x97, 0x76, 0x90, 0xBF, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x97, 0x76, 0x90, 0xBF, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x97, 0x76, 0x90, 0xBF, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x97, 0x76, 0x90, 0xBF, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x97, 0x76, 0x90, 0xBF, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x97, 0x76, 0x90, 0xBF, 0x5F, 0x30, 0x35, 0x5F, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x97, 0x76, 0x90, 0xBF, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x97, 0x76, 0x90, 0xBF, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x30, 0x97, 0x76, 0x90, 0xBF, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x83, 0x4E, 0x83, 0x89, 0x83, 0x58, 0x83, 0x60, 0x83, 0x46, 0x83, 0x93, 0x83, 0x57, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x83, 0x4E, 0x83, 0x89, 0x83, 0x58, 0x83, 0x60, 0x83, 0x46, 0x83, 0x93, 0x83, 0x57, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x83, 0x4E, 0x83, 0x89, 0x83, 0x58, 0x83, 0x60, 0x83, 0x46, 0x83, 0x93, 0x83, 0x57, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x83, 0x4E, 0x83, 0x89, 0x83, 0x58, 0x83, 0x60, 0x83, 0x46, 0x83, 0x93, 0x83, 0x57, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x83, 0x4E, 0x83, 0x89, 0x83, 0x58, 0x83, 0x60, 0x83, 0x46, 0x83, 0x93, 0x83, 0x57, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x83, 0x4E, 0x83, 0x89, 0x83, 0x58, 0x83, 0x60, 0x83, 0x46, 0x83, 0x93, 0x83, 0x57, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x93, 0x90, 0x82, 0xDE, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x93, 0x90, 0x82, 0xDE, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x93, 0x90, 0x82, 0xDE, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x93, 0x90, 0x82, 0xDE, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x93, 0x90, 0x82, 0xDE, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x94, 0xE0, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x94, 0xE0, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x94, 0xE0, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x94, 0xE0, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x94, 0xE0, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x94, 0xE0, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x31, 0x94, 0xE0, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x32, 0x93, 0x9E, 0x92, 0x42, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x32, 0x93, 0x9E, 0x92, 0x42, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x32, 0x93, 0x9E, 0x92, 0x42, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x32, 0x93, 0x9E, 0x92, 0x42, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x32, 0x93, 0x9E, 0x92, 0x42, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x36, 0x88, 0xDA, 0x93, 0xAE, 0x83, 0x52, 0x83, 0x58, 0x83, 0x67, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x36, 0x88, 0xDA, 0x93, 0xAE, 0x83, 0x52, 0x83, 0x58, 0x83, 0x67, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x36, 0x88, 0xDA, 0x93, 0xAE, 0x83, 0x52, 0x83, 0x58, 0x83, 0x67, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x36, 0x88, 0xDA, 0x93, 0xAE, 0x83, 0x52, 0x83, 0x58, 0x83, 0x67, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x36, 0x88, 0xDA, 0x93, 0xAE, 0x83, 0x52, 0x83, 0x58, 0x83, 0x67, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x36, 0x88, 0xDA, 0x93, 0xAE, 0x83, 0x52, 0x83, 0x58, 0x83, 0x67, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x36, 0x88, 0xDA, 0x93, 0xAE, 0x83, 0x52, 0x83, 0x58, 0x83, 0x67, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x36, 0x88, 0xDA, 0x93, 0xAE, 0x83, 0x52, 0x83, 0x58, 0x83, 0x67, 0x5F, 0x30, 0x38, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x36, 0x88, 0xDA, 0x93, 0xAE, 0x83, 0x52, 0x83, 0x58, 0x83, 0x67, 0x5F, 0x30, 0x39, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x36, 0x88, 0xDA, 0x93, 0xAE, 0x83, 0x52, 0x83, 0x58, 0x83, 0x67, 0x5F, 0x31, 0x30, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x39, 0x8E, 0xF4, 0x89, 0xCC, 0x5F, 0x30, 0x31, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x39, 0x8E, 0xF4, 0x89, 0xCC, 0x5F, 0x30, 0x32, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x39, 0x8E, 0xF4, 0x89, 0xCC, 0x5F, 0x30, 0x33, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x39, 0x8E, 0xF4, 0x89, 0xCC, 0x5F, 0x30, 0x34, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x39, 0x8E, 0xF4, 0x89, 0xCC, 0x5F, 0x30, 0x35, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x39, 0x8E, 0xF4, 0x89, 0xCC, 0x5F, 0x30, 0x36, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x31, 0x39, 0x8E, 0xF4, 0x89, 0xCC, 0x5F, 0x30, 0x37, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x5F, 0x44, 0x65, 0x6D, 0x6F, 0x0
+db 0x4D, 0x53, 0x5F, 0x54, 0x5F, 0x72, 0x0
+File_End:
+.close

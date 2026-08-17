@@ -386,7 +386,7 @@ Text_1D44:
 .stringn "\x09\x02w4\x0741\x081D\x02mc…\x02md더 이상 \x02w3당신들의\n"
 .stringn "비겁한 방식에\x02w2\n"
 .stringn "가담하지 않겠습니다.\x11\x10마라드의 용사들이여\x02mc!\x02md\x02w4\n"
-.stringn "데인 사람으로서의 자긍심을 내어,\x02w3\n"
+.stringn "데인 사람으로서의 자긍심을 내서,\x02w3\n"
 .stringn "동포들의 생명을 구합시다\x02mc!!\x02md\x11\n"
 .stringn "\x09\x02w4\x01*\x01H\x02w4\x0750\x080D역시 배신했군\x02mc…\x02md\x02w5\n"
 .stringn "용서 못 해\x02mc…\x02md\x02w4 용서 못 한다\x02mc!!\x02md\x11\n"

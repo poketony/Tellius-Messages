@@ -432,7 +432,7 @@ MS_04_ED_02_B
 [F_Target=0][ClearBox]물론이지.[Pause=4]
 그나저나, [Pause=2]자네들의 전투 방식은
 정말 훌륭하구먼.[A][ClearBox]사실, [Pause=2]단장인 그레일씨가 와 주지 않을까
-마음대로 생각했었다네[FreezeMouth]…[UnfreezeMouth][A][ClearBox]자네 같은 젋은이들만으로도[Pause=3]
+마음대로 생각했었다네[FreezeMouth]…[UnfreezeMouth][A][ClearBox]자네 같은 젊은이들만으로도[Pause=3]
 괜찮을지 걱정이 되어서[FreezeMouth]…[UnfreezeMouth][A]
 [F_Target=3][ClearBox]그건[FreezeMouth]…[UnfreezeMouth] 죄송합니다.[Pause=4]
 공교롭게도 단장님은 다른 일로 바쁘셔서[FreezeMouth]…[UnfreezeMouth][A]

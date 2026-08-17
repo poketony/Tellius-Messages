@@ -259,7 +259,7 @@ MS_16_EV_02C
 
 [Scene=上下会話][Face='ME' Pos='0'][S_Target=0][FreezeMouth]!?[UnfreezeMouth][A]
 [Face='SOANVALCKE' Pos='1'][S_Target=1]이런 곳까지 와서[Pause=2]
-헤메고 있다니[FreezeMouth]……[UnfreezeMouth][Pause=4]
+헤매고 있다니[FreezeMouth]……[UnfreezeMouth][Pause=4]
 정말 [Pause=2]별난 사람이군.[A][ClearBox]음[FreezeMouth]……[UnfreezeMouth][Pause=3]
 빈손으로 돌려보내는 건 [Pause=2]예의가 아니지.[Pause=4][FaceCommand=S]
 기념으로 이것을 주마.[A][ClearBox]그 대신[FreezeMouth]…[UnfreezeMouth][Pause=4]

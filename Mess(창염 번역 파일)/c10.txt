@@ -537,7 +537,7 @@ MS_10_DIE_LETE
 [Face='IKE' Pos='1'][S_Target=1]레테[FreezeMouth]![UnfreezeMouth][Pause=3]
 여기는 [Pause=2]우리가 맡을게[FreezeMouth]![UnfreezeMouth][Pause=4]
 너는 물러나 줘[FreezeMouth]!![UnfreezeMouth][A]
-[S_Target=0][FreezeMouth]……[UnfreezeMouth]큿[Pause=5]
+[S_Target=0][FreezeMouth]……[UnfreezeMouth]큭[Pause=5]
 너희들을 왕궁에 데려다줄 때까지[FreezeMouth]…[UnfreezeMouth][Pause=2]
 [FreezeMouth]…[UnfreezeMouth]쓰러질 순 없지[FreezeMouth]……[UnfreezeMouth][A][ClearBox]지금은 일단 물러나겠어[FreezeMouth]…[UnfreezeMouth][Pause=4]
 [FreezeMouth]…………[UnfreezeMouth]미안해[FreezeMouth]……[UnfreezeMouth][A][X]

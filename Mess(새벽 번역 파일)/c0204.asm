@@ -242,7 +242,7 @@ db 0
 
 //0x13D4
 Text_13B4:
-.stringn "\x05FL|GEOFFRAY|KEVIN||\x04R上下会話|\x0700\x02eh\x080D不覚\x02mc……\x02md\x11\x10전군\x02mc……\x02md\x02w4 공격을 계속해라.\x02w4\n"
+.stringn "\x05FL|GEOFFRAY|KEVIN||\x04R上下会話|\x0700\x02eh\x080D이런\x02mc…… \x02md\x11\x10전군\x02mc……\x02md\x02w4 공격을 계속해라.\x02w4\n"
 .stringn "나한테 신경 쓰지 마라\x02mc……\x02md\x02w4\n"
 .stringn "여왕 폐하를 위해서 싸우는 거다\x02mc……\x02md\x02mc!\x02md\x02ec\x11\n"
 .stringn "\x0711\x081D제프리 장군님\x02mc……\x02md\x02mc!?\x02md\x02w4\n"
@@ -360,7 +360,7 @@ Text_1B84:
 .stringn "왕궁 기사단을 보내진 않았을 겁니다.\x11\x10저는 단지\x02mc…\x02md\x02w2 다른 사람보다 그가\n"
 .stringn "어떤 자인지 잘 알고 있을 뿐입니다.\x11\x10완전히 선민의식과\n"
 .stringn "귀족의식에 빠져 있는 그가\x02mc……\x02md\x11\x10민병을 아군으로서 싸우게 하는 것이\n"
-.stringn "조금 걸렸을 뿐이에요.\x11\n"
+.stringn "조금 마음에 걸렸을 뿐이에요.\x11\n"
 .stringn "\x0701\x02mc…\x02md여자의 감이라는 건\x02w2\n"
 .stringn "정말로 무섭구만.\x11\n"
 .stringn "\x0713엘린시아님을 지키기 위해서라면\x02w2\n"

@@ -31,7 +31,7 @@
 가슴을 쓸어내리면서 말이죠.[A][ClearBox]결국은 남의 일이란 겁니다.[A]
 [F_Target=3][ClearBox]하지만 이 나라에서 일어난 전쟁이야.[Pause=4]
 남이 아닌 자신의 일이잖아?[A]
-[F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]데인군에 이곳에 도착했을 때[FreezeMouth]……[UnfreezeMouth][Pause=4]
+[F_Target=1][ClearBox][FreezeMouth]…[UnfreezeMouth]데인군이 이곳에 도착했을 때[FreezeMouth]……[UnfreezeMouth][Pause=4]
 저들은 통감하게 되겠지요.[A][ClearBox]평화에 찌들어 [Pause=2]다른 자의 불행을 돌아보지 않은
 자신들의 말로가 [Pause=3]어떤 것인지를.[Pause=5]
 [FaceCommand=c]동정의 여지는 없어요.[A][F_Target=1][FaceCommand=D]

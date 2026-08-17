@@ -959,7 +959,7 @@ db 0
 
 //0x4444
 Text_4424:
-.stringn "\x05FL|ANNA||\x04RTUT会話|\x0701\x01s\x081D자, \x02w2이걸로 행동은 종료\x02mc…\x02md\x02w3と。\x11"
+.stringn "\x05FL|ANNA||\x04RTUT会話|\x0701\x01s\x081D자, \x02w2이걸로 행동은 종료\x02mc…\x02md\x02w3.\x11"
 db 0
 .align 4
 //MS_T02騎乗_07

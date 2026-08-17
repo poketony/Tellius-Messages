@@ -494,7 +494,7 @@ Text_F64:
 .stringn "모든 것이 달려 있다.\x11\n"
 .stringn "\x0701네 의뢰 덕분에\x02mc…\x02md\x02w2\n"
 .stringn "내 용병단도 \x02w2라구즈 연합과의 계약을\n"
-.stringn "일단 끝낼 수 있었어.\x11\x10큰 도움은 안되겠지만\x02w2\n"
+.stringn "일단 끝낼 수 있었어.\x11\x10큰 도움은 안 되겠지만\x02w2\n"
 .stringn "나라를 되찾는 데 힘을 빌려줄게.\x11\n"
 .stringn "\x0713무슨 말을 하는 게냐.\x02w4\n"
 .stringn "그대가 우리 군의 총사령관인데?\x11\n"

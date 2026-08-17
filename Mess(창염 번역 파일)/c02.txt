@@ -227,7 +227,7 @@ MS_02_ED_01_01_OB_OIE
 MS_02_ED_01_02_DIE
 
 [F_Target=1][ClearBox]방심해서 당해 버렸어. [Pause=4]
-ふふ[FreezeMouth]…[UnfreezeMouth][Pause=2]잘난 듯이 말해 놓고는[Pause=3]
+후후[FreezeMouth]… [UnfreezeMouth][Pause=2]잘난 듯이 말해 놓고는[Pause=3]
 [FreezeMouth]…[UnfreezeMouth]큭[FreezeMouth]…[UnfreezeMouth][A]
 [F_Target=3][ClearBox]티아마트, [Pause=2]무리하지 마.[A]$N$UB$H[X]
 
