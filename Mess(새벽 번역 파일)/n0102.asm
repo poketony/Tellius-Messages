@@ -114,16 +114,16 @@ db 0
 
 //0x1880
 Text_1860:
-.stringn "\x05FL|GRANDPA|MISTER1|GRANDMA||\x04R上下会話|\x0705\x085D기적이다\x02mc……\x02md\x02w4\x11\n"
-.stringn "\x09\x02w4\x0714\x084D기적이 일어났어\x02mc……\x02md\x11\n"
-.stringn "\x09\x02w4\x0725\x085D아아, \x02w2여신님\x02mc……\x02md\x02w4\x11"
+.stringn "\x05FL|BEGNION2||\x04R上下会話|\x0704\x084D이, \x02w1이건\x02mc……\x02md\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0102_ED_11
 
 //0x18D8
 Text_18B8:
-.stringn "\x05FL|MISTER1||\x04R上下会話|\x0705\x085D저게 \x02w2【치유의 손】\x02mc……\x02md\x02w4\x11\n"
+.stringn "\x05FL|GRANDPA|MISTER1|GRANDMA||\x04R上下会話|\x0705\x085D기적이다\x02mc……\x02md\x02w4\x11\n"
+.stringn "\x09\x02w4\x0714\x084D기적이 일어났어\x02mc……\x02md\x11\n"
+.stringn "\x09\x02w4\x0725\x085D아아, \x02w2여신님\x02mc……\x02md\x02w4\x11\n"
 .stringn "\x09\x02w4"
 db 0
 .align 4
@@ -131,7 +131,8 @@ db 0
 
 //0x1924
 Text_1904:
-.stringn "\x05FL|LADY2||\x04R上下会話|\x0700\x080D저 아이가 【은발의 소녀】\x02mc……\x02md\x11"
+.stringn "\x05FL|MISTER1|GRANDPA||\x04R上下会話|\x0705\x085D저게 \x02w2【치유의 손】\x02mc……\x02md\x02w4\x11\n"
+.stringn "\x09\x0710\x080D저 아이가 【은발의 소녀】\x02mc……\x02md\x11"
 db 0
 .align 4
 //MS_0102_ED_11_03
@@ -146,16 +147,17 @@ db 0
 
 //0x19B8
 Text_1998:
-.stringn "\x05FL|MISTER1||\x04R上下会話|\x0705\x085D\x02mc……\x02md\x11"
+.stringn "\x05FL|BEGNION2|MISTER1||\x04R上下会話|\x0704\x084D뭐, \x02w2뭐냐 네놈들\x02mc!\x02md\x02w4\n"
+.stringn "무슨 속셈이냐\x02mc!?\x02md\x11\n"
+.stringn "\x0715\x085D\x02mc……\x02md\x11"
 db 0
 .align 4
 //MS_0102_ED_14
 
 //0x19E4
 Text_19C4:
-.stringn "\x05FL|BEGNION2||\x04R上下会話|\x0704\x084D뭐, 뭐냐 네놈들\x02mc…\x02md\x02w4\n"
-.stringn "길을 열어라\x02mc!\x02md\x02w4\n"
-.stringn "아까처럼 되고 싶은 거냐\x02mc!?\x02md\x11"
+.stringn "\x05FL|BEGNION2||\x04R上下会話|\x0704\x084D기, \x02w2길을 열어\x02mc!\x02md\x02w4\n"
+.stringn "빨리 여는 거다\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0102_ED_14_02
@@ -191,7 +193,7 @@ Text_1B30:
 .stringn "「신속」하고 \x02w2「확실」하게 \x02w2수행해라.\x11\x10장애물이 있다면 \x02w2그걸\n"
 .stringn "제거할 정도의 머리는 가지라는 거다.\x02w5\n"
 .stringn "알겠냐, \x02w2이 쓰레기들아\x02mc!\x02md\x11\n"
-.stringn "\x09"
+.stringn "\x09\x02w4\x0715\x085D넵\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0102_ED_17
@@ -216,7 +218,7 @@ Text_1C74:
 .stringn "우린 \x02w2이제 어떻게 되는 거야?\x11\n"
 .stringn "\x0731\x081D당분간은\x02w3\n"
 .stringn "새로운 은신처를 찾을 때까지\x02w2\n"
-.stringn "이곳저곳을 전전하게 되겠지.\x11\n"
+.stringn "이곳저곳을 떠돌아다니게 되겠지.\x11\n"
 .stringn "\x0C20\x09\x02w4\x0740\x080D당분간\x02mc…\x02md\x02w3\n"
 .stringn "네바사와는 작별이구나.\x02w5\n"
 .stringn "\x02ec이 경치를 \x02w2눈에 새겨 두자.\x02w3\x11\n"
@@ -252,31 +254,36 @@ db 0
 
 //0x11E4
 Text_11C4:
-.stringn "\x05FL|MICAIAH_B||\x04R上下会話|\x0700\x080D니코\x02mc…\x02md\x02mc!\x02md\x11"
+.stringn "\x05FL|MICAIAH_B|LADY2||\x04R上下会話|\x0700\x080D니코\x02mc…\x02md\x02mc!\x02md\x11\n"
+.stringn "\x0711\x081D쫓기고 있는 거지?\x11"
 db 0
 .align 4
 //MS_0102_ED_N_01_02_02
 
 //0x121C
 Text_11FC:
-.stringn "\x05FL|LADY2||\x04R上下会話|\x0701\x081D또 그놈들에게 쫓기고 있는 거지?\x11\n"
-.stringn "\x09\x02w4"
+.stringn "\x05FL|MICAIAH_B|LADY2||\x04R上下会話|\x0700\x080D네\x02mc…?\x02md\x11\n"
+.stringn "\x0711\x081D미안해, \x02w2너희들에 대해서\x02mc…\x02md\x02w4\n"
+.stringn "전부 말해 버렸어.\x11\n"
+.stringn "\x0C00\x0F\x0C11\x09\x02w4"
 db 0
 .align 4
 //MS_0102_ED_N_01_02_03
 
 //0x1260
 Text_1240:
-.stringn "\x05FL|BOY2||\x04R上下会話|\x0704\x084D괜찮아?\x02w4\n"
-.stringn "누나네\x02mc…\x02md\x11"
+.stringn "\x05FL|GRANDPA|MICAIAH_B||\x04R上下会話|\x0704\x084D협박을 당해서 어쩔 수 없이\x02mc…\x02md\x02w4\n"
+.stringn "미안하구나.\x11\n"
+.stringn "\x0715\x085D괜찮아요.\x02w4\n"
+.stringn "신경 쓰지 마세요.\x11"
 db 0
 .align 4
 //MS_0102_ED_N_01_02_04
 
 //0x12A4
 Text_1284:
-.stringn "\x05FL|BEGNION2||\x02BO\x04R上下会話|\x0701\x081D젠장, \x01*\x01H\x02w2어디로 간 거야\x02mc!?\x02md\x11\n"
-.stringn "\x09\x01*\x01H"
+.stringn "\x05FL|BEGNION2|EDDIE||\x02BO\x04R上下会話|\x0701\x081D젠장, \x01*\x01H\x02w2어디로 간 거야\x02mc!?\x02md\x11\n"
+.stringn "\x09\x02w3\x01*\x01H\x0710\x080D위험해, \x02w3 따라붙었어\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0102_ED_N_01_03
@@ -360,7 +367,7 @@ Text_B5C:
 .stringn "내 예상대로였군.\x11\n"
 .stringn "\x0704\x01s경비를 허술하게 해 두면,\x02w2\n"
 .stringn "반드시 여기를 선택해서 온다\x02mc……\x02md\x02w4\n"
-.stringn "정말 \x02w2말하신 대로입니다.\x11\n"
+.stringn "정말 \x02w2말씀하신 대로입니다.\x11\n"
 .stringn "\x0715여기서 확실하게 처리해서\x02w3\n"
 .stringn "제국 놈들에게 \x02w2우리들의\n"
 .stringn "실력을 잘 보여 놔야지.\x11\n"

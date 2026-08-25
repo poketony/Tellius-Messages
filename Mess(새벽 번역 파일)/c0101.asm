@@ -233,8 +233,8 @@ Text_13AC:
 .stringn "아까 도망갔던 놈들은 \x02w1누구지?\x11\n"
 .stringn "\x0714\x084D놈들은 그\x02mc…\x02md\x02w4\n"
 .stringn "최근에 \x02w1이 수도 근처에서\x02w2\n"
-.stringn "민심을 현혹하고 있는 \x11\x10【새벽단】 일당일\n"
-.stringn "것이라고 \x02w1생각합니다\x02mc!\x02md\x11\n"
+.stringn "민심을 현혹하고 있는 \x11\x10【새벽단】 일당일 것이라\n"
+.stringn "\x02w1생각합니다\x02mc!\x02md\x11\n"
 .stringn "\x0725\x02mc…\x02md자세히 말해 봐라.\x11"
 db 0
 .align 4

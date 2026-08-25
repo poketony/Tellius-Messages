@@ -6831,7 +6831,7 @@ Text_EE98:
 
 //.org 0x100BC
 Text_1009C:
-.string "$R上下会話|$c0WAYU|$s0내가, $w3졌어$MC……?$MD$w4\n으, $w2거짓말$MC……$MD$K"
+.string "$R上下会話|$c0WAYU|$s0내가, $w3졌어$MC……?$MD$w4\n거, $w2거짓말$MC……$MD$K"
 .align 4
 //MDIE_WAYU
 

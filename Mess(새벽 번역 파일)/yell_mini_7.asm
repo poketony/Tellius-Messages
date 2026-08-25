@@ -16,37 +16,37 @@ dw 0x0
 Normal_String:
 //0x939C
 Text_937C:
-.stringn "\x05FL|LAURA||\x0701\x01s\x081Dはい。\x02w4\n"
-.stringn "あなたがそれを望むのでしたら。\x02w4\n"
-.stringn "はい\x02mc……\x02md\x02w4お約束します。\x11"
+.stringn "\x05FL|LAURA||\x0701\x01s\x081D네.\x02w4\n"
+.stringn "당신이 그걸 바라신다면.\x02w4\n"
+.stringn "네\x02mc……\x02md\x02w4 약속할게요.\x11"
 db 0
 .align 4
 //MMY_LAURA_RECV_0_A
 
 //0x8D80
 Text_8D60:
-.stringn "\x05FL|LAURA||\x0701\x01s\x081Dはい。\x02w4\n"
-.stringn "助け合いはすばらしいことだと\n"
-.stringn "女神様も仰っておられます。\x11"
+.stringn "\x05FL|LAURA||\x0701\x01s\x081D네.\x02w4\n"
+.stringn "서로 돕는 건 훌륭한 일이라고\n"
+.stringn "여신님께서도 말씀하셨어요.\x11"
 db 0
 .align 4
 //MMY_LAURA_RECV_0_B
 
 //0x8ADC
 Text_8ABC:
-.stringn "\x05FL|LAURA||\x0701\x01s\x081Dはい。\x02w4私には\n"
-.stringn "女神様のご加護がありますから。\x11"
+.stringn "\x05FL|LAURA||\x0701\x01s\x081D네.\x02w4 저에겐\n"
+.stringn "여신님의 가호가 있으니까요.\x11"
 db 0
 .align 4
 //MMY_LAURA_RECV_0_C
 
 //0x8DD8
 Text_8DB8:
-.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080Dどうしてなのでしょう、\x02w3\n"
-.stringn "@{0}さん\x02mc……\x02md\x11\x10いつの間にか私は\x02w2\n"
-.stringn "女神様の教えより\x02mc…\x02md\x02w3\n"
-.stringn "あなたを優先して考えてしまいます。\x11\n"
-.stringn "どうか\x02mc…\x02md\x02w3死なないで\x02mc…………\x02md\x11\n"
+.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080D어째서일까요,\x02w3\n"
+.stringn "@{0}씨\x02mc……\x02md\x11\x10어느새 저는\x02w2\n"
+.stringn "여신님의 가르침보다\x02mc…\x02md\x02w3\n"
+.stringn "당신을 먼저 생각하게 돼요.\x11\n"
+.stringn "부디\x02mc…\x02md\x02w3 죽지 마세요\x02mc…………\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -55,8 +55,8 @@ db 0
 
 //0x8B20
 Text_8B00:
-.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}さん。\x02w4\n"
-.stringn "私もご一緒させてください。\x11\n"
+.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0}씨.\x02w4\n"
+.stringn "저도 함께 가게 해 주세요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -65,8 +65,8 @@ db 0
 
 //0x8890
 Text_8870:
-.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}さん。\x02w4\n"
-.stringn "ケガなどはありませんか？\x11\n"
+.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}씨.\x02w4\n"
+.stringn "다친 곳은 없으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -75,11 +75,11 @@ db 0
 
 //0x8EAC
 Text_8E8C:
-.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080Dどうしてなのでしょう、\x02w3\n"
-.stringn "@{0}さま\x02mc……\x02md\x11\x10いつの間にか私は\x02w2\n"
-.stringn "女神様の教えより\x02mc…\x02md\x02w3\n"
-.stringn "あなたを優先して考えてしまいます。\x11\n"
-.stringn "どうか\x02mc…\x02md\x02w3死なないで\x02mc…………\x02md\x11\n"
+.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080D어째서일까요,\x02w3\n"
+.stringn "@{0}님\x02mc……\x02md\x11\x10어느새 저는\x02w2\n"
+.stringn "여신님의 가르침보다\x02mc…\x02md\x02w3\n"
+.stringn "당신을 먼저 생각하게 돼요.\x11\n"
+.stringn "부디\x02mc…\x02md\x02w3 죽지 마세요\x02mc…………\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -88,8 +88,8 @@ db 0
 
 //0x8B7C
 Text_8B5C:
-.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}さま。\x02w4\n"
-.stringn "私もお連れください。\x11\n"
+.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0}님.\x02w4\n"
+.stringn "저도 데려가 주세요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -98,8 +98,8 @@ db 0
 
 //0x88E0
 Text_88C0:
-.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D\x02w4@{0}さま。\x02w4\n"
-.stringn "ケガなどはございませんか？\x11\n"
+.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D\x02w4@{0}님.\x02w4\n"
+.stringn "다치신 곳은 없으신가요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -108,11 +108,11 @@ db 0
 
 //0x8F80
 Text_8F60:
-.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080Dどうしてなのでしょう、\x02w3\n"
-.stringn "獅子王さま\x02mc……\x02md\x11\x10いつの間にか私は\x02w2\n"
-.stringn "女神様の教えより\x02mc…\x02md\x02w3\n"
-.stringn "あなたを優先して考えてしまいます。\x11\n"
-.stringn "どうか\x02mc…\x02md\x02w3死なないで\x02mc…………\x02md\x11\n"
+.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080D어째서일까요,\x02w3\n"
+.stringn "사자왕님\x02mc……\x02md\x11\x10어느새 저는\x02w2\n"
+.stringn "여신님의 가르침보다\x02mc…\x02md\x02w3\n"
+.stringn "당신을 먼저 생각하게 돼요.\x11\n"
+.stringn "부디\x02mc…\x02md\x02w3 죽지 마세요\x02mc…………\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -121,8 +121,8 @@ db 0
 
 //0x8BD0
 Text_8BB0:
-.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3獅子王さま。\x02w4\n"
-.stringn "私もお連れください。\x11\n"
+.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 사자왕님.\x02w4\n"
+.stringn "저도 데려가 주세요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -131,8 +131,8 @@ db 0
 
 //0x8938
 Text_8918:
-.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D\x02w4獅子王さま。\x02w4\n"
-.stringn "ケガなどはございませんか？\x11\n"
+.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D\x02w4사자왕님.\x02w4\n"
+.stringn "다치신 곳은 없으신가요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -141,11 +141,11 @@ db 0
 
 //0x9054
 Text_9034:
-.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080Dどうしてなのでしょう、\x02w3\n"
-.stringn "クルトさん\x02mc……\x02md\x11\x10いつの間にか私は\x02w2\n"
-.stringn "女神様の教えより\x02mc…\x02md\x02w3\n"
-.stringn "あなたを優先して考えてしまいます。\x11\n"
-.stringn "どうか\x02mc…\x02md\x02w3死なないで\x02mc…………\x02md\x11\n"
+.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080D어째서일까요,\x02w3\n"
+.stringn "쿠르트씨\x02mc……\x02md\x11\x10어느새 저는\x02w2\n"
+.stringn "여신님의 가르침보다\x02mc…\x02md\x02w3\n"
+.stringn "당신을 먼저 생각하게 돼요.\x11\n"
+.stringn "부디\x02mc…\x02md\x02w3 죽지 마세요\x02mc…………\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -154,8 +154,8 @@ db 0
 
 //0x8C24
 Text_8C04:
-.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3クルトさん。\x02w4\n"
-.stringn "私もご一緒させてください。\x11\n"
+.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 쿠르트씨.\x02w4\n"
+.stringn "저도 함께 가게 해 주세요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -164,8 +164,8 @@ db 0
 
 //0x8990
 Text_8970:
-.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D\x02w4クルトさん。\x02w4\n"
-.stringn "ケガなどはありませんか？\x11\n"
+.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D\x02w4쿠르트씨.\x02w4\n"
+.stringn "다친 곳은 없으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -174,11 +174,11 @@ db 0
 
 //0x9128
 Text_9108:
-.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080Dどうしてなのでしょう、\x02w3\n"
-.stringn "鷹王さま\x02mc……\x02md\x11\x10いつの間にか私は\x02w2\n"
-.stringn "女神様の教えより\x02mc…\x02md\x02w3\n"
-.stringn "あなたを優先して考えてしまいます。\x11\n"
-.stringn "どうか\x02mc…\x02md\x02w3死なないで\x02mc…………\x02md\x11\n"
+.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080D어째서일까요,\x02w3\n"
+.stringn "응왕님\x02mc……\x02md\x11\x10어느새 저는\x02w2\n"
+.stringn "여신님의 가르침보다\x02mc…\x02md\x02w3\n"
+.stringn "당신을 먼저 생각하게 돼요.\x11\n"
+.stringn "부디\x02mc…\x02md\x02w3 죽지 마세요\x02mc…………\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -187,8 +187,8 @@ db 0
 
 //0x8C80
 Text_8C60:
-.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3鷹王さま。\x02w4\n"
-.stringn "私もお連れください。\x11\n"
+.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 응왕님.\x02w4\n"
+.stringn "저도 데려가 주세요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -197,8 +197,8 @@ db 0
 
 //0x89E4
 Text_89C4:
-.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D\x02w4鷹王さま。\x02w4\n"
-.stringn "ケガなどはございませんか？\x11\n"
+.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D\x02w4응왕님.\x02w4\n"
+.stringn "다치신 곳은 없으신가요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -207,11 +207,11 @@ db 0
 
 //0x91FC
 Text_91DC:
-.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080Dどうしてなのでしょう、\x02w3\n"
-.stringn "鴉王さま\x02mc……\x02md\x11\x10いつの間にか私は\x02w2\n"
-.stringn "女神様の教えより\x02mc…\x02md\x02w3\n"
-.stringn "あなたを優先して考えてしまいます。\x11\n"
-.stringn "どうか\x02mc…\x02md\x02w3死なないで\x02mc…………\x02md\x11\n"
+.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080D어째서일까요,\x02w3\n"
+.stringn "아왕님\x02mc……\x02md\x11\x10어느새 저는\x02w2\n"
+.stringn "여신님의 가르침보다\x02mc…\x02md\x02w3\n"
+.stringn "당신을 먼저 생각하게 돼요.\x11\n"
+.stringn "부디\x02mc…\x02md\x02w3 죽지 마세요\x02mc…………\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -220,8 +220,8 @@ db 0
 
 //0x8CD4
 Text_8CB4:
-.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3鴉王さま。\x02w4\n"
-.stringn "私もお連れください。\x11\n"
+.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 아왕님.\x02w4\n"
+.stringn "저도 데려가 주세요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -230,8 +230,8 @@ db 0
 
 //0x8A38
 Text_8A18:
-.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D\x02w4鴉王さま。\x02w4\n"
-.stringn "ケガなどはございませんか？\x11\n"
+.stringn "\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D\x02w4아왕님.\x02w4\n"
+.stringn "다치신 곳은 없으신가요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -240,11 +240,11 @@ db 0
 
 //0x92D0
 Text_92B0:
-.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080Dどうしてかしら、\x02w3\n"
-.stringn "@{0}\x02mc……\x02md\x11\x10いつの間にか私は\x02w2\n"
-.stringn "女神様の教えより\x02mc…\x02md\x02w3\n"
-.stringn "あなたを優先して考えてしまいます。\x11\n"
-.stringn "どうか\x02mc…\x02md\x02w3死なないで\x02mc…………\x02md\x11\n"
+.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x080D왜 그런 걸까요,\x02w3\n"
+.stringn "@{0}\x02mc……\x02md\x11\x10어느새 저는\x02w2\n"
+.stringn "여신님의 가르침보다\x02mc…\x02md\x02w3\n"
+.stringn "당신을 먼저 생각하게 돼요.\x11\n"
+.stringn "부디\x02mc…\x02md\x02w3 죽지 마세요\x02mc…………\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -253,8 +253,8 @@ db 0
 
 //0x8D28
 Text_8D08:
-.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}。\x02w4\n"
-.stringn "私もご一緒させてください。\x11\n"
+.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0}.\x02w4\n"
+.stringn "저도 함께 가게 해 주세요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -263,8 +263,8 @@ db 0
 
 //0x8A8C
 Text_8A6C:
-.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D\x02w4@{0}。\x02w4\n"
-.stringn "ケガなどはありませんか？\x11\n"
+.stringn "@\x05FL|LAURA||\x02BO\x04R上下会話|\x0700\x01s\x080D\x02w4@{0}.\x02w4\n"
+.stringn "다친 곳은 없으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -273,60 +273,60 @@ db 0
 
 //0x1A74
 Text_1A54:
-.stringn "\x05FL|LAY||\x0701\x01s\x081D\x02mc………\x02md\x02w4あぁ、\x02w3必ず。\x11"
+.stringn "\x05FL|LAY||\x0701\x01s\x081D\x02mc………\x02md\x02w4그래,\x02w3 꼭.\x11"
 db 0
 .align 4
 //MMY_LAY_RECV_0_A
 
 //0xCFC
 Text_CDC:
-.stringn "\x05FL|LAY||\x0701\x01s\x081Dああ、\x02w3そりゃいいな。\x02w4\n"
-.stringn "お互いにうまく助け合えば\n"
-.stringn "オレたちは２人以上の戦力になる。\x11"
+.stringn "\x05FL|LAY||\x0701\x01s\x081D그래,\x02w3 그거 좋겠네.\x02w4\n"
+.stringn "서로 잘 도우면서 싸우면\n"
+.stringn "둘이서 둘 이상의 몫을 할 수 있어.\x11"
 db 0
 .align 4
 //MMY_LAY_RECV_0_B
 
 //0x4C4
 Text_4A4:
-.stringn "\x05FL|LAY||\x0701\x01s\x081Dいまのところは、\x02w3なんとかな。\x02w4\n"
-.stringn "やばくなったら頼む。\x02w4\n"
-.stringn "そっちこそ大丈夫かい？\x11"
+.stringn "\x05FL|LAY||\x0701\x01s\x081D지금까진,\x02w3 어떻게든 버티고 있어.\x02w4\n"
+.stringn "위험해지면 부탁할게.\x02w4\n"
+.stringn "너야말로 괜찮아?\x11"
 db 0
 .align 4
 //MMY_LAY_RECV_0_C
 
 //0x1AA8
 Text_1A88:
-.stringn "\x05FL|LAY||\x0701\x01s\x081D\x02mc………\x02md\x02w4ええ、\x02w3必ず。\x11"
+.stringn "\x05FL|LAY||\x0701\x01s\x081D\x02mc………\x02md\x02w4네,\x02w3 반드시.\x11"
 db 0
 .align 4
 //MMY_LAY_RECV_1_A
 
 //0xD64
 Text_D44:
-.stringn "\x05FL|LAY||\x0701\x01s\x081Dですね。\x02w4\n"
-.stringn "互いにうまく助け合えば、\x02w3\n"
-.stringn "２人以上の戦力になります。\x11"
+.stringn "\x05FL|LAY||\x0701\x01s\x081D그렇군요.\x02w4\n"
+.stringn "서로 잘 도우면서 싸우면,\x02w3\n"
+.stringn "둘이서 둘 이상의 몫을 할 수 있죠.\x11"
 db 0
 .align 4
 //MMY_LAY_RECV_1_B
 
 //0x528
 Text_508:
-.stringn "\x05FL|LAY||\x0701\x01s\x081Dいまのところは、\x02w3なんとか。\x02w4\n"
-.stringn "やばくなったら頼みます。\x02w4\n"
-.stringn "そっちは大丈夫ですか？\x11"
+.stringn "\x05FL|LAY||\x0701\x01s\x081D지금까진,\x02w3 어떻게든 버티고 있습니다.\x02w4\n"
+.stringn "위험해지면 부탁드리죠.\x02w4\n"
+.stringn "그쪽은 괜찮으십니까?\x11"
 db 0
 .align 4
 //MMY_LAY_RECV_1_C
 
 //0xDBC
 Text_D9C:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかったよ、\x02w3@{0}。\x02w4\n"
-.stringn "ここまで生きててくれてさ。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくれよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행이야,\x02w3 @{0}.\x02w4\n"
+.stringn "여기까지 살아 있어 줘서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 줘.\x02w4\n"
+.stringn "날 위해서 말이야\x02mc……\x02md\x02w4\x02ec\x01s 농담이야.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -335,9 +335,9 @@ db 0
 
 //0x590
 Text_570:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dなあ@{0}、\x02w3\n"
-.stringn "なるべく傍で戦おう。\x02w4\n"
-.stringn "その方がお互いやりやすいだろ？\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D있잖아, @{0}.\x02w3\n"
+.stringn "되도록 가까이서 싸우자.\x02w4\n"
+.stringn "그래야 서로 움직이기 편하잖아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -346,8 +346,8 @@ db 0
 
 //0x20
 Text_0:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよ、\x02w3@{0}。\x02w4\n"
-.stringn "無事か？\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D여,\x02w3 @{0}.\x02w4\n"
+.stringn "무사해?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -356,10 +356,10 @@ db 0
 
 //0x15AC
 Text_158C:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかった、\x02w3鴉王。\x02w4\n"
-.stringn "ここまで生きててくださって。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくださいよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행입니다,\x02w3 아왕.\x02w4\n"
+.stringn "이렇게 무사히 살아 계셔서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 주세요.\x02w4\n"
+.stringn "저를 위해서 말이죠\x02mc……\x02md\x02w4\x02ec\x01s 농담입니다.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -368,9 +368,9 @@ db 0
 
 //0xA30
 Text_A10:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D鴉王、\x02w3\n"
-.stringn "オレなるべくお傍で戦います。\x02w4\n"
-.stringn "その方がお互いやりやすいかと思って。\x11\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아왕,\x02w3\n"
+.stringn "저도 되도록 곁에서 싸우겠습니다.\x02w4\n"
+.stringn "그래야 서로 움직이기 편할 것 같아서요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -379,8 +379,8 @@ db 0
 
 //0x30C
 Text_2EC:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3鴉王。\x02w4\n"
-.stringn "無事ですか？\x11\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 아왕.\x02w4\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -389,10 +389,10 @@ db 0
 
 //0x1674
 Text_1654:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかった、\x02w3@{0}王。\x02w4\n"
-.stringn "ここまで生きててくださって。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくださいよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행입니다,\x02w3 @{0} 왕.\x02w4\n"
+.stringn "이렇게 무사히 살아 계셔서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 주세요.\x02w4\n"
+.stringn "저를 위해서 말이죠\x02mc……\x02md\x02w4\x02ec\x01s 농담입니다.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -401,9 +401,9 @@ db 0
 
 //0xAA8
 Text_A88:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}王、\x02w3\n"
-.stringn "オレなるべくお傍で戦います。\x02w4\n"
-.stringn "その方がお互いやりやすいかと思って。\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 왕,\x02w3\n"
+.stringn "저도 되도록 곁에서 싸우겠습니다.\x02w4\n"
+.stringn "그래야 서로 움직이기 편할 것 같아서요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -412,8 +412,8 @@ db 0
 
 //0x350
 Text_330:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}王。\x02w4\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0} 왕.\x02w4\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -422,10 +422,10 @@ db 0
 
 //0x1740
 Text_1720:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかった、\x02w3@{0}姫。\x02w4\n"
-.stringn "ここまで生きててくださって。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくださいよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행입니다,\x02w3 @{0} 공주.\x02w4\n"
+.stringn "이렇게 무사히 살아 계셔서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 주세요.\x02w4\n"
+.stringn "저를 위해서 말이죠\x02mc……\x02md\x02w4\x02ec\x01s 농담입니다.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -434,9 +434,9 @@ db 0
 
 //0xB20
 Text_B00:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}姫、\x02w3\n"
-.stringn "オレなるべくお傍で戦います。\x02w4\n"
-.stringn "その方がお互いやりやすいかと思って。\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 공주,\x02w3\n"
+.stringn "저도 되도록 곁에서 싸우겠습니다.\x02w4\n"
+.stringn "그래야 서로 움직이기 편할 것 같아서요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -445,8 +445,8 @@ db 0
 
 //0x39C
 Text_37C:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}姫。\x02w4\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0} 공주.\x02w4\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -455,10 +455,10 @@ db 0
 
 //0x180C
 Text_17EC:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかった、\x02w3\x02w3@{0}卿。\x02w4\n"
-.stringn "ここまで生きててくださって。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくださいよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행입니다,\x02w3\x02w3 @{0} 경.\x02w4\n"
+.stringn "이렇게 무사히 살아 계셔서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 주세요.\x02w4\n"
+.stringn "저를 위해서 말이죠\x02mc……\x02md\x02w4\x02ec\x01s 농담입니다.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -467,9 +467,9 @@ db 0
 
 //0xB98
 Text_B78:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}卿、\x02w3\n"
-.stringn "オレなるべくお傍で戦います。\x02w4\n"
-.stringn "その方がお互いやりやすいかと思って。\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 경,\x02w3\n"
+.stringn "저도 되도록 곁에서 싸우겠습니다.\x02w4\n"
+.stringn "그래야 서로 움직이기 편할 것 같아서요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -478,8 +478,8 @@ db 0
 
 //0x3E8
 Text_3C8:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}卿。\x02w4\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0} 경.\x02w4\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -488,10 +488,10 @@ db 0
 
 //0x18DC
 Text_18BC:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかったよ、\x02w3【火消し】。\x02w4\n"
-.stringn "ここまで生きててくれてさ。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくれよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행이야,\x02w3 【불 끄는 자】.\x02w4\n"
+.stringn "여기까지 살아 있어 줘서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 줘.\x02w4\n"
+.stringn "날 위해서 말이야\x02mc……\x02md\x02w4\x02ec\x01s 농담이야.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -500,9 +500,9 @@ db 0
 
 //0xC10
 Text_BF0:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dなあ【火消し】、\x02w3\n"
-.stringn "なるべく傍で戦おう。\x02w4\n"
-.stringn "その方がお互いやりやすいだろ？\x11\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D있잖아, 【불 끄는 자】.\x02w3\n"
+.stringn "되도록 가까이서 싸우자.\x02w4\n"
+.stringn "그래야 서로 움직이기 편하잖아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -511,8 +511,8 @@ db 0
 
 //0x434
 Text_414:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3【火消し】。\n"
-.stringn "無事か？\x11\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 【불 끄는 자】.\n"
+.stringn "무사해?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -521,10 +521,10 @@ db 0
 
 //0x19A8
 Text_1988:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかった、\x02w3@{0}殿。\x02w4\n"
-.stringn "ここまで生きててくださって。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくださいよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행입니다,\x02w3 @{0} 공.\x02w4\n"
+.stringn "이렇게 무사히 살아 계셔서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 주세요.\x02w4\n"
+.stringn "저를 위해서 말이죠\x02mc……\x02md\x02w4\x02ec\x01s 농담입니다.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -533,9 +533,9 @@ db 0
 
 //0xC84
 Text_C64:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}殿、\x02w3\n"
-.stringn "オレなるべくお傍で戦います。\x02w4\n"
-.stringn "その方がお互いやりやすいかと思って。\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 공,\x02w3\n"
+.stringn "저도 되도록 곁에서 싸우겠습니다.\x02w4\n"
+.stringn "그래야 서로 움직이기 편할 것 같아서요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -544,8 +544,8 @@ db 0
 
 //0x478
 Text_458:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}殿。\x02w4\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0} 공.\x02w4\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -554,10 +554,10 @@ db 0
 
 //0xE84
 Text_E64:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかった、\x02w3@{0}様。\x02w4\n"
-.stringn "ここまで生きててくださって。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくださいよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행입니다,\x02w3 @{0}님.\x02w4\n"
+.stringn "이렇게 무사히 살아 계셔서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 주세요.\x02w4\n"
+.stringn "저를 위해서 말이죠\x02mc……\x02md\x02w4\x02ec\x01s 농담입니다.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -566,9 +566,9 @@ db 0
 
 //0x5FC
 Text_5DC:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}様、\x02w3\n"
-.stringn "オレなるべくお傍で戦います。\x02w4\n"
-.stringn "その方がお互いやりやすいかと思って。\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}님,\x02w3\n"
+.stringn "저도 되도록 곁에서 싸우겠습니다.\x02w4\n"
+.stringn "그래야 서로 움직이기 편할 것 같아서요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -577,8 +577,8 @@ db 0
 
 //0x64
 Text_44:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}様。\x02w4\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0}님.\x02w4\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -587,10 +587,10 @@ db 0
 
 //0xF50
 Text_F30:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかったよ、\x02w3タナス公。\x02w4\n"
-.stringn "ここまで生きてるなんてな。\x11\x10\x01a\x02mc……\x02mdこうなったら最後まで\x02w3\n"
-.stringn "生き残るってのもいいじゃないか？\x02w4\n"
-.stringn "オレ、\x02w3見守ってるからさ。\x11\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행이군,\x02w3 타나스 공.\x02w4\n"
+.stringn "여기까지 살아 있다니 말이야.\x11\x10\x01a\x02mc……\x02md이왕 이렇게 된 거 끝까지\x02w3\n"
+.stringn "살아남는 것도 괜찮지 않겠나?\x02w4\n"
+.stringn "내가,\x02w3 지켜보고 있을 테니까.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -599,9 +599,9 @@ db 0
 
 //0x674
 Text_654:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dなあタナス公、\x02w3\n"
-.stringn "なるべく傍で戦おう。\x02w4\n"
-.stringn "その方がお互いやりやすいだろ？\x11\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D있잖아, 타나스 공.\x02w3\n"
+.stringn "되도록 가까이서 싸우자.\x02w4\n"
+.stringn "그래야 서로 움직이기 편하잖아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -610,8 +610,8 @@ db 0
 
 //0xB0
 Text_90:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよ、\x02w3タナス公。\x02w4\n"
-.stringn "無事\x02mc…\x02md\x02w3みたいだな？\x11\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D여,\x02w3 타나스 공.\x02w4\n"
+.stringn "무사한\x02mc…\x02md\x02w3 모양이군?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -620,10 +620,10 @@ db 0
 
 //0x1014
 Text_FF4:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかった、\x02w3@{0}王子。\x02w4\n"
-.stringn "ここまで生きててくださって。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくださいよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행입니다,\x02w3 @{0} 왕자.\x02w4\n"
+.stringn "이렇게 무사히 살아 계셔서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 주세요.\x02w4\n"
+.stringn "저를 위해서 말이죠\x02mc……\x02md\x02w4\x02ec\x01s 농담입니다.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -632,9 +632,9 @@ db 0
 
 //0x6E4
 Text_6C4:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}王子、\x02w3\n"
-.stringn "オレなるべくお傍で戦います。\x02w4\n"
-.stringn "その方がお互いやりやすいかと思って。\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 왕자,\x02w3\n"
+.stringn "저도 되도록 곁에서 싸우겠습니다.\x02w4\n"
+.stringn "그래야 서로 움직이기 편할 것 같아서요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -643,8 +643,8 @@ db 0
 
 //0x108
 Text_E8:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}王子。\x02w4\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0} 왕자.\x02w4\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -653,10 +653,10 @@ db 0
 
 //0x10E4
 Text_10C4:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかった、\x02w3皇帝@{0}。\x02w4\n"
-.stringn "ここまで生きててくださって。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくださいよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행입니다,\x02w3 황제 @{0}.\x02w4\n"
+.stringn "이렇게 무사히 살아 계셔서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 주세요.\x02w4\n"
+.stringn "저를 위해서 말이죠\x02mc……\x02md\x02w4\x02ec\x01s 농담입니다.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -665,9 +665,9 @@ db 0
 
 //0x760
 Text_740:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D皇帝@{0}、\x02w3\n"
-.stringn "オレなるべくお傍で戦います。\x02w4\n"
-.stringn "その方がお互いやりやすいかと思って。\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D황제 @{0},\x02w3\n"
+.stringn "저도 되도록 곁에서 싸우겠습니다.\x02w4\n"
+.stringn "그래야 서로 움직이기 편할 것 같아서요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -676,8 +676,8 @@ db 0
 
 //0x154
 Text_134:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3皇帝@{0}。\x02w4\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 황제 @{0}.\x02w4\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -686,10 +686,10 @@ db 0
 
 //0x11B4
 Text_1194:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかった、\x02w3@{0}殿。\x02w4\n"
-.stringn "ここまで生きててくださって。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくださいよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행입니다,\x02w3 @{0} 공.\x02w4\n"
+.stringn "이렇게 무사히 살아 계셔서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 주세요.\x02w4\n"
+.stringn "저를 위해서 말이죠\x02mc……\x02md\x02w4\x02ec\x01s 농담입니다.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -698,9 +698,9 @@ db 0
 
 //0x7DC
 Text_7BC:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}殿、\x02w3\n"
-.stringn "オレなるべくお傍で戦います。\x02w4\n"
-.stringn "その方がお互いやりやすいかと思って。\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 공,\x02w3\n"
+.stringn "저도 되도록 곁에서 싸우겠습니다.\x02w4\n"
+.stringn "그래야 서로 움직이기 편할 것 같아서요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -709,8 +709,8 @@ db 0
 
 //0x1A0
 Text_180:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}殿。\x02w4\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0} 공.\x02w4\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -719,10 +719,10 @@ db 0
 
 //0x1280
 Text_1260:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあと一息だ、\x02w3@{0}将軍。\x02w4\n"
-.stringn "ここまで生きててくださって。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくださいよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D조금만 더 버티세요,\x02w3 @{0} 장군.\x02w4\n"
+.stringn "여기까지 살아남으셨으니.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 주세요.\x02w4\n"
+.stringn "저를 위해서 말이죠\x02mc……\x02md\x02w4\x02ec\x01s 농담입니다.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -731,9 +731,9 @@ db 0
 
 //0x854
 Text_834:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}将軍、\x02w3\n"
-.stringn "オレなるべくお傍で戦います。\x02w4\n"
-.stringn "その方がお互いやりやすいかと思って。\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 장군,\x02w3\n"
+.stringn "저도 되도록 곁에서 싸우겠습니다.\x02w4\n"
+.stringn "그래야 서로 움직이기 편할 것 같아서요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -742,8 +742,8 @@ db 0
 
 //0x1EC
 Text_1CC:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}将軍。\x02w4\n"
-.stringn "無事ですか？\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0} 장군.\x02w4\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -752,10 +752,10 @@ db 0
 
 //0x1350
 Text_1330:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかった、\x02w3@{0}さん。\x02w4\n"
-.stringn "ここまで生きててくれてさ。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくれよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행이야,\x02w3 @{0}씨.\x02w4\n"
+.stringn "여기까지 살아 있어 줘서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 줘.\x02w4\n"
+.stringn "날 위해서 말이야\x02mc……\x02md\x02w4\x02ec\x01s 농담이야.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -764,9 +764,9 @@ db 0
 
 //0x8D0
 Text_8B0:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dなあ@{0}さん、\x02w3\n"
-.stringn "なるべく傍で戦おう。\x02w4\n"
-.stringn "その方がお互いやりやすいだろ？\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D있잖아, @{0}씨.\x02w3\n"
+.stringn "되도록 가까이서 싸우자.\x02w4\n"
+.stringn "그래야 서로 움직이기 편하잖아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -775,8 +775,8 @@ db 0
 
 //0x238
 Text_218:
-.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよ、\x02w3@{0}さん。\x02w4\n"
-.stringn "無事か？\x11\n"
+.stringn "@\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D여,\x02w3 @{0}씨.\x02w4\n"
+.stringn "무사해?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -785,10 +785,10 @@ db 0
 
 //0x1418
 Text_13F8:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかった、\x02w3鷹王。\x02w4\n"
-.stringn "ここまで生きててくださって。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくださいよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행입니다,\x02w3 응왕.\x02w4\n"
+.stringn "이렇게 무사히 살아 계셔서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 주세요.\x02w4\n"
+.stringn "저를 위해서 말이죠\x02mc……\x02md\x02w4\x02ec\x01s 농담입니다.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -797,9 +797,9 @@ db 0
 
 //0x940
 Text_920:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D鷹王、\x02w3\n"
-.stringn "オレなるべくお傍で戦います。\x02w4\n"
-.stringn "その方がお互いやりやすいかと思って。\x11\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D응왕,\x02w3\n"
+.stringn "저도 되도록 곁에서 싸우겠습니다.\x02w4\n"
+.stringn "그래야 서로 움직이기 편할 것 같아서요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -808,8 +808,8 @@ db 0
 
 //0x280
 Text_260:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3鷹王。\n"
-.stringn "ご無事ですね？\x11\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 응왕.\n"
+.stringn "무사하시군요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -818,10 +818,10 @@ db 0
 
 //0x14E0
 Text_14C0:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dよかった、\x02w3狼女王。\x02w4\n"
-.stringn "ここまで生きててくださって。\x11\x10\x01a\x02mc……\x02mdこのまま最後まで\x02w3\n"
-.stringn "必ず生き残ってくださいよ？\x02w4\n"
-.stringn "オレのために\x02mc……\x02md\x02w4\x02ec\x01sなんて。\x02w3\x11\x02eo\x01a\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D다행입니다,\x02w3 늑대여왕.\x02w4\n"
+.stringn "이렇게 무사히 살아 계셔서.\x11\x10\x01a\x02mc……\x02md이대로 끝까지\x02w3\n"
+.stringn "꼭 살아남아 주세요.\x02w4\n"
+.stringn "저를 위해서 말이죠\x02mc……\x02md\x02w4\x02ec\x01s 농담입니다.\x02w3\x11\x02eo\x01a\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -830,9 +830,9 @@ db 0
 
 //0x9B8
 Text_998:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D狼女王、\x02w3\n"
-.stringn "オレなるべくお傍で戦います。\x02w4\n"
-.stringn "その方がお互いやりやすいかと思って。\x11\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D늑대여왕,\x02w3\n"
+.stringn "저도 되도록 곁에서 싸우겠습니다.\x02w4\n"
+.stringn "그래야 서로 움직이기 편할 것 같아서요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -841,8 +841,8 @@ db 0
 
 //0x2C4
 Text_2A4:
-.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3狼女王。\x02w4\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "\x05FL|LAY||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 늑대여왕.\x02w4\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -851,30 +851,30 @@ db 0
 
 //0x287C
 Text_285C:
-.stringn "\x05FL|LEARNE||\x0701\x01s\x081Dうん\x02mc……\x02md\x11"
+.stringn "\x05FL|LEARNE||\x0701\x01s\x081D응\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_LEARNE_RECV_0_A
 
 //0x2720
 Text_2700:
-.stringn "\x05FL|LEARNE||\x0701\x01s\x081D#F01\x02O2Isshoni!? Ureshii!\x11"
+.stringn "\x05FL|LEARNE||\x0701\x01s\x081D#F01\x02O2Hamkke!? Gippeo!\x11"
 db 0
 .align 4
 //MMY_LEARNE_RECV_0_B
 
 //0x25BC
 Text_259C:
-.stringn "\x05FL|LEARNE||\x0701\x01s\x081D#F01\x02O2Un,watashiha daijoubu...\x11"
+.stringn "\x05FL|LEARNE||\x0701\x01s\x081D#F01\x02O2Eung, naneun gwaenchana...\x11"
 db 0
 .align 4
 //MMY_LEARNE_RECV_0_C
 
 //0x2750
 Text_2730:
-.stringn "@\x05FL|LEARNE||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}\x02mc……\x02md\x02w4ぶじ、\x02w3いて。\x02w4\n"
-.stringn "#F01\x02O2Korekaramo#F02\x02O1\x02mc……\x02mdずっと\n"
-.stringn "２人、\x02w3いっしょ\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|LEARNE||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}\x02mc……\x02md\x02w4무사히,\x02w3 있어 줘.\x02w4\n"
+.stringn "#F01\x02O2Apeurodo#F02\x02O1\x02mc……\x02md 계속\n"
+.stringn "둘이,\x02w3 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -883,9 +883,9 @@ db 0
 
 //0x25F4
 Text_25D4:
-.stringn "@\x05FL|LEARNE||\x02BO\x04R上下会話|\x0700\x080D#F01\x02O2ano...#F02\x02O1\x02w4　@{0}\x02mc……\x02md\x02w4\n"
-.stringn "わたしも\x02mc…\x02md\x02w4いっ、\x02w2しょ\x02mc……\x02md\x02w4\n"
-.stringn "いい\x02mc……？\x02md\x11\n"
+.stringn "@\x05FL|LEARNE||\x02BO\x04R上下会話|\x0700\x080D#F01\x02O2Jeogi...#F02\x02O1\x02w4 @{0}\x02mc……\x02md\x02w4\n"
+.stringn "나도\x02mc…\x02md\x02w4 같, \x02w2이\x02mc……\x02md\x02w4\n"
+.stringn "가도 돼\x02mc……?\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -894,9 +894,9 @@ db 0
 
 //0x24C8
 Text_24A8:
-.stringn "@\x05FL|LEARNE||\x02BO\x04R上下会話|\x0700\x080D#F01\x02O2a...\x02w4 matte!#F02\x02O1\x02w4\n"
+.stringn "@\x05FL|LEARNE||\x02BO\x04R上下会話|\x0700\x080D#F01\x02O2A...\x02w4Gidaryeo!#F02\x02O1\x02w4\n"
 .stringn "\x02mc…\x02md@{0}\x02mc……\x02md\x02w4\n"
-.stringn "へい、\x02w1き？\x11\n"
+.stringn "괜, \x02w1찮아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -905,9 +905,9 @@ db 0
 
 //0x27E4
 Text_27C4:
-.stringn "@\x05FL|LEARNE||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}さま\x02mc……\x02md\x02w4ぶじ、\x02w3いて。\x02w4\n"
-.stringn "#F01\x02O2Korekaramo#F02\x02O1\x02mc……\x02mdずっと\n"
-.stringn "２人、\x02w3いっしょ\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|LEARNE||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}님\x02mc……\x02md\x02w4무사히,\x02w3 계세요.\x02w4\n"
+.stringn "#F01\x02O2Apeurodo#F02\x02O1\x02mc……\x02md계속\n"
+.stringn "둘이,\x02w3 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -916,9 +916,9 @@ db 0
 
 //0x2688
 Text_2668:
-.stringn "@\x05FL|LEARNE||\x02BO\x04R上下会話|\x0700\x080D#F01\x02O2ano...#F02\x02O1\x02w4　@{0}さま\x02mc……\x02md\x02w4\n"
-.stringn "わたしも\x02mc…\x02md\x02w4いっ、\x02w2しょ\x02mc……\x02md\x02w4\n"
-.stringn "いい\x02mc……？\x02md\x11\n"
+.stringn "@\x05FL|LEARNE||\x02BO\x04R上下会話|\x0700\x080D#F01\x02O2Jeogi...#F02\x02O1\x02w4 @{0}님\x02mc……\x02md\x02w4\n"
+.stringn "저도\x02mc…\x02md\x02w4 같, \x02w2이\x02mc……\x02md\x02w4\n"
+.stringn "가도 돼요\x02mc……?\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -927,9 +927,9 @@ db 0
 
 //0x2538
 Text_2518:
-.stringn "@\x05FL|LEARNE||\x02BO\x04R上下会話|\x0700\x080D#F01\x02O2a...\x02w4 mattekudasai!#F02\x02O1\x02w4\n"
-.stringn "\x02mc…\x02md@{0}\x02mc…\x02mdさま\x02mc……\x02md\x02w4\n"
-.stringn "へい、\x02w1き？\x11\n"
+.stringn "@\x05FL|LEARNE||\x02BO\x04R上下会話|\x0700\x080D#F01\x02O2A...\x02w4Gidaryeo juseyo!#F02\x02O1\x02w4\n"
+.stringn "\x02mc…\x02md@{0}\x02mc…\x02md님\x02mc……\x02md\x02w4\n"
+.stringn "괜, \x02w1찮으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -938,56 +938,56 @@ db 0
 
 //0x883C
 Text_881C:
-.stringn "\x05FL|LENING||\x0701\x01s\x081D必ず\x02mc……\x02md\x11"
+.stringn "\x05FL|LENING||\x0701\x01s\x081D반드시\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_LENING_RECV_0_A
 
 //0x82E8
 Text_82C8:
-.stringn "\x05FL|LENING||\x0701\x081Dうむ、\x02w3それが良い。\x02w4\n"
-.stringn "互いに援護することで\n"
-.stringn "さらに戦力は増そう。\x11"
+.stringn "\x05FL|LENING||\x0701\x081D음,\x02w3 그러는 게 좋겠군.\x02w4\n"
+.stringn "서로 엄호하면\n"
+.stringn "전력도 더욱 커질 테지.\x11"
 db 0
 .align 4
 //MMY_LENING_RECV_0_B
 
 //0x7EDC
 Text_7EBC:
-.stringn "\x05FL|LENING||\x0701\x081Dうむ、\x02w3\n"
-.stringn "私はまだ戦わねばならぬ。\x11"
+.stringn "\x05FL|LENING||\x0701\x081D음,\x02w3\n"
+.stringn "나는 아직 싸워야 한다.\x11"
 db 0
 .align 4
 //MMY_LENING_RECV_0_C
 
 //0x8860
 Text_8840:
-.stringn "\x05FL|LENING||\x0701\x01s\x081Dはっ、\x02w3必ず\x02mc……\x02md\x11"
+.stringn "\x05FL|LENING||\x0701\x01s\x081D예,\x02w3 반드시\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_LENING_RECV_1_A
 
 //0x8340
 Text_8320:
-.stringn "\x05FL|LENING||\x0701\x081Dなるほど\x02mc……\x02md\x02w4\n"
-.stringn "であれば\x02w2私も援護を。\x11"
+.stringn "\x05FL|LENING||\x0701\x081D그렇군요\x02mc……\x02md\x02w4\n"
+.stringn "그렇다면\x02w2 저도 엄호하겠습니다.\x11"
 db 0
 .align 4
 //MMY_LENING_RECV_1_B
 
 //0x7F14
 Text_7EF4:
-.stringn "\x05FL|LENING||\x0701\x081Dはい、\x02w3\n"
-.stringn "私はまだ戦わねばなりませぬ。\x11"
+.stringn "\x05FL|LENING||\x0701\x081D예,\x02w3\n"
+.stringn "저는 아직 싸워야만 합니다.\x11"
 db 0
 .align 4
 //MMY_LENING_RECV_1_C
 
 //0x8384
 Text_8364:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}、\x02w3\n"
-.stringn "そなたは生きよ。\x02w4\n"
-.stringn "そのためなら私は幾度でも戦おう。\x11\x10必ず共に生きて戻るのだ。\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0},\x02w3\n"
+.stringn "너는 살아남아라.\x02w4\n"
+.stringn "그러기 위해 나는 몇 번이고 싸우겠다.\x11\x10반드시 함께 살아서 돌아가자.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -996,9 +996,9 @@ db 0
 
 //0x7F50
 Text_7F30:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}よ、\x02w3共に。\x02w4\n"
-.stringn "傍にいれば\n"
-.stringn "互いに戦いやすかろう。\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0},\x02w3 함께 가자.\x02w4\n"
+.stringn "곁에 있으면\n"
+.stringn "서로 싸우기도 편할 테지.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1008,7 +1008,7 @@ db 0
 //0x7C58
 Text_7C38:
 .stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}\x02mc……\x02md\x02w4\n"
-.stringn "無事か？\x11\n"
+.stringn "무사한가?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1017,9 +1017,9 @@ db 0
 
 //0x8408
 Text_83E8:
-.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080Dタナス公、\x02w3\n"
-.stringn "そなたは生きよ。\x02w4\n"
-.stringn "そのためなら私は幾度でも戦おう。\x11\x10必ず共に生きて戻るのだ。\x11\n"
+.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D타나스 공,\x02w3\n"
+.stringn "그대는 살아남게.\x02w4\n"
+.stringn "그러기 위해 나는 몇 번이고 싸우겠네.\x11\x10반드시 함께 살아서 돌아가세.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1028,9 +1028,9 @@ db 0
 
 //0x7FB0
 Text_7F90:
-.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080Dタナス公よ、\x02w3共に。\x02w4\n"
-.stringn "傍にいれば\n"
-.stringn "互いに戦いやすかろう。\x11\n"
+.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D타나스 공,\x02w3 함께 가세.\x02w4\n"
+.stringn "곁에 있으면\n"
+.stringn "서로 싸우기도 편할 테지.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1039,8 +1039,8 @@ db 0
 
 //0x7C9C
 Text_7C7C:
-.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080Dタナス公\x02mc……\x02md\x02w4\n"
-.stringn "無事か？\x11\n"
+.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D타나스 공\x02mc……\x02md\x02w4\n"
+.stringn "무사한가?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1049,9 +1049,9 @@ db 0
 
 //0x848C
 Text_846C:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}殿、\x02w3\n"
-.stringn "貴殿は生きられよ。\x02w4\n"
-.stringn "そのためなら私は幾度でも戦おう。\x11\x10必ず共に生きて戻るのだ。\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0} 공,\x02w3\n"
+.stringn "그대는 살아남으시오.\x02w4\n"
+.stringn "그러기 위해 나는 몇 번이고 싸우겠소.\x11\x10반드시 함께 살아서 돌아갑시다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1060,9 +1060,9 @@ db 0
 
 //0x8014
 Text_7FF4:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}殿、\x02w3共に。\x02w4\n"
-.stringn "傍にいれば\n"
-.stringn "互いに戦いやすくなりましょう。\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0} 공,\x02w3 함께 갑시다.\x02w4\n"
+.stringn "곁에 있으면\n"
+.stringn "서로 싸우기도 편해질 것이오.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1071,8 +1071,8 @@ db 0
 
 //0x7CE4
 Text_7CC4:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}殿\x02mc……\x02md\x02w4\n"
-.stringn "ご無事か？\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0} 공\x02mc……\x02md\x02w4\n"
+.stringn "무사하신가?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1081,9 +1081,9 @@ db 0
 
 //0x8514
 Text_84F4:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}様、\x02w3\n"
-.stringn "貴殿は生きられよ。\x02w4\n"
-.stringn "そのためなら私は幾度でも戦おう。\x11\x10必ず共に生きて戻るのだ。\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}님,\x02w3\n"
+.stringn "부디 살아남으십시오.\x02w4\n"
+.stringn "그러기 위해 저는 몇 번이고 싸우겠습니다.\x11\x10반드시 함께 살아서 돌아갑시다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1092,9 +1092,9 @@ db 0
 
 //0x807C
 Text_805C:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}様、\x02w3共に。\x02w4\n"
-.stringn "傍にいれば\n"
-.stringn "互いに戦いやすくなりましょう。\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}님,\x02w3 함께 가시지요.\x02w4\n"
+.stringn "곁에 있으면\n"
+.stringn "서로 싸우기도 편해질 겁니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1103,8 +1103,8 @@ db 0
 
 //0x7D2C
 Text_7D0C:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}様\x02mc……\x02md\x02w4\n"
-.stringn "ご無事か？\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}님\x02mc……\x02md\x02w4\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1113,9 +1113,9 @@ db 0
 
 //0x859C
 Text_857C:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍、\x02w3\n"
-.stringn "そなたは生きよ。\x02w4\n"
-.stringn "そのためなら私は幾度でも戦おう。\x11\x10必ず共に生きて戻るのだ。\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군,\x02w3\n"
+.stringn "그대는 살아남게.\x02w4\n"
+.stringn "그러기 위해 나는 몇 번이고 싸우겠네.\x11\x10반드시 함께 살아서 돌아가세.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1124,9 +1124,9 @@ db 0
 
 //0x80E4
 Text_80C4:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍、\x02w3共に。\x02w4\n"
-.stringn "傍にいれば\n"
-.stringn "互いに戦いやすかろう。\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군,\x02w3 함께 가세.\x02w4\n"
+.stringn "곁에 있으면\n"
+.stringn "서로 싸우기도 편할 테지.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1135,8 +1135,8 @@ db 0
 
 //0x7D74
 Text_7D54:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍\x02mc……\x02md\x02w4\n"
-.stringn "無事か？\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군\x02mc……\x02md\x02w4\n"
+.stringn "무사한가?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1145,9 +1145,9 @@ db 0
 
 //0x8624
 Text_8604:
-.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D鷹王、\x02w3\n"
-.stringn "貴殿は生きられよ。\x02w4\n"
-.stringn "そのためなら私は幾度でも戦おう。\x11\x10必ず共に生きて戻るのだ。\x11\n"
+.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D응왕,\x02w3\n"
+.stringn "부디 살아남으시오.\x02w4\n"
+.stringn "그러기 위해 나는 몇 번이고 싸우겠소.\x11\x10반드시 함께 살아서 돌아갑시다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1156,9 +1156,9 @@ db 0
 
 //0x8148
 Text_8128:
-.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D鷹王よ、\x02w3共に。\x02w4\n"
-.stringn "傍にいれば\n"
-.stringn "互いに戦いやすくなりましょう。\x11\n"
+.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D응왕,\x02w3 함께 갑시다.\x02w4\n"
+.stringn "곁에 있으면\n"
+.stringn "서로 싸우기도 편해질 것이오.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1167,8 +1167,8 @@ db 0
 
 //0x7DBC
 Text_7D9C:
-.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D鷹王\x02mc……\x02md\x02w4\n"
-.stringn "ご無事か？\x11\n"
+.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D응왕\x02mc……\x02md\x02w4\n"
+.stringn "무사하시오?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1177,9 +1177,9 @@ db 0
 
 //0x86A8
 Text_8688:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}女王、\x02w3\n"
-.stringn "貴殿は生きられよ。\x02w4\n"
-.stringn "そのためなら私は幾度でも戦おう。\x11\x10必ず共に生きて戻るのだ。\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0} 여왕,\x02w3\n"
+.stringn "부디 살아남으시오.\x02w4\n"
+.stringn "그러기 위해 나는 몇 번이고 싸우겠소.\x11\x10반드시 함께 살아서 돌아갑시다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1188,9 +1188,9 @@ db 0
 
 //0x81B0
 Text_8190:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}女王、\x02w3共に。\x02w4\n"
-.stringn "傍にいれば\n"
-.stringn "互いに戦いやすくなりましょう。\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0} 여왕,\x02w3 함께 갑시다.\x02w4\n"
+.stringn "곁에 있으면\n"
+.stringn "서로 싸우기도 편해질 것이오.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1199,8 +1199,8 @@ db 0
 
 //0x7E00
 Text_7DE0:
-.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0}女王\x02mc……\x02md\x02w4\n"
-.stringn "ご無事か？\x11\n"
+.stringn "@\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D@{0} 여왕\x02mc……\x02md\x02w4\n"
+.stringn "무사하시오?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1209,9 +1209,9 @@ db 0
 
 //0x8730
 Text_8710:
-.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D鴉王、\x02w3\n"
-.stringn "貴殿は生きられよ。\x02w4\n"
-.stringn "そのためなら私は幾度でも戦おう。\x11\x10必ず共に生きて戻るのだ。\x11\n"
+.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D아왕,\x02w3\n"
+.stringn "부디 살아남으시오.\x02w4\n"
+.stringn "그러기 위해 나는 몇 번이고 싸우겠소.\x11\x10반드시 함께 살아서 돌아갑시다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1220,9 +1220,9 @@ db 0
 
 //0x821C
 Text_81FC:
-.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D鴉王よ、\x02w3共に。\x02w4\n"
-.stringn "傍にいれば\n"
-.stringn "互いに戦いやすくなりましょう。\x11\n"
+.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D아왕,\x02w3 함께 갑시다.\x02w4\n"
+.stringn "곁에 있으면\n"
+.stringn "서로 싸우기도 편해질 것이오.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1231,8 +1231,8 @@ db 0
 
 //0x7E4C
 Text_7E2C:
-.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D鴉王\x02mc……\x02md\x02w4\n"
-.stringn "ご無事か？\x11\n"
+.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D아왕\x02mc……\x02md\x02w4\n"
+.stringn "무사하시오?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1241,9 +1241,9 @@ db 0
 
 //0x87B4
 Text_8794:
-.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D【火消し】、\x02w3\n"
-.stringn "そなたは生きよ。\x02w4\n"
-.stringn "そのためなら私は幾度でも戦おう。\x11\x10必ず共に生きて戻るのだ。\x11\n"
+.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D【불 끄는 자】,\x02w3\n"
+.stringn "그대는 살아남게.\x02w4\n"
+.stringn "그러기 위해 나는 몇 번이고 싸우겠네.\x11\x10반드시 함께 살아서 돌아가는 걸세.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1252,9 +1252,9 @@ db 0
 
 //0x8284
 Text_8264:
-.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D【火消し】よ、\x02w3共に。\x02w4\n"
-.stringn "傍にいれば\n"
-.stringn "互いに戦いやすかろう。\x11\n"
+.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D【불 끄는 자】,\x02w3 함께 가세.\x02w4\n"
+.stringn "곁에 있으면\n"
+.stringn "서로 싸우기도 편할 테지.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1263,8 +1263,8 @@ db 0
 
 //0x7E90
 Text_7E70:
-.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D【火消し】よ\x02mc……\x02md\x02w4\n"
-.stringn "無事か？\x11\n"
+.stringn "\x05FL|LENING||\x02BO\x04R上下会話|\x0700\x080D【불 끄는 자】\x02mc……\x02md\x02w4\n"
+.stringn "무사한가?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1273,61 +1273,61 @@ db 0
 
 //0x68F0
 Text_68D0:
-.stringn "\x05FL|LEONARDO||\x0701\x01s\x081Dうん。\x02w4\n"
-.stringn "２人とも無事で\x02mc……\x02md\x02w4\n"
-.stringn "そう信じることにする。\x11"
+.stringn "\x05FL|LEONARDO||\x0701\x01s\x081D응.\x02w4\n"
+.stringn "우리 둘 다 무사할 거라고\x02mc……\x02md\x02w4\n"
+.stringn "그렇게 믿을게.\x11"
 db 0
 .align 4
 //MMY_LEONARDO_RECV_0_A
 
 //0x610C
 Text_60EC:
-.stringn "\x05FL|LEONARDO||\x0701\x01s\x081Dあ、\x02w3うん。\x02w4\n"
-.stringn "僕なら喜んで\x02mc……\x02md\x11"
+.stringn "\x05FL|LEONARDO||\x0701\x01s\x081D아,\x02w3 응.\x02w4\n"
+.stringn "나라면 기꺼이\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_LEONARDO_RECV_0_B
 
 //0x5AAC
 Text_5A8C:
-.stringn "\x05FL|LEONARDO||\x0701\x01s\x081Dありがとう。\x02w4\n"
-.stringn "まだなんとか、\x02w3\n"
-.stringn "ついていけてるかな\x02mc……\x02md\x11"
+.stringn "\x05FL|LEONARDO||\x0701\x01s\x081D고마워.\x02w4\n"
+.stringn "아직은 어떻게든,\x02w3\n"
+.stringn "따라가고 있는 것 같네\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_LEONARDO_RECV_0_C
 
 //0x6944
 Text_6924:
-.stringn "\x05FL|LEONARDO||\x0701\x01s\x081Dはい。\x02w4\n"
-.stringn "２人とも無事で\x02mc……\x02md\x02w4\n"
-.stringn "そう信じることにします。\x11"
+.stringn "\x05FL|LEONARDO||\x0701\x01s\x081D네.\x02w4\n"
+.stringn "우리 둘 다 무사할 거라고\x02mc……\x02md\x02w4\n"
+.stringn "그렇게 믿겠습니다.\x11"
 db 0
 .align 4
 //MMY_LEONARDO_RECV_1_A
 
 //0x614C
 Text_612C:
-.stringn "\x05FL|LEONARDO||\x0701\x01s\x081Dあ、\x02w3はい。\x02w4\n"
-.stringn "僕なら喜んで\x02mc……\x02md\x11"
+.stringn "\x05FL|LEONARDO||\x0701\x01s\x081D아,\x02w3 네.\x02w4\n"
+.stringn "저라면 기꺼이\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_LEONARDO_RECV_1_B
 
 //0x5B04
 Text_5AE4:
-.stringn "\x05FL|LEONARDO||\x0701\x01s\x081Dはい。\x02w4\n"
-.stringn "まだなんとか、\x02w3\n"
-.stringn "ついていけてるかも\x02mc……\x02md\x11"
+.stringn "\x05FL|LEONARDO||\x0701\x01s\x081D네.\x02w4\n"
+.stringn "아직은 어떻게든,\x02w3\n"
+.stringn "따라가고 있는 것 같습니다\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_LEONARDO_RECV_1_C
 
 //0x618C
 Text_616C:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}さん、\x02w3\n"
-.stringn "死なないでくださいね\x02mc……\x02md\x11\x10そんなことになったら、\x02w3\n"
-.stringn "僕は\x02mc……\x02md\x02w4\x02ecどうしていいか\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}씨,\x02w3\n"
+.stringn "죽지 말아 주세요\x02mc……\x02md\x11\x10그런 일이 생기면,\x02w3\n"
+.stringn "저는\x02mc……\x02md\x02w4\x02ec 어떻게 해야 할지\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1336,9 +1336,9 @@ db 0
 
 //0x5B54
 Text_5B34:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}さん、\x02w3\n"
-.stringn "一緒に行って構わない？\x02w4\n"
-.stringn "僕の弓で少しは援護できると思う。\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}씨,\x02w3\n"
+.stringn "같이 가도 괜찮을까?\x02w4\n"
+.stringn "내 활로 조금은 엄호할 수 있을 것 같아.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1347,8 +1347,8 @@ db 0
 
 //0x56AC
 Text_568C:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}さん。\x02w4\n"
-.stringn "その\x02mc…\x02md\x02w3大丈夫？\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}씨.\x02w4\n"
+.stringn "저기\x02mc…\x02md\x02w3 괜찮아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1357,9 +1357,9 @@ db 0
 
 //0x67B8
 Text_6798:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}姫、\x02w3\n"
-.stringn "死なないでくださいね\x02mc……\x02md\x11\x10そんなことになったら、\x02w3\n"
-.stringn "僕は\x02mc……\x02md\x02w4\x02ecどうしていいか\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0} 공주,\x02w3\n"
+.stringn "죽지 말아 주세요\x02mc……\x02md\x11\x10그런 일이 생기면,\x02w3\n"
+.stringn "저는\x02mc……\x02md\x02w4\x02ec 어떻게 해야 할지\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1368,9 +1368,9 @@ db 0
 
 //0x6020
 Text_6000:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}姫、\x02w3\n"
-.stringn "一緒に行って構いませんか？\x02w4\n"
-.stringn "僕の弓で少しは援護できると思います。\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0} 공주,\x02w3\n"
+.stringn "같이 가도 괜찮을까요?\x02w4\n"
+.stringn "제 활로 조금은 엄호할 수 있을 겁니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1379,8 +1379,8 @@ db 0
 
 //0x5A0C
 Text_59EC:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}姫。\n"
-.stringn "その\x02mc…\x02md\x02w3大丈夫ですか？\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0} 공주.\n"
+.stringn "저기\x02mc…\x02md\x02w3 괜찮으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1389,9 +1389,9 @@ db 0
 
 //0x6858
 Text_6838:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}、\x02w3\n"
-.stringn "死なないでくれ\x02mc……\x02md\x11\x10そんなことになったら、\x02w3\n"
-.stringn "僕は\x02mc……\x02md\x02w4\x02ecどうしていいか\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0},\x02w3\n"
+.stringn "죽지 마\x02mc……\x02md\x11\x10그런 일이 생기면,\x02w3\n"
+.stringn "나는\x02mc……\x02md\x02w4\x02ec 어떻게 해야 할지\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1400,9 +1400,9 @@ db 0
 
 //0x609C
 Text_607C:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}、\x02w3\n"
-.stringn "一緒に行って構わない？\x02w4\n"
-.stringn "僕の弓で少しは援護できると思う。\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0},\x02w3\n"
+.stringn "같이 가도 괜찮을까?\x02w4\n"
+.stringn "내 활로 조금은 엄호할 수 있을 것 같아.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1411,8 +1411,8 @@ db 0
 
 //0x5A60
 Text_5A40:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}。\x02w4\n"
-.stringn "その\x02mc…\x02md\x02w3大丈夫？\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}.\x02w4\n"
+.stringn "저기\x02mc…\x02md\x02w3 괜찮아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1421,9 +1421,9 @@ db 0
 
 //0x622C
 Text_620C:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}様、\x02w3\n"
-.stringn "死なないでくださいね\x02mc……\x02md\x11\x10そんなことになったら、\x02w3\n"
-.stringn "僕は\x02mc……\x02md\x02w4\x02ecどうしていいか\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}님,\x02w3\n"
+.stringn "죽지 말아 주세요\x02mc……\x02md\x11\x10그런 일이 생기면,\x02w3\n"
+.stringn "저는\x02mc……\x02md\x02w4\x02ec 어떻게 해야 할지\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1432,9 +1432,9 @@ db 0
 
 //0x5BC8
 Text_5BA8:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}様、\x02w3\n"
-.stringn "一緒に行って構いませんか？\x02w4\n"
-.stringn "僕の弓で少しは援護できると思います。\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}님,\x02w3\n"
+.stringn "같이 가도 괜찮을까요?\x02w4\n"
+.stringn "제 활로 조금은 엄호할 수 있을 겁니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1443,8 +1443,8 @@ db 0
 
 //0x56FC
 Text_56DC:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}様。\x02w4\n"
-.stringn "その\x02mc…\x02md\x02w3大丈夫ですか？\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}님.\x02w4\n"
+.stringn "저기\x02mc…\x02md\x02w3 괜찮으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1453,9 +1453,9 @@ db 0
 
 //0x62CC
 Text_62AC:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080Dタナス公、\x02w3\n"
-.stringn "死なないでくださいね\x02mc……\x02md\x11\x10そんなことになったら、\x02w3\n"
-.stringn "僕は\x02mc……\x02md\x02w4\x02ecどうしていいか\x02mc……\x02md\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D타나스 공,\x02w3\n"
+.stringn "죽지 말아 주세요\x02mc……\x02md\x11\x10그런 일이 생기면,\x02w3\n"
+.stringn "저는\x02mc……\x02md\x02w4\x02ec 어떻게 해야 할지\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1464,9 +1464,9 @@ db 0
 
 //0x5C44
 Text_5C24:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080Dタナス公、\x02w3\n"
-.stringn "一緒に行って構わないかな？\x02w4\n"
-.stringn "僕の弓で少しは援護できると思う。\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D타나스 공,\x02w3\n"
+.stringn "같이 가도 괜찮을까?\x02w4\n"
+.stringn "내 활로 조금은 엄호할 수 있을 것 같아.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1475,8 +1475,8 @@ db 0
 
 //0x5750
 Text_5730:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080Dタナス公。\x02w4\n"
-.stringn "その\x02mc…\x02md\x02w3大丈夫ですか？\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D타나스 공.\x02w4\n"
+.stringn "저기\x02mc…\x02md\x02w3 괜찮으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1485,9 +1485,9 @@ db 0
 
 //0x636C
 Text_634C:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D獅子王、\x02w3\n"
-.stringn "死なないでくださいね\x02mc……\x02md\x11\x10そんなことになったら、\x02w3\n"
-.stringn "僕は\x02mc……\x02md\x02w4\x02ecどうしていいか\x02mc……\x02md\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D사자왕,\x02w3\n"
+.stringn "죽지 말아 주세요\x02mc……\x02md\x11\x10그런 일이 생기면,\x02w3\n"
+.stringn "저는\x02mc……\x02md\x02w4\x02ec 어떻게 해야 할지\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1496,9 +1496,9 @@ db 0
 
 //0x5CBC
 Text_5C9C:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D獅子王\x02mc……\x02md\x02w3\n"
-.stringn "一緒に行って構いませんか？\x02w4\n"
-.stringn "僕の弓で少しは援護できると思います。\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D사자왕\x02mc……\x02md\x02w3\n"
+.stringn "같이 가도 괜찮을까요?\x02w4\n"
+.stringn "제 활로 조금은 엄호할 수 있을 겁니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1507,8 +1507,8 @@ db 0
 
 //0x57A8
 Text_5788:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D獅子王\x02mc……\x02md\x02w4\n"
-.stringn "その\x02mc…\x02md\x02w3大丈夫ですか？\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D사자왕\x02mc……\x02md\x02w4\n"
+.stringn "저기\x02mc…\x02md\x02w3 괜찮으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1517,9 +1517,9 @@ db 0
 
 //0x6408
 Text_63E8:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080Dクルト、\x02w3\n"
-.stringn "死なないでくれ\x02mc……\x02md\x11\x10そんなことになったら、\x02w3\n"
-.stringn "僕は\x02mc……\x02md\x02w4\x02ecどうしていいか\x02mc……\x02md\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D쿠르트,\x02w3\n"
+.stringn "죽지 마\x02mc……\x02md\x11\x10그런 일이 생기면,\x02w3\n"
+.stringn "나는\x02mc……\x02md\x02w4\x02ec 어떻게 해야 할지\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1528,9 +1528,9 @@ db 0
 
 //0x5D3C
 Text_5D1C:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080Dクルト、\x02w3\n"
-.stringn "一緒に行って良いかな？\x02w4\n"
-.stringn "僕の弓で少しは援護できると思う。\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D쿠르트,\x02w3\n"
+.stringn "같이 가도 될까?\x02w4\n"
+.stringn "내 활로 조금은 엄호할 수 있을 것 같아.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1539,8 +1539,8 @@ db 0
 
 //0x5804
 Text_57E4:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080Dクルト。\x02w4\n"
-.stringn "その\x02mc…\x02md\x02w3大丈夫？\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D쿠르트.\x02w4\n"
+.stringn "저기\x02mc…\x02md\x02w3 괜찮아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1549,9 +1549,9 @@ db 0
 
 //0x64A0
 Text_6480:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}殿、\x02w3\n"
-.stringn "死なないでくださいね\x02mc……\x02md\x11\x10そんなことになったら、\x02w3\n"
-.stringn "僕は\x02mc……\x02md\x02w4\x02ecどうしていいか\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0} 공,\x02w3\n"
+.stringn "죽지 말아 주세요\x02mc……\x02md\x11\x10그런 일이 생기면,\x02w3\n"
+.stringn "저는\x02mc……\x02md\x02w4\x02ec 어떻게 해야 할지\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1560,9 +1560,9 @@ db 0
 
 //0x5DAC
 Text_5D8C:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}殿、\x02w3\n"
-.stringn "一緒に行って構いませんか？\x02w4\n"
-.stringn "僕の弓で少しは援護できると思います。\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0} 공,\x02w3\n"
+.stringn "같이 가도 괜찮을까요?\x02w4\n"
+.stringn "제 활로 조금은 엄호할 수 있을 겁니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1571,8 +1571,8 @@ db 0
 
 //0x5854
 Text_5834:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}殿。\x02w4\n"
-.stringn "その\x02mc…\x02md\x02w3大丈夫ですか？\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0} 공.\x02w4\n"
+.stringn "저기\x02mc…\x02md\x02w3 괜찮으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1581,9 +1581,9 @@ db 0
 
 //0x6540
 Text_6520:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍、\x02w3\n"
-.stringn "死なないでくださいね\x02mc……\x02md\x11\x10そんなことになったら、\x02w3\n"
-.stringn "僕は\x02mc……\x02md\x02w4\x02ecどうしていいか\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군,\x02w3\n"
+.stringn "죽지 말아 주세요\x02mc……\x02md\x11\x10그런 일이 생기면,\x02w3\n"
+.stringn "저는\x02mc……\x02md\x02w4\x02ec 어떻게 해야 할지\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1592,9 +1592,9 @@ db 0
 
 //0x5E28
 Text_5E08:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍、\x02w3\n"
-.stringn "一緒に行って構いませんか？\x02w4\n"
-.stringn "僕の弓で少しは援護できると思います。\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군,\x02w3\n"
+.stringn "같이 가도 괜찮을까요?\x02w4\n"
+.stringn "제 활로 조금은 엄호할 수 있을 겁니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1603,8 +1603,8 @@ db 0
 
 //0x58A8
 Text_5888:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍。\x02w4\n"
-.stringn "その\x02mc…\x02md\x02w3大丈夫ですか？\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군.\x02w4\n"
+.stringn "저기\x02mc…\x02md\x02w3 괜찮으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1613,9 +1613,9 @@ db 0
 
 //0x65E0
 Text_65C0:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D鷹王、\x02w3\n"
-.stringn "死なないでくださいね\x02mc……\x02md\x11\x10そんなことになったら、\x02w3\n"
-.stringn "僕は\x02mc……\x02md\x02w4\x02ecどうしていいか\x02mc……\x02md\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D응왕,\x02w3\n"
+.stringn "죽지 말아 주세요\x02mc……\x02md\x11\x10그런 일이 생기면,\x02w3\n"
+.stringn "저는\x02mc……\x02md\x02w4\x02ec 어떻게 해야 할지\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1624,9 +1624,9 @@ db 0
 
 //0x5EA4
 Text_5E84:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D鷹王\x02mc……\x02md\x02w4\n"
-.stringn "一緒に行って構いませんか？\x02w4\n"
-.stringn "僕の弓で少しは援護できると思います。\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D응왕\x02mc……\x02md\x02w4\n"
+.stringn "같이 가도 괜찮을까요?\x02w4\n"
+.stringn "제 활로 조금은 엄호할 수 있을 겁니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1635,8 +1635,8 @@ db 0
 
 //0x5900
 Text_58E0:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D鷹王\x02mc……\x02md\x02w4\n"
-.stringn "その\x02mc…\x02md\x02w3大丈夫ですか？\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D응왕\x02mc……\x02md\x02w4\n"
+.stringn "저기\x02mc…\x02md\x02w3 괜찮으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1645,9 +1645,9 @@ db 0
 
 //0x667C
 Text_665C:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D鴉王、\x02w3\n"
-.stringn "死なないでくださいね\x02mc……\x02md\x11\x10そんなことになったら、\x02w3\n"
-.stringn "僕は\x02mc……\x02md\x02w4\x02ecどうしていいか\x02mc……\x02md\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D아왕,\x02w3\n"
+.stringn "죽지 말아 주세요\x02mc……\x02md\x11\x10그런 일이 생기면,\x02w3\n"
+.stringn "저는\x02mc……\x02md\x02w4\x02ec 어떻게 해야 할지\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1656,9 +1656,9 @@ db 0
 
 //0x5F24
 Text_5F04:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D鴉王\x02mc……\x02md\x02w4\n"
-.stringn "一緒に行って構いませんか？\x02w4\n"
-.stringn "僕の弓で少しは援護できると思います。\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D아왕\x02mc……\x02md\x02w4\n"
+.stringn "같이 가도 괜찮을까요?\x02w4\n"
+.stringn "제 활로 조금은 엄호할 수 있을 겁니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1667,8 +1667,8 @@ db 0
 
 //0x595C
 Text_593C:
-.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D鴉王\x02mc……\x02md\x02w4\n"
-.stringn "その\x02mc…\x02md\x02w3大丈夫ですか？\x11\n"
+.stringn "\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D아왕\x02mc……\x02md\x02w4\n"
+.stringn "저기\x02mc…\x02md\x02w3 괜찮으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1677,9 +1677,9 @@ db 0
 
 //0x6718
 Text_66F8:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}王子、\x02w3\n"
-.stringn "死なないでくださいね\x02mc……\x02md\x11\x10そんなことになったら、\x02w3\n"
-.stringn "僕は\x02mc……\x02md\x02w4\x02ecどうしていいか\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0} 왕자,\x02w3\n"
+.stringn "죽지 말아 주세요\x02mc……\x02md\x11\x10그런 일이 생기면,\x02w3\n"
+.stringn "저는\x02mc……\x02md\x02w4\x02ec 어떻게 해야 할지\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1688,9 +1688,9 @@ db 0
 
 //0x5FA4
 Text_5F84:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}王子、\x02w3\n"
-.stringn "一緒に行って構いませんか？\x02w4\n"
-.stringn "僕の弓で少しは援護できると思います。\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0} 왕자,\x02w3\n"
+.stringn "같이 가도 괜찮을까요?\x02w4\n"
+.stringn "제 활로 조금은 엄호할 수 있을 겁니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1699,8 +1699,8 @@ db 0
 
 //0x59B8
 Text_5998:
-.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0}王子。\n"
-.stringn "その\x02mc…\x02md\x02w3大丈夫ですか？\x11\n"
+.stringn "@\x05FL|LEONARDO||\x02BO\x04R上下会話|\x0700\x080D@{0} 왕자.\n"
+.stringn "저기\x02mc…\x02md\x02w3 괜찮으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1709,64 +1709,64 @@ db 0
 
 //0x3DB8
 Text_3D98:
-.stringn "\x05FL|LIRE||\x0701\x081Dうん\x02mc……\x02md\x02w4\n"
-.stringn "な、\x02w1なんかこーゆーの\n"
-.stringn "照れるかも\x02mc……\x02md\x11"
+.stringn "\x05FL|LIRE||\x0701\x081D응\x02mc……\x02md\x02w4\n"
+.stringn "뭐,\x02w1 뭔가 이런 건\n"
+.stringn "쑥스러운데\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_LIRE_RECV_0_A
 
 //0x3368
 Text_3348:
-.stringn "\x05FL|LIRE||\x0701\x081Dもぅ、\x02w3仕方ないなぁ～\x02w4\x01s\n"
-.stringn "そんなに\x02w3あたしといたいのね？\x02w4\n"
-.stringn "\x02ecそうかそうか。\x02w2\x02eo\x11"
+.stringn "\x05FL|LIRE||\x0701\x081D아휴,\x02w3 어쩔 수 없네~\x02w4\x01s\n"
+.stringn "그렇게나\x02w3 나랑 같이 있고 싶구나?\x02w4\n"
+.stringn "\x02ec그래그래.\x02w2\x02eo\x11"
 db 0
 .align 4
 //MMY_LIRE_RECV_0_B
 
 //0x2CA4
 Text_2C84:
-.stringn "\x05FL|LIRE||\x0701\x01s\x081Dまーね。\x02w4\n"
-.stringn "ほら、\x02w3あたしって身軽だし\x02w2\n"
-.stringn "足速いし\x02w2抜け目ないしー。\x11"
+.stringn "\x05FL|LIRE||\x0701\x01s\x081D뭐 그렇지.\x02w4\n"
+.stringn "봐,\x02w3 난 몸도 가볍고\x02w2\n"
+.stringn "발도 빠르고\x02w2 빈틈도 없으니까.\x11"
 db 0
 .align 4
 //MMY_LIRE_RECV_0_C
 
 //0x3E08
 Text_3DE8:
-.stringn "\x05FL|LIRE||\x0701\x081Dはぁい\x02mc……\x02md\x02w4\n"
-.stringn "な、\x02w1なんかこーゆーの\n"
-.stringn "照れますねぇ\x02mc……\x02md\x11"
+.stringn "\x05FL|LIRE||\x0701\x081D네에\x02mc……\x02md\x02w4\n"
+.stringn "뭐,\x02w1 뭔가 이런 건\n"
+.stringn "쑥스럽네요\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_LIRE_RECV_1_A
 
 //0x33D4
 Text_33B4:
-.stringn "\x05FL|LIRE||\x0701\x081Dもぅ、\x02w3仕方ないですねぇ～\x02w4\x01s\n"
-.stringn "そんっなに\x02w3\n"
-.stringn "可愛いあたしといたいんですかぁ？\x11"
+.stringn "\x05FL|LIRE||\x0701\x081D아휴,\x02w3 어쩔 수 없네요~\x02w4\x01s\n"
+.stringn "그렇게나\x02w3\n"
+.stringn "귀여운 저랑 같이 있고 싶으세요?\x11"
 db 0
 .align 4
 //MMY_LIRE_RECV_1_B
 
 //0x2D00
 Text_2CE0:
-.stringn "\x05FL|LIRE||\x0701\x01s\x081Dもちろんですぅ。\x02w4\n"
-.stringn "ほら、\x02w3あたしって身軽だし\x02w2\n"
-.stringn "足速いし\x02w2抜け目ないしー。\x11"
+.stringn "\x05FL|LIRE||\x0701\x01s\x081D물론이죠.\x02w4\n"
+.stringn "봐요,\x02w3 전 몸도 가볍고\x02w2\n"
+.stringn "발도 빠르고\x02w2 빈틈도 없으니까요.\x11"
 db 0
 .align 4
 //MMY_LIRE_RECV_1_C
 
 //0x3438
 Text_3418:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D@{0}が隣にいるの、\x02w3\n"
-.stringn "すっかり慣れちゃったじゃない\x02mc！\x02md\x11\x10だ、\x02w1だから\x02mc……\x02md\x02w4\n"
-.stringn "あたしより先に死んじゃだめよ？\x02w3\n"
-.stringn "ぜったい約束なんだからーっ\x02mc！\x02md\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D@{0},\x02w3 곁에 있는 게\n"
+.stringn "완전히 익숙해져 버렸잖아\x02mc!\x02md\x11\x10그,\x02w1 그러니까\x02mc……\x02md\x02w4\n"
+.stringn "나보다 먼저 죽으면 안 돼?\x02w3\n"
+.stringn "약속 꼭 지켜\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1775,9 +1775,9 @@ db 0
 
 //0x2D64
 Text_2D44:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}\x02mc！\x02md\x02w4\n"
-.stringn "あたしもついてっていい？\x02w4\n"
-.stringn "その方がなんか良さそうだしー。\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0}\x02mc!\x02md\x02w4\n"
+.stringn "나도 따라가도 돼?\x02w4\n"
+.stringn "그러는 편이 왠지 좋을 것 같아서.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1786,8 +1786,8 @@ db 0
 
 //0x28A0
 Text_2880:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080Dあ、\x02w3@{0}。\x02w4\n"
-.stringn "ねえ、\x02w3ケガとか平気？\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D아,\x02w3 @{0}.\x02w4\n"
+.stringn "저기,\x02w3 다친 데는 괜찮아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1796,10 +1796,10 @@ db 0
 
 //0x3C20
 Text_3C00:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D@{0}姫が隣にいるの、\x02w3\n"
-.stringn "すっかり慣れちゃったじゃない\x02mc！\x02md\x11\x10だ、\x02w1だから\x02mc……\x02md\x02w4\n"
-.stringn "あたしより先に死んじゃだめよ？\x02w3\n"
-.stringn "ぜったい約束なんだからーっ\x02mc！\x02md\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D@{0} 공주,\x02w3 곁에 있는 게\n"
+.stringn "완전히 익숙해져 버렸잖아\x02mc!\x02md\x11\x10그,\x02w1 그러니까\x02mc……\x02md\x02w4\n"
+.stringn "나보다 먼저 죽으면 안 돼?\x02w3\n"
+.stringn "약속 꼭 지켜\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1808,9 +1808,9 @@ db 0
 
 //0x3260
 Text_3240:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}姫\x02mc！\x02md\x02w4\n"
-.stringn "あたしもついてっていい？\x02w4\n"
-.stringn "その方がなんか良さそうだしー。\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0} 공주\x02mc!\x02md\x02w4\n"
+.stringn "나도 따라가도 돼?\x02w4\n"
+.stringn "그러는 편이 왠지 좋을 것 같아서.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1819,8 +1819,8 @@ db 0
 
 //0x2BCC
 Text_2BAC:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080Dあ、\x02w3@{0}姫。\x02w4\n"
-.stringn "ねえ、\x02w3ケガとか平気？\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D아,\x02w3 @{0} 공주.\x02w4\n"
+.stringn "저기,\x02w3 다친 데는 괜찮아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1829,10 +1829,10 @@ db 0
 
 //0x3CE4
 Text_3CC4:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080Dライ隊長が隣にいるの、\x02w3\n"
-.stringn "すっかり慣れちゃったじゃないですか\x02mc！\x02md\x11\x10だ、\x02w1だから\x02mc……\x02md\x02w4\n"
-.stringn "あたしより先に死んじゃだめですよ？\x02w3\n"
-.stringn "ぜったい約束なんですからーっ\x02mc！\x02md\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D라이 대장님이 곁에 있는 게,\x02w3\n"
+.stringn "완전히 익숙해져 버렸잖아요\x02mc!\x02md\x11\x10그,\x02w1 그러니까\x02mc……\x02md\x02w4\n"
+.stringn "저보다 먼저 죽으면 안 돼요?\x02w3\n"
+.stringn "약속 꼭 지켜 주세요\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1841,9 +1841,9 @@ db 0
 
 //0x32DC
 Text_32BC:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3ライ隊長ぉー\x02mc！\x02md\x02w3\n"
-.stringn "あたしもついてっていいですかー？\x02w4\n"
-.stringn "隊長といられたら、\x02w3もぅ最高ー。\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 라이 대장님~\x02mc!\x02md\x02w3\n"
+.stringn "저도 따라가도 돼요?\x02w4\n"
+.stringn "대장님이랑 함께하면\x02w3 정말 최고예요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1852,9 +1852,9 @@ db 0
 
 //0x2C20
 Text_2C00:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3ライ隊長ぉー\x02mc！\x02md\x02w4\n"
-.stringn "やだぁ、\x02w3会えてうれしー\x02mc！\x02md\x02w4\n"
-.stringn "おケガとかないですかー？\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 라이 대장님~\x02mc!\x02md\x02w4\n"
+.stringn "정말,\x02w3 만나서 너무 좋아요\x02mc!\x02md\x02w4\n"
+.stringn "다친 데는 없으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1863,10 +1863,10 @@ db 0
 
 //0x34FC
 Text_34DC:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍が隣にいるの、\x02w3\n"
-.stringn "すっかり慣れちゃったじゃない\x02mc！\x02md\x11\x10だ、\x02w1だから\x02mc……\x02md\x02w4\n"
-.stringn "あたしより先に死んじゃだめよ？\x02w3\n"
-.stringn "ぜったい約束なんだからーっ\x02mc！\x02md\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군,\x02w3 곁에 있는 게\n"
+.stringn "완전히 익숙해져 버렸잖아\x02mc!\x02md\x11\x10그,\x02w1 그러니까\x02mc……\x02md\x02w4\n"
+.stringn "나보다 먼저 죽으면 안 돼?\x02w3\n"
+.stringn "약속 꼭 지켜\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1875,9 +1875,9 @@ db 0
 
 //0x2DE0
 Text_2DC0:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}将軍\x02mc！\x02md\x02w4\n"
-.stringn "あたしもついてっていい？\x02w4\n"
-.stringn "その方がなんか良さそうだしー。\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0} 장군\x02mc!\x02md\x02w4\n"
+.stringn "나도 따라가도 돼?\x02w4\n"
+.stringn "그러는 편이 왠지 좋을 것 같아서.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1886,8 +1886,8 @@ db 0
 
 //0x28F0
 Text_28D0:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080Dあ、\x02w3@{0}将軍。\x02w4\n"
-.stringn "ねえ、\x02w3ケガとか平気？\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D아,\x02w3 @{0} 장군.\x02w4\n"
+.stringn "저기,\x02w3 다친 데는 괜찮아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1896,10 +1896,10 @@ db 0
 
 //0x35C4
 Text_35A4:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D@{0}様が隣にいるの、\x02w3\n"
-.stringn "すっかり慣れちゃったじゃないですか\x02mc！\x02md\x11\x10だ、\x02w1だから\x02mc……\x02md\x02w4\n"
-.stringn "あたしより先に死んじゃだめですよ？\x02w3\n"
-.stringn "ぜったい約束なんですからーっ\x02mc！\x02md\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D@{0}님이 곁에 있는 게,\x02w3\n"
+.stringn "완전히 익숙해져 버렸잖아요\x02mc!\x02md\x11\x10그,\x02w1 그러니까\x02mc……\x02md\x02w4\n"
+.stringn "저보다 먼저 죽으면 안 돼요?\x02w3\n"
+.stringn "약속 꼭 지켜 주세요\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1908,9 +1908,9 @@ db 0
 
 //0x2E60
 Text_2E40:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}様ぁ\x02mc！\x02md\x02w4\n"
-.stringn "あたしもついてっていいですかー？\x02w4\n"
-.stringn "その方がなんか良さそうですぅ。\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}님~\x02mc!\x02md\x02w4\n"
+.stringn "저도 따라가도 돼요?\x02w4\n"
+.stringn "그편이 왠지 좋을 것 같아요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1919,8 +1919,8 @@ db 0
 
 //0x2944
 Text_2924:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080Dあ、\x02w3@{0}様。\x02w4\n"
-.stringn "おケガはありませんか？\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D아,\x02w3 @{0}님.\x02w4\n"
+.stringn "다친 데는 없으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1929,10 +1929,10 @@ db 0
 
 //0x3694
 Text_3674:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080Dタナス公が隣にいるの、\x02w3\n"
-.stringn "すっかり慣れちゃったじゃない\x02mc！\x02md\x11\x10だ、\x02w1だから\x02mc……\x02md\x02w4\n"
-.stringn "あたしより先に死んじゃだめよ？\x02w3\n"
-.stringn "ぜったい約束なんだからーっ\x02mc！\x02md\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D타나스 공,\x02w3 곁에 있는 게\n"
+.stringn "완전히 익숙해져 버렸잖아\x02mc!\x02md\x11\x10그,\x02w1 그러니까\x02mc……\x02md\x02w4\n"
+.stringn "나보다 먼저 죽으면 안 돼?\x02w3\n"
+.stringn "약속 꼭 지켜\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1941,9 +1941,9 @@ db 0
 
 //0x2EE0
 Text_2EC0:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3タナス公\x02mc！\x02md\x02w4\n"
-.stringn "あたしもついてっていい？\x02w4\n"
-.stringn "その方がなんか良さそうだしー。\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 타나스 공\x02mc!\x02md\x02w4\n"
+.stringn "나도 따라가도 돼?\x02w4\n"
+.stringn "그러는 편이 왠지 좋을 것 같아서.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1952,8 +1952,8 @@ db 0
 
 //0x2994
 Text_2974:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080Dあ、\x02w3タナス公。\x02w4\n"
-.stringn "ねえ、\x02w3ケガとか平気？\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D아,\x02w3 타나스 공.\x02w4\n"
+.stringn "저기,\x02w3 다친 데는 괜찮아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1962,10 +1962,10 @@ db 0
 
 //0x375C
 Text_373C:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D皇帝サナキが隣にいるの、\x02w3\n"
-.stringn "すっかり慣れちゃったじゃない\x02mc！\x02md\x11\x10だ、\x02w1だから\x02mc……\x02md\x02w4\n"
-.stringn "あたしより先に死んじゃだめよ？\x02w3\n"
-.stringn "ぜったい約束なんだからーっ\x02mc！\x02md\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D황제 사나키,\x02w3 곁에 있는 게\n"
+.stringn "완전히 익숙해져 버렸잖아\x02mc!\x02md\x11\x10그,\x02w1 그러니까\x02mc……\x02md\x02w4\n"
+.stringn "나보다 먼저 죽으면 안 돼?\x02w3\n"
+.stringn "약속 꼭 지켜\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1974,9 +1974,9 @@ db 0
 
 //0x2F60
 Text_2F40:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3皇帝サナキ\x02mc！\x02md\x02w4\n"
-.stringn "あたしもついてっていい？\x02w4\n"
-.stringn "その方がなんか良さそうだしー。\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 황제 사나키\x02mc!\x02md\x02w4\n"
+.stringn "나도 따라가도 돼?\x02w4\n"
+.stringn "그러는 편이 왠지 좋을 것 같아서.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1985,8 +1985,8 @@ db 0
 
 //0x29E8
 Text_29C8:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080Dあ、\x02w3皇帝@{0}。\x02w4\n"
-.stringn "ねえ、\x02w3ケガとか平気？\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D아,\x02w3 황제 @{0}.\x02w4\n"
+.stringn "저기,\x02w3 다친 데는 괜찮아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -1995,10 +1995,10 @@ db 0
 
 //0x3824
 Text_3804:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D鷹王が隣にいるの、\x02w3\n"
-.stringn "すっかり慣れちゃったじゃないですか\x02mc！\x02md\x11\x10だ、\x02w1だから\x02mc……\x02md\x02w4\n"
-.stringn "あたしより先に死んじゃだめですよ？\x02w3\n"
-.stringn "ぜったい約束なんですからーっ\x02mc！\x02md\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D응왕이 곁에 있는 게,\x02w3\n"
+.stringn "완전히 익숙해져 버렸잖아요\x02mc!\x02md\x11\x10그,\x02w1 그러니까\x02mc……\x02md\x02w4\n"
+.stringn "저보다 먼저 죽으면 안 돼요?\x02w3\n"
+.stringn "약속 꼭 지켜 주세요\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2007,9 +2007,9 @@ db 0
 
 //0x2FE0
 Text_2FC0:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3鷹王、\x02w3\n"
-.stringn "あたしもついてっていいですかー？\x02w4\n"
-.stringn "その方がなんか良さそうですぅ。\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 응왕,\x02w3\n"
+.stringn "저도 따라가도 돼요?\x02w4\n"
+.stringn "그편이 왠지 좋을 것 같아요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2018,8 +2018,8 @@ db 0
 
 //0x2A3C
 Text_2A1C:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080Dあ、\x02w3鷹王。\x02w4\n"
-.stringn "ケガとか平気ですか？\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D아,\x02w3 응왕.\x02w4\n"
+.stringn "다친 데는 괜찮으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2028,10 +2028,10 @@ db 0
 
 //0x38F4
 Text_38D4:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D@{0}さんが隣にいるの、\x02w3\n"
-.stringn "すっかり慣れちゃったじゃない\x02mc！\x02md\x11\x10だ、\x02w1だから\x02mc……\x02md\x02w4\n"
-.stringn "あたしより先に死んじゃだめよ？\x02w3\n"
-.stringn "ぜったい約束なんだからーっ\x02mc！\x02md\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D@{0}씨,\x02w3 곁에 있는 게\n"
+.stringn "완전히 익숙해져 버렸잖아\x02mc!\x02md\x11\x10그,\x02w1 그러니까\x02mc……\x02md\x02w4\n"
+.stringn "나보다 먼저 죽으면 안 돼?\x02w3\n"
+.stringn "약속 꼭 지켜\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2040,9 +2040,9 @@ db 0
 
 //0x305C
 Text_303C:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}さん\x02mc！\x02md\x02w4\n"
-.stringn "あたしもついてっていい？\x02w4\n"
-.stringn "その方がなんか良さそうだしー。\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0}씨\x02mc!\x02md\x02w4\n"
+.stringn "나도 따라가도 돼?\x02w4\n"
+.stringn "그러는 편이 왠지 좋을 것 같아서.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2051,8 +2051,8 @@ db 0
 
 //0x2A88
 Text_2A68:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080Dあ、\x02w3@{0}さん。\x02w4\n"
-.stringn "ねえ、\x02w3ケガとか平気？\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D아,\x02w3 @{0}씨.\x02w4\n"
+.stringn "저기,\x02w3 다친 데는 괜찮아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2061,10 +2061,10 @@ db 0
 
 //0x39BC
 Text_399C:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D狼女王が隣にいるの、\x02w3\n"
-.stringn "すっかり慣れちゃったじゃないですか\x02mc！\x02md\x11\x10だ、\x02w1だから\x02mc……\x02md\x02w4\n"
-.stringn "あたしより先に死んじゃだめですよ？\x02w3\n"
-.stringn "ぜったい約束なんですからーっ\x02mc！\x02md\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D늑대여왕이 곁에 있는 게,\x02w3\n"
+.stringn "완전히 익숙해져 버렸잖아요\x02mc!\x02md\x11\x10그,\x02w1 그러니까\x02mc……\x02md\x02w4\n"
+.stringn "저보다 먼저 죽으면 안 돼요?\x02w3\n"
+.stringn "약속 꼭 지켜 주세요\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2073,9 +2073,9 @@ db 0
 
 //0x30DC
 Text_30BC:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3狼女王\x02mc！\x02md\x02w4\n"
-.stringn "あたしもついてっていいですかー？\x02w4\n"
-.stringn "その方がなんか良さそうですぅ。\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 늑대여왕\x02mc!\x02md\x02w4\n"
+.stringn "저도 따라가도 돼요?\x02w4\n"
+.stringn "그편이 왠지 좋을 것 같아요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2084,8 +2084,8 @@ db 0
 
 //0x2ADC
 Text_2ABC:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080Dあ、\x02w3狼女王。\x02w4\n"
-.stringn "ケガとか平気ですか？\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D아,\x02w3 늑대여왕.\x02w4\n"
+.stringn "다친 데는 괜찮으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2094,10 +2094,10 @@ db 0
 
 //0x3A8C
 Text_3A6C:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D鴉王が隣にいるの、\x02w3\n"
-.stringn "すっかり慣れちゃったじゃないですか\x02mc！\x02md\x11\x10だ、\x02w1だから\x02mc……\x02md\x02w4\n"
-.stringn "あたしより先に死んじゃだめですよ？\x02w3\n"
-.stringn "ぜったい約束なんですからーっ\x02mc！\x02md\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D아왕이 곁에 있는 게,\x02w3\n"
+.stringn "완전히 익숙해져 버렸잖아요\x02mc!\x02md\x11\x10그,\x02w1 그러니까\x02mc……\x02md\x02w4\n"
+.stringn "저보다 먼저 죽으면 안 돼요?\x02w3\n"
+.stringn "약속 꼭 지켜 주세요\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2106,9 +2106,9 @@ db 0
 
 //0x3160
 Text_3140:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3鴉王\x02mc！\x02md\x02w4\n"
-.stringn "あたしもついてっていいですかー？\x02w4\n"
-.stringn "その方がなんか良さそうですぅ。\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 아왕\x02mc!\x02md\x02w4\n"
+.stringn "저도 따라가도 돼요?\x02w4\n"
+.stringn "그편이 왠지 좋을 것 같아요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2117,8 +2117,8 @@ db 0
 
 //0x2B2C
 Text_2B0C:
-.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080Dあ、\x02w3鴉王。\x02w4\n"
-.stringn "ケガとか平気ですか？\x11\n"
+.stringn "\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D아,\x02w3 아왕.\x02w4\n"
+.stringn "다친 데는 괜찮으세요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2127,10 +2127,10 @@ db 0
 
 //0x3B5C
 Text_3B3C:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D@{0}王が隣にいるの、\x02w3\n"
-.stringn "すっかり慣れちゃったじゃない\x02mc！\x02md\x11\x10だ、\x02w1だから\x02mc……\x02md\x02w4\n"
-.stringn "あたしより先に死んじゃだめよ？\x02w3\n"
-.stringn "ぜったい約束なんだからーっ\x02mc！\x02md\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D@{0} 왕,\x02w3 곁에 있는 게\n"
+.stringn "완전히 익숙해져 버렸잖아\x02mc!\x02md\x11\x10그,\x02w1 그러니까\x02mc……\x02md\x02w4\n"
+.stringn "나보다 먼저 죽으면 안 돼?\x02w3\n"
+.stringn "약속 꼭 지켜\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2139,9 +2139,9 @@ db 0
 
 //0x31E4
 Text_31C4:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ、\x02w3@{0}王\x02mc！\x02md\x02w4\n"
-.stringn "あたしもついてっていい？\x02w4\n"
-.stringn "その方がなんか良さそうだしー。\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x01s\x080D아,\x02w3 @{0} 왕\x02mc!\x02md\x02w4\n"
+.stringn "나도 따라가도 돼?\x02w4\n"
+.stringn "그러는 편이 왠지 좋을 것 같아서.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2150,8 +2150,8 @@ db 0
 
 //0x2B78
 Text_2B58:
-.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080Dあ、\x02w3@{0}王。\x02w4\n"
-.stringn "ねえ、\x02w3ケガとか平気？\x11\n"
+.stringn "@\x05FL|LIRE||\x02BO\x04R上下会話|\x0700\x080D아,\x02w3 @{0} 왕.\x02w4\n"
+.stringn "저기,\x02w3 다친 데는 괜찮아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2160,63 +2160,63 @@ db 0
 
 //0x55D4
 Text_55B4:
-.stringn "\x05FL|LUCHINO||\x0701\x01s\x081Dええ、\x02w3必ず。\x02w4\n"
-.stringn "不思議ね\x02mc……\x02md\x02w4\n"
-.stringn "２人でいると不安が消えていく\x02mc……\x02md\x11"
+.stringn "\x05FL|LUCHINO||\x0701\x01s\x081D그래,\x02w3 반드시.\x02w4\n"
+.stringn "신기하네\x02mc……\x02md\x02w4\n"
+.stringn "둘이 있으면 불안이 사라져 가\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_LUCHINO_RECV_0_A
 
 //0x5070
 Text_5050:
-.stringn "\x05FL|LUCHINO||\x0701\x01s\x081Dええ、\x02w3わかったわ。\x02w4\n"
-.stringn "私もあなたを援護します。\x11"
+.stringn "\x05FL|LUCHINO||\x0701\x01s\x081D그래,\x02w3 알았어.\x02w4\n"
+.stringn "나도 널 엄호할게.\x11"
 db 0
 .align 4
 //MMY_LUCHINO_RECV_0_B
 
 //0x4AE8
 Text_4AC8:
-.stringn "\x05FL|LUCHINO||\x0701\x01s\x081Dええ、\x02w3大丈夫。\x02w4\n"
-.stringn "幾度か潜り抜けた死地に比べれば、\x02w3\n"
-.stringn "このくらいは\x02mc……\x02md\x11"
+.stringn "\x05FL|LUCHINO||\x0701\x01s\x081D그래,\x02w3 괜찮아.\x02w4\n"
+.stringn "몇 번이나 헤쳐 나온 사지에 비하면,\x02w3\n"
+.stringn "이 정도는\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_LUCHINO_RECV_0_C
 
 //0x563C
 Text_561C:
-.stringn "\x05FL|LUCHINO||\x0701\x01s\x081Dはい、\x02w3必ず。\x02w4\n"
-.stringn "不思議ですね\x02mc……\x02md\x02w4\n"
-.stringn "２人でいると不安が消えていきます\x02mc……\x02md\x11"
+.stringn "\x05FL|LUCHINO||\x0701\x01s\x081D네,\x02w3 반드시.\x02w4\n"
+.stringn "신기하군요\x02mc……\x02md\x02w4\n"
+.stringn "둘이 있으면 불안이 사라져 갑니다\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_LUCHINO_RECV_1_A
 
 //0x50B8
 Text_5098:
-.stringn "\x05FL|LUCHINO||\x0701\x01s\x081Dはい、\x02w3承知しました。\x02w4\n"
-.stringn "私のほうも\n"
-.stringn "援護させていただきます。\x11"
+.stringn "\x05FL|LUCHINO||\x0701\x01s\x081D네,\x02w3 알겠습니다.\x02w4\n"
+.stringn "저도\n"
+.stringn "엄호하겠습니다.\x11"
 db 0
 .align 4
 //MMY_LUCHINO_RECV_1_B
 
 //0x4B50
 Text_4B30:
-.stringn "\x05FL|LUCHINO||\x0701\x01s\x081Dはい、\x02w3大丈夫です。\x02w4\n"
-.stringn "幾度か潜り抜けた死地に比べれば、\x02w3\n"
-.stringn "このくらいは\x02mc……\x02md\x11"
+.stringn "\x05FL|LUCHINO||\x0701\x01s\x081D네,\x02w3 괜찮습니다.\x02w4\n"
+.stringn "몇 번이나 헤쳐 나온 사지에 비하면,\x02w3\n"
+.stringn "이 정도는\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_LUCHINO_RECV_1_C
 
 //0x5110
 Text_50F0:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}、\x02w3\n"
-.stringn "心からお願いするわ。\x02w4\n"
-.stringn "私と共に生きて\x02mc……\x02md\x11\n"
-.stringn "決して死なないと約束して。\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0},\x02w3\n"
+.stringn "진심으로 부탁할게.\x02w4\n"
+.stringn "나와 함께 살아 줘\x02mc……\x02md\x11\n"
+.stringn "절대로 죽지 않겠다고 약속해.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2225,9 +2225,9 @@ db 0
 
 //0x4BBC
 Text_4B9C:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D待って、\x02w3@{0}。\x02w4\n"
-.stringn "単騎は危険\x02mc……\x02md\x02w4私が援護するわ。\x02w4\n"
-.stringn "共に進みましょう。\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D기다려,\x02w3 @{0}.\x02w4\n"
+.stringn "혼자는 위험해\x02mc……\x02md\x02w4 내가 엄호할게.\x02w4\n"
+.stringn "함께 나아가자.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2236,8 +2236,8 @@ db 0
 
 //0x4884
 Text_4864:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}、\x02w3\n"
-.stringn "無事？\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0},\x02w3\n"
+.stringn "무사해?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2246,10 +2246,10 @@ db 0
 
 //0x5190
 Text_5170:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}殿、\x02w3\n"
-.stringn "心からお願い致します。\x02w4\n"
-.stringn "私と共に生きてください\x02mc……\x02md\x11\n"
-.stringn "決して死なないと約束を。\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0} 공,\x02w3\n"
+.stringn "진심으로 부탁드립니다.\x02w4\n"
+.stringn "저와 함께 살아남아 주세요\x02mc……\x02md\x11\n"
+.stringn "절대 죽지 않겠다고 약속해 주십시오.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2258,9 +2258,9 @@ db 0
 
 //0x4C38
 Text_4C18:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080Dお待ちください、\x02w3@{0}殿。\x02w4\n"
-.stringn "単騎は危険\x02mc……\x02md\x02w4私が援護します。\x02w4\n"
-.stringn "共に参りましょう。\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D기다려 주십시오,\x02w3 @{0} 공.\x02w4\n"
+.stringn "혼자는 위험해요\x02mc……\x02md\x02w4 제가 엄호하겠습니다.\x02w4\n"
+.stringn "함께 가시지요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2269,8 +2269,8 @@ db 0
 
 //0x48C0
 Text_48A0:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}殿、\x02w3\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0} 공,\x02w3\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2279,10 +2279,10 @@ db 0
 
 //0x521C
 Text_51FC:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}様、\x02w3\n"
-.stringn "心からお願い致します。\x02w4\n"
-.stringn "私と共に生きてください\x02mc……\x02md\x11\n"
-.stringn "決して死なないと約束を。\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}님,\x02w3\n"
+.stringn "진심으로 부탁드립니다.\x02w4\n"
+.stringn "저와 함께 살아남아 주세요\x02mc……\x02md\x11\n"
+.stringn "절대 죽지 않겠다고 약속해 주십시오.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2291,9 +2291,9 @@ db 0
 
 //0x4CC0
 Text_4CA0:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080Dお待ちください、\x02w3@{0}様。\x02w4\n"
-.stringn "単騎は危険\x02mc……\x02md\x02w4私が援護します。\x02w4\n"
-.stringn "共に参りましょう。\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D기다려 주십시오,\x02w3 @{0}님.\x02w4\n"
+.stringn "혼자는 위험해요\x02mc……\x02md\x02w4 제가 엄호하겠습니다.\x02w4\n"
+.stringn "함께 가시지요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2302,8 +2302,8 @@ db 0
 
 //0x4904
 Text_48E4:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}様、\x02w3\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}님,\x02w3\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2312,10 +2312,10 @@ db 0
 
 //0x52A8
 Text_5288:
-.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080Dタナス公、\x02w3\n"
-.stringn "お願いするわ。\x02w4\n"
-.stringn "生きて\x02mc……\x02md\x11\n"
-.stringn "決して死なないと約束して。\x11\n"
+.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D타나스 공,\x02w3\n"
+.stringn "부탁할게요.\x02w4\n"
+.stringn "살아 주세요\x02mc……\x02md\x11\n"
+.stringn "절대로 죽지 않겠다고 약속해요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2324,9 +2324,9 @@ db 0
 
 //0x4D48
 Text_4D28:
-.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D待ってください、\x02w3タナス公。\x02w4\n"
-.stringn "単騎は危険\x02mc……\x02md\x02w4私が援護します。\x02w4\n"
-.stringn "共に進みましょう。\x11\n"
+.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D기다려 주세요,\x02w3 타나스 공.\x02w4\n"
+.stringn "혼자는 위험해요\x02mc……\x02md\x02w4 제가 엄호할게요.\x02w4\n"
+.stringn "함께 나아가요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2335,8 +2335,8 @@ db 0
 
 //0x4948
 Text_4928:
-.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080Dタナス公、\x02w3\n"
-.stringn "無事ですか？\x11\n"
+.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D타나스 공,\x02w3\n"
+.stringn "무사한가요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2345,10 +2345,10 @@ db 0
 
 //0x5320
 Text_5300:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍、\x02w3\n"
-.stringn "心からお願い致します。\x02w4\n"
-.stringn "私と共に生きてください\x02mc……\x02md\x11\n"
-.stringn "決して死なないと約束を。\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군,\x02w3\n"
+.stringn "진심으로 부탁드립니다.\x02w4\n"
+.stringn "저와 함께 살아남아 주세요\x02mc……\x02md\x11\n"
+.stringn "절대 죽지 않겠다고 약속해 주십시오.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2357,9 +2357,9 @@ db 0
 
 //0x4DD0
 Text_4DB0:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080Dお待ちください、\x02w3@{0}将軍。\x02w4\n"
-.stringn "単騎は危険\x02mc……\x02md\x02w4私が援護します。\x02w4\n"
-.stringn "共に参りましょう。\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D기다려 주십시오,\x02w3 @{0} 장군.\x02w4\n"
+.stringn "혼자는 위험해요\x02mc……\x02md\x02w4 제가 엄호하겠습니다.\x02w4\n"
+.stringn "함께 가시지요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2368,8 +2368,8 @@ db 0
 
 //0x498C
 Text_496C:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍、\x02w3\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군,\x02w3\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2378,10 +2378,10 @@ db 0
 
 //0x53AC
 Text_538C:
-.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D鷹王、\x02w3\n"
-.stringn "心からお願い致します。\x02w4\n"
-.stringn "私と共に生きてください\x02mc……\x02md\x11\n"
-.stringn "決して死なないと約束を。\x11\n"
+.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D응왕님,\x02w3\n"
+.stringn "진심으로 부탁드립니다.\x02w4\n"
+.stringn "저와 함께 살아남아 주세요\x02mc……\x02md\x11\n"
+.stringn "절대 죽지 않겠다고 약속해 주십시오.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2390,9 +2390,9 @@ db 0
 
 //0x4E58
 Text_4E38:
-.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080Dお待ちください、\x02w3鷹王。\x02w4\n"
-.stringn "単騎は危険\x02mc……\x02md\x02w4私が援護します。\x02w4\n"
-.stringn "共に参りましょう。\x11\n"
+.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D기다려 주십시오,\x02w3 응왕님.\x02w4\n"
+.stringn "혼자는 위험해요\x02mc……\x02md\x02w4 제가 엄호하겠습니다.\x02w4\n"
+.stringn "함께 가시지요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2401,8 +2401,8 @@ db 0
 
 //0x49D4
 Text_49B4:
-.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D鷹王、\x02w3\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D응왕님,\x02w3\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2411,10 +2411,10 @@ db 0
 
 //0x5434
 Text_5414:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}女王、\x02w3\n"
-.stringn "心からお願い致します。\x02w4\n"
-.stringn "私と共に生きてください\x02mc……\x02md\x11\n"
-.stringn "決して死なないと約束を。\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0} 여왕님,\x02w3\n"
+.stringn "진심으로 부탁드립니다.\x02w4\n"
+.stringn "저와 함께 살아남아 주세요\x02mc……\x02md\x11\n"
+.stringn "절대 죽지 않겠다고 약속해 주십시오.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2423,9 +2423,9 @@ db 0
 
 //0x4EDC
 Text_4EBC:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080Dお待ちください、\x02w3@{0}女王。\x02w4\n"
-.stringn "単騎は危険\x02mc……\x02md\x02w4私が援護します。\x02w4\n"
-.stringn "共に参りましょう。\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D기다려 주십시오,\x02w3 @{0} 여왕님.\x02w4\n"
+.stringn "혼자는 위험해요\x02mc……\x02md\x02w4 제가 엄호하겠습니다.\x02w4\n"
+.stringn "함께 가시지요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2434,8 +2434,8 @@ db 0
 
 //0x4A18
 Text_49F8:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}女王、\x02w3\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0} 여왕님,\x02w3\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2444,10 +2444,10 @@ db 0
 
 //0x54C0
 Text_54A0:
-.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D鴉王、\x02w3\n"
-.stringn "心からお願い致します。\x02w4\n"
-.stringn "私と共に生きてください\x02mc……\x02md\x11\n"
-.stringn "決して死なないと約束を。\x11\n"
+.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D아왕님,\x02w3\n"
+.stringn "진심으로 부탁드립니다.\x02w4\n"
+.stringn "저와 함께 살아남아 주세요\x02mc……\x02md\x11\n"
+.stringn "절대 죽지 않겠다고 약속해 주십시오.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2456,9 +2456,9 @@ db 0
 
 //0x4F64
 Text_4F44:
-.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080Dお待ちください、\x02w3鴉王。\x02w4\n"
-.stringn "単騎は危険\x02mc……\x02md\x02w4私が援護します。\x02w4\n"
-.stringn "共に参りましょう。\x11\n"
+.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D기다려 주십시오,\x02w3 아왕님.\x02w4\n"
+.stringn "혼자는 위험해요\x02mc……\x02md\x02w4 제가 엄호하겠습니다.\x02w4\n"
+.stringn "함께 가시지요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2467,8 +2467,8 @@ db 0
 
 //0x4A60
 Text_4A40:
-.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D鴉王、\x02w3\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D아왕님,\x02w3\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2477,10 +2477,10 @@ db 0
 
 //0x5548
 Text_5528:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}姫、\x02w3\n"
-.stringn "心からお願い致します。\x02w4\n"
-.stringn "私と共に生きてください\x02mc……\x02md\x11\n"
-.stringn "決して死なないと約束を。\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0} 공주님,\x02w3\n"
+.stringn "진심으로 부탁드립니다.\x02w4\n"
+.stringn "저와 함께 살아남아 주세요\x02mc……\x02md\x11\n"
+.stringn "절대 죽지 않겠다고 약속해 주십시오.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2489,9 +2489,9 @@ db 0
 
 //0x4FE8
 Text_4FC8:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080Dお待ちください、\x02w3@{0}姫。\x02w4\n"
-.stringn "単騎は危険\x02mc……\x02md\x02w4私が援護します。\x02w4\n"
-.stringn "共に参りましょう。\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D기다려 주십시오,\x02w3 @{0} 공주님.\x02w4\n"
+.stringn "혼자는 위험해요\x02mc……\x02md\x02w4 제가 엄호하겠습니다.\x02w4\n"
+.stringn "함께 가시지요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2500,8 +2500,8 @@ db 0
 
 //0x4AA4
 Text_4A84:
-.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0}姫、\x02w3\n"
-.stringn "ご無事ですか？\x11\n"
+.stringn "@\x05FL|LUCHINO||\x02BO\x04R上下会話|\x0700\x080D@{0} 공주님,\x02w3\n"
+.stringn "무사하십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2510,35 +2510,35 @@ db 0
 
 //0x2464
 Text_2444:
-.stringn "\x05FL|RAFIEL||\x0701\x01s\x081Dはい\x02mc……\x02md\x02w4\n"
-.stringn "あなたに望まれることこそ\x02mc…\x02md\x02w3\n"
-.stringn "私の幸せなのですから。\x11"
+.stringn "\x05FL|RAFIEL||\x0701\x01s\x081D네\x02mc……\x02md\x02w4\n"
+.stringn "당신이 저를 필요로 해 주시는 것이\x02mc…\x02md\x02w3\n"
+.stringn "제 행복이니까요.\x11"
 db 0
 .align 4
 //MMY_RAFIEL_RECV_0_A
 
 //0x208C
 Text_206C:
-.stringn "\x05FL|RAFIEL||\x0701\x01s\x081Dええ、\x02w3わかりました。\x02w4\n"
-.stringn "私もあなたのために\x02w3\n"
-.stringn "微力を尽くします\x02mc……\x02md\x11"
+.stringn "\x05FL|RAFIEL||\x0701\x01s\x081D네,\x02w3 알겠습니다.\x02w4\n"
+.stringn "저도 당신을 위해\x02w3\n"
+.stringn "미약한 힘이나마 다하겠습니다\x02mc……\x02md\x11"
 db 0
 .align 4
 //MMY_RAFIEL_RECV_0_B
 
 //0x1D28
 Text_1D08:
-.stringn "\x05FL|RAFIEL||\x0701\x01s\x081Dはい\x02mc……\x02md\x02w4\n"
-.stringn "ありがとうございます。\x11"
+.stringn "\x05FL|RAFIEL||\x0701\x01s\x081D네\x02mc……\x02md\x02w4\n"
+.stringn "감사합니다.\x11"
 db 0
 .align 4
 //MMY_RAFIEL_RECV_0_C
 
 //0x20F0
 Text_20D0:
-.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0}、\x02w3\n"
-.stringn "あなたは生きてくださいね\x02mc……\x02md\x02w4\n"
-.stringn "あなたを失うと\x02mc…\x02md\x02w3　\x02ec私は\x02mc…\x02md\x02w3私は\x02mc………\x02md\x11\n"
+.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0},\x02w3\n"
+.stringn "부디 살아 주세요\x02mc……\x02md\x02w4\n"
+.stringn "당신을 잃으면\x02mc…\x02md\x02w3 \x02ec저는\x02mc…\x02md\x02w3 저는\x02mc………\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2547,9 +2547,9 @@ db 0
 
 //0x1D68
 Text_1D48:
-.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0}、\x02w3どうか\x02mc……\x02md\x02w4\n"
-.stringn "私も傍にいさせてください。\x02w4\n"
-.stringn "あなたのために何かしたいのです。\x11\n"
+.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0},\x02w3 부디\x02mc……\x02md\x02w4\n"
+.stringn "저도 곁에 있게 해 주세요.\x02w4\n"
+.stringn "당신을 위해 무언가 하고 싶습니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2558,8 +2558,8 @@ db 0
 
 //0x1ADC
 Text_1ABC:
-.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080Dあの\x02mc…\x02md\x02w3　@{0}\x02mc……\x02md\x02w4\n"
-.stringn "無事ですか？\x11\n"
+.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D저기\x02mc…\x02md\x02w3 @{0}\x02mc……\x02md\x02w4\n"
+.stringn "무사하신가요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2568,9 +2568,9 @@ db 0
 
 //0x2188
 Text_2168:
-.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0}殿、\x02w3\n"
-.stringn "あなたは生きてくださいね\x02mc……\x02md\x02w4\n"
-.stringn "あなたを失うと\x02mc…\x02md\x02w3　\x02ec私は\x02mc…\x02md\x02w3私は\x02mc………\x02md\x11\n"
+.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0} 공,\x02w3\n"
+.stringn "부디 살아 주세요\x02mc……\x02md\x02w4\n"
+.stringn "당신을 잃으면\x02mc…\x02md\x02w3 \x02ec저는\x02mc…\x02md\x02w3 저는\x02mc………\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2579,9 +2579,9 @@ db 0
 
 //0x1DEC
 Text_1DCC:
-.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0}殿、\x02w3どうか\x02mc……\x02md\x02w4\n"
-.stringn "私も傍にいさせてください。\x02w4\n"
-.stringn "あなたのために何かしたいのです。\x11\n"
+.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0} 공,\x02w3 부디\x02mc……\x02md\x02w4\n"
+.stringn "저도 곁에 있게 해 주세요.\x02w4\n"
+.stringn "당신을 위해 무언가 하고 싶습니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2590,8 +2590,8 @@ db 0
 
 //0x1B34
 Text_1B14:
-.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080Dあの\x02mc…\x02md\x02w3　@{0}殿\x02mc……\x02md\x02w4\n"
-.stringn "ご無事でしょうか？\x11\n"
+.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D저기\x02mc…\x02md\x02w3 @{0} 공\x02mc……\x02md\x02w4\n"
+.stringn "무사하신가요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2600,9 +2600,9 @@ db 0
 
 //0x2220
 Text_2200:
-.stringn "\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080Dタナス公、\x02w3\n"
-.stringn "あなたは生きてくださいね\x02mc……\x02md\x02w4\n"
-.stringn "あなただけでも\x02mc………\x02md\x11\n"
+.stringn "\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D타나스 공,\x02w3\n"
+.stringn "부디 살아 주세요\x02mc……\x02md\x02w4\n"
+.stringn "당신만이라도\x02mc………\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2611,9 +2611,9 @@ db 0
 
 //0x1E74
 Text_1E54:
-.stringn "\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D\x02mc……\x02md\x02w3タナス公、\x02w4\n"
-.stringn "私も傍にいさせてください。\x02w4\n"
-.stringn "あなたのために何かしたいのです。\x11\n"
+.stringn "\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D\x02mc……\x02md\x02w3타나스 공,\x02w4\n"
+.stringn "저도 곁에 있게 해 주세요.\x02w4\n"
+.stringn "당신을 위해 무언가 하고 싶습니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2622,8 +2622,8 @@ db 0
 
 //0x1B94
 Text_1B74:
-.stringn "\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080Dあの\x02mc…\x02md\x02w3　タナス公\x02mc……\x02md\x02w4\n"
-.stringn "ご無事\x02mc……\x02md\x02w3でしょうか？\x11\n"
+.stringn "\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D저기\x02mc…\x02md\x02w3 타나스 공\x02mc……\x02md\x02w4\n"
+.stringn "무사하신\x02mc……\x02md\x02w3 건가요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2632,9 +2632,9 @@ db 0
 
 //0x2298
 Text_2278:
-.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0}様、\x02w3\n"
-.stringn "あなたは生きてくださいね\x02mc……\x02md\x02w4\n"
-.stringn "あなたを失うと\x02mc…\x02md\x02w3　\x02ec私は\x02mc…\x02md\x02w3私は\x02mc………\x02md\x11\n"
+.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0}님,\x02w3\n"
+.stringn "부디 살아 주세요\x02mc……\x02md\x02w4\n"
+.stringn "당신을 잃으면\x02mc…\x02md\x02w3 \x02ec저는\x02mc…\x02md\x02w3 저는\x02mc………\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2643,9 +2643,9 @@ db 0
 
 //0x1EF8
 Text_1ED8:
-.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0}様、\x02w3どうか\x02mc……\x02md\x02w4\n"
-.stringn "私も傍にいさせてください。\x02w4\n"
-.stringn "あなたのために何かしたいのです。\x11\n"
+.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0}님,\x02w3 부디\x02mc……\x02md\x02w4\n"
+.stringn "저도 곁에 있게 해 주세요.\x02w4\n"
+.stringn "당신을 위해 무언가 하고 싶습니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2654,8 +2654,8 @@ db 0
 
 //0x1C04
 Text_1BE4:
-.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080Dあの\x02mc…\x02md\x02w3　@{0}様\x02mc……\x02md\x02w4\n"
-.stringn "ご無事でしょうか？\x11\n"
+.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D저기\x02mc…\x02md\x02w3 @{0}님\x02mc……\x02md\x02w4\n"
+.stringn "무사하신가요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2664,9 +2664,9 @@ db 0
 
 //0x2330
 Text_2310:
-.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍、\x02w3\n"
-.stringn "あなたは生きてくださいね\x02mc……\x02md\x02w4\n"
-.stringn "あなたを失うと\x02mc…\x02md\x02w3　\x02ec私は\x02mc…\x02md\x02w3私は\x02mc………\x02md\x11\n"
+.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군,\x02w3\n"
+.stringn "부디 살아 주세요\x02mc……\x02md\x02w4\n"
+.stringn "당신을 잃으면\x02mc…\x02md\x02w3 \x02ec저는\x02mc…\x02md\x02w3 저는\x02mc………\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2675,9 +2675,9 @@ db 0
 
 //0x1F80
 Text_1F60:
-.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍、\x02w3どうか\x02mc……\x02md\x02w4\n"
-.stringn "私も傍にいさせてください。\x02w4\n"
-.stringn "あなたのために何かしたいのです。\x11\n"
+.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군,\x02w3 부디\x02mc……\x02md\x02w4\n"
+.stringn "저도 곁에 있게 해 주세요.\x02w4\n"
+.stringn "당신을 위해 무언가 하고 싶습니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2686,8 +2686,8 @@ db 0
 
 //0x1C64
 Text_1C44:
-.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080Dあの\x02mc…\x02md\x02w3　@{0}将軍\x02mc……\x02md\x02w4\n"
-.stringn "ご無事でしょうか？\x11\n"
+.stringn "@\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D저기\x02mc…\x02md\x02w3 @{0} 장군\x02mc……\x02md\x02w4\n"
+.stringn "무사하신가요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2696,9 +2696,9 @@ db 0
 
 //0x23CC
 Text_23AC:
-.stringn "\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D女王、\x02w3\n"
-.stringn "あなたは生きてくださいね\x02mc……\x02md\x02w4\n"
-.stringn "あなたを失うと\x02mc…\x02md\x02w3　\x02ec私は\x02mc…\x02md\x02w3私は\x02mc………\x02md\x11\n"
+.stringn "\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D여왕님,\x02w3\n"
+.stringn "부디 살아 주세요\x02mc……\x02md\x02w4\n"
+.stringn "당신을 잃으면\x02mc…\x02md\x02w3 \x02ec저는\x02mc…\x02md\x02w3 저는\x02mc………\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2707,9 +2707,9 @@ db 0
 
 //0x2008
 Text_1FE8:
-.stringn "\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D女王、\x02w3どうか\x02mc……\x02md\x02w4\n"
-.stringn "私も傍にいさせてください。\x02w4\n"
-.stringn "あなたのために何かしたいのです。\x11\n"
+.stringn "\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D여왕님,\x02w3 부디\x02mc……\x02md\x02w4\n"
+.stringn "저도 곁에 있게 해 주세요.\x02w4\n"
+.stringn "당신을 위해 무언가 하고 싶습니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2718,8 +2718,8 @@ db 0
 
 //0x1CC8
 Text_1CA8:
-.stringn "\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080Dあの\x02mc…\x02md\x02w3　女王\x02mc……\x02md\x02w4\n"
-.stringn "ご無事でしょうか？\x11\n"
+.stringn "\x05FL|RAFIEL||\x02BO\x04R上下会話|\x0700\x080D저기\x02mc…\x02md\x02w3 여왕님\x02mc……\x02md\x02w4\n"
+.stringn "무사하신가요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2728,62 +2728,62 @@ db 0
 
 //0x7BBC
 Text_7B9C:
-.stringn "\x05FL|RETHE||\x0701\x01s\x081Dああ。\x02w4\n"
-.stringn "\x02mc……\x02md誰のせいなのか、\x02w3\n"
-.stringn "私もいつの間にか変わったものだ。\x11"
+.stringn "\x05FL|RETHE||\x0701\x01s\x081D그래.\x02w4\n"
+.stringn "\x02mc……\x02md누구 덕분인지,\x02w3\n"
+.stringn "나도 어느새 많이 변했군.\x11"
 db 0
 .align 4
 //MMY_RETHE_RECV_0_A
 
 //0x7400
 Text_73E0:
-.stringn "\x05FL|RETHE||\x0701\x01s\x081Dそうだな。\x02w4\n"
-.stringn "互いの力を合わせれば\x02w3\n"
-.stringn "どんな敵だろうと、\x02w3必ず\x02mc……\x02md\x02w4\x11"
+.stringn "\x05FL|RETHE||\x0701\x01s\x081D그렇군.\x02w4\n"
+.stringn "서로 힘을 합치면\x02w3\n"
+.stringn "어떤 적이라도,\x02w3 반드시\x02mc……\x02md\x02w4\x11"
 db 0
 .align 4
 //MMY_RETHE_RECV_0_B
 
 //0x6DCC
 Text_6DAC:
-.stringn "\x05FL|RETHE||\x0701\x081D当然だ、\x02w3何の問題もない。\x02w4\n"
-.stringn "私はガリアの戦士だからな。\x11"
+.stringn "\x05FL|RETHE||\x0701\x081D당연하지,\x02w3 아무 문제도 없다.\x02w4\n"
+.stringn "나는 갈리아의 전사니까.\x11"
 db 0
 .align 4
 //MMY_RETHE_RECV_0_C
 
 //0x7C1C
 Text_7BFC:
-.stringn "\x05FL|RETHE||\x0701\x01s\x081Dはい。\x02w4\n"
-.stringn "私たちは何者にも負けません。\x11"
+.stringn "\x05FL|RETHE||\x0701\x01s\x081D네.\x02w4\n"
+.stringn "우리는 누구에게도 지지 않습니다.\x11"
 db 0
 .align 4
 //MMY_RETHE_RECV_1_A
 
 //0x7464
 Text_7444:
-.stringn "\x05FL|RETHE||\x0701\x01s\x081Dはい。\x02w4\n"
-.stringn "お力をお貸しいただければ\x02w3\n"
-.stringn "どんな敵だろうと、\x02w3必ず\x02mc……\x02md\x02w4\x11"
+.stringn "\x05FL|RETHE||\x0701\x01s\x081D네.\x02w4\n"
+.stringn "힘을 빌려주신다면\x02w3\n"
+.stringn "어떤 적이라도,\x02w3 반드시\x02mc……\x02md\x02w4\x11"
 db 0
 .align 4
 //MMY_RETHE_RECV_1_B
 
 //0x6E18
 Text_6DF8:
-.stringn "\x05FL|RETHE||\x0701\x081D当然です。\x02w4\n"
-.stringn "私はガリアの戦士、\x02w3\n"
-.stringn "死など恐れはしません。\x11"
+.stringn "\x05FL|RETHE||\x0701\x081D당연합니다.\x02w4\n"
+.stringn "저는 갈리아의 전사,\x02w3\n"
+.stringn "죽음 따위 두렵지 않습니다.\x11"
 db 0
 .align 4
 //MMY_RETHE_RECV_1_C
 
 //0x74C8
 Text_74A8:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残るのだ。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0},\x02w3\n"
+.stringn "우리는 도망치지 않는다.\x02w4\n"
+.stringn "그리고 끝까지 살아남는 거다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2792,9 +2792,9 @@ db 0
 
 //0x6E68
 Text_6E48:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}、\x02w3\n"
-.stringn "私と共にいて欲しい。\x02w4\n"
-.stringn "構わないか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0},\x02w3\n"
+.stringn "내 곁에 있어 줬으면 한다.\x02w4\n"
+.stringn "괜찮겠나?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2803,8 +2803,8 @@ db 0
 
 //0x699C
 Text_697C:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}、\x02w3\n"
-.stringn "まだ戦えるか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0},\x02w3\n"
+.stringn "아직 싸울 수 있나?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2813,10 +2813,10 @@ db 0
 
 //0x7964
 Text_7944:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}王、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残りましょう。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 왕,\x02w3\n"
+.stringn "우리는 도망치지 않습니다.\x02w4\n"
+.stringn "그리고 끝까지 살아남읍시다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2825,9 +2825,9 @@ db 0
 
 //0x7224
 Text_7204:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}王、\x02w3\n"
-.stringn "私と共にいていただきたい。\x02w4\n"
-.stringn "構いませんか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 왕,\x02w3\n"
+.stringn "제 곁에 있어 주셨으면 합니다.\x02w4\n"
+.stringn "괜찮으십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2836,8 +2836,8 @@ db 0
 
 //0x6C60
 Text_6C40:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}王、\x02w3\n"
-.stringn "まだ戦えそうですか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 왕,\x02w3\n"
+.stringn "아직 싸우실 수 있습니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2846,10 +2846,10 @@ db 0
 
 //0x79DC
 Text_79BC:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}姫、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残りましょう。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 공주,\x02w3\n"
+.stringn "우리는 도망치지 않습니다.\x02w4\n"
+.stringn "그리고 끝까지 살아남읍시다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2858,9 +2858,9 @@ db 0
 
 //0x7284
 Text_7264:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}姫、\x02w3\n"
-.stringn "私と共にいていただきたい。\x02w4\n"
-.stringn "構いませんか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 공주,\x02w3\n"
+.stringn "제 곁에 있어 주셨으면 합니다.\x02w4\n"
+.stringn "괜찮으십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2869,8 +2869,8 @@ db 0
 
 //0x6CA8
 Text_6C88:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}姫、\x02w3\n"
-.stringn "まだ戦えそうですか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 공주,\x02w3\n"
+.stringn "아직 싸우실 수 있습니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2879,10 +2879,10 @@ db 0
 
 //0x7A54
 Text_7A34:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}卿、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残りましょう。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 경,\x02w3\n"
+.stringn "우리는 도망치지 않습니다.\x02w4\n"
+.stringn "그리고 끝까지 살아남읍시다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2891,9 +2891,9 @@ db 0
 
 //0x72E4
 Text_72C4:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}卿、\x02w3\n"
-.stringn "私と共にいていただきたい。\x02w4\n"
-.stringn "構いませんか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 경,\x02w3\n"
+.stringn "제 곁에 있어 주셨으면 합니다.\x02w4\n"
+.stringn "괜찮으십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2902,8 +2902,8 @@ db 0
 
 //0x6CF0
 Text_6CD0:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}卿、\x02w3\n"
-.stringn "まだ戦えそうですか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 경,\x02w3\n"
+.stringn "아직 싸우실 수 있습니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2912,10 +2912,10 @@ db 0
 
 //0x7ACC
 Text_7AAC:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080Dニアルチ老、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残るのだ。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D니알루치 옹,\x02w3\n"
+.stringn "우리는 도망치지 않는다.\x02w4\n"
+.stringn "그리고 끝까지 살아남는 거다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2924,9 +2924,9 @@ db 0
 
 //0x7344
 Text_7324:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080Dニアルチ老、\x02w3\n"
-.stringn "私と共にいて欲しい。\x02w4\n"
-.stringn "構わないか？\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D니알루치 옹,\x02w3\n"
+.stringn "내 곁에 있어 줬으면 한다.\x02w4\n"
+.stringn "괜찮겠나?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2935,8 +2935,8 @@ db 0
 
 //0x6D38
 Text_6D18:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080Dニアルチ老、\x02w3\n"
-.stringn "まだ戦えそうですか？\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D니알루치 옹,\x02w3\n"
+.stringn "아직 싸우실 수 있습니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2945,10 +2945,10 @@ db 0
 
 //0x7B44
 Text_7B24:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D狼女王、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残りましょう。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D늑대여왕,\x02w3\n"
+.stringn "우리는 도망치지 않습니다.\x02w4\n"
+.stringn "그리고 끝까지 살아남읍시다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2957,9 +2957,9 @@ db 0
 
 //0x73A0
 Text_7380:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D狼女王、\x02w3\n"
-.stringn "私と共にいていただきたい。\x02w4\n"
-.stringn "構いませんか？\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D늑대여왕,\x02w3\n"
+.stringn "제 곁에 있어 주셨으면 합니다.\x02w4\n"
+.stringn "괜찮으십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2968,8 +2968,8 @@ db 0
 
 //0x6D84
 Text_6D64:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D狼女王、\x02w3\n"
-.stringn "まだ戦われますか？\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D늑대여왕,\x02w3\n"
+.stringn "아직 싸우시겠습니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2978,10 +2978,10 @@ db 0
 
 //0x7538
 Text_7518:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}女王、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残りましょう。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 여왕,\x02w3\n"
+.stringn "우리는 도망치지 않습니다.\x02w4\n"
+.stringn "그리고 끝까지 살아남읍시다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -2990,9 +2990,9 @@ db 0
 
 //0x6EC0
 Text_6EA0:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}女王、\x02w3\n"
-.stringn "私と共にいていただきたい。\x02w4\n"
-.stringn "構いませんか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 여왕,\x02w3\n"
+.stringn "제 곁에 있어 주셨으면 합니다.\x02w4\n"
+.stringn "괜찮으십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3001,8 +3001,8 @@ db 0
 
 //0x69DC
 Text_69BC:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}女王、\x02w3\n"
-.stringn "まだ戦えそうですか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 여왕,\x02w3\n"
+.stringn "아직 싸우실 수 있습니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3011,10 +3011,10 @@ db 0
 
 //0x75B0
 Text_7590:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080Dタナス公、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残るのだ。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D타나스 공,\x02w3\n"
+.stringn "우리는 도망치지 않는다.\x02w4\n"
+.stringn "그리고 끝까지 살아남는 거다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3023,9 +3023,9 @@ db 0
 
 //0x6F24
 Text_6F04:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080Dタナス公、\x02w3\n"
-.stringn "私と共にいて欲しい。\x02w4\n"
-.stringn "構わないか？\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D타나스 공,\x02w3\n"
+.stringn "내 곁에 있어 줬으면 한다.\x02w4\n"
+.stringn "괜찮겠나?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3034,8 +3034,8 @@ db 0
 
 //0x6A28
 Text_6A08:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080Dタナス公、\x02w3\n"
-.stringn "まだ戦えるか？\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D타나스 공,\x02w3\n"
+.stringn "아직 싸울 수 있나?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3044,10 +3044,10 @@ db 0
 
 //0x7624
 Text_7604:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}様、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残りましょう。\x11\n"
-.stringn "ガリアのために\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}님,\x02w3\n"
+.stringn "우리는 도망치지 않습니다.\x02w4\n"
+.stringn "그리고 끝까지 살아남읍시다.\x11\n"
+.stringn "갈리아를 위해\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3056,9 +3056,9 @@ db 0
 
 //0x6F80
 Text_6F60:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}様、\x02w3\n"
-.stringn "どうかお傍に、\x02w3\n"
-.stringn "私も共に戦わせてください。\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}님,\x02w3\n"
+.stringn "부디 곁에서,\x02w3\n"
+.stringn "저도 함께 싸우게 해 주세요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3067,8 +3067,8 @@ db 0
 
 //0x6A6C
 Text_6A4C:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}様、\x02w3\n"
-.stringn "まだ戦われますか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}님,\x02w3\n"
+.stringn "아직 싸우시겠습니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3077,10 +3077,10 @@ db 0
 
 //0x76A0
 Text_7680:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}王子、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残りましょう。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 왕자,\x02w3\n"
+.stringn "우리는 도망치지 않습니다.\x02w4\n"
+.stringn "그리고 끝까지 살아남읍시다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3089,9 +3089,9 @@ db 0
 
 //0x6FE0
 Text_6FC0:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}王子、\x02w3\n"
-.stringn "私と共にいていただきたい。\x02w4\n"
-.stringn "構いませんか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 왕자,\x02w3\n"
+.stringn "제 곁에 있어 주셨으면 합니다.\x02w4\n"
+.stringn "괜찮으십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3100,8 +3100,8 @@ db 0
 
 //0x6AB4
 Text_6A94:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}王子、\x02w3\n"
-.stringn "まだ戦えそうですか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 왕자,\x02w3\n"
+.stringn "아직 싸우실 수 있습니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3110,10 +3110,10 @@ db 0
 
 //0x7718
 Text_76F8:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D皇帝@{0}、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残りましょう。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D황제 @{0},\x02w3\n"
+.stringn "우리는 도망치지 않습니다.\x02w4\n"
+.stringn "그리고 끝까지 살아남읍시다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3122,9 +3122,9 @@ db 0
 
 //0x7044
 Text_7024:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D皇帝@{0}、\x02w3\n"
-.stringn "私と共にいていただきたい。\x02w4\n"
-.stringn "構いませんか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D황제 @{0},\x02w3\n"
+.stringn "제 곁에 있어 주셨으면 합니다.\x02w4\n"
+.stringn "괜찮으십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3133,8 +3133,8 @@ db 0
 
 //0x6B00
 Text_6AE0:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D皇帝@{0}、\x02w3\n"
-.stringn "まだ戦えそうですか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D황제 @{0},\x02w3\n"
+.stringn "아직 싸우실 수 있습니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3143,10 +3143,10 @@ db 0
 
 //0x7790
 Text_7770:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残るのだ。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군,\x02w3\n"
+.stringn "우리는 도망치지 않는다.\x02w4\n"
+.stringn "그리고 끝까지 살아남는 거다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3155,9 +3155,9 @@ db 0
 
 //0x70A8
 Text_7088:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍、\x02w3\n"
-.stringn "私と共にいて欲しい。\x02w4\n"
-.stringn "構わないか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군,\x02w3\n"
+.stringn "내 곁에 있어 줬으면 한다.\x02w4\n"
+.stringn "괜찮겠나?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3166,8 +3166,8 @@ db 0
 
 //0x6B4C
 Text_6B2C:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}将軍、\x02w3\n"
-.stringn "まだ戦えるか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 장군,\x02w3\n"
+.stringn "아직 싸울 수 있나?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3176,10 +3176,10 @@ db 0
 
 //0x7804
 Text_77E4:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D鷹王、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残りましょう。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D응왕,\x02w3\n"
+.stringn "우리는 도망치지 않습니다.\x02w4\n"
+.stringn "그리고 끝까지 살아남읍시다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3188,9 +3188,9 @@ db 0
 
 //0x7104
 Text_70E4:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D鷹王、\x02w3\n"
-.stringn "私と共にいていただきたい。\x02w4\n"
-.stringn "構いませんか？\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D응왕,\x02w3\n"
+.stringn "제 곁에 있어 주셨으면 합니다.\x02w4\n"
+.stringn "괜찮으십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3199,8 +3199,8 @@ db 0
 
 //0x6B90
 Text_6B70:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D鷹王、\x02w3\n"
-.stringn "まだ戦われますか？\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D응왕,\x02w3\n"
+.stringn "아직 싸우시겠습니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3209,10 +3209,10 @@ db 0
 
 //0x7878
 Text_7858:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}殿、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残りましょう。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 공,\x02w3\n"
+.stringn "우리는 도망치지 않습니다.\x02w4\n"
+.stringn "그리고 끝까지 살아남읍시다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3221,9 +3221,9 @@ db 0
 
 //0x7164
 Text_7144:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}殿、\x02w3\n"
-.stringn "私と共にいていただきたい。\x02w4\n"
-.stringn "構いませんか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 공,\x02w3\n"
+.stringn "제 곁에 있어 주셨으면 합니다.\x02w4\n"
+.stringn "괜찮으십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3232,8 +3232,8 @@ db 0
 
 //0x6BD4
 Text_6BB4:
-.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0}殿、\x02w3\n"
-.stringn "まだ戦えそうですか？\x11\n"
+.stringn "@\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D@{0} 공,\x02w3\n"
+.stringn "아직 싸우실 수 있습니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3242,10 +3242,10 @@ db 0
 
 //0x78F0
 Text_78D0:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D鴉王、\x02w3\n"
-.stringn "我々は逃げない。\x02w4\n"
-.stringn "そして勝ち残りましょう。\x11\n"
-.stringn "２人で共に\x02mc……\x02md\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D아왕,\x02w3\n"
+.stringn "우리는 도망치지 않습니다.\x02w4\n"
+.stringn "그리고 끝까지 살아남읍시다.\x11\n"
+.stringn "둘이 함께\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3254,9 +3254,9 @@ db 0
 
 //0x71C4
 Text_71A4:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D鴉王、\x02w3\n"
-.stringn "私と共にいていただきたい。\x02w4\n"
-.stringn "構いませんか？\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D아왕,\x02w3\n"
+.stringn "제 곁에 있어 주셨으면 합니다.\x02w4\n"
+.stringn "괜찮으십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3265,8 +3265,8 @@ db 0
 
 //0x6C1C
 Text_6BFC:
-.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D鴉王、\x02w3\n"
-.stringn "まだ戦われますか？\x11\n"
+.stringn "\x05FL|RETHE||\x02BO\x04R上下会話|\x0700\x080D아왕,\x02w3\n"
+.stringn "아직 싸우시겠습니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3275,55 +3275,55 @@ db 0
 
 //0x47C8
 Text_47A8:
-.stringn "\x05FL|RIEUSION||\x0701\x01s\x081D分かった。\x02w4私は死なない。\x02w4\n"
-.stringn "おまえのためにも\x02mc……\x02md\x02w3必ず。\x11"
+.stringn "\x05FL|RIEUSION||\x0701\x01s\x081D알았다.\x02w4 나는 죽지 않아.\x02w4\n"
+.stringn "너를 위해서라도\x02mc……\x02md\x02w3 반드시.\x11"
 db 0
 .align 4
 //MMY_RIEUSION_RECV_0_A
 
 //0x4418
 Text_43F8:
-.stringn "\x05FL|RIEUSION||\x0701\x01s\x081Dいいだろう。\x02w4\n"
-.stringn "私もそのほうがいい。\x11"
+.stringn "\x05FL|RIEUSION||\x0701\x01s\x081D좋아.\x02w4\n"
+.stringn "내게도 그러는 편이 낫겠군.\x11"
 db 0
 .align 4
 //MMY_RIEUSION_RECV_0_B
 
 //0x4118
 Text_40F8:
-.stringn "\x05FL|RIEUSION||\x0701\x01s\x081Dああ、\x02w3私は平気だ。\x11"
+.stringn "\x05FL|RIEUSION||\x0701\x01s\x081D그래,\x02w3 나는 괜찮다.\x11"
 db 0
 .align 4
 //MMY_RIEUSION_RECV_0_C
 
 //0x4824
 Text_4804:
-.stringn "\x05FL|RIEUSION||\x0701\x01s\x081D分かりました。\x02w4私は死にません。\x02w4\n"
-.stringn "あなたのためにも\x02mc……\x02md\x02w3必ず。\x11"
+.stringn "\x05FL|RIEUSION||\x0701\x01s\x081D알겠습니다.\x02w4 저는 죽지 않겠습니다.\x02w4\n"
+.stringn "당신을 위해서라도\x02mc……\x02md\x02w3 반드시.\x11"
 db 0
 .align 4
 //MMY_RIEUSION_RECV_1_A
 
 //0x4454
 Text_4434:
-.stringn "\x05FL|RIEUSION||\x0701\x01s\x081Dもちろんです。\x02w4\n"
-.stringn "私もそうしたいと思っていました。\x11"
+.stringn "\x05FL|RIEUSION||\x0701\x01s\x081D물론입니다.\x02w4\n"
+.stringn "저도 그러고 싶었습니다.\x11"
 db 0
 .align 4
 //MMY_RIEUSION_RECV_1_B
 
 //0x4148
 Text_4128:
-.stringn "\x05FL|RIEUSION||\x0701\x01s\x081Dええ、\x02w3私は平気です。\x11"
+.stringn "\x05FL|RIEUSION||\x0701\x01s\x081D네,\x02w3 저는 괜찮습니다.\x11"
 db 0
 .align 4
 //MMY_RIEUSION_RECV_1_C
 
 //0x44A0
 Text_4480:
-.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}、\x02w3\n"
-.stringn "おまえは私の良き理解者だ。\x02w4\n"
-.stringn "何があろうと死なせはしない\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0},\x02w3\n"
+.stringn "너는 나를 잘 이해해 주는 사람이다.\x02w4\n"
+.stringn "무슨 일이 있어도 죽게 두지 않겠어\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3332,8 +3332,8 @@ db 0
 
 //0x4178
 Text_4158:
-.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}、\x02w3私も共に行こう。\x02w4\n"
-.stringn "きっと力になれる。\x11\n"
+.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0},\x02w3 나도 함께 가지.\x02w4\n"
+.stringn "분명 도움이 될 거야.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3342,8 +3342,8 @@ db 0
 
 //0x3E5C
 Text_3E3C:
-.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D待ってくれ、\x02w3@{0}。\x02w4\n"
-.stringn "戦い続きだが\x02mc……\x02md\x02w4大丈夫か？\x11\n"
+.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D기다려 줘,\x02w3 @{0}.\x02w4\n"
+.stringn "계속 싸우기만 했는데\x02mc……\x02md\x02w4 괜찮아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3352,9 +3352,9 @@ db 0
 
 //0x451C
 Text_44FC:
-.stringn "\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080Dタナス公、\x02w3\n"
-.stringn "おまえは私の\x02mc……\x02md\x02w3友だ。\x02w4\n"
-.stringn "できれば\x02mc…\x02md\x02w3死なないでいてくれると\x02mc……\x02md\x11\n"
+.stringn "\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D타나스 공,\x02w3\n"
+.stringn "너는 나의\x02mc……\x02md\x02w3 친구다.\x02w4\n"
+.stringn "가능하면\x02mc…\x02md\x02w3 죽지 않아 줬으면 한다\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3363,9 +3363,9 @@ db 0
 
 //0x41D4
 Text_41B4:
-.stringn "\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080Dタナス公\x02mc……\x02md\x02w4一応、\x02w3\n"
-.stringn "私も共に行こう。\x02w4\n"
-.stringn "それなりに力になれる。\x11\n"
+.stringn "\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D타나스 공\x02mc……\x02md\x02w4 일단,\x02w3\n"
+.stringn "나도 함께 가지.\x02w4\n"
+.stringn "그럭저럭 도움이 될 거다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3374,8 +3374,8 @@ db 0
 
 //0x3EC4
 Text_3EA4:
-.stringn "\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D\x02mc……\x02mdタナス公か。\x02w4\n"
-.stringn "戦い続きだが\x02mc……\x02md\x02w4大丈夫か？\x11\n"
+.stringn "\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D\x02mc……\x02md타나스 공인가.\x02w4\n"
+.stringn "계속 싸우기만 했는데\x02mc……\x02md\x02w4 괜찮나?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3384,9 +3384,9 @@ db 0
 
 //0x45AC
 Text_458C:
-.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}殿、\x02w3\n"
-.stringn "あなたは私の良き理解者だ。\x02w4\n"
-.stringn "何があろうと死なせはしない\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 공,\x02w3\n"
+.stringn "당신은 나를 잘 이해해 주는 사람이다.\x02w4\n"
+.stringn "무슨 일이 있어도 죽게 두지 않겠어\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3395,8 +3395,8 @@ db 0
 
 //0x4248
 Text_4228:
-.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}殿、\x02w3私も共に行こう。\x02w4\n"
-.stringn "きっと力になれる。\x11\n"
+.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 공,\x02w3 나도 함께 가지.\x02w4\n"
+.stringn "분명 도움이 될 거야.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3405,8 +3405,8 @@ db 0
 
 //0x3F2C
 Text_3F0C:
-.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D待ってくれ、\x02w3@{0}殿。\x02w4\n"
-.stringn "戦い続きだが\x02mc……\x02md\x02w4大丈夫か？\x11\n"
+.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D기다려 줘,\x02w3 @{0} 공.\x02w4\n"
+.stringn "계속 싸우기만 했는데\x02mc……\x02md\x02w4 괜찮아?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3415,9 +3415,9 @@ db 0
 
 //0x4628
 Text_4608:
-.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}将軍、\x02w3\n"
-.stringn "あなたは私の理解者だ。\x02w4\n"
-.stringn "何があろうと死なせはしません\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 장군,\x02w3\n"
+.stringn "당신은 저를 이해해 주는 분입니다.\x02w4\n"
+.stringn "무슨 일이 있어도 죽게 두지 않겠습니다\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3426,9 +3426,9 @@ db 0
 
 //0x42A8
 Text_4288:
-.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}将軍、\x02w3\n"
-.stringn "私も共に行きます。\x02w4\n"
-.stringn "きっと力になってみせますから。\x11\n"
+.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 장군,\x02w3\n"
+.stringn "저도 함께 가겠습니다.\x02w4\n"
+.stringn "반드시 힘이 되어 드리겠습니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3437,8 +3437,8 @@ db 0
 
 //0x3F98
 Text_3F78:
-.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D待ってください、\x02w3@{0}将軍。\x02w4\n"
-.stringn "戦い続きですが\x02mc……\x02md\x02w4大丈夫ですか？\x11\n"
+.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D기다려 주세요,\x02w3 @{0} 장군.\x02w4\n"
+.stringn "계속 싸우기만 하셨는데\x02mc……\x02md\x02w4 괜찮으십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3447,10 +3447,10 @@ db 0
 
 //0x46A4
 Text_4684:
-.stringn "\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080Dティバーン、\x02w3\n"
-.stringn "あなたは私の\x02mc…\x02md\x02w3恩人です。\x02w4\n"
-.stringn "\x01a何があろうと死なせはしません\x02mc……\x02md\x11\n"
-.stringn "たとえこの身がどうなろうとも。\x11\n"
+.stringn "\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D티반,\x02w3\n"
+.stringn "당신은 저의\x02mc…\x02md\x02w3 은인입니다.\x02w4\n"
+.stringn "\x01a무슨 일이 있어도 죽게 두지 않겠습니다\x02mc……\x02md\x11\n"
+.stringn "설령 이 몸이 어떻게 되더라도.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3459,10 +3459,10 @@ db 0
 
 //0x4318
 Text_42F8:
-.stringn "\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080Dティバーン、\x02w3\n"
-.stringn "私も共に行きます。\x02w4\n"
-.stringn "きっと力になってみせますから。\x11\n"
-.stringn "\x02mc………\x02md\x01aいいですよね？\x11\n"
+.stringn "\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D티반,\x02w3\n"
+.stringn "저도 함께 가겠습니다.\x02w4\n"
+.stringn "반드시 힘이 되어 드리겠습니다.\x11\n"
+.stringn "\x02mc………\x02md\x01a괜찮겠죠?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3471,9 +3471,9 @@ db 0
 
 //0x4010
 Text_3FF0:
-.stringn "\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D待ってください、\x02w3ティバーン。\x02w4\n"
-.stringn "戦い続きですが\x02mc……\x02md\x02w4大丈夫ですか？\x02w4\n"
-.stringn "怪我などはありませんか？\x11\n"
+.stringn "\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D기다려 주세요,\x02w3 티반.\x02w4\n"
+.stringn "계속 싸우기만 하셨는데\x02mc……\x02md\x02w4 괜찮으십니까?\x02w4\n"
+.stringn "다치신 곳은 없습니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3482,9 +3482,9 @@ db 0
 
 //0x4750
 Text_4730:
-.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D@{0}殿、\x02w3\n"
-.stringn "あなたは私の理解者だ。\x02w4\n"
-.stringn "何があろうと死なせはしません\x02mc……\x02md\x11\n"
+.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D@{0} 공,\x02w3\n"
+.stringn "당신은 저를 이해해 주는 분입니다.\x02w4\n"
+.stringn "무슨 일이 있어도 죽게 두지 않겠습니다\x02mc……\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3493,9 +3493,9 @@ db 0
 
 //0x43A8
 Text_4388:
-.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}殿、\x02w3\n"
-.stringn "私も共に行きます。\x02w4\n"
-.stringn "きっと力になってみせますから。\x11\n"
+.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 공,\x02w3\n"
+.stringn "저도 함께 가겠습니다.\x02w4\n"
+.stringn "반드시 힘이 되어 드리겠습니다.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3504,8 +3504,8 @@ db 0
 
 //0x40A4
 Text_4084:
-.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D待ってください、\x02w3@{0}殿。\x02w4\n"
-.stringn "戦い続きですが\x02mc……\x02md\x02w4大丈夫ですか？\x11\n"
+.stringn "@\x05FL|RIEUSION||\x02BO\x04R上下会話|\x0700\x080D기다려 주세요,\x02w3 @{0} 공.\x02w4\n"
+.stringn "계속 싸우기만 하셨는데\x02mc……\x02md\x02w4 괜찮으십니까?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3514,35 +3514,35 @@ db 0
 
 //0xA02C
 Text_A00C:
-.stringn "\x05FL|WAYU||\x0701\x01s\x081Dうん\x02mc！\x02md\x02w4\n"
-.stringn "まかしといて。\x11"
+.stringn "\x05FL|WAYU||\x0701\x01s\x081D응\x02mc!\x02md\x02w4\n"
+.stringn "나한테 맡겨.\x11"
 db 0
 .align 4
 //MMY_WAYU_RECV_0_A
 
 //0x9B7C
 Text_9B5C:
-.stringn "\x05FL|WAYU||\x0701\x01s\x081Dうん、\x02w3いーねぇ\x02mc！\x02md\x02w4\n"
-.stringn "２人でがんばって\n"
-.stringn "最強目指すよ\x02mc！\x02md\x11"
+.stringn "\x05FL|WAYU||\x0701\x01s\x081D응,\x02w3 좋지\x02mc!\x02md\x02w4\n"
+.stringn "둘이 힘을 합쳐서\n"
+.stringn "최강을 노려 보자\x02mc!\x02md\x11"
 db 0
 .align 4
 //MMY_WAYU_RECV_0_B
 
 //0x9784
 Text_9764:
-.stringn "\x05FL|WAYU||\x0701\x01s\x081D全っ然っ平気\x02mc！\x02md\x02w3\n"
-.stringn "あたしはこんなとこで\n"
-.stringn "足踏みしてらんないんだ。\x11"
+.stringn "\x05FL|WAYU||\x0701\x01s\x081D완전 멀쩡해\x02mc!\x02md\x02w3\n"
+.stringn "난 이런 데서\n"
+.stringn "제자리걸음이나 할 수 없다고.\x11"
 db 0
 .align 4
 //MMY_WAYU_RECV_0_C
 
 //0x9BD4
 Text_9BB4:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}\x02mc！\x02md\x02w4\n"
-.stringn "もう、\x02w3大好きっ\x02mc！！\x02md\x02w4\n"
-.stringn "ずっと２人いっしょだよ\x02mc！\x02md\x02w4　約束\x02mc！\x02md\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}\x02mc!\x02md\x02w4\n"
+.stringn "정말,\x02w3 너무 좋아해\x02mc!!\x02md\x02w4\n"
+.stringn "앞으로도 계속 둘이 함께야\x02mc!\x02md\x02w4 약속\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3551,9 +3551,9 @@ db 0
 
 //0x97E0
 Text_97C0:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}、\x02w3あたしと２人で\n"
-.stringn "一緒に戦ってみない？\x02w4\n"
-.stringn "結構いけると思うんだ。\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0},\x02w3 나랑 둘이서\n"
+.stringn "싸워 보지 않을래?\x02w4\n"
+.stringn "제법 잘 맞을 것 같아.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3562,9 +3562,9 @@ db 0
 
 //0x93FC
 Text_93DC:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ\x02mc！\x02md\x02w4　@{0}発見\x02mc！\x02md\x02w4\n"
-.stringn "どう、\x02w3調子は？\x02w4\n"
-.stringn "まだ戦える？\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D앗\x02mc!\x02md\x02w4 @{0} 발견\x02mc!\x02md\x02w4\n"
+.stringn "어때,\x02w3 몸 상태는?\x02w4\n"
+.stringn "아직 싸울 수 있어?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3573,9 +3573,9 @@ db 0
 
 //0x9C5C
 Text_9C3C:
-.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D大将\x02mc！\x02md\x02w4\n"
-.stringn "もう、\x02w3大好きっ\x02mc！！\x02md\x02w4\n"
-.stringn "ずっと２人いっしょだよ\x02mc！\x02md\x02w4　約束\x02mc！\x02md\x11\n"
+.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D대장\x02mc!\x02md\x02w4\n"
+.stringn "정말,\x02w3 너무 좋아해\x02mc!!\x02md\x02w4\n"
+.stringn "앞으로도 계속 둘이 함께야\x02mc!\x02md\x02w4 약속\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3584,9 +3584,9 @@ db 0
 
 //0x9850
 Text_9830:
-.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D大将、\x02w3あたしと２人で\n"
-.stringn "一緒に戦ってみない？\x02w4\n"
-.stringn "結構いけると思うんだ。\x11\n"
+.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D대장,\x02w3 나랑 둘이서\n"
+.stringn "싸워 보지 않을래?\x02w4\n"
+.stringn "제법 잘 맞을 것 같아.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3595,9 +3595,9 @@ db 0
 
 //0x946C
 Text_944C:
-.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ\x02mc！\x02md\x02w4　大将発見\x02mc！\x02md\x02w4\n"
-.stringn "どう、\x02w3調子は？\x02w4\n"
-.stringn "まだ戦える？\x11\n"
+.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D앗\x02mc!\x02md\x02w4 대장 발견\x02mc!\x02md\x02w4\n"
+.stringn "어때,\x02w3 몸 상태는?\x02w4\n"
+.stringn "아직 싸울 수 있어?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3606,9 +3606,9 @@ db 0
 
 //0x9CE4
 Text_9CC4:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}さま\x02mc！\x02md\x02w4\n"
-.stringn "もう、\x02w3大好きっ\x02mc！！\x02md\x02w4\n"
-.stringn "ずっと２人いっしょですよ\x02mc！\x02md\x02w4　約束\x02mc！\x02md\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}님\x02mc!\x02md\x02w4\n"
+.stringn "정말,\x02w3 너무 좋아해요\x02mc!!\x02md\x02w4\n"
+.stringn "앞으로도 계속 둘이 함께예요\x02mc!\x02md\x02w4 약속\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3617,9 +3617,9 @@ db 0
 
 //0x98C0
 Text_98A0:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}さま、\x02w3あたしと２人で\n"
-.stringn "一緒に戦ってみません？\x02w4\n"
-.stringn "結構いけると思うんだ。\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}님,\x02w3 저랑 둘이서\n"
+.stringn "싸워 보지 않으실래요?\x02w4\n"
+.stringn "제법 잘 맞을 것 같아요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3628,9 +3628,9 @@ db 0
 
 //0x94D8
 Text_94B8:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ\x02mc！\x02md\x02w4　@{0}さま発見\x02mc！\x02md\x02w4\n"
-.stringn "調子どうですか？\x02w4\n"
-.stringn "まだ戦えます？\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D앗\x02mc!\x02md\x02w4 @{0}님 발견\x02mc!\x02md\x02w4\n"
+.stringn "몸 상태는 어떠세요?\x02w4\n"
+.stringn "아직 싸우실 수 있어요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3639,9 +3639,9 @@ db 0
 
 //0x9D74
 Text_9D54:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}さん\x02mc！\x02md\x02w4\n"
-.stringn "もう、\x02w3大好きっ\x02mc！！\x02md\x02w4\n"
-.stringn "ずっと２人いっしょだよ\x02mc！\x02md\x02w4　約束\x02mc！\x02md\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}씨\x02mc!\x02md\x02w4\n"
+.stringn "정말,\x02w3 너무 좋아해\x02mc!!\x02md\x02w4\n"
+.stringn "앞으로도 계속 둘이 함께야\x02mc!\x02md\x02w4 약속\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3650,9 +3650,9 @@ db 0
 
 //0x9938
 Text_9918:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}さんさ、\x02w3あたしと２人で\n"
-.stringn "一緒に戦ってみない？\x02w4\n"
-.stringn "結構いけると思うんだ。\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}씨,\x02w3 있잖아. 나랑 둘이서\n"
+.stringn "싸워 보지 않을래?\x02w4\n"
+.stringn "제법 잘 맞을 것 같아.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3661,9 +3661,9 @@ db 0
 
 //0x954C
 Text_952C:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ\x02mc！\x02md\x02w4　@{0}さん発見\x02mc！\x02md\x02w4\n"
-.stringn "どう、\x02w3調子は？\x02w4\n"
-.stringn "まだ戦える？\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D앗\x02mc!\x02md\x02w4 @{0}씨 발견\x02mc!\x02md\x02w4\n"
+.stringn "어때,\x02w3 몸 상태는?\x02w4\n"
+.stringn "아직 싸울 수 있어?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3672,9 +3672,9 @@ db 0
 
 //0x9E00
 Text_9DE0:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}将軍\x02mc！\x02md\x02w4\n"
-.stringn "もう、\x02w3大好きっ\x02mc！！\x02md\x02w4\n"
-.stringn "ずっと２人いっしょですよ\x02mc！\x02md\x02w4　約束\x02mc！\x02md\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 장군님\x02mc!\x02md\x02w4\n"
+.stringn "정말,\x02w3 너무 좋아해요\x02mc!!\x02md\x02w4\n"
+.stringn "앞으로도 계속 둘이 함께예요\x02mc!\x02md\x02w4 약속\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3683,9 +3683,9 @@ db 0
 
 //0x99B0
 Text_9990:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}将軍、\x02w3あたしと２人で\n"
-.stringn "一緒に戦ってみません？\x02w4\n"
-.stringn "結構いけると思うんだ。\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 장군님,\x02w3 저랑 둘이서\n"
+.stringn "싸워 보지 않으실래요?\x02w4\n"
+.stringn "제법 잘 맞을 것 같아요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3694,9 +3694,9 @@ db 0
 
 //0x95C0
 Text_95A0:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ\x02mc！\x02md\x02w4　@{0}将軍発見\x02mc！\x02md\x02w4\n"
-.stringn "調子どうですか？\x02w4\n"
-.stringn "まだ戦えます？\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D앗\x02mc!\x02md\x02w4 @{0} 장군님 발견\x02mc!\x02md\x02w4\n"
+.stringn "몸 상태는 어떠세요?\x02w4\n"
+.stringn "아직 싸우실 수 있어요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3705,9 +3705,9 @@ db 0
 
 //0x9E90
 Text_9E70:
-.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D鷹王\x02mc！\x02md\x02w4\n"
-.stringn "もう、\x02w3大好きっ\x02mc！！\x02md\x02w4\n"
-.stringn "ずっと２人いっしょですよ\x02mc！\x02md\x02w4　約束\x02mc！\x02md\x11\n"
+.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D응왕님\x02mc!\x02md\x02w4\n"
+.stringn "정말,\x02w3 너무 좋아해요\x02mc!!\x02md\x02w4\n"
+.stringn "앞으로도 계속 둘이 함께예요\x02mc!\x02md\x02w4 약속\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3716,9 +3716,9 @@ db 0
 
 //0x9A28
 Text_9A08:
-.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D鷹王、\x02w3あたしと２人で\n"
-.stringn "一緒に戦ってみません？\x02w4\n"
-.stringn "結構いけると思うんだ。\x11\n"
+.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D응왕님,\x02w3 저랑 둘이서\n"
+.stringn "싸워 보지 않으실래요?\x02w4\n"
+.stringn "제법 잘 맞을 것 같아요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3727,9 +3727,9 @@ db 0
 
 //0x9634
 Text_9614:
-.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ\x02mc！\x02md\x02w4　鷹王発見\x02mc！\x02md\x02w4\n"
-.stringn "調子どうですか？\x02w4\n"
-.stringn "まだ戦えます？\x11\n"
+.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D앗\x02mc!\x02md\x02w4 응왕님 발견\x02mc!\x02md\x02w4\n"
+.stringn "몸 상태는 어떠세요?\x02w4\n"
+.stringn "아직 싸우실 수 있어요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3738,9 +3738,9 @@ db 0
 
 //0x9F18
 Text_9EF8:
-.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D鴉王\x02mc！\x02md\x02w4\n"
-.stringn "もう、\x02w3大好きっ\x02mc！！\x02md\x02w4\n"
-.stringn "ずっと２人いっしょですよ\x02mc！\x02md\x02w4　約束\x02mc！\x02md\x11\n"
+.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D아왕님\x02mc!\x02md\x02w4\n"
+.stringn "정말,\x02w3 너무 좋아해요\x02mc!!\x02md\x02w4\n"
+.stringn "앞으로도 계속 둘이 함께예요\x02mc!\x02md\x02w4 약속\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3749,9 +3749,9 @@ db 0
 
 //0x9A98
 Text_9A78:
-.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D鴉王、\x02w3あたしと２人で\n"
-.stringn "一緒に戦ってみません？\x02w4\n"
-.stringn "結構いけると思うんだ。\x11\n"
+.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D아왕님,\x02w3 저랑 둘이서\n"
+.stringn "싸워 보지 않으실래요?\x02w4\n"
+.stringn "제법 잘 맞을 것 같아요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3760,9 +3760,9 @@ db 0
 
 //0x96A4
 Text_9684:
-.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ\x02mc！\x02md\x02w4　鴉王発見\x02mc！\x02md\x02w4\n"
-.stringn "調子どうですか？\x02w4\n"
-.stringn "まだ戦えます？\x11\n"
+.stringn "\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D앗\x02mc!\x02md\x02w4 아왕님 발견\x02mc!\x02md\x02w4\n"
+.stringn "몸 상태는 어떠세요?\x02w4\n"
+.stringn "아직 싸우실 수 있어요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3771,9 +3771,9 @@ db 0
 
 //0x9FA0
 Text_9F80:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}姫\x02mc！\x02md\x02w4\n"
-.stringn "もう、\x02w3大好きっ\x02mc！！\x02md\x02w4\n"
-.stringn "ずっと２人いっしょですよ\x02mc！\x02md\x02w4　約束\x02mc！\x02md\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 공주님\x02mc!\x02md\x02w4\n"
+.stringn "정말,\x02w3 너무 좋아해요\x02mc!!\x02md\x02w4\n"
+.stringn "앞으로도 계속 둘이 함께예요\x02mc!\x02md\x02w4 약속\x02mc!\x02md\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3782,9 +3782,9 @@ db 0
 
 //0x9B08
 Text_9AE8:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0}姫、\x02w3あたしと２人で\n"
-.stringn "一緒に戦ってみません？\x02w4\n"
-.stringn "結構いけると思うんだ。\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D@{0} 공주님,\x02w3 저랑 둘이서\n"
+.stringn "싸워 보지 않으실래요?\x02w4\n"
+.stringn "제법 잘 맞을 것 같아요.\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0
@@ -3793,9 +3793,9 @@ db 0
 
 //0x9714
 Text_96F4:
-.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080Dあ\x02mc！\x02md\x02w4　@{0}姫発見\x02mc！\x02md\x02w4\n"
-.stringn "調子どうですか？\x02w4\n"
-.stringn "まだ戦えます？\x11\n"
+.stringn "@\x05FL|WAYU||\x02BO\x04R上下会話|\x0700\x01s\x080D앗\x02mc!\x02md\x02w4 @{0} 공주님 발견\x02mc!\x02md\x02w4\n"
+.stringn "몸 상태는 어떠세요?\x02w4\n"
+.stringn "아직 싸우실 수 있어요?\x11\n"
 .stringn "\n"
 .stringn "\x01@\x01H"
 db 0

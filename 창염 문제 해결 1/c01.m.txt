@@ -1,0 +1,232 @@
+MS_01_OP_01
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]大丈夫？[A]
+[Face='IKE' Pos='1'][S_Target=1]あ、[Pause=3]ああ[FreezeMouth]…[UnfreezeMouth][A][X]
+
+MS_01_OP_02
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]気がついたか。[A]
+[Face='MIST' Pos='1'][S_Target=1]もう[FreezeMouth]！[UnfreezeMouth][Pause=4]
+お父さん、やりすぎだよ[FreezeMouth]！[UnfreezeMouth][A][ClearBox]いくら訓練用の武器だからって、[Pause=3]
+本気で殴ることないじゃない。[A]
+[S_Target=0]このくらいで音を上げているようでは、[Pause=3]
+傭兵として生き抜いてはいけん。[A]
+[S_Target=1]でも[FreezeMouth]！[UnfreezeMouth][A]
+[ClearTarget=0][Face='IKE' Pos='0']$Ub$Hミスト、[Pause=2]俺なら大丈夫だ。[A]
+[ClearTarget=1][S_Target=1][FaceCommand=S][Face='GREIL' Pos='1']フン[Pause=2]　そうでなくてはな。[Pause=5]
+さあ、構えろ[FreezeMouth]！[UnfreezeMouth][A]
+[ClearTarget=0][Face='MIST' Pos='0'][S_Target=0]え、[Pause=2]ちょっと、[Pause=3]まだやるの？[A]
+[ClearTarget=1][Face='IKE' Pos='1'][S_Target=1]せめて一撃[FreezeMouth]…[UnfreezeMouth][Pause=4]
+親父に、くらわすまでは[Pause=2]
+やめるわけにはいかない。[A]
+[ClearTarget=0][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]いい覚悟だ。[Pause=4]だが、[Pause=2]今のままでは
+何度やっても同じ[FreezeMouth]…[UnfreezeMouth][Pause=4]ん？[A][X]
+
+MS_01_OP_03_01
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='BOLE' Pos='0'][S_Target=0]お、[Pause=3]やってるやってる。[A][X]
+
+MS_01_OP_03_02
+
+[Scene=上下会話][S_Target=1][FaceCommand=S][Face='MIST' Pos='1'][S_Target=1]あれ、[Pause=3]ボーレ、[Pause=3]
+どうしたの？[A]
+[S_Target=0][FaceCommand=S][Face='BOLE' Pos='0'][S_Target=0]どうしたもなにも。[Pause=4][A][ClearBox]団長たちを呼びに出てった[Pause=2]
+おまえが戻ってこねえからさ。[Pause=4]
+副長が見てこいって。[A]
+[S_Target=1]あ、そっか。[Pause=4]
+ごめん[Pause=2]ごめん。[A]
+[S_Target=0]ま、[Pause=2]団長にボコボコにされてる[Pause=2]
+アイクを笑ってやろうかと思ったんだが[FreezeMouth]…[UnfreezeMouth][Pause=5]
+意外と元気じゃねえか。[Pause=4]つまんねえの。[A]
+[ClearTarget=1][Face='IKE' Pos='1'][S_Target=1]悪かったな。[A]
+[ClearTarget=0][S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]一足遅かったね。[Pause=5]
+ついさっきまで[Pause=2]のびてたんだけど。[A]
+[S_Target=1]ミスト[FreezeMouth]！[UnfreezeMouth][A]
+[S_Target=0]えへへ[FreezeMouth]…[UnfreezeMouth][Pause=2]ごめんなさい。[A]
+[ClearTarget=1][ClearTarget=0][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0']ちょうどいいところに来た。[A][ClearBox]ボーレ、[Pause=3]おまえがアイクの
+相手をしてやれ。[A]
+[Face='BOLE' Pos='1'][S_Target=1]え？[Pause=3]　おれがですか？[A]
+[S_Target=0]まずは腕の近いものと戦って[Pause=2]
+コツをつかんだ方がいいだろう。[A]
+[ClearTarget=1][Face='IKE' Pos='1'][S_Target=1]わかった。[A]
+[ClearTarget=0][S_Target=1]ボーレ、[Pause=2]よろしく頼む。[A]
+[Face='BOLE' Pos='0'][S_Target=0][FaceCommand=S]へっ[Pause=3]
+腕が近いってのは気にくわねえが[Pause=2]
+仕方ねえ、[Pause=3]相手をしてやるぜ[FreezeMouth]！[UnfreezeMouth][A][X]
+
+MS_01_OP_04
+
+[Scene=上下会話][S_Target=1][FaceCommand=S][Face='BOLE' Pos='1'][S_Target=1]さあ、[Pause=2]どっからでもいいぜ[FreezeMouth]！[UnfreezeMouth][Pause=5]
+かかってこい[FreezeMouth]！！[UnfreezeMouth][A][X]
+
+MS_01_EV_01_01
+
+[Scene=上下会話][Face='MIST' Pos='0'][S_Target=0]お兄ちゃん、[Pause=3]
+そっちじゃないよ[FreezeMouth]！[UnfreezeMouth][A][X]
+
+MS_01_EV_01_02
+
+[Scene=上下会話][Face='MIST' Pos='0'][S_Target=0]だから、[Pause=3]
+そっちじゃないってば[FreezeMouth]！[UnfreezeMouth][A][X]
+
+MS_01_EV_01_03
+
+[Scene=上下会話][Face='MIST' Pos='0'][S_Target=0]もうっ[FreezeMouth]！[UnfreezeMouth][Pause=4]
+わたしの言ってること、[Pause=3]
+聞く気ある？[A][X]
+
+MS_01_EV_02
+
+[Scene=上下会話][S_Target=1][FaceCommand=S][Face='BOLE' Pos='1'][S_Target=1]おーい、[Pause=2]どうしたんだ？[Pause=4]
+早くかかってこいよ。[A]
+[Face='IKE' Pos='0'][S_Target=0]今行く、[Pause=3]そこで待ってろ[FreezeMouth]！[UnfreezeMouth][A][X]
+
+MS_01_EV_03_01
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]ボーレの油断があったにしろ、[Pause=2]
+今の動きは、まずまずだった。[Pause=5]
+それを覚えておくがいい。[A]
+[Face='IKE' Pos='1'][S_Target=1]わかった。[A]
+[S_Target=0]さあ、[Pause=2]次はまた[Pause=2]俺が相手だ。[A]
+[S_Target=1]望むところだ[FreezeMouth]！[UnfreezeMouth][A]
+[S_Target=0]だが、その前に[FreezeMouth]…[UnfreezeMouth][Pause=3]
+ミスト[FreezeMouth]！[UnfreezeMouth][A]
+[ClearTarget=1][S_Target=1][FaceCommand=S][Face='MIST' Pos='1'][S_Target=1]は～い。[A][X]
+
+MS_01_EV_03_02
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]はい、[Pause=2]お兄ちゃん[FreezeMouth]！[UnfreezeMouth][Pause=4]
+きずぐすり。[A][X]
+
+MS_01_EV_03_03
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]お父さんと戦う前に[Pause=2]
+ちゃんと使ってね。[A][X]
+
+MS_01_EV_03_04
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]小さなケガでも、[Pause=3]余裕のあるうちに
+治すよう心がけろ。[A][ClearBox]やばいと思った時には[Pause=2]
+もう手遅れだった[FreezeMouth]…[UnfreezeMouth][Pause=3]
+ということのないようにな。[A][X]
+
+MS_01_EV_04
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]アイク、[Pause=3]
+こちらからも行くぞ[FreezeMouth]！[UnfreezeMouth][A][X]
+
+MS_01_EV_05
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]ほう、[Pause=3]少しは、ねばるか。[A]
+[Face='IKE' Pos='1'][FreezeMouth]……[UnfreezeMouth][A][X]
+
+MS_01_EV_07_01_01
+
+[Scene=上下会話][S_Target=1][FaceCommand=S][Face='BOLE' Pos='1'][S_Target=1]早くかかってこいって。[Pause=4]
+それとも、[Pause=2]おれが怖いのか？[A][X]
+
+MS_01_EV_07_01_02
+
+[Scene=上下会話][Face='BOLE' Pos='1'][S_Target=1]おいおい、[Pause=2]なにしてんだ？[Pause=4]
+ちゃんと[Pause=2]やる気あんのか？[A][X]
+
+MS_01_EV_07_01_03
+
+[Scene=上下会話][S_Target=1][FaceCommand=h][Face='BOLE' Pos='1'][S_Target=1]ふあぁ[FreezeMouth]…[UnfreezeMouth][Pause=5]
+なんか[Pause=2]眠くなってきたぜ。[A][X]
+
+MS_01_EV_07_02
+
+[Scene=上下会話][S_Target=1][FaceCommand=S][Face='BOLE' Pos='1'][S_Target=1]へへ[Pause=3]　まだまだ[Pause=2]
+戦いは始まったばかりだぜ[FreezeMouth]！[UnfreezeMouth][A][X]
+
+MS_01_EV_07_03
+
+[Scene=上下会話][Face='BOLE' Pos='1'][S_Target=1]わっ[FreezeMouth]！[UnfreezeMouth][Pause=4]　[FreezeMouth]…[UnfreezeMouth]とと。[Pause=5]
+いきなり何しやがんだ[FreezeMouth]！[UnfreezeMouth][Pause=3]
+いま、やることじゃねえだろ？[A][X]
+
+MS_01_EV_08_01
+
+[Scene=上下会話][Face='MIST' Pos='0'][S_Target=0]あーっ[FreezeMouth]！！[UnfreezeMouth][A][X]
+
+MS_01_EV_08_02
+
+[Scene=上下会話][Face='MIST' Pos='0'][S_Target=0]信じらんない[FreezeMouth]！[UnfreezeMouth][Pause=4]
+武器を捨てたら[Pause=2]戦えないじゃない。[A][ClearBox]よいしょっと[FreezeMouth]…[UnfreezeMouth][Pause=3][FaceCommand=S]
+はい[FreezeMouth]！[UnfreezeMouth][Pause=4]　お兄ちゃんの剣。[A]
+[Face='IKE' Pos='1'][S_Target=1]ああ[FreezeMouth]…[UnfreezeMouth][Pause=2]すまん。[A]
+[S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]これからは気をつけてね。[A][X]
+
+MS_01_BT_BOlE
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]がんばれ～[FreezeMouth]！[UnfreezeMouth][Pause=4]
+ボーレなんか、[Pause=2]やっつけちゃえ[FreezeMouth]！[UnfreezeMouth][A]
+[Face='BOLE' Pos='1'][S_Target=1]『なんか』はねえだろう。[Pause=5]
+『なんか』は。[A][X]
+
+MDIE_BOLE_MAP1
+
+[Scene=上下会話][S_Target=1][FaceCommand=S][Face='BOLE' Pos='1'][S_Target=1]や、[Pause=2]やるじゃねえか。[A]
+[S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]ボーレ、[Pause=2]
+かっこわる～い。[A]
+[S_Target=1][FaceCommand=A]るせえ[FreezeMouth]！[UnfreezeMouth][A]
+[ClearTarget=0][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]ボーレ、ご苦労だったな。[Pause=4]
+もういいぞ。[A]
+[S_Target=1]あ、[Pause=2]はい[FreezeMouth]！[UnfreezeMouth][A][X]
+
+MS_01_BT
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0]全力でかかって来い[FreezeMouth]！[UnfreezeMouth][A][X]
+
+MDIE_GREIL_MAP1
+
+[Scene=上下会話][Face='GREIL' Pos='0'][S_Target=0][FreezeMouth]…[UnfreezeMouth]む[FreezeMouth]！[UnfreezeMouth][A][X]
+
+MDIE_IKE_MAP1
+
+[Scene=上下会話][Face='IKE' Pos='0'][S_Target=0]くっ[FreezeMouth]…[UnfreezeMouth][Pause=2]まだ、やれる[FreezeMouth]…[UnfreezeMouth][A]
+[Face='MIST' Pos='1'][S_Target=1]お兄ちゃん[FreezeMouth]！[UnfreezeMouth][Pause=3]　無理しないで[FreezeMouth]！！[UnfreezeMouth][A]
+[ClearTarget=1][Face='GREIL' Pos='1'][S_Target=1]この程度の訓練にも耐えられんとは[FreezeMouth]…[UnfreezeMouth][Pause=4]
+アイク、[Pause=2]おまえが戦場に出るのは[Pause=2]
+まだまだ先の話だな。[A]
+[S_Target=0][FreezeMouth]……[UnfreezeMouth][A][X]
+
+MS_01_ED_01
+
+[Scene=上下会話][S_Target=0][FaceCommand=S][Face='MIST' Pos='0'][S_Target=0]お兄ちゃん、[Pause=2]すっごーい[FreezeMouth]！[UnfreezeMouth][A]
+[Face='IKE' Pos='1'][S_Target=1][FreezeMouth]…[UnfreezeMouth]親父、[Pause=4]本気じゃなかっただろう？[A]
+[S_Target=0][FaceCommand=A]え、[Pause=2]そうなの？[A]
+[ClearTarget=0][S_Target=0][FaceCommand=S][Face='GREIL' Pos='0'][S_Target=0][FreezeMouth]…[UnfreezeMouth]それに気づけたなら、[Pause=3]
+おまえも[Pause=2]少しは成長したということだ。[A][X]
+
+MS_01_ED_02
+
+[Scene=背景なし会話][F_Target=0][FaceCommand=S][F_Target=0][LoadPortrait_L=GREIL][F_Target=3][FaceCommand=S][F_Target=3][LoadPortrait_L=MIST][F_Target=4][LoadPortrait_L=IKE][F_Target=1][FaceCommand=S][F_Target=1][LoadPortrait_L=BOLE][F_Target=1][ClearBox]そうそう、[Pause=2]おれだって
+実は本気じゃなかった[FreezeMouth]…[UnfreezeMouth][A]
+[F_Target=3][ClearBox]それはウソ。[A]
+[F_Target=1][ClearBox]ちぇっ[A]
+[F_Target=4][ClearBox][FreezeMouth]…[UnfreezeMouth]じゃあ、[Pause=2]俺も[Pause=2]もう一人前だって
+認めてくれるよな？[A]
+[F_Target=0][ClearBox]仕事に出る話か？[A]
+[F_Target=4][ClearBox]ああ。[Pause=4]ボーレだって
+戦場に出ているんだ。[Pause=4]
+俺もいいかげん、[Pause=2]見習いは卒業したい。[A]
+[F_Target=1][ClearBox]そりゃ、[Pause=2]おまえとちがって[Pause=2]
+おれは腕が立つからよ。[A]
+[F_Target=3][ClearBox]さっきは[Pause=2]負けたくせに～。[A]
+[F_Target=1][ClearBox]あれは、たまたまだよ。[Pause=4]
+た・[Pause=2]ま・[Pause=2]た・[Pause=2]ま。[A]
+[F_Target=0][ClearBox]そうだな[FreezeMouth]…[UnfreezeMouth][Pause=3]まあ、いいだろう。[Pause=4]
+おまえも明日から傭兵団に参加しろ。[A]
+[F_Target=4][ClearBox][FaceCommand=S]本当か[FreezeMouth]！？[UnfreezeMouth][A]
+[F_Target=0][ClearBox]ただし、無理だと思ったら、[Pause=2]
+すぐ訓練に逆戻りさせるからな。[Pause=4]
+せいぜい頑張ることだ。[A]
+[F_Target=4][ClearBox]大丈夫だ。[Pause=4]
+すぐ[FreezeMouth]…[UnfreezeMouth][Pause=2]みんなに追いついてみせる。[A]
+[F_Target=0][ClearBox]どうだかな。[Pause=5]
+さあ、そろそろ砦に戻るぞ。[Pause=3]
+みんなが待っている。[A]
+[Fade=1000][X]
+

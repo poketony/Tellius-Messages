@@ -37,7 +37,7 @@ db 0
 
 //0x9C4
 Text_9A4:
-.stringn "\x05FL|SCOUNDREL|MICAIAH||\x04R上下会話|\x0705\x085D\x01s헤, \x02w2헤헤\x02mc…\x02md\x02w4\n"
+.stringn "\x05FL|SCOUNDREL|MICAIAH||\x04R上下会話|\x0705\x01s\x085D헤, \x02w2헤헤\x02mc…\x02md\x02w4\n"
 .stringn "여자애는 비싸게 팔리지.\x02w4\n"
 .stringn "착하지, \x02w2저항하면 안 된다?\x11\n"
 .stringn "\x0714\x084D\x02ec#F01\x02O2Bichiyeo\x02w4 moyeoseo\x02w3\n"
@@ -85,7 +85,7 @@ db 0
 
 //0xE4C
 Text_E2C:
-.stringn "\x05FL|MICAIAH||\x04R上下会話|\x0705\x085D\x01s윤느, \x02w2이리 와.\x11"
+.stringn "\x05FL|MICAIAH||\x04R上下会話|\x0705\x01s\x085D윤느, \x02w2이리 와.\x11"
 db 0
 .align 4
 //MS_0101_ED_01_02
@@ -106,16 +106,16 @@ Text_E9C:
 .stringn "걱정을 끼쳐서.\x11\n"
 .stringn "\x0705\x01s\x085D무슨 소릴 하는 거니.\x02w4\n"
 .stringn "\x02ec고마워\x02mc……\x02md\x02w3\n"
-.stringn "\x02eo너희들은 생명의 은인이야.\x09"
+.stringn "\x02eo너희들은 생명의 은인이야.\x11"
 db 0
 .align 4
 //MS_0101_ED_02_01
 
 //0xF24
 Text_F04:
-.stringn "\x05FL|D_BEGNION1||\x02BO\x04R上下会話|\x0704\x084D너희들\x02mc!\x02md\x02w1\x01*\x01H\n"
+.stringn "\x05FL|D_BEGNION1||\x02BO\x04R上下会話|\x0704\x084D너희들\x02mc!\x02md\x02w3\x01*\x01H\n"
 .stringn "거기서 뭘 하는 거냐\x02mc!!\x02md\x01*\x01H\x11\n"
-.stringn "\x09"
+.stringn "\x09\x02w2"
 db 0
 .align 4
 //MS_0101_ED_02_02
@@ -134,7 +134,7 @@ Text_FCC:
 .stringn "\x05FL|LEONARDO||\x04R上下会話|\x0705\x085D붙잡힐 수는 없지.\x02w4\n"
 .stringn "미카야\x02mc!\x02md\x02w2 에디\x02mc!\x02md\x02w3\n"
 .stringn "도망치자\x02mc!!\x02md\x11\n"
-.stringn "\x09"
+.stringn "\x09\x02w4"
 db 0
 .align 4
 //MS_0101_ED_02_04
@@ -155,7 +155,7 @@ db 0
 //0x1148
 Text_1128:
 .stringn "\x05FL|BEGNION1||\x04R上下会話|\x0705\x085D이봐\x02mc!\x02md\x02w3 거기 서\x02mc!!\x02md\x11\n"
-.stringn "\x09"
+.stringn "\x09\x02w4"
 db 0
 .align 4
 //MS_0101_ED_03
@@ -233,8 +233,8 @@ Text_1170:
 .stringn "아까 도망갔던 놈들은 \x02w1누구지?\x11\n"
 .stringn "\x0714\x084D놈들은 그\x02mc…\x02md\x02w4\n"
 .stringn "최근에 \x02w1이 수도 근처에서\x02w2\n"
-.stringn "민심을 현혹하고 있는 \x11\x10【새벽단】 일당일\n"
-.stringn "것이라고 \x02w1생각합니다\x02mc!\x02md\x11\n"
+.stringn "민심을 현혹하고 있는 \x11\x10【새벽단】 일당일 것이라\n"
+.stringn "\x02w1생각합니다\x02mc!\x02md\x11\n"
 .stringn "\x0725\x02mc…\x02md자세히 말해 봐라.\x11"
 db 0
 .align 4
@@ -300,7 +300,7 @@ Text_0:
 .stringn "사실 \x02w2우리들은\n"
 .stringn "【새벽단】의 일원이거든\x02mc!\x02md\x11\n"
 .stringn "\x0741\x01s우와아\x02mc!\x02md\x02w3 정말\x02mc!?\x02md\x02w4\n"
-.stringn "정말로 \x02w2형들이\x02w2\n"
+.stringn "정말로 \x02w2형하고 누나가\x02w2\n"
 .stringn "“새벽단”이야\x02mc!?\x02md\x11\n"
 .stringn "\x0730요즘 소문난 의적 집단이\x02w2\n"
 .stringn "이렇게 젊은 애들이었을 줄이야\x02mc……\x02md\x11\n"
@@ -331,20 +331,27 @@ db 0
 
 //0x71C
 Text_6FC:
-.stringn "\x05FL|MICAIAH||\x04R上下会話|\x0700\x080D\x02mc……\x02md에디,\x02w2\n"
+.stringn "\x05FL|EDDIE|MICAIAH||\x04R上下会話|\x0705\x085D\x02mc…\x02md앗\x02mc!\x02md\x02w4 생각보다 적이 많은걸.\x02w4\n"
+.stringn "우리끼리 상대하는 건\x02w2\n"
+.stringn "꽤 무모할지도 모르겠어.\x11\n"
+.stringn "\x0710\x080D그렇네, \x02w2하지만\x02mc…\x02md\x02w4\n"
+.stringn "할 수밖에 없어.\x11\x10\x02mc……\x02md에디,\x02w2\n"
 .stringn "처음에 어떻게 움직여야 하는지\x02mc…\x02md\x02w4\n"
-.stringn "기억하고 있지?\x11"
+.stringn "기억하고 있어?\x11\n"
+.stringn "\x0705전투의 기본이었지\x02mc…\x02md\x02w4 으음\x02mc……\x02md\x11"
 db 0
 .align 4
 //MS_0101_OP_N
 
 //0x780
 Text_760:
-.stringn "\x05FL|EDDIE|MICAIAH||\x04R上下会話|\x0705\x085D\x02w2우선, \x02w2미카야가 조금 떨어진 곳에서\n"
+.stringn "\x05FL|EDDIE|MICAIAH||\x04R上下会話|\x0705\x085D그래서\x02mc…\x02md\x02w4\n"
+.stringn "우선, \x02w2미카야가 조금 떨어진 곳에서\n"
 .stringn "마법으로 적을 공격하고,\x11\x10그다음 \x02w3적이 약해진 틈을 타서 내가 공격.\x02w4\n"
 .stringn "이게 안전한 방법 맞지?\x11\n"
 .stringn "\x0710\x080D둘이서 힘을 합친다면\x02mc…\x02md\x02w4\n"
-.stringn "분명 이길 수 있을 거야.\x11"
+.stringn "분명 이길 수 있을 거야.\x02w4\n"
+.stringn "그럼, \x02w2가자\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0101_OP_N2

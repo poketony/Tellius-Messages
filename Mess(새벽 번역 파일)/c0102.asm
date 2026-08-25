@@ -367,7 +367,7 @@ Text_C78:
 .stringn "내 예상대로였군.\x11\n"
 .stringn "\x0704\x01s경비를 허술하게 해 두면,\x02w2\n"
 .stringn "반드시 여기를 선택해서 온다\x02mc……\x02md\x02w4\n"
-.stringn "정말 \x02w2말하신 대로입니다.\x11\n"
+.stringn "정말 \x02w2말씀하신 대로입니다.\x11\n"
 .stringn "\x0715여기서 확실하게 처리해서\x02w3\n"
 .stringn "제국 놈들에게 \x02w2우리들의\n"
 .stringn "실력을 잘 보여 놔야지.\x11\n"

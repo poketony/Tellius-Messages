@@ -16,84 +16,84 @@ dw 0x0
 Normal_String:
 //0x7188
 Text_7168:
-.stringn "\x05FL|L_IKE2|L_SANAKI||\x04R背景会話|\x0C05\x0E5D\x0716\x086D\x04B塔内-通路|\x02w4\x02mc……\x02md漆黒の騎士の正体が\x02w3\n"
-.stringn "ゼルギウスであったなどと\x02mc…\x02md\x02w4\n"
-.stringn "信じられぬ。\x11\n"
-.stringn "\x0705ベグニオンでのあいつは\x02w3\n"
-.stringn "どんな奴だったんだ？\x11\n"
-.stringn "\x0716わたしがもっとも信頼する臣\x02w3\n"
-.stringn "ペルシス公セフェランの腹心であった。\x11\x10非の打ち所の無い\n"
-.stringn "我が国随一の将、\x02w3大陸一の剣使い――\x02w5\n"
-.stringn "主とともによく仕えてくれた。\x11\n"
-.stringn "それが\x02mc…\x02md\x02w3他国と通じておったとは\x02mc……\x02md\x11\n"
-.stringn "\x0705\x02mc………\x02md\x02w3セフェランは\n"
-.stringn "どうしているだろうな？\x11\n"
-.stringn "\x0716石になってはおらぬと思う。\x02w4\n"
-.stringn "ルカンらの策謀によって\n"
-.stringn "地位を剥奪されたとはいえ\x02mc……\x02md\x11\x10セフェランは\x02w3宰相にして\n"
-.stringn "元老院議長であったのじゃ。\x11\x10シグルーンらがよく話しておった。\x02w4\n"
-.stringn "こと魔道において\x02w3\n"
-.stringn "ペルシス公に並ぶ者はおらぬと。\x11\n"
+.stringn "\x05FL|L_IKE2|L_SANAKI||\x04R背景会話|\x0C05\x0E5D\x0716\x086D\x04B塔内-通路|\x02w4\x02mc……\x02md칠흑의 기사의 정체가\x02w3\n"
+.stringn "제르기우스였다니\x02mc…\x02md\x02w4\n"
+.stringn "믿을 수 없도다.\x11\n"
+.stringn "\x0705베그니온에서의 그 녀석은\x02w3\n"
+.stringn "어떤 사람이었어?\x11\n"
+.stringn "\x0716내가 가장 신뢰하는 신하\x02w3\n"
+.stringn "페르시스 공작 세페란의 심복이었다.\x11\x10흠잡을 데 없는\n"
+.stringn "우리 나라 제일의 장수, \x02w3대륙 제일의 검사――\x02w5\n"
+.stringn "주인과 함께 날 잘 섬기고 있었다.\x11\n"
+.stringn "그런 자가\x02mc…\x02md\x02w3 타국과 내통하고 있었다니\x02mc……\x02md\x11\n"
+.stringn "\x0705\x02mc………\x02md\x02w3세페란은\n"
+.stringn "어떻게 지내고 있을까?\x11\n"
+.stringn "\x0716돌이 되었다곤 생각하지 않는다.\x02w4\n"
+.stringn "루칸파의 책모에 의해\n"
+.stringn "지위를 박탈당하긴 했지만\x02mc……\x02md\x11\x10세페란은 \x02w3재상이자\n"
+.stringn "원로원 의장이었다.\x11\x10시그룬 등이 자주 얘기하곤 했지.\x02w4\n"
+.stringn "마도를 다루는 일에 있어서\x02w3\n"
+.stringn "페르시스 공과 견줄 자는 없다고.\x11\n"
 .stringn "\x0705\x02mc……………\x02md\x02mc…\x02md\x11\n"
-.stringn "\x0716アイク、\x02w3そなたもしや\x02mc…\x02md\x02w4\n"
-.stringn "セフェランを疑っておるのか\x02mc！？\x02md\x11\n"
-.stringn "\x0705気にはなる。\x11\n"
-.stringn "\x0716そんな心配は無用じゃ\x02mc！\x02md\x02w4\n"
-.stringn "あの者にかぎって\x02w3\n"
-.stringn "わたしを裏切ることはない。\x11\n"
-.stringn "\x0705だとは思うが、\x02w3\n"
-.stringn "あいつが石になっていないなら\x02w3\n"
-.stringn "ユンヌの啓示を受けたはずだ。\x11\n"
-.stringn "なのに姿を見せなかったからな。\x11\n"
-.stringn "\x0716女神は万能ではない。\x02w4\n"
-.stringn "本人がそう申しておった。\x02w5\n"
-.stringn "全員には届かなかったのかもしれぬ。\x11\n"
-.stringn "\x0705\x02mc…………\x02md\x02w3乱暴な論法だが\n"
-.stringn "とりあえずそうしておくか。\x02w4\n"
-.stringn "いまは、\x02w2先に進むことだけを考えよう。\x11\n"
-.stringn "\x0716うむ。\x11\x10\x02mc…\x02mdそうじゃ\x02mc！\x02md\x02w4\n"
-.stringn "そなたに渡すものがあったのじゃ。\x11\n"
-.stringn "\x0705なんだ、\x02w3いきなり？\x11\n"
-.stringn "\x0716そ、\x02w1その\x02mc……\x02md\x11\x10セフェラン同様\x02w3\n"
-.stringn "そなたもわたしの大切な臣じゃ。\x02w4\n"
-.stringn "簡単に死んでもらっては困るからな。\x11\n"
-.stringn "これで身を守るとよいぞ。\x11\n"
-.stringn "\x0705まだ契約が続いている以上は\x02w3\n"
-.stringn "そうなるか。\x11\x10\x02w2ありがたくいただいておこう。\x11\n"
-.stringn "\x0716う、\x02w1\x01sうむ。\x11"
+.stringn "\x0716아이크, \x02w3그대 혹시\x02mc…\x02md\x02w4\n"
+.stringn "세페란을 의심하고 있는 게냐\x02mc!?\x02md\x11\n"
+.stringn "\x0705신경은 쓰여서.\x11\n"
+.stringn "\x0716그런 걱정은 할 필요 없다\x02mc!\x02md\x02w4\n"
+.stringn "그자에 한해서\x02w3\n"
+.stringn "나를 배신할 일은 없으니.\x11\n"
+.stringn "\x0705그렇다고 생각은 하지만,\x02w3\n"
+.stringn "그 녀석이 돌이 되지 않았다면\x02w3\n"
+.stringn "윤느의 계시를 받았을 거야.\x11\n"
+.stringn "그런데 모습을 보이질 않잖아.\x11\n"
+.stringn "\x0716여신은 만능하지 않다.\x02w4\n"
+.stringn "본인이 그렇게 말씀하셨다.\x02w5\n"
+.stringn "전원에게는 닿지 않았을지도 모른다.\x11\n"
+.stringn "\x0705\x02mc…………\x02md\x02w3다소 억지인 감이 있지만\n"
+.stringn "일단 그런 걸로 해 둘까.\x02w4\n"
+.stringn "지금은 \x02w2앞으로 나아갈 생각만 하자.\x11\n"
+.stringn "\x0716그래.\x11\x10\x02mc…\x02md그렇지\x02mc!\x02md\x02w4\n"
+.stringn "그대에게 줄 것이 있다.\x11\n"
+.stringn "\x0705뭐야, \x02w3갑자기?\x11\n"
+.stringn "\x0716그, \x02w1그\x02mc……\x02md\x11\x10세페란과 같이\x02w3\n"
+.stringn "그대도 나의 소중한 신하다.\x02w4\n"
+.stringn "쉽게 죽으면 곤란하니,\x11\n"
+.stringn "이걸로 몸을 지키도록 하거라.\x11\n"
+.stringn "\x0705아직 계약이 계속되고 있는 이상은\x02w3\n"
+.stringn "그렇게 되겠지.\x11\x10\x02w2감사히 받을게.\x11\n"
+.stringn "\x0716그, \x02w1\x01s그래.\x11"
 db 0
 .align 4
 //MID_0407c_サナキ会話
 
 //0x6314
 Text_62F4:
-.stringn "\x05FL|L_SOTHE2|L_MICAIAH3|L_IKE2||\x04R背景会話|\x0C03\x0E3R\x0C14\x084D\x04B塔内-通路|\x02w4\x0703大丈夫か、\x02w3ミカヤ？\x11\n"
-.stringn "\x0714ええ、\x02w3平気。\x02w4\n"
-.stringn "サザこそ大丈夫？\x02w4\n"
-.stringn "無理はしていない？\x11\n"
-.stringn "\x0703子供扱いはよせって。\x02w4\n"
-.stringn "いいかげん認めてくれよ、\x02w3\n"
-.stringn "俺も立派な大人だって。\x11\n"
-.stringn "\x0714手を見せて。\x11\n"
-.stringn "\x0703ん？\x11\n"
-.stringn "\x0714大きな手\x02mc……\x02md\x02w4\n"
-.stringn "あんなに小さかったのに。\x11\n"
-.stringn "\x0703ミカヤ\x02mc……\x02md\x11\n"
-.stringn "\x0725\x085D\x02mc…\x02mdっと、\x02w3悪い。\x02w4\n"
-.stringn "邪魔だったか。\x11\x10\x0C03\x0F\x0703\x083Dだ、\x02w1団長っ\x02mc！\x02md\x11\n"
-.stringn "\x0714別に構いません。\x02w4\n"
-.stringn "なんですか？\x11\n"
-.stringn "\x0725荷物をあさったら\n"
-.stringn "余分な薬が見つかったんでな。\x11\x10必要なやつがいないか\x02w3\n"
-.stringn "聞いてまわってたところだ。\x11\n"
-.stringn "\x0703\x02mc……\x02md\x02w3俺も支度しないと。\x11\x10\x09\x02w3\x0725おい、\x02w3まだみんな\n"
-.stringn "準備してるところだから\x02w3\n"
-.stringn "そんなに急ぐ必要は\x02mc……\x02md\x11\x10聞いちゃいないか。\x11\n"
-.stringn "\x0714すみません。\x11\n"
-.stringn "\x0725\x02mc…\x02mdあいつとは長いのか？\x11\n"
+.stringn "\x05FL|L_SOTHE2|L_MICAIAH3|L_IKE2||\x04R背景会話|\x0C03\x0E3R\x0C14\x084D\x04B塔内-通路|\x02w4\x0703괜찮아, \x02w3미카야?\x11\n"
+.stringn "\x0714응, \x02w3괜찮아.\x02w4\n"
+.stringn "소더야말로 괜찮아?\x02w4\n"
+.stringn "무리하는 거 아니지?\x11\n"
+.stringn "\x0703아이 취급하지 말라니까.\x02w4\n"
+.stringn "이제 그만 인정해 줘,\x02w3\n"
+.stringn "나도 어엿한 어른이거든.\x11\n"
+.stringn "\x0714손 보여 줘.\x11\n"
+.stringn "\x0703응?\x11\n"
+.stringn "\x0714커다란 손\x02mc……\x02md\x02w4\n"
+.stringn "그렇게나 작았었는데.\x11\n"
+.stringn "\x0703미카야\x02mc……\x02md\x11\n"
+.stringn "\x0725\x085D\x02mc…\x02md아, \x02w3미안.\x02w4\n"
+.stringn "방해했군.\x11\x10\x0C03\x0F\x0703\x083D다, \x02w1단장\x02mc!\x02md\x11\n"
+.stringn "\x0714딱히 상관없어요.\x02w4\n"
+.stringn "볼일이 있으신가요?\x11\n"
+.stringn "\x0725짐을 뒤졌더니\n"
+.stringn "여분의 약을 찾았거든.\x11\x10필요한 녀석이 없는지\x02w3\n"
+.stringn "물어보고 다니는 중이야.\x11\n"
+.stringn "\x0703\x02mc……\x02md\x02w3나도 준비해야지.\x11\x10\x09\x02w3\x0725어이, \x02w3아직 모두\n"
+.stringn "준비 중이니까\x02w3\n"
+.stringn "그렇게 서두를 필요는\x02mc……\x02md\x11\x10못 들었나.\x11\n"
+.stringn "\x0714죄송합니다.\x11\n"
+.stringn "\x0725\x02mc…\x02md저 녀석과 알고 지낸 지 오래됐어?\x11\n"
 .stringn "\x0714\x02mc……………\x02md\x02mc…\x02md\x02w4\n"
-.stringn "もう\x02mc…\x02md\x02w2１０年以上になります。\x11\x10ネヴァサの路地裏で\x02w3\n"
-.stringn "隠れ暮らしている時に出会いました。\x11\n"
+.stringn "벌써\x02mc…\x02md\x02w2 10년이 지났네요.\x11\x10네바사의 뒷골목에서\x02w3\n"
+.stringn "숨어 살던 때에 만났어요.\x11\n"
 .stringn "\x04FT700|"
 db 0
 .align 4
@@ -101,15 +101,15 @@ db 0
 
 //0x6688
 Text_6668:
-.stringn "\x05FL|MICAIAH3||\x04R背景上下会話|\x04B111-サザとの出会い|\x0701\x081Dがりがりに痩せた\x02mc…\x02md\x02w4\n"
-.stringn "目つきばかり鋭い子で。\x11\x10別に\x02w2何か特別なことが\n"
-.stringn "あったわけじゃないんですけど、\x11\x10気がついたら\x02mc…\x02md\x02w3いつも\n"
-.stringn "わたしの視界の端にいて。\x11\x10ある日ふと\n"
-.stringn "手を差し出してみたんです。\x11\x10そしたら、\x02w2すごく警戒しながらも\n"
-.stringn "近寄って来て\x02mc……\x02md\x02w4\n"
-.stringn "恐々とわたしの手を握ってきました。\x11\x10指が\x02mc…\x02md\x02w3枯れた小枝みたいに\n"
-.stringn "細くて\x02w2折れそうで\x02mc……\x02md\x11\x10わたし、\x02w3その手をもう\n"
-.stringn "離すことができなかった。\x11\n"
+.stringn "\x05FL|MICAIAH3||\x04R背景上下会話|\x04B111-サザとの出会い|\x0701\x081D빼빼 마르고\x02mc…\x02md\x02w4\n"
+.stringn "눈빛이 날카로운 아이였거든요.\x11\x10딱히 \x02w2무슨 특별한 일이\n"
+.stringn "있었던 건 아니지만,\x11\x10정신을 차려 보니\x02mc…\x02md\x02w3 언제나\n"
+.stringn "제 시야 한 구석에 있었습니다.\x11\x10어느 날 문득\n"
+.stringn "손을 내밀어 봤어요.\x11\x10그랬더니, \x02w2엄청 경계하면서도\n"
+.stringn "가까이 와서는\x02mc……\x02md\x02w4\n"
+.stringn "두려워하면서 제 손을 잡더라고요.\x11\x10손가락이\x02mc…\x02md\x02w3 마른 나뭇가지처럼\n"
+.stringn "가늘고 \x02w2부러질 거 같아서\x02mc……\x02md\x11\x10전, \x02w3이제 그 손을\n"
+.stringn "놓을 수 없게 됐어요.\x11\n"
 .stringn "\x04FT700|"
 db 0
 .align 4
@@ -117,197 +117,197 @@ db 0
 
 //0x6868
 Text_6848:
-.stringn "\x05FL|L_IKE2|L_MICAIAH3||\x04R背景会話|\x0C05\x0E5D\x0714\x084D\x04B塔内-通路|\x02w4それからはずっと\x02mc……\x02md\x11\n"
-.stringn "あちこちを旅しながら\x02w3\n"
-.stringn "２人で支え合うようにして\n"
-.stringn "生きてきたんです。\x11\n"
-.stringn "\x0705あいつと初めて会った時、\x02w4\n"
-.stringn "家族同然の大切な人を\x02w2\n"
-.stringn "捜していると言っていた。\x11\n"
-.stringn "あんたのことだったんだな？\x11\n"
-.stringn "\x0714\x02mc……\x02md離れようと思ったんです。\x02w4\n"
-.stringn "だからクリミアへ行った時に\x02w3\n"
-.stringn "わざとはぐれて\x02w2ベグニオン行きの船に\x02mc……\x02md\x11\x10でも、\x02w3ベグニオンに着くなり\n"
-.stringn "デインとクリミアの\n"
-.stringn "戦争が始まったことを知って\x02mc……\x02md\x11\x10デインに戻ってあの子の行方を捜し\x02w3\n"
-.stringn "見つからなかったからクリミアへ。\x02w4\n"
-.stringn "だけど見つけられなくて\x02mc……\x02md\x11\x10結局、\x02w3終戦後に\n"
-.stringn "デインのネヴァサで再会しました。\x11\n"
-.stringn "\x0705完全に行き違ってたわけか。\x11\n"
-.stringn "\x0714あとでその話をしたら、\x02w3\n"
-.stringn "あの子にしては驚くくらい\n"
-.stringn "ものすごい剣幕で怒って。\x11\n"
-.stringn "\x0705そりゃ、\x02w3そうだろう。\x02w4\n"
-.stringn "戦争中に両国間をうろついていた\n"
-.stringn "ってのも\x02w2肝の冷える話だ。\x11\x10なにより\x02mc…\x02md\x02w3あんたに\n"
-.stringn "置き去りにされて堪えてただろうし。\x11\n"
-.stringn "\x0714限界だと思ったんです。\x02w4\n"
-.stringn "あの子は\x02w2日に日に大きくなっていく。\x02w4\n"
-.stringn "だけどわたしは\x02mc……\x02md\x02w4変わらない。\x11\x10あの子まで、\x02w3わたしの呪われた\n"
-.stringn "運命に付き合わせたくなくて。\x11\n"
-.stringn "\x0705ラグズの血\x02mc…\x02md\x02w2か。\x11\n"
-.stringn "\x0714やっぱり知っていたんですね。\x02w4\n"
-.stringn "あなたの傍らにいる\n"
-.stringn "彼から？\x11\n"
-.stringn "\x0705あぁ。\x02w4\n"
-.stringn "同じ境遇の者は分かるんだってな？\x11\n"
-.stringn "\x0714はい。\x02w4\n"
-.stringn "彼とわたしは同じ\x02mc…\x02md\x02w4“印付き”です。\x11\n"
-.stringn "\x0705\x02mc……\x02md\x02w3その呼び名は使うな。\x02w4\n"
-.stringn "あんたもセネリオも“人”だ。\x02w5\n"
-.stringn "俺や他の連中と同じくな。\x11\n"
-.stringn "\x0714“ひと”\x02mc……\x02md\x11\n"
-.stringn "あなたもユンヌと同じ。\x02w4\n"
-.stringn "ベオクもラグズも\x02w3すべて等しく\n"
-.stringn "“人”と呼ぶんですね。\x11\n"
-.stringn "\x0705肌や髪や眼の色が違おうが\x02w3\n"
-.stringn "耳や尻尾や翼が生えてようが\x11\n"
-.stringn "長生きだろうが\x02w2特別な力を持ってようが\x02w3\n"
-.stringn "根本はみな同じものだ。\x11\x10わざわざ分ける意味が分からん。\x11\n"
+.stringn "\x05FL|L_IKE2|L_MICAIAH3||\x04R背景会話|\x0C05\x0E5D\x0714\x084D\x04B塔内-通路|\x02w4그때부터 계속\x02mc……\x02md\x11\n"
+.stringn "이곳저곳을 여행하고\x02w3\n"
+.stringn "둘이서 서로 의지하면서\n"
+.stringn "살아온 거예요.\x11\n"
+.stringn "\x0705저 녀석이 처음 만났을 때\x02w4\n"
+.stringn "가족이나 다름없는 소중한 사람을\x02w2\n"
+.stringn "찾고 있다고 했었는데,\x11\n"
+.stringn "그게 너를 말하는 거였구나?\x11\n"
+.stringn "\x0714\x02mc……\x02md떨어지려고 생각했어요.\x02w4\n"
+.stringn "그래서 크리미아에 갔을 때\x02w3\n"
+.stringn "일부러 놓쳐서 \x02w2베그니온으로 가는 배에\x02mc……\x02md\x11\x10그런데 \x02w3베그니온에 도착하자마자\n"
+.stringn "데인과 크리미아의\n"
+.stringn "전쟁이 시작된 걸 알게 돼서\x02mc……\x02md\x11\x10데인으로 돌아가서 그 아이의 행방을 찾다가\x02w3\n"
+.stringn "찾지 못해서 다시 크리미아로 갔어요.\x02w4\n"
+.stringn "하지만 찾을 수 없었죠\x02mc……\x02md\x11\x10결국 \x02w3종전 후에\n"
+.stringn "데인 네바사에서 다시 재회했습니다.\x11\n"
+.stringn "\x0705완전히 엇갈린 거구나.\x11\n"
+.stringn "\x0714나중에 그 얘기를 했더니,\x02w3\n"
+.stringn "저 애치고는 놀랄 정도로\n"
+.stringn "엄청 화를 내더라구요.\x11\n"
+.stringn "\x0705그야 \x02w3그렇겠지.\x02w4\n"
+.stringn "전쟁 중에 양국 사이를 서성거리고 있었다니\n"
+.stringn "정말 \x02w2간담이 서늘해지는 얘기잖아.\x11\x10무엇보다\x02mc…\x02md\x02w3 네게\n"
+.stringn "버려진 거에 대해서도 울분이 쌓였을 테고.\x11\n"
+.stringn "\x0714한계라고 생각했어요.\x02w4\n"
+.stringn "저 애는 \x02w2매일매일 커 가는데,\x02w4\n"
+.stringn "저는\x02mc……\x02md\x02w4 변하지 않으니까.\x11\x10저 애까지 \x02w3제 저주받은\n"
+.stringn "운명에 어울리게 하고 싶지 않았어요.\x11\n"
+.stringn "\x0705라구즈의 피\x02mc…\x02md\x02w2 말이야?\x11\n"
+.stringn "\x0714역시 알고 계셨군요.\x02w4\n"
+.stringn "당신 곁에 있는\n"
+.stringn "그에게서?\x11\n"
+.stringn "\x0705그래.\x02w4\n"
+.stringn "같은 처지의 사람은 알아볼 수 있는 거야?\x11\n"
+.stringn "\x0714네.\x02w4\n"
+.stringn "그와 저는 같은\x02mc…\x02md\x02w4 “인붙이”예요.\x11\n"
+.stringn "\x0705\x02mc……\x02md\x02w3그렇게 부르지 마.\x02w4\n"
+.stringn "너도 세네리오도 “사람”이야.\x02w5\n"
+.stringn "나나 다른 녀석들하고 똑같이.\x11\n"
+.stringn "\x0714“사람”\x02mc……\x02md\x11\n"
+.stringn "당신도 윤느랑 똑같네요.\x02w4\n"
+.stringn "베오크도 라구즈도 \x02w3모두 한결같이\n"
+.stringn "“사람”이라고 부르는군요.\x11\n"
+.stringn "\x0705피부나 머리카락이나 눈빛이 다르든\x02w3\n"
+.stringn "귀나 꼬리나 날개가 나 있든\x11\n"
+.stringn "장수하든 \x02w2특별한 힘을 가지고 있든\x02w3\n"
+.stringn "근본은 다 똑같아.\x11\x10일부러 나누는 의미를 모르겠어.\x11\n"
 .stringn "\x0714\x02mc…………\x02md\x11\n"
-.stringn "いまのサザもそんな感じ。\x02w4\n"
-.stringn "あなたとの出会いが\x02w3\n"
-.stringn "あの子を変えたんですね。\x11\x10\x01sありがとう、\x02w3アイク。\x02w4\n"
-.stringn "あなたのお陰で\x02w2心が決まりました。\x11\n"
-.stringn "\x0705どういう意味だ？\x11\n"
-.stringn "\x0714\x01aこの件にけりがついたら\x02w3\n"
-.stringn "わたしはまた\x02w2どこか遠くへ\n"
-.stringn "旅立とうと思っていました。\x11\n"
-.stringn "だけど\x02mc……\x02md\x02w3デインに戻ります。\x11\x10何があってもわたしにはサザがいる。\x02w4\n"
-.stringn "２人いっしょなら\x02w3\n"
-.stringn "どんなことだって怖くはない。\x11\n"
-.stringn "\x0705あいつにもデインにも\x02w3\n"
-.stringn "それが一番の幸せだろうさ。\x11\x10さて、\x02w3そろそろ俺も支度にかかるか。\x11\n"
-.stringn "\x0714あ、\x02w2薬\x02mc…\x02md\x02w4\n"
-.stringn "余っているならいただけますか？\x11\n"
-.stringn "\x0705あぁ、\x02w3そうだったな。\x11\x10生き残れよミカヤ。\x02w4\n"
-.stringn "石になった者たちを助けるのに\x11\n"
-.stringn "あんたと\x02w3あんたの中の女神は\n"
-.stringn "不可欠だからな。\x11\n"
-.stringn "\x0714はい、\x02w3分かっています。\x11"
+.stringn "지금의 소더도 그런 느낌이에요.\x02w4\n"
+.stringn "당신과의 만남이\x02w3\n"
+.stringn "저 아이를 바꾸었군요.\x11\x10\x01s고마워요, \x02w3아이크.\x02w4\n"
+.stringn "당신 덕분에 \x02w2마음을 정했어요.\x11\n"
+.stringn "\x0705무슨 뜻이야?\x11\n"
+.stringn "\x0714\x01a이 건이 정리가 되면\x02w3\n"
+.stringn "저는 또 \x02w2어딘가 먼 곳으로\n"
+.stringn "여행을 떠나려고 했거든요.\x11\n"
+.stringn "하지만\x02mc……\x02md\x02w3 데인으로 돌아가려고요.\x11\x10무슨 일이 있어도 제게는 소더가 있어요.\x02w4\n"
+.stringn "둘이 함께라면\x02w3\n"
+.stringn "어떤 일이라도 두렵지 않을 거예요.\x11\n"
+.stringn "\x0705저 녀석에게도 데인에게도\x02w3\n"
+.stringn "그게 제일 행복한 길이겠지.\x11\x10그럼, \x02w3나도 슬슬 준비를 해야겠어.\x11\n"
+.stringn "\x0714아, \x02w2약\x02mc…\x02md\x02w4\n"
+.stringn "남아 있다면 주시겠어요?\x11\n"
+.stringn "\x0705아아, \x02w3그랬었지.\x11\x10살아남아 미카야.\x02w4\n"
+.stringn "돌이 된 자들을 돕는 데\x11\n"
+.stringn "너랑 \x02w3네 안의 여신은\n"
+.stringn "꼭 필요하니까.\x11\n"
+.stringn "\x0714네, \x02w3알고 있어요.\x11"
 db 0
 .align 4
 //MID_0407c_ミカヤ会話_3
 
 //0x7794
 Text_7774:
-.stringn "\x05FL|L_RAFIEL|L_IKE2||\x04R背景会話|\x0C05\x0E5D\x0C16\x086D\x04B塔内-通路|\x02w4\x0705アイク殿、\x02w3これをどうぞ。\x11\n"
-.stringn "\x0716どうしたんだ？\x11\n"
-.stringn "\x0705塔の中で拾いました。\x02w3\n"
-.stringn "自分で使おうかとも考えたんですが\x02mc……\x02md\x11\n"
-.stringn "\x0716いや、\x02w3あんたには不向きだろう。\x11\n"
-.stringn "\x0705\x02mc…\x02md\x02w3ではないかと思いましたので\x02w3\n"
-.stringn "こうしてお持ちしました。\x11\n"
-.stringn "\x0716貴重なものだ。\x02w3\n"
-.stringn "有効に使わせてもらおう。\x11\n"
-.stringn "\x0705はい。\x11"
+.stringn "\x05FL|L_RAFIEL|L_IKE2||\x04R背景会話|\x0C05\x0E5D\x0C16\x086D\x04B塔内-通路|\x02w4\x0705아이크님, \x02w3부디 이것을.\x11\n"
+.stringn "\x0716어디서 났어?\x11\n"
+.stringn "\x0705탑 안에서 주웠습니다.\x02w3\n"
+.stringn "스스로 사용할까도 생각했습니다만\x02mc……\x02md\x11\n"
+.stringn "\x0716아니, \x02w3너한테는 적합하지 않잖아.\x11\n"
+.stringn "\x0705\x02mc…\x02md\x02w3그렇다고 생각해서\x02w3\n"
+.stringn "이렇게 가져온 겁니다.\x11\n"
+.stringn "\x0716귀중한 거네.\x02w3\n"
+.stringn "잘 쓰도록 할게.\x11\n"
+.stringn "\x0705네.\x11"
 db 0
 .align 4
 //MID_0407c_ラフィエル会話
 
 //0x7AF0
 Text_7AD0:
-.stringn "\x05FL|L_LEARNE|L_MICAIAH3||\x04R背景会話|\x0C05\x0E5D\x0C16\x086D\x04B塔内-通路|\x02w4\x0705#F01\x02O2Ano,\x02w3kore...\x11\n"
-.stringn "\x0716これ\x02mc…\x02md\x02w3どうしたんですか？\x11\n"
-.stringn "\x0705#F01\x02O2Tounonakade\x02w3 hirottano.\x02w4\n"
-.stringn "#F01\x02O2Watashiga,\x02w2tsukattemoii?\x11\n"
-.stringn "\x0716え\x02mc！\x02md\x02w4　リアーネ姫には\n"
-.stringn "不向きだと思いますよ、\x02w3これ。\x11\n"
-.stringn "\x0705#F01\x02O2...\x02w3ittemitadake.\x02w4\n"
-.stringn "#F01\x02O2\x01sJyaa,\x02w2anataniageru.\x11\n"
-.stringn "\x0716わたしにくださるんですか？\x02w4\n"
-.stringn "\x01sありがとうございます。\x11\x10貴重なものですから、\x02w3\n"
-.stringn "有効に使わせてもらいますね。\x11\n"
-.stringn "\x0705#F01\x02O2Un.\x11"
+.stringn "\x05FL|L_LEARNE|L_MICAIAH3||\x04R背景会話|\x0C05\x0E5D\x0C16\x086D\x04B塔内-通路|\x02w4\x0705#F01\x02O2Jeogi, \x02w3igeo...\x11\n"
+.stringn "\x0716이거\x02mc…\x02md\x02w3 어디서 나셨나요?\x11\n"
+.stringn "\x0705#F01\x02O2Tap aneseo\x02w3 juwosseo.\x02w4\n"
+.stringn "#F01\x02O2Naega, \x02w2sseodo doelkka?\x11\n"
+.stringn "\x0716네\x02mc!?\x02md\x02w4 리아네 공주님에게는\n"
+.stringn "적합하지 않다고 생각해요, \x02w3이건.\x11\n"
+.stringn "\x0705#F01\x02O2...\x02w3malhae bon geotppuniya.\x02w4\n"
+.stringn "#F01\x02O2\x01sGeurom, \x02w2neohante julge.\x11\n"
+.stringn "\x0716저한테 주시는 건가요?\x02w4\n"
+.stringn "\x01s감사합니다.\x11\x10귀중한 물건이니\x02w3\n"
+.stringn "유용하게 쓰도록 할게요.\x11\n"
+.stringn "\x0705#F01\x02O2Eung.\x11"
 db 0
 .align 4
 //MID_0407c_リアーネ会話
 
 //0x78F0
 Text_78D0:
-.stringn "\x05FL|L_RIEUSION|L_IKE2||\x04R背景会話|\x0C05\x0E5D\x0C16\x086D\x04B塔内-通路|\x02w4\x0705アイク、\x02w3これを。\x11\n"
-.stringn "\x0716どうしたんだ？\x11\n"
-.stringn "\x0705塔の中で拾ったんだ。\x02w4\n"
-.stringn "とりあえず\x02w2団長に渡すのが\n"
-.stringn "筋かと思って持ってきた。\x11\n"
-.stringn "\x0716あんたも律儀なやつだな。\x02w4\n"
-.stringn "別に好きにすればいいものを。\x11\n"
-.stringn "\x0705\x02mc！\x02md\x02w4　そうなのか？\x02w4\n"
-.stringn "だったら私が使って\x02mc……\x02md\x11\n"
-.stringn "\x0716いや、\x02w3待て\x02mc！\x02md\x02w4\n"
-.stringn "いくらなんでも\x02w3\n"
-.stringn "あんたには不向きだろう。\x11\n"
-.stringn "\x0705\x02mc……\x02md\x02w3分かってるが、\x02w3\n"
-.stringn "いちおう聞いてみたまでだ。\x11\n"
-.stringn "\x0716貴重なものだ。\x02w3\n"
-.stringn "有効に使わせてもらう。\x11\n"
-.stringn "\x0705あぁ、\x02w3頼んだぞ。\x11"
+.stringn "\x05FL|L_RIEUSION|L_IKE2||\x04R背景会話|\x0C05\x0E5D\x0C16\x086D\x04B塔内-通路|\x02w4\x0705아이크, \x02w3이것을.\x11\n"
+.stringn "\x0716어디서 났어?\x11\n"
+.stringn "\x0705탑 안에서 주웠다.\x02w4\n"
+.stringn "일단 \x02w2단장에게 넘기는 편이\n"
+.stringn "좋을 거라 생각해서 가져왔지.\x11\n"
+.stringn "\x0716너도 고지식한 녀석이구나.\x02w4\n"
+.stringn "그냥 알아서 하면 될 텐데.\x11\n"
+.stringn "\x0705\x02mc!\x02md\x02w4 그런가?\x02w4\n"
+.stringn "그렇다면 내가 사용\x02mc……\x02md\x11\n"
+.stringn "\x0716아니, \x02w3기다려\x02mc!\x02md\x02w4\n"
+.stringn "아무리 그래도\x02w3\n"
+.stringn "너한테 적합하진 않잖아.\x11\n"
+.stringn "\x0705\x02mc……\x02md\x02w3알고 있지만,\x02w3\n"
+.stringn "그냥 말해 봤을 뿐이다.\x11\n"
+.stringn "\x0716귀중한 거네.\x02w3\n"
+.stringn "잘 쓰도록 할게.\x11\n"
+.stringn "\x0705그래, \x02w3부탁하지.\x11"
 db 0
 .align 4
 //MID_0407c_リュシオン会話
 
 //0x2CA4
 Text_2C84:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D定めには抗えぬ。\x11\x10滅びを前に死に急ぐか\x02mc……\x02md\x11"
+.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D규정에는 항거할 수 없다.\x11\x10멸망을 앞두고 죽음을 재촉하는가\x02mc……\x02md\x11"
 db 0
 .align 4
 //MS_0407c_BT
 
 //0x2044
 Text_2024:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080Dこの波動、\x02w2耐えてみせよ\x02mc！\x02md\x11"
+.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D이 파동, \x02w2견뎌내 보거라\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0407c_BT_ALL_1
 
 //0x208C
 Text_206C:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D女神ユンヌの加護を\n"
-.stringn "受けし者たちの力\x02mc……\x02md\x02w4\n"
-.stringn "その程度ではあるまい\x02mc！\x02md\x11"
+.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D여신 윤느의 가호를\n"
+.stringn "받는 자들의 힘\x02mc……\x02md\x02w4\n"
+.stringn "그 정도는 아니겠지\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0407c_BT_ALL_2
 
 //0x2100
 Text_20E0:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D神に戦いを挑んだのだ\x02mc……\x02md\x02w4\n"
-.stringn "その重さを知れ\x02mc！\x02md\x11"
+.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D신에게 싸움을 건 것이다\x02mc……\x02md\x02w4\n"
+.stringn "그 무게를 알거라\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0407c_BT_ALL_3
 
 //0x355C
 Text_353C:
-.stringn "\x05FL|CAINEGHIS|DHEGINHANSEA||\x04R上下会話|\x0701\x081Dデギンハンザー殿、\x02w2\n"
-.stringn "あなたの忠告を聞かず\x02mc…\x02md\x11\x10大陸にふたたび\n"
-.stringn "騒乱を起こしてしまったこと\x02mc…\x02md\x02w4\n"
-.stringn "申し訳なく思う。\x11\x10だが\x02mc……\x02md\x02w4\n"
-.stringn "女神の裁きは受け入れられぬ。\x11\x10例え女神のご意思に逆らおうとも、\x02w2\n"
-.stringn "わしは石にされた\n"
-.stringn "我が民を救わねばならぬ。\x11\n"
-.stringn "\x0710\x080D獣牙の王カイネギスよ、\x02w2\n"
-.stringn "すでに旗幟は分かたれた。\x11\x10後は互いの力によって\x02w3\n"
-.stringn "決着をつけるのみ。\x11"
+.stringn "\x05FL|CAINEGHIS|DHEGINHANSEA||\x04R上下会話|\x0701\x081D데긴핸저 공,\x02w2\n"
+.stringn "당신의 충고를 듣지 않고\x02mc…\x02md\x11\x10대륙에 다시\n"
+.stringn "소란을 일으킨 것\x02mc…\x02md\x02w4\n"
+.stringn "면목 없게 생각한다.\x11\x10허나\x02mc……\x02md\x02w4\n"
+.stringn "여신의 심판을 받아들일 순 없다.\x11\x10설령 여신의 뜻을 거스른다 해도,\x02w2\n"
+.stringn "나는 돌이 된\n"
+.stringn "우리 백성들을 구해야 한다.\x11\n"
+.stringn "\x0710\x080D수아의 왕 카이네기스여,\x02w2\n"
+.stringn "이미 적과 아군은 결정되었다.\x11\x10남은 것은 서로의 힘으로\x02w3\n"
+.stringn "결착을 낼 뿐.\x11"
 db 0
 .align 4
 //MS_0407c_BT_Cai
 
 //0x3108
 Text_30E8:
-.stringn "\x05FL|ENA|DHEGINHANSEA||\x04R上下会話|\x0701\x081D王\x02mc……\x02md\x11\n"
-.stringn "\x0710\x080D来るが良い、\x02w2イナ。\x11\n"
-.stringn "\x0701いいえ\x02mc……\x02md\x02w4できません。\x11\x10私は王命に背き、\x02w2\n"
-.stringn "ゴルドアを離れた愚か者ですが\x02mc……\x02md\x02w4\n"
-.stringn "それでも竜鱗族なのです。\x11\x10王を傷つけることはできません。\x02w4\n"
-.stringn "決して。\x11\n"
-.stringn "\x0710ならば\x02mc……\x02md\x02w4\n"
-.stringn "ゴルドアの王として\n"
-.stringn "そなたに命じよう。\x11\x10戦うがいい。\x02w4\n"
-.stringn "クルトナーガのために。\x11\n"
-.stringn "\x0701王\x02mc……\x02md\x02mc！\x02md\x11\n"
-.stringn "\x0710あれもそなたと同じ\x02mc……\x02md\x02w4\n"
-.stringn "竜鱗族らしからぬ竜よ。\x11\n"
+.stringn "\x05FL|ENA|DHEGINHANSEA||\x04R上下会話|\x0701\x081D왕이시여\x02mc……\x02md\x11\n"
+.stringn "\x0710\x080D오거라, \x02w2이나.\x11\n"
+.stringn "\x0701아니요\x02mc……\x02md\x02w4 못 합니다.\x11\x10저는 왕명을 어기고\x02w2\n"
+.stringn "고르드아를 떠난 어리석은 자입니다\x02mc……\x02md\x02w4\n"
+.stringn "그래도 용린족이에요.\x11\x10왕께 상처를 입힐 순 없습니다.\x02w4\n"
+.stringn "절대로.\x11\n"
+.stringn "\x0710그렇다면\x02mc……\x02md\x02w4\n"
+.stringn "고르드아의 왕으로서\n"
+.stringn "그대에게 명하마.\x11\x10싸워라.\x02w4\n"
+.stringn "쿠르트나가를 위해서.\x11\n"
+.stringn "\x0701왕이시여\x02mc……\x02md\x02mc!\x02md\x11\n"
+.stringn "\x0710저자도 그대와 같다\x02mc……\x02md\x02w4\n"
+.stringn "용린족답지 않은 용이여.\x11\n"
 .stringn "\x0701\x02mc……\x02md\x11"
 db 0
 .align 4
@@ -315,498 +315,517 @@ db 0
 
 //0x3BB8
 Text_3B98:
-.stringn "\x05FL|DHEGINHANSEA|ERINCIA||\x04R上下会話|\x0700\x080Dそなたも\x02w3\n"
-.stringn "女神アスタルテに逆らうか。\x11\n"
-.stringn "\x0711\x081D私は\x02mc…\x02md\x02w3石にされた人たちを\n"
-.stringn "なんとしても救いたいのです。\x11\x10黒竜王様、\x02w2どうか\n"
-.stringn "クルトナーガ王子のお言葉を\x02w3\n"
-.stringn "もう一度お聞きください。\x11\n"
-.stringn "\x0700もはや終わったこと。\x02w4\n"
-.stringn "女神を裏切りし我々は\x02mc……\x02md\x02w4\n"
-.stringn "人は滅ぶべき種なのだ。\x11\n"
-.stringn "\x0711私は\x02mc……\x02md\x02w3そうは思いません。\x02w4\n"
-.stringn "人には、\x02w2まだ可能性があると\x02mc…\x02md\x02w4\n"
-.stringn "そう信じます。\x11\x10ですから、\x02w3どうか\x02mc……\x02md\x11\n"
-.stringn "\x0700そなたらがわしに勝てれば\x02mc…\x02md\x02w3\n"
-.stringn "その言葉信ずるに足ると解釈しよう。\x02w4\n"
-.stringn "では、\x02w3かかってくるがいい。\x11"
+.stringn "\x05FL|DHEGINHANSEA|ERINCIA||\x04R上下会話|\x0700\x080D그대도\x02w3\n"
+.stringn "여신 아스타르테께 거역하는 것인가.\x11\n"
+.stringn "\x0711\x081D저는\x02mc…\x02md\x02w3 돌이 된 사람들을\n"
+.stringn "어떻게든 구하고 싶습니다.\x11\x10흑룡왕님, \x02w2부디\n"
+.stringn "쿠르트나가 왕자님의 말씀을\x02w3\n"
+.stringn "다시 한번 들어보세요.\x11\n"
+.stringn "\x0700이미 끝난 일이다.\x02w4\n"
+.stringn "여신을 배반한 우리는\x02mc……\x02md\x02w4\n"
+.stringn "사람은 멸망해야 할 종인 것이다.\x11\n"
+.stringn "\x0711저는\x02mc……\x02md\x02w3 그렇게 생각하지 않습니다.\x02w4\n"
+.stringn "사람에게는 \x02w2아직 가능성이 있다고\x02mc…\x02md\x02w4\n"
+.stringn "그렇게 믿어요.\x11\x10그러니까, \x02w3부디\x02mc……\x02md\x11\n"
+.stringn "\x0700그대들이 나를 이기면\x02mc…\x02md\x02w3\n"
+.stringn "그 말을 믿을 만하다고 해석하지.\x02w4\n"
+.stringn "그럼, \x02w3덤비도록.\x11"
 db 0
 .align 4
 //MS_0407c_BT_Eri
 
 //0x2CFC
 Text_2CDC:
-.stringn "\x05FL|IKE|DHEGINHANSEA||\x04R上下会話|\x0701\x081D黒竜王デギンハンザー。\x02w4\n"
-.stringn "どうあっても、\x02w2\n"
-.stringn "ここを通す気はないんだな？\x11\n"
-.stringn "\x0710\x080D私は女神アスタルテに従う。\x02w4\n"
-.stringn "その意思は変えぬ。\x11\n"
-.stringn "\x0701それなら、\x02w2仕方ないな。\x02w4\n"
-.stringn "覚悟してくれ。\x11\n"
-.stringn "\x0710来るがよい、\x02w2ベオクの英雄\x02mc…\x02md\x02w4\n"
-.stringn "女神ユンヌの加護を受ける者よ。\x11\x10女神アスタルテの加護を受けし\n"
-.stringn "三雄たる我の力\x02mc……\x02md\x02w4\n"
-.stringn "いまこそ見せてくれよう\x02mc！\x02md\x11"
+.stringn "\x05FL|IKE|DHEGINHANSEA||\x04R上下会話|\x0701\x081D흑룡왕 데긴핸저.\x02w4\n"
+.stringn "뭘 어떻게 해도 여기를\x02w2\n"
+.stringn "지나가게 해 줄 생각은 없는 거지?\x11\n"
+.stringn "\x0710\x080D나는 여신 아스타르테를 따른다.\x02w4\n"
+.stringn "그 뜻은 바꿀 수 없다.\x11\n"
+.stringn "\x0701그럼 \x02w2어쩔 수 없지.\x02w4\n"
+.stringn "각오해 줘.\x11\n"
+.stringn "\x0710오거라, \x02w2베오크의 영웅\x02mc…\x02md\x02w4\n"
+.stringn "여신 윤느의 가호를 받는 자여.\x11\x10여신 아스타르테의 가호를 받는\n"
+.stringn "삼웅인 나의 힘\x02mc……\x02md\x02w4\n"
+.stringn "지금 보여 주마\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0407c_BT_Ike
 
 //0x2F84
 Text_2F64:
-.stringn "\x05FL|KURTHNAGA|DHEGINHANSEA||\x04R上下会話|\x0701\x081D父上\x02mc……\x02md\x02mc！\x02md\x02w4\n"
-.stringn "どうかお考え直しください。\x11\n"
-.stringn "\x0710\x080D話はすでに終わった。\x02w4\n"
-.stringn "後は、\x02w2力によって\n"
-.stringn "そなたたちを止めるまでだ。\x11\n"
-.stringn "\x0701何故です、\x02w3父上\x02mc！\x02md\x11\n"
-.stringn "\x0710くどい\x02mc！\x02md\x11\x10黒竜クルトナーガよ、\x02w2\n"
-.stringn "次代の竜鱗を率いる者よ、\x02w2\n"
-.stringn "そなたの力、\x02w2私に示すがよい\x02mc！\x02md\x11\n"
-.stringn "\x0701\x02mc――\x02mc！\x02md\x02md\x02w4\n"
-.stringn "は、\x02w2い\x02mc…\x02md\x02w4父上\x02mc………\x02md\x02mc！\x02md\x11"
+.stringn "\x05FL|KURTHNAGA|DHEGINHANSEA||\x04R上下会話|\x0701\x081D아버님\x02mc……\x02md\x02mc!\x02md\x02w4\n"
+.stringn "부디 다시 생각해 주세요.\x11\n"
+.stringn "\x0710\x080D얘기는 이미 끝났다.\x02w4\n"
+.stringn "남은 것은 \x02w2힘으로\n"
+.stringn "그대들을 멈출 뿐.\x11\n"
+.stringn "\x0701어째서입니까, \x02w3아버님\x02mc!\x02md\x11\n"
+.stringn "\x0710끈질기다\x02mc!\x02md\x11\x10흑룡 쿠르트나가여,\x02w2\n"
+.stringn "차세대 용린을 이끌 자여!\x02w2\n"
+.stringn "그대의 힘, \x02w2내게 보여라\x02mc!\x02md\x11\n"
+.stringn "\x0701\x02mc――\x02mc!\x02md\x02md\x02w4\n"
+.stringn "네\x02mc…\x02md\x02w4 아버님\x02mc………\x02md\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0407c_BT_Kur
 
 //0x42AC
 Text_428C:
-.stringn "\x05FL|DHEGINHANSEA|LEARNE||\x04R上下会話|\x0700\x080D鷺の姫よ。\x02w4\n"
-.stringn "そなたは戦う力を持たぬ者\x02mc……\x02md\x02w4\n"
-.stringn "退くがよい。\x11\n"
-.stringn "\x0711\x081D#F01\x02O2kanasii...\x02w4\n"
-.stringn "#F01\x02O2Ojisamanokokoro...\x02w3kanasimide ippai...\x02w4\n"
-.stringn "#F01\x02O2Doushite?\x02w3 Watashinihanashite.\x11\n"
-.stringn "\x0700そなたには\x02mc……\x02md\x02w4関わりのないことだ。\x11"
+.stringn "\x05FL|DHEGINHANSEA|LEARNE||\x04R上下会話|\x0700\x080D백로공주여.\x02w4\n"
+.stringn "그대는 싸울 힘을 갖지 못한 자\x02mc……\x02md\x02w4\n"
+.stringn "물러나거라.\x11\n"
+.stringn "\x0711\x081D#F01\x02O2seulpeo...\x02w4\n"
+.stringn "#F01\x02O2Oajeossiui maeum... \x02w3seulpeumi gadeuk...\x02w4\n"
+.stringn "#F01\x02O2Eojjaeseo? \x02w3Nahante yaegihae.\x11\n"
+.stringn "\x0700그대와는\x02mc……\x02md\x02w4 상관없는 일이다.\x11"
 db 0
 .align 4
 //MS_0407c_BT_Lea
 
 //0x2E78
 Text_2E58:
-.stringn "\x05FL|DHEGINHANSEA|MICAIAH||\x04R上下会話|\x0700\x080Dそなた\x02mc…\x02md\x02w3\n"
-.stringn "“印”を持つ者か\x02mc……\x02md\x11\n"
-.stringn "\x0711\x081Dご存知なのですか？\x11\n"
-.stringn "\x0700知っている。\x02w4\n"
-.stringn "その成り立ちもな\x02mc……\x02md\x11\x10わしはあまりに長く生きた。\x02w4\n"
-.stringn "長すぎるほどに\x02mc……\x02md\x11\x10だがじきに\x02mc……\x02md\x02w4\n"
-.stringn "すべて終わりを迎えよう。\x11"
+.stringn "\x05FL|DHEGINHANSEA|MICAIAH||\x04R上下会話|\x0700\x080D그대\x02mc…\x02md\x02w3\n"
+.stringn "“인”을 지닌 자인가\x02mc……\x02md\x11\n"
+.stringn "\x0711\x081D알고 계신가요?\x11\n"
+.stringn "\x0700알고 있다.\x02w4\n"
+.stringn "그 내력도 말이지\x02mc……\x02md\x11\x10나는 너무 오래 살았군.\x02w4\n"
+.stringn "지나칠 정도로\x02mc……\x02md\x11\x10하지만 곧\x02mc……\x02md\x02w4\n"
+.stringn "모두 끝을 맞이하게 될 거다.\x11"
 db 0
 .align 4
 //MS_0407c_BT_Mic
 
 //0x36EC
 Text_36CC:
-.stringn "\x05FL|DHEGINHANSEA|NAESALA||\x04R上下会話|\x0700\x080Dネサラよ、\x02w3この黒竜に挑むか。\x11\n"
-.stringn "\x0711\x01s\x081Dまさか\x02mc……\x02md\x02w4\n"
-.stringn "あんたと戦って勝てると思うほど\n"
-.stringn "俺は馬鹿じゃない。\x11\x10あんたに勝てるのは\n"
-.stringn "それこそ女神その人だろうさ。\x11\x10俺の民が石にされてなけりゃ、\x02w2\n"
-.stringn "とっとと逃げ出してる\n"
-.stringn "ところなんだがね\x02mc……\x02md\x11\n"
-.stringn "\x0700そなたも王\x02mc……\x02md\x02w4ということか。\x11\x10良かろう、\x02w3ならば来るが良い。\x11\n"
-.stringn "\x0711せめて傷の一つでもつけられれば\n"
-.stringn "御の字か\x02mc……\x02md\x02w4\n"
-.stringn "\x02mc……\x02md\x02w3我ながら情けないもんだ。\x11"
+.stringn "\x05FL|DHEGINHANSEA|NAESALA||\x04R上下会話|\x0700\x080D네사라여, \x02w3흑룡인 나에게 도전하는가.\x11\n"
+.stringn "\x0711\x01s\x081D설마\x02mc……\x02md\x02w4\n"
+.stringn "당신과 싸워서 이길 수 있다고 생각할 정도로\n"
+.stringn "나는 바보가 아니라고.\x11\x10당신을 이길 수 있는 건\n"
+.stringn "말 그대로 여신밖에 없지.\x11\x10내 백성들이 돌이 되지 않았다면,\x02w2\n"
+.stringn "냉큼 도망쳤을 텐데\n"
+.stringn "말이야\x02mc……\x02md\x11\n"
+.stringn "\x0700그대도 왕\x02mc……\x02md\x02w4이라는 것인가.\x11\x10알겠다, \x02w3그렇다면 오거라.\x11\n"
+.stringn "\x0711하다못해 상처 하나라도 입히면\n"
+.stringn "감지덕지인가\x02mc……\x02md\x02w4\n"
+.stringn "\x02mc……\x02md\x02w3나 스스로도 한심하구만.\x11"
 db 0
 .align 4
 //MS_0407c_BT_Nae
 
 //0x38B4
 Text_3894:
-.stringn "\x05FL|DHEGINHANSEA|NIKE||\x04R上下会話|\x0700\x080Dそなたは\x02mc……\x02md\x02w4狼の民か？\x11\n"
-.stringn "\x0711\x081Dそうだ。\x02w4\n"
-.stringn "大洪水の後、\x02w2我らは\n"
-.stringn "死の砂漠の東で国を作った。\x11\n"
-.stringn "\x0700なんと\x02mc……\x02md\x02mc！\x02md\x02w4\n"
-.stringn "我らの他に生き残ったものがいたとは。\x11\n"
-.stringn "\x0711ラフィエルを見出すまでは、\x02w2\n"
-.stringn "我らも我が民だけが\n"
-.stringn "残ったのだと思っていた。\x11\n"
-.stringn "\x0700そなたの国にいるのは、\x02w2\n"
-.stringn "狼の民だけか？\x11\n"
-.stringn "\x0711いや、\x02w2ベオクもいる。\x02w4\n"
-.stringn "そして\x02mc……\x02md\x02w4こちらで【印付き】と\n"
-.stringn "呼ばれる者もいる。\x11\x10ラグズとベオクでは子が生まれることが\n"
-.stringn "珍しいゆえ、\x02w2まだ数は少ないが\x02mc……\x02md\x02w4\n"
-.stringn "皆に混じって暮らしている。\x11\n"
-.stringn "\x0700\x02mc……\x02mdそう、\x02w2か\x02mc…\x02md\x11\n"
-.stringn "\x0711この話を聞いてなお、\n"
-.stringn "まだ我らの道を妨げるつもりか？\x11\n"
+.stringn "\x05FL|DHEGINHANSEA|NIKE||\x04R上下会話|\x0700\x080D그대는\x02mc……\x02md\x02w4 늑대 민족인가?\x11\n"
+.stringn "\x0711\x081D그렇다.\x02w4\n"
+.stringn "대홍수 이후 \x02w2우리는\n"
+.stringn "죽음의 사막 동쪽에 나라를 세웠지.\x11\n"
+.stringn "\x0700그럴 수가\x02mc……\x02md\x02mc!\x02md\x02w4\n"
+.stringn "우리 중에 살아남은 자가 있었다니.\x11\n"
+.stringn "\x0711라피엘을 찾아내기 전까지는\x02w2\n"
+.stringn "우리도 우리 백성만이\n"
+.stringn "남았다고 생각했다.\x11\n"
+.stringn "\x0700그대의 나라에 있는 것은\x02w2\n"
+.stringn "늑대 민족뿐인가?\x11\n"
+.stringn "\x0711아니, \x02w2베오크도 있다.\x02w4\n"
+.stringn "그리고\x02mc……\x02md\x02w4 여기서는 【인붙이】라고\n"
+.stringn "불리는 자도 있지.\x11\x10라구즈와 베오크 사이에서 아이가 태어나는 것은\n"
+.stringn "드물기 때문에, \x02w2아직 수는 적지만\x02mc……\x02md\x02w4\n"
+.stringn "모두와 섞여서 살고 있다.\x11\n"
+.stringn "\x0700\x02mc……\x02md그런, \x02w2가\x02mc…\x02md\x11\n"
+.stringn "\x0711이 얘기를 듣고도 아직\n"
+.stringn "우리의 길을 막으려는 건가?\x11\n"
 .stringn "\x0700\x02mc…………\x02md\x02w4\n"
-.stringn "私は女神の裁定には逆らわぬ。\x11\n"
-.stringn "\x0711鷹王が化石と申しておったが、\x02w3\n"
-.stringn "まことそのようだ。\x02w4\n"
-.stringn "この私が\x02w3その目を覚まさせてやろう。\x11"
+.stringn "나는 여신의 결정에 거역하지 않는다.\x11\n"
+.stringn "\x0711응왕이 화석이라고 하던데,\x02w3\n"
+.stringn "정말 그런 것 같군.\x02w4\n"
+.stringn "내가 \x02w3그 눈을 뜨게 해 주지.\x11"
 db 0
 .align 4
 //MS_0407c_BT_Nik
 
 //0x3F48
 Text_3F28:
-.stringn "\x05FL|RAFIEL|DHEGINHANSEA||\x04R上下会話|\x0701\x081D黒竜王様\x02mc……\x02md\x02w4\n"
-.stringn "私にはわかりません\x02mc……\x02md\x11\x10なぜ、\x02w2戦わなければ\n"
-.stringn "ならないのですか？\x11\x10このようなこと\x02mc……\x02md\x02w4\n"
-.stringn "私には\x02mc……\x02md\x02w4\n"
-.stringn "耐えられません\x02mc……\x02md\x11\x10これ以上争っても\x02mc……\x02md\x02w4\n"
-.stringn "悲しみが増すだけでは\n"
-.stringn "ありませんか\x02mc……\x02md\x11\n"
+.stringn "\x05FL|RAFIEL|DHEGINHANSEA||\x04R上下会話|\x0701\x081D흑룡왕님\x02mc……\x02md\x02w4\n"
+.stringn "저는 모르겠습니다\x02mc……\x02md\x11\x10어째서 \x02w2싸워야만\n"
+.stringn "하는 건가요?\x11\x10이런 일이 일어나다니\x02mc……\x02md\x02w4\n"
+.stringn "저는\x02mc……\x02md\x02w4\n"
+.stringn "견딜 수 없습니다\x02mc……\x02md\x11\x10이 이상 싸워도\x02mc……\x02md\x02w4\n"
+.stringn "슬픔만 더해지는 것밖에\n"
+.stringn "없지 않습니까\x02mc……\x02md\x11\n"
 .stringn "\x0710\x080D\x02mc……\x02md\x02w4\n"
-.stringn "そなたの姿\x02mc……\x02md\x02w4\n"
-.stringn "昔の友を思い出させる\x02mc……\x02md\x11\x10誰より優しく、\x02w2\n"
-.stringn "それゆえに弱かったあの男\x02mc……\x02md\x11\x10埒もない感傷よ\x02mc……\x02md\x02w4\n"
-.stringn "わしは変わらぬ。\x02w4\n"
-.stringn "ただ女神の裁きを受け入れるのみ。\x11"
+.stringn "그대의 모습\x02mc……\x02md\x02w4\n"
+.stringn "옛 벗을 생각나게 하는군\x02mc……\x02md\x11\x10누구보다 상냥하고,\x02w2\n"
+.stringn "그렇기에 약했던 그 남자\x02mc……\x02md\x11\x10부질없는 감상이군\x02mc……\x02md\x02w4\n"
+.stringn "나는 변하지 않는다.\x02w4\n"
+.stringn "그저 여신의 심판을 받아들일 뿐.\x11"
 db 0
 .align 4
 //MS_0407c_BT_Raf
 
 //0x413C
 Text_411C:
-.stringn "\x05FL|RIEUSION|DHEGINHANSEA||\x04R上下会話|\x0701\x081D黒竜王、\x02w2\n"
-.stringn "あなたほどのお方がなぜ\x02mc……\x02md\x11\x10あなたはこの地上で\n"
-.stringn "最も強い力を持つ存在\x02mc……\x02md\x11\x10その力を、\x02w2\n"
-.stringn "なぜ人々を救うために\n"
-.stringn "向けてくださらないのですか？\x11\n"
-.stringn "\x0710\x080Dかつて\x02mc……\x02md\x02w4\n"
-.stringn "我が友も同じことを言った。\x11\x10だがあの時も今も、\x02w2\n"
-.stringn "わしの答えは変わらぬ。\x02w4\n"
-.stringn "変わってはならぬのだ。\x11\x10わしはただ\n"
-.stringn "女神の意に従うのみ。\x11"
+.stringn "\x05FL|RIEUSION|DHEGINHANSEA||\x04R上下会話|\x0701\x081D흑룡왕,\x02w2\n"
+.stringn "당신 같은 분이 왜\x02mc……\x02md\x11\x10당신은 이 땅 위에서\n"
+.stringn "가장 강한 힘을 지닌 존재\x02mc……\x02md\x11\x10어째서 그 힘을\x02w2\n"
+.stringn "사람들을 구하기 위해\n"
+.stringn "쓰지 않는 겁니까?\x11\n"
+.stringn "\x0710\x080D일찍이\x02mc……\x02md\x02w4\n"
+.stringn "내 벗도 똑같이 말했다.\x11\x10허나 그때도 지금도,\x02w2\n"
+.stringn "나의 대답은 변함없다.\x02w4\n"
+.stringn "변해서는 안 되는 것이다.\x11\x10나는 그저\n"
+.stringn "여신의 뜻에 따를 뿐.\x11"
 db 0
 .align 4
 //MS_0407c_BT_Rie
 
 //0x3DE0
 Text_3DC0:
-.stringn "\x05FL|DHEGINHANSEA|SANAKI||\x04R上下会話|\x0700\x080Dこの私から見れば、\x02w3\n"
-.stringn "そなたなど頑是なき赤子同然。\x11\x10それでも向かってくるのか？\x11\n"
-.stringn "\x0711\x081Dむ\x02mc…\x02md\x02w2無論じゃ。\x11\x10わたしは、\x02w2\n"
-.stringn "第３７代ベグニオン皇帝サナキ\x02mc……\x02md\x02w4\n"
-.stringn "民を救う責務がある。\x11\n"
-.stringn "そなたが大陸最強の黒竜でも\x02mc…\x02md\x02w3\n"
-.stringn "恐れはせぬぞ。\x11\n"
-.stringn "\x0700\x02ec\x01sふっ\x02w2　よかろう。\x02w4\n"
-.stringn "\x01aそなたの覚悟、\x02w3\n"
-.stringn "確かめさせてもらおう。\x11"
+.stringn "\x05FL|DHEGINHANSEA|SANAKI||\x04R上下会話|\x0700\x080D내가 보기에\x02w3\n"
+.stringn "그대 따윈 철없는 아이나 다름없다.\x11\x10그래도 향해 오는 것인가?\x11\n"
+.stringn "\x0711\x081D무\x02mc…\x02md\x02w2물론이다.\x11\x10나는\x02w2\n"
+.stringn "제37대 베그니온 황제 사나키\x02mc……\x02md\x02w4\n"
+.stringn "백성을 구할 의무가 있다.\x11\n"
+.stringn "그대가 대륙 최강의 흑룡이라도\x02mc…\x02md\x02w3\n"
+.stringn "두려워하지 않는다.\x11\n"
+.stringn "\x0700\x02ec\x01s훗,\x02w2 좋지.\x02w4\n"
+.stringn "\x01a그대의 각오,\x02w3\n"
+.stringn "확인해 보도록 하마.\x11"
 db 0
 .align 4
 //MS_0407c_BT_San
 
 //0x32CC
 Text_32AC:
-.stringn "\x05FL|DHEGINHANSEA|SOTHE||\x04R上下会話|\x0700\x080D来るがいい、\x02w2\n"
-.stringn "女神ユンヌの使徒よ。\x11\n"
-.stringn "\x0711\x081D俺はあんたみたいな長生きじゃない。\x02w4\n"
-.stringn "あんたみたいな力もない。\x11\x10世界を救うとか、\x02w2女神の戦いとか\x02mc……\x02md\x02w4\n"
-.stringn "俺には大きすぎて\n"
-.stringn "ぜんぜん実感できない話だ。\x11\x10だから俺は\x02mc……\x02md\x02w4\n"
-.stringn "もっと身近で、\x02w4\n"
-.stringn "もっと小さなもののために命を賭ける。\x11"
+.stringn "\x05FL|DHEGINHANSEA|SOTHE||\x04R上下会話|\x0700\x080D오거라,\x02w2\n"
+.stringn "여신 윤느의 사도여.\x11\n"
+.stringn "\x0711\x081D나는 당신처럼 오래 살지 않았어.\x02w4\n"
+.stringn "당신 같은 힘도 없지.\x11\x10세상을 구한다든지, \x02w2여신의 싸움이라든지\x02mc……\x02md\x02w4\n"
+.stringn "나한테는 너무 커서\n"
+.stringn "전혀 실감나지 않는 얘기야.\x11\x10그러니까 나는\x02mc……\x02md\x02w4\n"
+.stringn "좀 더 가깝고,\x02w4\n"
+.stringn "좀 더 작은 것을 위해서 목숨을 걸겠어.\x11"
 db 0
 .align 4
 //MS_0407c_BT_Sat
 
 //0x3410
 Text_33F0:
-.stringn "\x05FL|TIBARN|DHEGINHANSEA||\x04R上下会話|\x0701\x01s\x081Dまさか、\x02w3あんたと\n"
-.stringn "やり合う日が来るとはな。\x02w4\n"
-.stringn "人生ってのは読めんもんだ。\x11\n"
-.stringn "\x0710\x080Dティバーンよ。\x02w4\n"
-.stringn "如何なそなたでも\x02mc…\x02md\x02w3\n"
-.stringn "我が攻撃の前には無力。\x11\n"
-.stringn "\x0701どうだろうな？\x02w3\n"
-.stringn "これまで試したことはないんだ。\x02w4\n"
-.stringn "意外に通用するかもしれんぞ。\x11\n"
-.stringn "\x0710ならば来い。\x02w4\n"
-.stringn "そなたの力、\x02w3見せてみよ。\x11"
+.stringn "\x05FL|TIBARN|DHEGINHANSEA||\x04R上下会話|\x0701\x01s\x081D설마 \x02w3당신이랑\n"
+.stringn "싸울 날이 올 줄이야.\x02w4\n"
+.stringn "삶이란 예측할 수 없는 것이로군.\x11\n"
+.stringn "\x0710\x080D티반이여.\x02w4\n"
+.stringn "아무리 그대라도\x02mc…\x02md\x02w3\n"
+.stringn "우리의 공격 앞에서는 무력하다.\x11\n"
+.stringn "\x0701과연 어떨까?\x02w3\n"
+.stringn "여태까지 시도한 적이 없잖아,\x02w4\n"
+.stringn "의외로 견줄 수 있을지도 모르지.\x11\n"
+.stringn "\x0710그렇다면 와라.\x02w4\n"
+.stringn "그대의 힘, \x02w3보이도록.\x11"
 db 0
 .align 4
 //MS_0407c_BT_Tib
 
 //0x43C0
 Text_43A0:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x02eh\x080Dぬ\x02mc……\x02md\x02w4う\x02mc……\x02md\x11\x10我が身も老いたか\x02mc……\x02md\x02w4\n"
-.stringn "いや\x02mc……\x02md\x11\x10老いしは\x02mc…\x02md\x02w4我が心\x02ecか\x02mc………\x02md\x11"
+.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x02eh\x080D크\x02mc……\x02md\x02w4윽\x02mc……\x02md\x11\x10내 몸도 늙었는가\x02mc……\x02md\x02w4\n"
+.stringn "아니\x02mc……\x02md\x11\x10늙은 것은\x02mc…\x02md\x02w4 내 마음인\x02ec가\x02mc………\x02md\x11"
 db 0
 .align 4
 //MS_0407c_DIE
 
 //0x4460
 Text_4440:
-.stringn "\x05FL|GORT|KURTHNAGA||\x04R上下会話|\x0700\x02eh\x080D王子\x02mc……\x02md\x02w4\n"
-.stringn "貴方をお守りするのが\n"
-.stringn "私の役目でありながら\x02mc……\x02md\x11\x10このようなことに\x02mc………\x02md\x02w4\n"
-.stringn "\x02ecどうかお許しを\x02mc……\x02md\x11\n"
-.stringn "\x0711\x081D違う\x02mc……\x02md\x02mc！\x02md\x02w4\n"
-.stringn "ゴルドアの王命に\n"
-.stringn "背いたのは私の方だ\x02mc……\x02md\x11\x10\x02ecすまない\x02mc……\x02md\x02w4ゴート\x02mc……\x02md\x11"
+.stringn "\x05FL|GORT|KURTHNAGA||\x04R上下会話|\x0700\x02eh\x080D왕자님\x02mc……\x02md\x02w4\n"
+.stringn "당신을 지켜드리는 것이\n"
+.stringn "제 몫인데도\x02mc……\x02md\x11\x10이런 일이 된 것을\x02mc………\x02md\x02w4\n"
+.stringn "\x02ec부디 용서해 주십시오\x02mc……\x02md\x11\n"
+.stringn "\x0711\x081D아니야\x02mc……\x02md\x02mc!\x02md\x02w4\n"
+.stringn "고르드아의 왕명을\n"
+.stringn "등진 건 내 쪽이야\x02mc……\x02md\x11\x10\x02ec미안해\x02mc……\x02md\x02w4 고트\x02mc……\x02md\x11"
 db 0
 .align 4
 //MS_0407c_DIE_Gor
 
 //0x467C
 Text_465C:
-.stringn "\x05FL|IKE|KURTHNAGA||\x04R上下会話|\x0700\x02eh\x080Dさすが\x02mc……\x02md\x02w4竜\x02mc…\x02md\x02w3の\x02mc……\x02md\x02ec\x11\n"
-.stringn "\x0711\x081Dアイク殿\x02mc……\x02mdっ\x02mc！\x02md\x02w4\n"
-.stringn "いやです\x02mc…\x02md\x02w3こんなのは\x02mc……\x02md\x02w4\n"
-.stringn "\x02ec\x02mc……\x02mdアイク殿\x02mc……\x02md\x02w4どうか\x02mc……\x02md\x02mc！\x02md\x11"
+.stringn "\x05FL|IKE|KURTHNAGA||\x04R上下会話|\x0700\x02eh\x080D역시\x02mc……\x02md\x02w4 용\x02mc…\x02md\x02w3의\x02mc……\x02md\x02ec\x11\n"
+.stringn "\x0711\x081D아이크님\x02mc……\x02md\x02mc!\x02md\x02w4\n"
+.stringn "안 돼요\x02mc…\x02md\x02w3 이런 건\x02mc……\x02md\x02w4\n"
+.stringn "\x02ec\x02mc……\x02md아이크님\x02mc……\x02md\x02w4 제발\x02mc……\x02md\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0407c_DIE_Ike
 
 //0x4764
 Text_4744:
-.stringn "\x05FL|MICAIAH|KURTHNAGA||\x04R上下会話|\x0700\x02eh\x080D\x02mc……\x02md\x02w3あ\x02mc………\x02md\x02w4\n"
-.stringn "ごめんなさい\x02mc…\x02md\x02w3ユンヌ\x02mc……\x02md\x02w4\n"
-.stringn "わたしは\x02mc……\x02md\x02w4もう\x02mc………\x02md\x11\x10\x02mc…\x02mdサザ\x02mc…\x02md\x02w3あなただけ\x02mc…\x02md\x02w2でも\x02mc……\x02md\x02w3\n"
-.stringn "\x02ec\x02mc……\x02md生きて\x02w4\x02mc………\x02md\x02w3\x02mc　………\x02md\x02mc…\x02md\x11\n"
-.stringn "\x0711\x081D\x02mc……\x02md\x02w3ミカヤ\x02mc…\x02mdっ\x02mc！\x02md\x11\x10お願いだミカヤ\x02mc……\x02md\x02mc！\x02md\x02w4\n"
-.stringn "死なないで\x02mc！\x02md\x02w4　\x02ecお願いだから\x02mc…\x02md\x02mc！！\x02md\x11"
+.stringn "\x05FL|MICAIAH|KURTHNAGA||\x04R上下会話|\x0700\x02eh\x080D\x02mc……\x02md\x02w3아\x02mc………\x02md\x02w4\n"
+.stringn "미안해\x02mc…\x02md\x02w3 윤느\x02mc……\x02md\x02w4\n"
+.stringn "나\x02mc……\x02md\x02w4 더는\x02mc………\x02md\x11\x10\x02mc…\x02md소더\x02mc…\x02md\x02w3 너만이라\x02mc…\x02md\x02w2도\x02mc……\x02md\x02w3\n"
+.stringn "\x02ec\x02mc……\x02md살아서\x02w4\x02mc………\x02md\x02w3\x02mc ………\x02md\x02mc…\x02md\x11\n"
+.stringn "\x0711\x081D\x02mc……\x02md\x02w3미카야\x02mc…\x02md\x02mc!\x02md\x11\x10부탁이야 미카야\x02mc……\x02md\x02mc!\x02md\x02w4\n"
+.stringn "죽지 마\x02mc!\x02md\x02w4 \x02ec부탁이니까\x02mc…\x02md\x02mc!!\x02md\x11"
 db 0
 .align 4
 //MS_0407c_DIE_Mic
 
 //0x4588
 Text_4568:
-.stringn "\x05FL|NASIR|ENA||\x04R上下会話|\x0700\x02eh\x080D私はもう十分に生きた\x02mc……\x02md\x11\x10イナ\x02mc……\x02md\x02w4\n"
-.stringn "どうか\x02mc……\x02md\x02w4幸せに\x02mc……\x02md\x11\n"
-.stringn "\x0711\x081D\x02mc……\x02mdナーシル\x02mc……\x02md\x02w4\n"
-.stringn "\x02ec\x02mc……\x02mdナーシル\x02mc………\x02md\x02w4\n"
-.stringn "\x02mc………\x02mdおじい\x02mc…\x02md\x02w3さま\x02mc………\x02md\x11"
+.stringn "\x05FL|NASIR|ENA||\x04R上下会話|\x0700\x02eh\x080D나는 이미 충분히 살았어\x02mc……\x02md\x11\x10이나\x02mc……\x02md\x02w4\n"
+.stringn "부디\x02mc……\x02md\x02w4 행복하게\x02mc……\x02md\x11\n"
+.stringn "\x0711\x081D\x02mc……\x02md나시르\x02mc……\x02md\x02w4\n"
+.stringn "\x02ec\x02mc……\x02md나시르\x02mc………\x02md\x02w4\n"
+.stringn "\x02mc………\x02md할아\x02mc…\x02md\x02w3버님\x02mc………\x02md\x11"
 db 0
 .align 4
 //MS_0407c_DIE_Nas
 
 //0x203C
 Text_201C:
-.stringn "ダミー"
+.stringn "더미"
 db 0
 .align 4
 //MS_0407c_DUMMY_SINGEKI
 
 //0x4908
 Text_48E8:
-.stringn "\x05FL|DHEGINHANSEA|KURTHNAGA|DUMMY1|MICAIAH3_Y||\x02BO\x04R上下会話|\x0704\x084D\x02eO\x02mc……\x02md\x02w3見事\x02mc…\x02md\x02w4\n"
-.stringn "\x02ecこの私の\x02w1負けだ\x02mc……\x02md\x02w4\x11\n"
-.stringn "\x09\x01*\x01H\x0710\x080D父上っ\x02mc！\x02md\x11\x01*\x01H\n"
-.stringn "\x0701\x081Dそのように\x02w1うろたえるな。\x02w4\n"
-.stringn "これしきの傷\x02mc…\x02md\x02w4\n"
-.stringn "たいしたものではない。\x11\x10\x0C10\x09\x0C01\x02mc……\x02md\x02w3女神アスタルテの加護を受けし、\x02w2\n"
-.stringn "このわしを\x02w1打ち破るとは\x02mc………\x02md\x02w2\n"
-.stringn "そなたたちの力は\x02mc…\x02md\x02w2いったい\x02mc………\x02md\x11\n"
-.stringn "\x0720\x04NF0D|私が\x02w2加護を与えたの。\x11\n"
-.stringn "\x0C01\x0F\x0C20\x09\x01*\x01H\x0705\x085D女神\x02mc…\x02md\x02w3ユンヌ\x02mc！\x02md\x02w4\n"
-.stringn "あなたなのか\x02mc……？\x02md\x11\n"
-.stringn "\x09\x02w6\x0730\x080D昔の戦いは\x02mc…\x02md\x02w4\x02ec確かに私が悪かったわ。\x02w4\n"
-.stringn "あなたたちは未熟な私を止めようとして\x02mc…\x02md\x02w4\n"
-.stringn "一度は私を打ち倒した。\x11\x10私の感情の昂ぶりが原因で\n"
-.stringn "大洪水が起きてしまったから\x02mc…\x02md\x11\n"
-.stringn "\x0705\x085Dあなたが悪かったわけではありません。\x02w4\n"
-.stringn "あなたは、“邪”ではない。\x02w4\n"
-.stringn "ただ、\x02w2あなたの力が\x02mc…\x02md\x02w4強大過ぎただけです。\x11\n"
-.stringn "\x0730\x02eoでも、\x02w2どうして\x02w1また\x02w2\n"
-.stringn "今回もアスタルテを選んだの？\x02w4\n"
-.stringn "今度は一緒に\x02mc…\x02md\x02w3人を守れると思ったのに。\x11\n"
-.stringn "\x0705\x02ecすみません、\x02w2女神ユンヌ。\x02w4\n"
-.stringn "ですがこれは\x02mc…\x02md\x02w1けじめなのです\x02mc…\x02md\x11\n"
-.stringn "\x0C30\x0F\x0C05\x09\x02w5\x0C05\x085Dかつて、\x02w2女神アスタルテの前で\x02mc…\x02md\x02w4\n"
-.stringn "私たちは宣誓しました。\x11\x10ラグズとベオクは\x02w2\n"
-.stringn "２度と同じ過ちは犯さないと\x02mc…\x02md\x11\x10だが\x02mc…\x02md\x02w3結局は\x02w1\n"
-.stringn "守ることができなかった\x02mc……\x02md\x11\x10だから私は、\x02w2何があろうと\n"
-.stringn "罰を\x02mc…\x02md\x02w3受けいれるつもりだったのです。\x11\n"
-.stringn "\x09\x02w6\x0730\x080Dあなたは\x02w2馬鹿ね\x02mc…\x02md\x02w4\n"
-.stringn "融通が利かない\x02w1頑固者で\x02mc……\x02md\x02w5\n"
-.stringn "本当に\x02w2真面目すぎるんだから。\x11\n"
-.stringn "\x0705\x085D\x02mc……\x02md\x02w2ラグズの王たちを戒めるため、\x02w3\n"
-.stringn "もう、\x02w2争いを起こさせないためとは言え\x02mc…\x02md\x11\x10歴史を捻じ曲げ、\x02w2覆い隠し、\x02w2\n"
-.stringn "あなたを\x02w1邪神と偽ったこと\x02mc…\x02md\x02w4\n"
-.stringn "\x02ecどうか\x02w2お許し願いたい\x02mc……\x02md\x11\n"
-.stringn "\x0730\x01s\x02mc…\x02mdもういいわ。\x02w4\n"
-.stringn "私もあなたに迷惑をかけた。\x02w4\n"
-.stringn "だから、\x02w2特別に許してあげる。\x11\n"
-.stringn "\x0705\x02eo\x01sそれを伺えて\x02w1安心しました。\x11\x01*\x01H\n"
-.stringn "\x0C30\x0F\x0C05\x09"
+.stringn "\x05FL|DHEGINHANSEA|KURTHNAGA|DUMMY1|MICAIAH3_Y||\x02BO\x04R上下会話|\x0704\x084D\x02eO\x02mc……\x02md\x02w3훌륭하군\x02mc…\x02md\x02w4\n"
+.stringn "\x02ec내가 \x02w1지다니\x02mc……\x02md\x02w4\x11\n"
+.stringn "\x09\x01*\x01H\x0710\x080D아버님\x02mc!\x02md\x11\x01*\x01H\n"
+.stringn "\x0701\x081D그렇게 \x02w1당황하지 말거라.\x02w4\n"
+.stringn "이까짓 상처는\x02mc…\x02md\x02w4\n"
+.stringn "별거 아니다.\x11\n"
+.stringn "\x0710\x02mc…\x02md그렇\x02mc…\x02md\x02w2지요\x02mc……\x02md\x02w4\n"
+.stringn "아버님께서는 \x02w2저보다 수십 배는 더\x02w1\n"
+.stringn "강하시니까요\x02mc………\x02md\x11\x10\x02mc……\x02md\x02w3죄송합니다\x02mc…\x02md\x11\n"
+.stringn "\x0C01\x0F\x0C10\x09\x02w6\x0704\x084D\x02mc……\x02md\x02w3여신 아스타르테의 가호를 받는\x02w2\n"
+.stringn "나를 \x02w1쓰러뜨릴 줄이야\x02mc………\x02md\x02w2\n"
+.stringn "그대들의 힘은\x02mc…\x02md\x02w2 도대체\x02mc………\x02md\x11\n"
+.stringn "\x0721\x04NF1D|내가 \x02w2가호를 줬어.\x11\n"
+.stringn "\x0C04\x0F\x0C21\x09\x01*\x01H\x0705\x085D여신\x02mc…\x02md\x02w3 윤느\x02mc!\x02md\x02w4\n"
+.stringn "당신입니까\x02mc……?\x02md\x11\n"
+.stringn "\x0730\x080D\x01s오랜만이네, \x02w2데긴핸저.\x11\n"
+.stringn "\x0705반갑군요\x02mc………\x02md\x11\n"
+.stringn "\x0C30\x0F\x0C05\x09\x02w6\x0730\x080D\x01a어째서 \x02w1또\x02w2\n"
+.stringn "아스타르테의 편을 든 거야?\x02w4\n"
+.stringn "이번에는 같이\x02mc…\x02md\x02w3 사람을 지킬 줄 알았는데.\x11\x10내가 또\x02w2\n"
+.stringn "아스타르테를 곤란하게 하기 위해서\x02w2\n"
+.stringn "모두를 선동했다\x02w1고 생각했어?\x11\n"
+.stringn "\x0705\x085D아뇨, \x02w2당신의 계시를 의심할 리가\x02mc…\x02md\x02w5\n"
+.stringn "이것은 \x02w1구별입니다\x02mc…\x02md\x11\n"
+.stringn "\x0C30\x0F\x0C05\x09\x02w5\x0C05\x085D과거에 \x02w2여신 아스타르테의 앞에서\x02mc…\x02md\x02w4\n"
+.stringn "저희는 선서했습니다.\x11\x10라구즈와 베오크는\x02w2\n"
+.stringn "두 번 다시 같은 실수를 하지 않겠다고\x02mc…\x02md\x11\x10하지만\x02mc…\x02md\x02w3 결국\x02w1\n"
+.stringn "지킬 수 없었습니다\x02mc……\x02md\x11\x10그러니 저는, \x02w2무슨 일이 있어도\n"
+.stringn "벌을\x02mc…\x02md\x02w3 받을 생각이었습니다.\x11\x10여신 아스타르테를\x02w2\n"
+.stringn "등지는 길을 선택할 순\x02mc…\x02md\x02w2 없었지요.\x11\n"
+.stringn "\x09\x02w6\x0730\x080D너는 \x02w2바보야\x02mc…\x02md\x02w4\n"
+.stringn "융통성 없는 \x02w1고집쟁이에\x02mc……\x02md\x02w5\n"
+.stringn "정말 \x02w2너무 성실하다니까.\x11\n"
+.stringn "\x0705\x085D\x02mc……\x02md\x02w2라구즈의 왕들에게 경고하기 위해\x02w3\n"
+.stringn "당신을 \x02w1사신이라고 속인 것을\x02mc…\x02md\x02w4\n"
+.stringn "\x02ec부디 \x02w2용서해 주십시오\x02mc……\x02md\x11\n"
+.stringn "\x0730\x01s\x02mc…\x02md이제 괜찮아.\x11\x10너하고는 \x02w1이미\x02mc…\x02md\x02w3\n"
+.stringn "엄청 오랫동안 어울렸으니까.\x02w5\n"
+.stringn "특별히 용서해 줄게.\x11\n"
+.stringn "\x0705\x02eo\x01s그 말을 듣고 \x02w1안심했습니다.\x11\x01*\x01H\n"
+.stringn "\x0C30\x0F\x0C05\x09\x0C05\x085D자\x02mc…\x02md\x02w4 이제 시간이 없습니다.\x02w4\n"
+.stringn "부디 앞으로 \x02w1나아가시지요.\x11"
 db 0
 .align 4
 //MS_0407c_ED_01
 
 //0x51B0
 Text_5190:
-.stringn "\x05FL|DHEGINHANSEA|ENA||\x04R上下会話|\x0700\x080Dイナ\x02mc…\x02md\x02w3\n"
-.stringn "そなたには、\x02w2この一言だけだ。\x02w4\n"
-.stringn "幸せになってくれ。\x11\n"
-.stringn "\x0711\x081D\x02mc……\x02md\x02w2は\x02mc…\x02md\x02w1はい\x02mc……\x02md\x11"
+.stringn "\x05FL|DHEGINHANSEA|ENA||\x04R上下会話|\x0700\x080D이나\x02mc…\x02md\x02w3\n"
+.stringn "그대에게 할 말은 \x02w2이것 하나다.\x02w4\n"
+.stringn "행복하게 살아라.\x11\x10\x02mc…\x02md사람의 세상이 끝나지 않아\x02w2\n"
+.stringn "살아남을 수 있게 \x02w1된다면\x02mc……\x02md\x02w3\n"
+.stringn "반드시 \x02w1행복하게 살아라.\x11\x10죽은 아들도 \x02w2그것을 바라고 있다.\x11\n"
+.stringn "\x0711\x081D\x02mc……\x02md\x02w2네\x02mc…\x02md\x02w1네에\x02mc……\x02md\x11"
 db 0
 .align 4
 //MS_0407c_ED_02_A
 
 //0x5250
 Text_5230:
-.stringn "\x05FL|DHEGINHANSEA|ENA||\x04R上下会話|\x0700\x080Dイナ\x02mc…\x02md\x02w3\n"
-.stringn "そなたに\x02w1一言だけいっておきたい。\x02w4\n"
-.stringn "必ず\x02w1幸せになってくれ。\x11\n"
-.stringn "\x0711\x081D\x02mc……\x02md\x02w2は\x02mc…\x02md\x02w1はい\x02mc……\x02md\x11"
+.stringn "\x05FL|DHEGINHANSEA|ENA||\x04R上下会話|\x0700\x080D이나\x02mc…\x02md\x02w3\n"
+.stringn "그대에게 \x02w1하나만 말해 두고 싶다.\x11\x10\x02mc…\x02md사람의 세상이 끝나지 않아\x02w2\n"
+.stringn "살아남을 수 있게 \x02w1된다면\x02mc……\x02md\x02w3\n"
+.stringn "반드시 \x02w1행복하게 살아라.\x11\x10죽은 아들도 \x02w2그것을 바라고 있다.\x11\n"
+.stringn "\x0711\x081D\x02mc……\x02md\x02w2네\x02mc…\x02md\x02w1네에\x02mc……\x02md\x11"
 db 0
 .align 4
 //MS_0407c_ED_02_B
 
 //0x4FF0
 Text_4FD0:
-.stringn "\x05FL|DHEGINHANSEA|GORT||\x02BO\x04R上下会話|\x0704\x084Dゴート\x02mc！\x02md\x11\n"
-.stringn "\x09\x01*\x01H\x0C04\x084D残る者を集めて、\x02w2クルトナーガに従え。\x02w5\n"
-.stringn "これは\x02w1王命だ。\x11\n"
-.stringn "\x0715\x085D\x02ecかしこまりました。\x11"
+.stringn "\x05FL|DHEGINHANSEA|GORT||\x02BO\x04R上下会話|\x0704\x084D고트\x02mc!\x02md\x11\n"
+.stringn "\x09\x01*\x01H\x0715\x085D예\x02mc!\x02md\x11\n"
+.stringn "\x0704\x084D남은 자를 모아, \x02w2쿠르트나가를 따르거라.\x02w5\n"
+.stringn "이건 \x02w1왕명이다.\x11\n"
+.stringn "\x0715\x02ec알겠습니다.\x11"
 db 0
 .align 4
 //MS_0407c_ED_02_Gor
 
 //0x5094
 Text_5074:
-.stringn "\x05FL|DHEGINHANSEA|NASIR||\x02BO\x04R上下会話|\x0700\x080Dナーシル\x02mc…\x02md\x11\x10一度は\x02w1国を厭うて出て行った\n"
-.stringn "そなたが、\x02w3ここまで\x02w1私に従ってくれた。\x02w4\n"
-.stringn "\x02mc……\x02md礼を言うぞ。\x11\x01*\x01H\n"
-.stringn "\x0711\x081D\x02ec\x02mc…\x02mdいいえ\x02mc……\x02md\x02w4\x02eo王のお心を知らず、\x02w2\n"
-.stringn "好き勝手をしましたこと\x02mc…\x02md\x02w4\n"
-.stringn "\x02ecお詫び致します。\x11"
+.stringn "\x05FL|DHEGINHANSEA|NASIR||\x02BO\x04R上下会話|\x0700\x080D나시르\x02mc…\x02md\x11\x10한 번은 \x02w1나라를 마다하고 나간\n"
+.stringn "그대가, \x02w3이렇게까지 \x02w1나를 따라 주었군.\x11\x10\x02mc……\x02md감사를 표하지.\x11\x01*\x01H\n"
+.stringn "\x0711\x081D\x02ec\x02mc…\x02md아뇨\x02mc……\x02md\x02w4\x02eo 왕의 마음을 모르고\x02w2\n"
+.stringn "제멋대로 행동한 것에 대해\x02mc…\x02md\x02w4\n"
+.stringn "\x02ec사과드립니다.\x11"
 db 0
 .align 4
 //MS_0407c_ED_02_Nas
 
 //0x52FC
 Text_52DC:
-.stringn "\x05FL|DHEGINHANSEA|KURTHNAGA||\x02BO\x04R上下会話|\x0704\x084Dでは、\x02w2クルトナーガ\x02mc…\x02md\x02w4\n"
-.stringn "皆を率いて進め。\x02w4\x01*\x01H\n"
-.stringn "私は\x02w1まだ動けぬゆえ\x02w2ここにおる。\x11\n"
-.stringn "\x09\x01*\x01H\x0715\x085Dはい。\x02w4\x02mc　…\x02md必ず、\x02w2\n"
-.stringn "女神アスタルテを止めてみせます。\x02w4\n"
-.stringn "ここで\x02w3私達が戻るのを\x02w1待っていて下さい。\x11\n"
-.stringn "\x0704\x084D\x02mc……\x02md\x01s\x02ecああ、\x02w2\x02eo待っているぞ。\x11"
+.stringn "\x05FL|DHEGINHANSEA|KURTHNAGA||\x02BO\x04R上下会話|\x0704\x084D그럼 \x02w2쿠르트나가\x02mc…\x02md\x02w4\n"
+.stringn "모두를 이끌고 나아가라.\x02w4\x01*\x01H\n"
+.stringn "나는 \x02w1아직 못 움직이니 \x02w2여기 있겠다.\x11\n"
+.stringn "\x09\x01*\x01H\x0715\x085D네.\x02w4\x02mc …\x02md반드시,\x02w2\n"
+.stringn "여신 아스타르테를 멈춰 보이겠습니다.\x11\x10그러니\x02mc……\x02md\x02w3\n"
+.stringn "부디 \x02w2정신을 바짝 차리시고\x02mc…\x02md\x02w4\n"
+.stringn "저희가 돌아올 때까지 \x02w1기다려 주세요.\x11\x10아시겠죠?\x11\n"
+.stringn "\x0704\x084D\x02mc……\x02md\x01s\x02ec그래, \x02w2\x02eo약속하마.\x11\x10"
 db 0
 .align 4
 //MS_0407c_ED_03
 
 //0x606C
 Text_604C:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D\x02eh妻よ\x02mc…\x02md\x02w3ラジャイオンよ\x02mc…\x02md\x02w4\n"
-.stringn "いま\x02w1傍にゆく。\x11"
+.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D그렇군\x02mc…\x02md\x02w1 벗이여\x02mc……\x02md\x02w3\n"
+.stringn "은발의 소녀는\x02mc…\x02md\x02w2 그대의\x02mc……\x02md\x02w5\n"
+.stringn "그래서\x02mc……\x02md\x02w3 여신 윤느는\x02mc………\x02md\x11\x10\x02ec과연\x02mc…\x02md\x02w4 납득이\x02mc…\x02md\x02w1 간다\x02mc……\x02md\x02w4\n"
+.stringn "희망은\x02mc…\x02md\x02w2 아직\x02mc……\x02md\x02w4 있는 모양이군\x02mc……\x02md\x11\n"
+.stringn "\x09\x02w6\x0C00\x080D\x02eh아내여\x02mc…\x02md\x02w3 라자이온이여\x02mc…\x02md\x02w4\n"
+.stringn "지금 \x02w1곁으로 가마.\x11"
 db 0
 .align 4
 //MS_0407c_ED_04_1
 
 //0x60D0
 Text_60B0:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0704\x084D\x02mc…\x02md愛しき\x02w1娘\x02w2アム\x02mc…\x02md\x02w1リタ\x02mc……\x02md\x02w4\n"
-.stringn "強く\x02mc…\x02md\x02ec\x02w3生\x02mc…\x02md\x02w2き\x02mc…………\x02md\x02w8"
+.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0704\x084D\x02mc…\x02md사랑하는 \x02w1딸 \x02w2암\x02mc…\x02md\x02w1리타\x02mc……\x02md\x02w4\n"
+.stringn "강하게\x02mc…\x02md\x02ec\x02w3 살아가\x02mc…\x02md\x02w2길\x02mc…………\x02md\x02w8"
 db 0
 .align 4
 //MS_0407c_ED_04_2
 
 //0x6160
 Text_6140:
-.stringn "\x05FL|L_KURTHNAGA|L_ENA||\x02BO\x04R背景会話|\x0706\x086R\x04B塔内-通路|\x02ec\x02w1\x02eo\x02eO\x02mc！\x02md\x02w6\n"
+.stringn "\x05FL|L_KURTHNAGA|L_ENA||\x02BO\x04R背景会話|\x0706\x086R\x04B塔内-通路|\x02ec\x02w1\x02eo\x02eO\x02mc!\x02md\x02w6\n"
 .stringn "\x02eh\x02mc…\x02md\x02w4\x02ec\x02mc………\x02md\x11\n"
-.stringn "\x0715\x085D\x02mc……\x02mdクルト様っ\x02mc！\x02md\x02w4\n"
-.stringn "王が\x02mc…\x02md\x02mc！\x02md\x02w4　\x02eh王\x02mc…\x02md\x02ec\x02w2が\x02mc……\x02md\x11\n"
-.stringn "\x0706わかっている。\x02w5\n"
-.stringn "\x02eoだからこそ\x02mc…\x02md\x02w4\n"
-.stringn "進まなくては\x02w1いけない\x02mc……\x02md\x11\x10\x0C15\x02eo\x0C06父上から託された\x02w1誇りをもって\x02w2\n"
-.stringn "女神アスタルテの前に立つ。\x01*\x01H\x02w4\n"
-.stringn "\x02ec\x02mc………\x02md\x02w3\x02eo竜鱗族の\x02w1王として\x02mc…\x02md\x02mc！\x02md\x11\x02w4\x04FT2000|"
+.stringn "\x0715\x085D\x02mc……\x02md쿠르트님\x02mc!\x02md\x02w4\n"
+.stringn "왕께서\x02mc…\x02md\x02mc!\x02md\x02w4 \x02eh왕\x02mc…\x02md\x02ec\x02w2께서\x02mc……\x02md\x11\n"
+.stringn "\x0706알고 있어.\x02w5\n"
+.stringn "\x02eo그렇기 때문에 더욱\x02mc…\x02md\x02w4\n"
+.stringn "나아가야 \x02w1해\x02mc……\x02md\x11\n"
+.stringn "\x0C15\x02eo\x0C06아버님께서 부탁하신 \x02w1긍지를 가지고\x02w2\n"
+.stringn "여신 아스타르테 앞에 서겠어.\x01*\x01H\x11\x10\x02ec\x02mc………\x02md\x02w3\x02eo용린족의 \x02w1왕으로서\x02mc…\x02md\x02mc!\x02md\x11\x02w4\x04FT2000|"
 db 0
 .align 4
 //MS_0407c_ED_05
 
 //0x150C
 Text_14EC:
-.stringn "\x05FL|MICAIAH3_Y|IKE||\x04R上下会話|\x0700\x080Dだめよ、\x02w3アイク\x02mc…\x02md\x02mc！\x02md\x02w4\n"
-.stringn "物には\x02w3それを扱う者との相性がある。\x02w4\n"
-.stringn "あなたの場合はラグネルが最良。\x11\n"
-.stringn "自分でも\x02w2分かっているでしょう？\x11\n"
-.stringn "\x0711\x081Dそうか\x02mc…\x02md\x02w3すまん。\x11\n"
-.stringn "\x0700そう、\x02w3そうやって\n"
-.stringn "ラグネルを掲げていて。\x11"
+.stringn "\x05FL|MICAIAH3_Y|IKE||\x04R上下会話|\x0700\x080D안 돼, \x02w3아이크\x02mc…\x02md\x02mc!\x02md\x02w4\n"
+.stringn "물건에는 \x02w3그걸 다루는 사람과의 궁합이 있어.\x02w4\n"
+.stringn "네 경우에는 라그넬이 최선이야.\x11\n"
+.stringn "스스로도 \x02w2알고 있잖아?\x11\n"
+.stringn "\x0711\x081D그렇지\x02mc…\x02md\x02w3 미안.\x11\n"
+.stringn "\x0700그래, \x02w3그렇게\n"
+.stringn "라그넬을 들고 있어.\x11"
 db 0
 .align 4
 //MS_0407c_OP2_00
 
 //0x1614
 Text_15F4:
-.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0704\x084Dこれでいいのね？\x02w4\n"
-.stringn "ラグズは\x02w1化身してちょうだい。\x11"
+.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0704\x084D이걸로 됐지?\x02w4\n"
+.stringn "라구즈는 \x02w1화신해 줘.\x11"
 db 0
 .align 4
 //MS_0407c_OP2_01
 
 //0x166C
 Text_164C:
-.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0704\x084Dじゃあ\x02mc…\x02md\x02w3始めるわよ。\x11"
+.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0704\x084D그럼\x02mc…\x02md\x02w3 시작할게.\x11"
 db 0
 .align 4
 //MS_0407c_OP2_01_02
 
 //0x16AC
 Text_168C:
-.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0704\x084D\x01sさ、\x02w2これでいいわ。\x02w4\n"
-.stringn "\x01a\x02mc……\x02md\x02ecふぅ\x02mc……\x02md\x11\x10\x02ehちょっと、\x02w2\n"
-.stringn "はりきりすぎたみたい\x02mc……\x02md\x02w4\n"
-.stringn "私\x02mc…\x02md\x02w3少し\x02ec休む\x02mc…\x02md\x02w1わ\x02mc……\x02md\x11"
+.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0704\x084D\x01s자, \x02w2이걸로 됐어.\x11\x10\x01a\x02mc……\x02md\x02ec후우\x02mc……\x02md\x02w4\n"
+.stringn "\x02eh조금,\x02w2\n"
+.stringn "힘을 너무 썼나 봐\x02mc……\x02md\x11\x10난\x02mc…\x02md\x02w3 잠깐 \x02ec쉴\x02mc…\x02md\x02w1게\x02mc……\x02md\x11"
 db 0
 .align 4
 //MS_0407c_OP2_02
 
 //0x176C
 Text_174C:
-.stringn "\x05FL|SOTHE|MICAIAH||\x02BO\x04R上下会話|\x0700\x080Dミカヤ\x02mc…？\x02md\x02w4\x01*\x01H\n"
-.stringn "大丈夫か？\x02w4\n"
-.stringn "顔色が\x02w1よくない。\x11\n"
-.stringn "\x0711\x081D\x01s\x02mc…\x02md私は平気。\x02w4\n"
-.stringn "サザが\x02w1いてくれるもの。\x11"
+.stringn "\x05FL|SOTHE|MICAIAH||\x02BO\x04R上下会話|\x0700\x080D미카야\x02mc…?\x02md\x11\x01*\x01H\n"
+.stringn "\x0711\x081D\x02mc……\x02md\x02w3소더\x02mc……\x02md\x11\n"
+.stringn "\x0700괜찮아?\x02w4\n"
+.stringn "안색이 \x02w1안 좋은데.\x11\n"
+.stringn "\x0711\x01s\x02mc…\x02md문제없어.\x11\x10소더가 \x02w1있어 주는걸.\x11\n"
+.stringn "\x0700옆에 있을게.\x02w4\n"
+.stringn "우린 \x02w1계속 함께니까.\x11\n"
+.stringn "\x0711그래.\x11"
 db 0
 .align 4
 //MS_0407c_OP2_02_02
 
 //0x1808
 Text_17E8:
-.stringn "\x05FL|IKE|MICAIAH||\x02BO\x04R上下会話|\x0705\x085D\x02mc…\x02mdユンヌは\x02w1どうした？\x11\x01*\x01H\n"
-.stringn "\x0714\x084D眠りました。\x02w4\n"
-.stringn "後は、\x02w2みんなに任せると言って\x02mc…\x02md\x11\n"
-.stringn "\x0705よし。\x02w3ならば\x02w1\n"
-.stringn "このまま部屋へ入ろう。\x11"
+.stringn "\x05FL|IKE|MICAIAH||\x02BO\x04R上下会話|\x0705\x085D\x02mc…\x02md윤느는 \x02w1어떻게 됐어?\x11\x01*\x01H\n"
+.stringn "\x0714\x084D잠들었어요.\x02w4\n"
+.stringn "나머지는 \x02w2모두에게 맡긴다고 하고\x02mc…\x02md\x11\n"
+.stringn "\x0705좋아. \x02w3그렇다면\x02w1\n"
+.stringn "이대로 방에 들어가자.\x11"
 db 0
 .align 4
 //MS_0407c_OP2_03
 
 //0x18C0
 Text_18A0:
-.stringn "\x05FL|KURTHNAGA||\x04R上下会話|\x0700\x080D父上\x02mc…\x02md\x02mc！\x02md\x11"
+.stringn "\x05FL|KURTHNAGA||\x04R上下会話|\x0700\x080D아버님\x02mc…\x02md\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0407c_OP2_05
 
 //0x18F8
 Text_18D8:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D\x02ec\x02mc…\x02md\x02w3私が\x02w1待つと知りながら\x02w2進んできたか。\x02w4\n"
-.stringn "\x02eo当然、\x02w3我らを相手にする\x02w1\n"
-.stringn "覚悟ができたのであろうな？\x11\n"
-.stringn "\x09\x02w4"
+.stringn "\x05FL|DHEGINHANSEA|KURTHNAGA||\x04R上下会話|\x0700\x080D\x02ec\x02mc……\x02md\x02w3\x02eo내가 \x02w1여기서 기다릴 줄 알면서도\x02w2\n"
+.stringn "그대들은 \x02w1나아왔군.\x11\x10당연히 \x02w3우리를 상대할\x02w1\n"
+.stringn "각오는 되어 있는 거겠지?\x11\n"
+.stringn "\x09\x02w4\x0711\x081D들어주세요, \x02w2아버님\x02mc!\x02md\x02w4\n"
+.stringn "저희는\x02mc…\x02md\x02w4\n"
+.stringn "\x0700\x080D입 다물어라, \x02w3쿠르트나가.\x02w4\n"
+.stringn "너희들은 \x02w1듣는 쪽이다.\x11"
 db 0
 .align 4
 //MS_0407c_OP2_05_02
 
 //0x1998
 Text_1978:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D私は\x02w2何度も忠告を発したはずだ。\x02w4\n"
-.stringn "大陸を巻き込むほどの\x02w2\n"
-.stringn "戦乱を起こしては\x02w1ならぬと。\x11"
+.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D라구즈의 왕들이여\x02mc…\x02md\x02w4\n"
+.stringn "나는 \x02w2몇 번이고 충고했을 터이다.\x11\x10대륙을 끌어들일 정도의\x02w2\n"
+.stringn "전란을 일으켜서는 \x02w1안 된다고.\x11\x10메달리온에 잠든\x02w2\n"
+.stringn "사신을 \x02w1깨워서는 안 된다고.\x02w5\n"
+.stringn "그 결과가 \x02w2이것이다.\x11"
 db 0
 .align 4
 //MS_0407c_OP2_05_A
 
 //0x1A18
 Text_19F8:
-.stringn "\x05FL|DHEGINHANSEA|CAINEGHIS||\x04R上下会話|\x0700\x080D獅子王\x02w1カイネギスよ\x02mc…\x02md\x02w4\n"
-.stringn "私は\x02w2何度も忠告を発したはずだ。\x11\x10大陸を巻き込むほどの\x02w2\n"
-.stringn "戦乱を起こしては\x02w1ならぬと。\x11\n"
+.stringn "\x05FL|DHEGINHANSEA|CAINEGHIS||\x04R上下会話|\x0700\x080D사자왕 \x02w1카이네기스여\x02mc…\x02md\x02w4\n"
+.stringn "나는 \x02w2몇 번이고 충고했을 터이다.\x11\x10대륙을 끌어들일 정도의\x02w2\n"
+.stringn "전란을 일으켜서는 \x02w1안 된다고.\x11\x10메달리온에 잠든\x02w2\n"
+.stringn "사신을 \x02w1깨워서는 안 된다고.\x02w5\n"
+.stringn "그 결과가 \x02w2이것이다.\x11\n"
 .stringn "\x0711\x081D\x02mc………\x02md\x11"
 db 0
 .align 4
@@ -814,9 +833,11 @@ db 0
 
 //0x1AD4
 Text_1AB4:
-.stringn "\x05FL|DHEGINHANSEA|TIBARN||\x04R上下会話|\x0700\x080D鷹王\x02w1ティバーンよ\x02mc…\x02md\x02w4\n"
-.stringn "私は\x02w2何度も忠告を発したはずだ。\x11\x10大陸を巻き込むほどの\x02w2\n"
-.stringn "戦乱を起こしては\x02w1ならぬと。\x11\n"
+.stringn "\x05FL|DHEGINHANSEA|TIBARN||\x04R上下会話|\x0700\x080D응왕 \x02w1티반이여\x02mc…\x02md\x02w4\n"
+.stringn "나는 \x02w2몇 번이고 충고했을 터이다.\x11\x10대륙을 끌어들일 정도의\x02w2\n"
+.stringn "전란을 일으켜서는 \x02w1안 된다고.\x11\x10메달리온에 잠든\x02w2\n"
+.stringn "사신을 \x02w1깨워서는 안 된다고.\x02w5\n"
+.stringn "그 결과가 \x02w2이것이다.\x11\n"
 .stringn "\x0711\x081D\x02mc………\x02md\x11"
 db 0
 .align 4
@@ -824,9 +845,11 @@ db 0
 
 //0x1B8C
 Text_1B6C:
-.stringn "\x05FL|DHEGINHANSEA|NAESALA||\x04R上下会話|\x0700\x080D鴉王\x02w1ネサラよ\x02mc…\x02md\x02w4\n"
-.stringn "私は\x02w2何度も忠告を発したはずだ。\x11\x10大陸を巻き込むほどの\x02w2\n"
-.stringn "戦乱を起こしては\x02w1ならぬと。\x11\n"
+.stringn "\x05FL|DHEGINHANSEA|NAESALA||\x04R上下会話|\x0700\x080D아왕 \x02w1네사라여\x02mc…\x02md\x02w4\n"
+.stringn "나는 \x02w2몇 번이고 충고했을 터이다.\x11\x10대륙을 끌어들일 정도의\x02w2\n"
+.stringn "전란을 일으켜서는 \x02w1안 된다고.\x11\x10메달리온에 잠든\x02w2\n"
+.stringn "사신을 \x02w1깨워서는 안 된다고.\x02w5\n"
+.stringn "그 결과가 \x02w2이것이다.\x11\n"
 .stringn "\x0711\x081D\x02mc………\x02md\x11"
 db 0
 .align 4
@@ -834,93 +857,97 @@ db 0
 
 //0x1C40
 Text_1C20:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D我らは\x02w2女神を裏切ったのだ。\x02w4\n"
-.stringn "学ぶことを知らず、\x02w2\n"
-.stringn "戦いを\x02w1やめようとしなかった。\x11\x10\x02ec我らは\x02w1報いを受けねばならぬ。\x02w4\n"
-.stringn "おとなしく\x02w2女神アスタルテの審判を\x02w1\n"
-.stringn "受け入れようではないか。\x11"
+.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0700\x080D우리는 \x02w2여신을 배반했다.\x02w4\n"
+.stringn "배울 줄 모르고,\x02w2\n"
+.stringn "싸움을 \x02w1그만두려 하지 않았다.\x11\x10\x02ec우리는 \x02w1대가를 치러야 한다.\x02w4\n"
+.stringn "얌전히 \x02w2여신 아스타르테의 심판을\x02w1\n"
+.stringn "받아들이지 않겠나.\x11"
 db 0
 .align 4
 //MS_0407c_OP2_06
 
 //0x1D24
 Text_1D04:
-.stringn "\x05FL|MICAIAH||\x04R上下会話|\x0705\x085D\x02mc…\x02mdだけど\x02mc！\x02md\x02w4\n"
-.stringn "女神たちの目覚めは、\x02w2\n"
-.stringn "戦いの気によるものでは\x02w1ありません。\x11\x10わたしが呪歌を謡い、\x02w2\n"
-.stringn "それによって目覚めたんです\x02mc！\x02md\x11"
+.stringn "\x05FL|MICAIAH||\x04R上下会話|\x0705\x085D\x02mc…\x02md그치만\x02mc!\x02md\x02w4\n"
+.stringn "여신들이 깨어난 것은\x02w2\n"
+.stringn "싸움의 기운 때문이 \x02w1아니에요.\x11\x10제가 주가를 불러\x02w2\n"
+.stringn "깨웠기 때문이라고요\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0407c_OP2_06_02
 
 //0x1DD8
 Text_1DB8:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0704\x084D\x02mc……\x02md\x02w2そのような言\x02mc…\x02md\x02w4\n"
-.stringn "とても信じることはできぬ。\x11"
+.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0704\x084D\x02mc……\x02md\x02w2소녀여.\x02w3\n"
+.stringn "그대가 누군지는 \x02w1모른다.\x11\x10허나 \x02w2그러한 말은\x02mc…\x02md\x02w4\n"
+.stringn "도저히 믿을 수 없군.\x11"
 db 0
 .align 4
 //MS_0407c_OP2_09_00
 
 //0x1E3C
 Text_1E1C:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0704\x084Dここで\x02w2我らとおとなしく\x02w1\n"
-.stringn "裁きの時を待つならば\x02w1良し。\x02w4\n"
-.stringn "さもなければ\x02mc…\x02md\x11"
+.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0704\x084D여기서 \x02w2우리는 얌전히\x02w1\n"
+.stringn "심판의 때를 기다리면 \x02w1된다.\x11\x10그렇지 않겠다면\x02mc…\x02md\x11"
 db 0
 .align 4
 //MS_0407c_OP2_09_10
 
 //0x1EB4
 Text_1E94:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0704\x084D大陸最強の種、\x02w2竜鱗の力で\x02w6\x11"
+.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0704\x084D대륙 최강의 종족, \x02w2용린의 힘으로\x02w6\x11"
 db 0
 .align 4
 //MS_0407c_OP2_09_12
 
 //0x1EF8
 Text_1ED8:
-.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0704\x084Dそなたたちを\x02w1止めるまで\x02mc！\x02md\x02w4\x11"
+.stringn "\x05FL|DHEGINHANSEA||\x04R上下会話|\x0704\x084D그대들을 \x02w1멈출 것이다\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0407c_OP2_09_13
 
 //0x1F44
 Text_1F24:
-.stringn "\x05FL|KURTHNAGA|IKE||\x02BO\x04R上下会話|\x0700\x080D父上\x02mc！\x02md\x02w4\n"
-.stringn "何故です\x02mc…\x02md\x02mc！\x02md\x02w4\x01*\x01H\n"
-.stringn "どうか、\x02w2どうか話を\x02mc…\x02md\x02w4\n"
-.stringn "\x0715\x085D無理だ、\x02w2王子。\x02w4\x01*\x01H\n"
-.stringn "俺たちは戦うしかない。\x11"
+.stringn "\x05FL|KURTHNAGA|IKE||\x02BO\x04R上下会話|\x0700\x080D아버님\x02mc!\x02md\x02w4\n"
+.stringn "어째서입니까\x02mc…\x02md\x02mc!\x02md\x02w4\x01*\x01H\n"
+.stringn "제발, \x02w2제발 대화를\x02mc…\x02md\x02w4\n"
+.stringn "\x0715\x085D소용없어, \x02w2왕자.\x02w4\x01*\x01H\n"
+.stringn "우린 싸울 수밖에 없어.\x11"
 db 0
 .align 4
 //MS_0407c_OP2_09_14
 
 //0x1FF4
 Text_1FD4:
-.stringn "\x05FL|IKE||\x04R上下会話|\x0701\x081D前に進み、\x02w2女神に対峙するために\x02mc！\x02md\x11"
+.stringn "\x05FL|IKE||\x04R上下会話|\x0701\x081D앞으로 나아가 \x02w2여신과 대치하기 위해서\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0407c_OP2_09_15
 
 //0x20
 Text_0:
-.stringn "\x05FL|MICAIAH3_Y|IKE||\x02BO\x04R上下会話|\x0705\x085D邪魔者は\x02w2しばらく\n"
-.stringn "いなさそうだから\x02mc…\x02md\x01*\x01H\x02w4\n"
-.stringn "\x01s昔話を\x02w1してあげましょうか？\x11\n"
-.stringn "\x0714\x084D昔話？\x11\n"
-.stringn "\x0705ここにいるみんなが\x02w2\n"
-.stringn "生まれるよりも\x02mc…\x02md\x02w2ずっと昔の話。\x11"
+.stringn "\x05FL|IKE|MICAIAH3_Y||\x02BO\x04R上下会話|\x0700\x080D\x02mc……\x02md\x02w2안 되겠어.\x02w4\n"
+.stringn "이렇게 \x02w1비슷한 장소에 있어서 그런지\x02w2\n"
+.stringn "\x02eh같은 곳을 \x02w1빙글빙글 도는 듯한 기분이 들어.\x11\n"
+.stringn "\x09\x02w5\x0715\x085D방해꾼은 \x02w2한동안\n"
+.stringn "없는 것 같으니\x02mc…\x02md\x01*\x01H\x02w4\n"
+.stringn "\x01s옛날 얘기를 \x02w1들려줄까?\x11\n"
+.stringn "\x0704\x084D옛날 얘기?\x11\n"
+.stringn "\x0715여기 있는 모두가\x02w2\n"
+.stringn "태어나기 전보다\x02mc…\x02md\x02w2 훨씬 옛날 얘기.\x11"
 db 0
 .align 4
 //MS_0407c_OP_01
 
 //0xF0
 Text_D0:
-.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0705\x085Dはじまりの\x02w1はじまりの時\x02mc……\x02md\x02w4\n"
-.stringn "この世界には\x02w2水しかなかった。\x02w5\n"
-.stringn "そこに\x02w1１人の少女が降り立ったの。\x11\x10少女はまず、\x02w2この世界に大地を創り\x02mc…\x02md\x02w4\n"
-.stringn "木や\x02w1花などの植物を創り、\x02w3\n"
-.stringn "それから動物を創ったの。\x11\n"
+.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0705\x085D멀고 \x02w1먼 옛날\x02mc……\x02md\x02w4\n"
+.stringn "이 세상에는 \x02w2물밖에 없었어.\x02w5\n"
+.stringn "거기에 \x02w1한 명의 소녀가 내려왔지.\x11\x10소녀는 우선, \x02w2이 세상에 대지를 만들고\x02mc…\x02md\x02w4\n"
+.stringn "나무와 \x02w1꽃 등의 식물을 만들고,\x02w3\n"
+.stringn "그리고 나서 동물을 만들었어.\x11\x10물고기, \x02w1짐승, \x02w1새\x02mc…\x02md\x02w2 그런 것들을\x02w1\n"
+.stringn "아~\x02w1주 많이 \x02w2만들었지.\x11\n"
 .stringn "\x09"
 db 0
 .align 4
@@ -928,8 +955,8 @@ db 0
 
 //0x1EC
 Text_1CC:
-.stringn "\x05FL|TIBARN||\x04R上下会話|\x0701\x081D創世神話か。\x02w4\n"
-.stringn "ガキの頃に\x02w2いやってほど聞かされた。\x11\n"
+.stringn "\x05FL|TIBARN||\x04R上下会話|\x0701\x081D창세 신화인가.\x02w4\n"
+.stringn "꼬맹이 때 \x02w2싫을 정도로 들었다고.\x11\n"
 .stringn "\x09\x02w6"
 db 0
 .align 4
@@ -937,22 +964,22 @@ db 0
 
 //0x248
 Text_228:
-.stringn "\x05FL|IKE|MICAIAH3_Y|SANAKI||\x02BO\x04R上下会話|\x0701\x081Dその少女っていうのは\x02mc……\x02md\x02w4\n"
-.stringn "ユンヌ、\x02w2あんたのことなのか？\x02w4\n"
-.stringn "それとも\x02w1アスタルテのほうか？\x11\n"
-.stringn "\x09\x02w4\x0715\x085Dどちらでもあって、\x02w2\n"
-.stringn "どちらでもないわ。\x11\x10少女は\x02w1世界を創り出すことに夢中で、\x02w3\n"
-.stringn "しばらくは\x02w1とても楽しかった。\x02w4\n"
-.stringn "でも\x02mc…\x02md\x02w2だんだん寂しくなったの。\x11\x10だって\x02w1誰もが自分とは違う。\x02w4\n"
-.stringn "誰ひとり、\x02w2少女と同じ存在は\n"
-.stringn "いなかったんだもの。\x11\x10少女は孤独で\x02mc…\x02md\x02w2寂しくて寂しくて\x02mc…\x02md\x02w4\n"
-.stringn "何千年も泣いてばかりいたわ。\x11\x10そうしたらね、\x02w2獣たちの一部が\x02mc…\x02md\x02w4\x01*\x01H\n"
-.stringn "どんどん姿を変えていったの。\x11\x10少女を慰めようとして、\x02w3\n"
-.stringn "少女に近い者になろうとして\x02mc…\x02md\x02w5\n"
-.stringn "それが\x02w1【マンナズ】の誕生。\x11\x10あなたたち\x02w2ベオクとラグズの祖先よ。\x11\n"
-.stringn "\x09\x02w6\x0721\x081D\x02mc……\x02mdベグニオンの教えでは\x02mc…\x02md\x02w4\n"
-.stringn "【マンナズ】は、\x02w2\n"
-.stringn "人間――\x02w2ベオクの祖先だと\x02mc……\x02md\x11\n"
+.stringn "\x05FL|IKE|MICAIAH3_Y|SANAKI||\x02BO\x04R上下会話|\x0701\x081D그 소녀라는 건\x02mc……\x02md\x02w4\n"
+.stringn "윤느, \x02w2너를 말하는 거야?\x02w4\n"
+.stringn "아니면 \x02w1아스타르테 쪽?\x11\n"
+.stringn "\x09\x02w4\x0715\x085D둘 다 맞고,\x02w2\n"
+.stringn "둘 다 아니야.\x11\x10소녀는 \x02w1세상을 만들어 내는 일에 열중하느라,\x02w3\n"
+.stringn "한동안 \x02w1엄청 즐거워했어.\x02w4\n"
+.stringn "그치만\x02mc…\x02md\x02w2 점점 외로워지기 시작했지.\x11\x10왜냐하면 \x02w1모두 자신과 달랐으니까.\x02w4\n"
+.stringn "누구 하나 \x02w2소녀와 같은 존재는\n"
+.stringn "없었는걸.\x11\x10소녀는 고독했고\x02mc…\x02md\x02w2 외로워서\x02mc…\x02md\x02w4\n"
+.stringn "수천 년 동안 울고만 있었어.\x11\x10그랬더니, \x02w2짐승들 중 일부가\x02mc…\x02md\x02w4\x01*\x01H\n"
+.stringn "점점 모습을 바꾸어 간 거야.\x11\x10소녀를 위로하려고,\x02w3\n"
+.stringn "소녀와 가까운 존재가 되려고\x02mc…\x02md\x02w5\n"
+.stringn "그게 \x02w1【만나즈】의 탄생이었지.\x11\x10너희 \x02w2베오크와 라구즈의 조상이야.\x11\n"
+.stringn "\x09\x02w6\x0721\x081D\x02mc……\x02md베그니온의 가르침에서\x02mc…\x02md\x02w4\n"
+.stringn "【만나즈】는,\x02w2\n"
+.stringn "인간――\x02w2베오크의 조상이라고\x02mc……\x02md\x11\n"
 .stringn "\x09"
 db 0
 .align 4
@@ -960,9 +987,9 @@ db 0
 
 //0x570
 Text_550:
-.stringn "\x05FL|NAESALA||\x04R上下会話|\x0701\x081Dそうしておいた方が、\x02w2元老院にとっちゃ\x02w1\n"
-.stringn "都合がよかったんだろうさ。\x02w4\n"
-.stringn "ラグズを奴隷にするために\x02mc…\x02md\x02w2な。\x11\n"
+.stringn "\x05FL|NAESALA||\x04R上下会話|\x0701\x081D뭐, \x02w2그렇게 해 두는 편이\x02w2\n"
+.stringn "원로원에게 있어서\x02w1\n"
+.stringn "편리했던 거겠지.\x11\x10라구즈를 노예로 만들기 위해서\x02mc…\x02md\x02w2 말이야.\x11\n"
 .stringn "\x09"
 db 0
 .align 4
@@ -970,29 +997,30 @@ db 0
 
 //0x604
 Text_5E4:
-.stringn "\x05FL|SANAKI|MICAIAH3_Y|IKE||\x02BO\x04R上下会話|\x0701\x081D\x02mc……\x02md\x02w2我が国では、\x02w3\n"
-.stringn "いったい\x02w1どれほどの事柄が\x02w2\n"
-.stringn "歪められておるのじゃろうな\x02mc…\x02md\x11\n"
-.stringn "\x09\x02w4\x0715\x085Dラグズにだって、\x02w2\n"
-.stringn "真実が伝わっているとは限らない。\x02w4\n"
-.stringn "私が\x02mc…\x02md\x02w3“邪神”と呼ばれたように。\x11\n"
-.stringn "\x09\x02w6\x0C15\x085D話を続けるわね。\x02w4\n"
-.stringn "【マンナズ】は\x02w2少女を\n"
-.stringn "自分たちの神として\x02w2讃え敬ったわ。\x11\x10少女の髪の色が、\x02w2\n"
-.stringn "まるで\x02w1夜明けの光のようだといって\x02w2\n"
-.stringn "素晴らしい呼び名までくれた。\x11\x10【暁の女神】――\x02w5\n"
-.stringn "そして少女は\x02w3人たちの神となった。\x11\n"
-.stringn "\x09\x02w4\x0721\x081D暁の\x02w1女神\x02mc……\x02md\x11\n"
-.stringn "\x09\x02w6\x0715\x085Dやがて【マンナズ】は\x02w2\n"
-.stringn "さらにそれぞれ変化を遂げて、\x02w3\n"
-.stringn "世界中に\x02w1沢山の種族が現われたの。\x11\x10すると、\x02w2どの種族も\x02mc…\x02md\x02w3己の種が\x02w1\n"
-.stringn "最も優れているのだと主張し、\x02w2\n"
-.stringn "争いを始めるようになったわ。\x11\x01*\x01H\n"
-.stringn "\x09\x02w6\x0C15\x085D女神が\x02w1どんなに強く諌めても、\x02w2\n"
-.stringn "【マンナズ】の争いは\x02w1なくならなかった。\x02w4\n"
-.stringn "同一とされることを\x02w1厭う彼らに、\x11\x10彼らが望むまま\x02w2【ラグズ】\x02w1【ベオク】\n"
-.stringn "という名を与えても\x02mc…\x02md\x02w4\n"
-.stringn "それもまた\x02w1戦いの口実となった。\x11\n"
+.stringn "\x05FL|SANAKI|MICAIAH3_Y|IKE||\x02BO\x04R上下会話|\x0701\x081D\x02mc……\x02md\x02w2우리 나라에서는,\x02w3\n"
+.stringn "도대체 \x02w1어느 정도까지 사정이\x02w2\n"
+.stringn "왜곡되어 있었던 것인지\x02mc…\x02md\x11\n"
+.stringn "\x09\x02w4\x0715\x085D라구즈에게도\x02w2\n"
+.stringn "진실이 전해졌다고 할 순 없어.\x02w4\n"
+.stringn "내가\x02mc…\x02md\x02w3 “사신”으로 불렸듯이.\x11\n"
+.stringn "\x09\x02w6\x0C15\x085D얘기를 계속할게.\x11\x10【만나즈】는 \x02w2소녀를\n"
+.stringn "자신들의 신으로 \x02w2찬양하고 존경했어.\x11\x10소녀의 머리 색이\x02w2\n"
+.stringn "마치 \x02w1새벽빛 같다고 해서\x02w2\n"
+.stringn "멋진 호칭까지 붙여 주었지.\x11\x10【새벽의 여신】――\x02w5\n"
+.stringn "그렇게 소녀는 \x02w3사람들의 신이 되었어.\x11\n"
+.stringn "\x09\x02w4\x0721\x081D새벽의 \x02w1여신\x02mc……\x02md\x11\n"
+.stringn "\x09\x02w6\x0715\x085D여신은 \x02w2【만나즈】를 \x02w1매우 사랑했어.\x02w4\n"
+.stringn "그들이 풍족하게 살 수 있도록\x02w2\n"
+.stringn "다양한 지식과 \x02w1사상을 부여했지.\x11\x10이윽고 【만나즈】가\x02w2\n"
+.stringn "그 수를 경이적으로 늘려가면서\x02w3\n"
+.stringn "전 세계에 \x02w1많은 종족이 나타났어.\x11\x10그리고 어느 종족도\x02mc…\x02md\x02w3 자기 종족이\x02w1\n"
+.stringn "가장 뛰어나다고 주장하며\x02w2\n"
+.stringn "싸움을 시작하게 됐지.\x11\x01*\x01H\n"
+.stringn "\x09\x02w6\x0C15\x085D싸움은 증오를 부르고, \x02w2분노를 불러\x02mc…\x02md\x02w4\n"
+.stringn "점차 \x02w1큰 싸움으로 발전해 갔어.\x11\x10여신이 \x02w1아무리 강력하게 충고를 해도,\x02w2\n"
+.stringn "【만나즈】의 싸움은 \x02w1없어지지 않았지.\x11\x10동일시되는 것을 \x02w1마다하는 그들에게,\x11\x10그들이 원하는 대로 \x02w2【라구즈】, \x02w1【베오크】\n"
+.stringn "라는 이름을 주었지만\x02mc…\x02md\x02w4\n"
+.stringn "그것 또한 \x02w1싸움의 빌미가 되었어.\x11\n"
 .stringn "\x09\x02w6"
 db 0
 .align 4
@@ -1000,307 +1028,314 @@ db 0
 
 //0x9D0
 Text_9B0:
-.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0705\x085Dそして――\x02w4\n"
-.stringn "あの\x02w1【大洪水】が起きたの。\x11"
+.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0705\x085D그리고――\x02w4\n"
+.stringn "그 \x02w1【대홍수】가 일어났지.\x11"
 db 0
 .align 4
 //MS_0407c_OP_02_04
 
 //0xA20
 Text_A00:
-.stringn "\x05FL|MICAIAH3_Y|IKE||\x04R上下会話|\x0705\x085D女神は\x02mc……\x02md\x02w3ただ目の前の争いを\x02w1\n"
-.stringn "止めようとしただけだった。\x11\x10だけど\x02w2その力は強大すぎて\x02mc…\x02md\x02w4\n"
-.stringn "ほとんどの大陸が\x02w1水の底へと沈んだ。\x02w4\n"
-.stringn "残されたのは\x02w2このテリウスだけだったわ。\x11\n"
-.stringn "\x0714\x084Dそれが\x02mc…\x02md\x02w3真実なのか？\x02w4\n"
-.stringn "俺たちの知る歴史とは、\x02w2\n"
-.stringn "かなり違うようだが。\x11"
+.stringn "\x05FL|MICAIAH3_Y|IKE||\x04R上下会話|\x0705\x085D여신은\x02mc……\x02md\x02w3 단지 눈앞의 싸움을\x02w1\n"
+.stringn "말리려고 했을 뿐이었어.\x11\x10그치만 \x02w2그 힘은 너무나 강대해서\x02mc…\x02md\x02w4\n"
+.stringn "대부분의 대륙이 \x02w1물속으로 가라앉았지.\x02w4\n"
+.stringn "남은 것은 \x02w2이곳 테리우스 뿐이었어.\x11\n"
+.stringn "\x0714\x084D그게\x02mc…\x02md\x02w3 진실이야?\x02w4\n"
+.stringn "우리가 아는 역사와는\x02w2\n"
+.stringn "많이 다른 것 같은데.\x11"
 db 0
 .align 4
 //MS_0407c_OP_02_05
 
 //0xBF8
 Text_BD8:
-.stringn "\x05FL|CAINEGHIS|MICAIAH3_Y||\x04R上下会話|\x0704\x084D全ては\x02w2メダリオンに眠る\x02w1邪神の仕業。\x02w4\n"
-.stringn "それゆえ、\x02w2再び\x02w1邪神を\n"
-.stringn "目覚めさせてはならぬと\x02mc…\x02md\x11\x10代々のラグズ王に\x02w2口伝されると共に、\x02w4\n"
-.stringn "戦いの折につけ、\x02w2黒竜王より\x02w1\n"
-.stringn "きつく諭されてきたのだ。\x11\n"
-.stringn "\x0715\x085Dふー\x02w1んだ。\x11"
+.stringn "\x05FL|CAINEGHIS|MICAIAH3_Y||\x04R上下会話|\x0704\x084D모든 것은 \x02w2메달리온에 잠든\x02w1\n"
+.stringn "사신이 행한 일\x02mc……\x02md\x11\x10그렇기에 \x02w2다시\x02w1\n"
+.stringn "사신을 깨워서는 안 된다고\x02mc…\x02md\x02w4\n"
+.stringn "대대로 라구즈 왕에게 \x02w2구전되어 왔었다.\x11\x10그뿐만이 아니지.\x02w4\n"
+.stringn "전쟁이 일어났을 때 \x02w2흑룡왕이\x02w1\n"
+.stringn "강하게 타일러 오기도 했다.\x11\n"
+.stringn "\x0715\x085D흥\x02w1이다.\x11"
 db 0
 .align 4
 //MS_0407c_OP_02_05C
 
 //0xD04
 Text_CE4:
-.stringn "\x05FL|ERINCIA||\x04R上下会話|\x0704\x084Dベオクの国では、\x02w2はるか昔に\x02mc…\x02md\x02w4\n"
-.stringn "邪神が\x02w2大災害を引き起こしたという、\x02w3\n"
-.stringn "あいまいな\x02w1おとぎ話があるだけです。\x11"
+.stringn "\x05FL|ERINCIA||\x04R上下会話|\x0704\x084D베오크 국가에는, \x02w2먼 옛날에\x02mc…\x02md\x02w4\n"
+.stringn "사신이 \x02w2대재앙을 일으켰다는\x02w3\n"
+.stringn "애매한 \x02w1동화가 전부예요.\x11"
 db 0
 .align 4
 //MS_0407c_OP_02_05E
 
 //0xB5C
 Text_B3C:
-.stringn "\x05FL|NIKE||\x04R上下会話|\x0704\x084Dふむ\x02mc……\x02md\x02w3ハタリでは、\x02w2大洪水は女神の怒り\x02w2\n"
-.stringn "我らへの罰だと\x02w1言われていたが、\x02w4\n"
-.stringn "女神に\x02w1そのつもりはなかったのか。\x11"
+.stringn "\x05FL|NIKE||\x04R上下会話|\x0704\x084D흠\x02mc……\x02md\x02w3 우리 나라 \x02w1하타리에서는\x02w2\n"
+.stringn "대홍수는 여신의 분노,\x02w2\n"
+.stringn "우리를 향한 벌이라고 \x02w1말했지만,\x11\x10여신에게 \x02w1그럴 생각은\n"
+.stringn "없었다는 건가.\x11"
 db 0
 .align 4
 //MS_0407c_OP_02_05Ni
 
 //0xD9C
 Text_D7C:
-.stringn "\x05FL|KURTHNAGA||\x04R上下会話|\x0705\x085Dラグズにも\x02w1ベオクにも\x02w2\n"
-.stringn "正確な事実は\x02w2伝わっていない\x02mc…？\x02md\x02w4\n"
-.stringn "どこで狂ってしまったのでしょうか。\x11"
+.stringn "\x05FL|KURTHNAGA||\x04R上下会話|\x0705\x085D라구즈에게도 \x02w1베오크에게도\x02w2\n"
+.stringn "정확한 사실이 \x02w2전해지지 않은 건가요\x02mc…?\x02md\x02w4\n"
+.stringn "어디서부터 꼬여 버린 건지.\x11"
 db 0
 .align 4
 //MS_0407c_OP_03
 
 //0xE28
 Text_E08:
-.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0704\x084D\x02mc……\x02mdそれは\x02w1きっと、\x02w3\n"
-.stringn "この先にいる\x02w1“彼”が\n"
-.stringn "教えてくれるんじゃない？\x11"
+.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0704\x084D\x02mc……\x02md그건 \x02w1분명,\x02w3\n"
+.stringn "이 앞에 있는 \x02w1“그”가\n"
+.stringn "알려 주지 않을까?\x11"
 db 0
 .align 4
 //MS_0407c_OP_03_02
 
 //0xE9C
 Text_E7C:
-.stringn "\x05FL|KURTHNAGA|IKE||\x02BO\x04R上下会話|\x0705\x085D\x02eO\x02mc…\x02md\x02w1あ\x02mc……\x02md\x02w4\x01*\x01H\n"
-.stringn "\x02ec\x02mc……\x02md\x02w3父上\x02mc……\x02md\x11\n"
-.stringn "\x09\x0710\x080D\x02mc！\x02md\x11\n"
-.stringn "\x09\x02w4\x01*\x01H\x0705\x085D\x02eoこの扉の向こうにいるのは\x02mc…\x02md\x02w3\n"
-.stringn "父上です\x02mc……\x02md\x02w4\n"
-.stringn "父上が\x02mc…\x02md\x02w4待ち受けています\x02mc……\x02md\x11"
+.stringn "\x05FL|KURTHNAGA|IKE||\x02BO\x04R上下会話|\x0705\x085D\x02eO\x02mc…\x02md\x02w1아\x02mc……\x02md\x11\x01*\x01H\n"
+.stringn "\x09\x0715\x085D왕자\x02mc!\x02md\x02w4\n"
+.stringn "무슨 일이야\x02mc!?\x02md\x11\n"
+.stringn "\x0704\x084D\x02ec\x02mc……\x02md\x02w3아버님\x02mc……\x02md\x11\n"
+.stringn "\x0715\x02mc!\x02md\x11\n"
+.stringn "\x09\x02w4\x01*\x01H\x0704\x02eo이 문 너머에 있는 것은\x02mc…\x02md\x02w3\n"
+.stringn "아버님입니다\x02mc……\x02md\x11\x10고르드아의 용린족이\x02mc…\x02md\x02w2\n"
+.stringn "\x02mc……\x02md\x02w4기다리고 있어요\x02mc……\x02md\x11"
 db 0
 .align 4
 //MS_0407c_OP_03_03
 
 //0xF90
 Text_F70:
-.stringn "\x05FL|IKE|MICAIAH3_Y||\x04R上下会話|\x0700\x080Dゴルドア王\x02w1デギンハンザー\x02mc…\x02md\x02w5\n"
-.stringn "邪神と呼ばれていた\x02w2女神ユンヌを倒した\x02w3\n"
-.stringn "【三雄】の１人だな。\x11\n"
-.stringn "\x09\x02w4\x0710\x080D彼は\x02w2アスタルテの加護を\n"
-.stringn "受けている\x02mc……\x02md\x11\x10それも、\x02w2彼女が眠りにつく以前の\x02w3\n"
-.stringn "強い\x02w1強い\x02w2守護よ。\x02w4\n"
-.stringn "このままでは\x02w2決して勝てない。\x11"
+.stringn "\x05FL|IKE|MICAIAH3_Y||\x04R上下会話|\x0700\x080D고르드아 왕 \x02w1데긴핸저\x02mc…\x02md\x02w5\n"
+.stringn "사신이라 불리던 \x02w2여신 윤느를 쓰러뜨린\x02w3\n"
+.stringn "【삼웅】 중 한 명이로군.\x11\n"
+.stringn "\x09\x02w4\x0710\x080D그는 \x02w2아스타르테의 가호를\n"
+.stringn "받고 있어\x02mc……\x02md\x11\x10그것도 \x02w2그녀가 잠들기 전의\x02w3\n"
+.stringn "엄청 \x02w1강한 \x02w2가호야.\x02w4\n"
+.stringn "이대로는 \x02w2절대 이길 수 없어.\x11"
 db 0
 .align 4
 //MS_0407c_OP_03_04
 
 //0x10B8
 Text_1098:
-.stringn "\x05FL|MICAIAH3_Y||\x02BO\x04R上下会話|\x0700\x080D\x02mc…\x02mdそろそろ頃合ね。\x01*\x01H\x02w4\n"
-.stringn "みんな\x02w1集まってちょうだい。\x11"
+.stringn "\x05FL|MICAIAH3_Y||\x02BO\x04R上下会話|\x0700\x080D\x02mc…\x02md슬슬 때가 됐나 봐.\x01*\x01H\x02w4\n"
+.stringn "모두들 \x02w1모여 줘.\x11"
 db 0
 .align 4
 //MS_0407c_OP_03_05
 
 //0x111C
 Text_10FC:
-.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0700\x080D本当は\x02w2ぎりぎりまで\x02mc…\x02md\x02w4\n"
-.stringn "アスタルテの前に\x02w1たどり着くまで\x02w2\n"
-.stringn "やらないつもりだったけど\x02mc…\x02md\x11\x10仕方がないわ。\x02w4\n"
-.stringn "私\x02mc…\x02md\x02w1混沌と自由の神\x02w2\n"
-.stringn "ユンヌの加護を\x02w1あなたたちにあげる。\x11"
+.stringn "\x05FL|MICAIAH3_Y|IKE||\x04R上下会話|\x0700\x080D사실은 \x02w2마지막까지\x02mc…\x02md\x11\x10아스타르테의 앞에 \x02w1도착할 때까지\x02w2\n"
+.stringn "하지 않으려고 했지만,\x02w3\n"
+.stringn "어쩔 수 없겠어.\x11\x10나\x02mc…\x02md\x02w1 혼돈과 자유의 신\x02w2\n"
+.stringn "윤느의 가호를 \x02w1너희에게 줄게.\x11\n"
+.stringn "\x0715\x085D가호\x02mc……?\x02md\x11"
 db 0
 .align 4
 //MS_0407c_OP_04
 
 //0x1200
 Text_11E0:
-.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0704\x084D本来、\x02w2人は女神に対して\x02w1\n"
-.stringn "攻撃を加えることなんかできないの。\x02w4\n"
-.stringn "だから\x02mc…\x02md\x11"
+.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0704\x084D원래 \x02w2사람들은 여신에게\x02w1\n"
+.stringn "공격을 가할 수 없어.\x11\x10그녀와 \x02w1본래 하나였던 나도\x02w2\n"
+.stringn "서로 상대방에게 상처를 줄 수는 없었지.\x11\x10그래서 과거에 \x02w2아스타르테는\x02mc…\x02md\x02w2\n"
+.stringn "나를 없애기로 마음을 먹었을 때\x02w1\n"
+.stringn "사람을 매개로 했어.\x11"
 db 0
 .align 4
 //MS_0407c_OP_04_02
 
 //0x1274
 Text_1254:
-.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0701\x081Dアスタルテは私を倒すと決めたとき、\x02w2\n"
-.stringn "人たちの中でも\x02w1特に優れた力を\x02w1\n"
-.stringn "有する者を選んで\x02w2己の力を与えたの。\x11\x10それが\x02w2女神の加護と呼ばれるもの\x02mc…\x02md\x02w4\n"
-.stringn "ベオクの剣士オルティナには\x02w2\n"
-.stringn "愛用していた双剣\x02w1それぞれに。\x11\x10ラグズの獅子戦士ソーンと\x02w2\n"
-.stringn "竜鱗族の長\x02w1デギンハンザーには\x02w2\n"
-.stringn "その身体自体に\x02mc……\x02md\x11"
+.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0701\x081D그녀는 \x02w2사람들 중에서도\x02w1\n"
+.stringn "특히 뛰어난 힘을 \x02w1가진 자를 선택하여\x02w2\n"
+.stringn "자신의 힘을 주었어.\x11\x10그것이 \x02w2여신의 가호라 불리는 것이지.\x11\n"
+.stringn "베오크 검사 오르티나에게는\x02w2\n"
+.stringn "애용하고 있던 쌍검 \x02w1각각에.\x11\x10라구즈 사자 손과\x02w2\n"
+.stringn "용린족의 족장 \x02w1데긴핸저에게는\x02w2\n"
+.stringn "그 몸 자체에\x02mc……\x02md\x11\x10내 군세에는 \x02w2내 가호를 입힌 갑옷을\n"
+.stringn "입혀 놓았었지만\x02mc…\x02md\x11\x10그들 세 명의 공격 앞에서는\x02w2\n"
+.stringn "어쩔 도리가 없었어.\x11"
 db 0
 .align 4
 //MS_0407c_OP_04_03
 
 //0x13CC
 Text_13AC:
-.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0704\x084D前回は、\x02w2かなわなかったけど\x02mc…\x02md\x02w4\n"
-.stringn "だけど、\x02w2今度は違う。\x02w4\n"
-.stringn "私だって\x02w1負けはしないわ。\x11\x10みんな\x02mc…\x02md\x02w3　少し時間をあげるから\x02w4\n"
-.stringn "自分の状態を\x02w3\n"
-.stringn "いま出来得る最高のものに整えて。\x11\x10特にベオクは\x02w3各自が一番\n"
-.stringn "強いと思う武器を装備するようにして。\x02w5\n"
-.stringn "準備が出来次第、\x02w4始めるわ。\x11"
+.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0704\x084D하지만, \x02w2이번에는 달라.\x02w4\n"
+.stringn "난 \x02w1지지 않을 거야.\x11\x10다들\x02mc…\x02md\x02w3 조금 시간을 줄 테니까\x02w4\n"
+.stringn "자신의 상태를\x02w3\n"
+.stringn "지금 가능한 만큼 최고로 만들어.\x11\x10특히 베오크는 \x02w3각자 제일\n"
+.stringn "강하다고 생각하는 무기를 장비하도록 해.\x02w5\n"
+.stringn "준비가 되는 대로 \x02w4시작할게.\x11"
 db 0
 .align 4
 //MS_0407c_OP_04_04
 
 //0x5438
 Text_5418:
-.stringn "\x02BO\x04R字幕会話|\x01c\x04FT2000|\x02F0\x04V0VOICE_KAISOU_WAY4_1_01|\x04s1000|彼らを救わなくては。\x02w6\x02w3\n"
-.stringn "こうしている間にも\x02mc……\x02md\x02w5\x02w3ベグニオンでは\n"
-.stringn "多くのラグズが苦しんでいるのです。\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_02|\x04s1000|\x02w3\x02mc……\x02mdすでに\x02w3取りうる手は打った。\x11\x01P\x02v0\x01*\x01H\x04V0VOICE_KAISOU_WAY4_1_03|\x04s1000|警告だけでは、\x02w5何も変わらない\x02mc…\x02md\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_04|\x04s1000|元老院の対応を期待し、\x02w5\x02w3\n"
-.stringn "百以上もの年数を無駄にしました。\x02w4\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_05|\x04s1000|行動を起すべきなのです。\x02w5\x02w5\x02w5\n"
-.stringn "竜鱗族が動けば、\x02w5\x02w4ベグニオンとて\n"
-.stringn "完璧に無視するわけには\x02mc……\x02md\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_06|\x04s1000|ゴルドアは\x02w5\x02w2他とは関わらぬ。\x02w5\x02w5\x02w2\n"
-.stringn "我らが動かば\x02w5\x02w2戦いは肥大する。\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_07|\x04s1000|それは女神の眠りを妨げ、\x02w5\x02w5\x02w4\x02w2\n"
-.stringn "世界が滅びへと至る道\x02mc……\x02md\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_08|\x04s1000|女神との誓約を\x02mc…\x02md\x02w5\x02w5\x02w2\n"
-.stringn "そなたも覚えているだろう。\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_09|\x04s1000|もちろんです。\x02w5\x02w5\x02w5\n"
-.stringn "オルティナも\x02w2ソーンも\n"
-.stringn "亡くなってしまいました。\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_10|\x04s1000|\x02w2女神と直接言葉を交わした者は、\x02w5\x02w5\n"
-.stringn "あなたと私だけしか残っていない。\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_11|\x04s1000|ならば\x02mc……\x02md\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_12|\x04s1000|もし女神がお目覚めになり、\x02w5\x02w5\n"
-.stringn "この世界をご覧になったら\x02w2\n"
-.stringn "どう思われるでしょう？\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_13|\x04s1000|ラグズが家畜のように\x02w5\x02w5\n"
-.stringn "ベオクに支配されるこの世界を\x02mc……\x02md\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_14|\x04s1000|\x02mc……\x02md私は\x02w5\x02w2すべてを見守るだけだ。\x02w5\x02w5\x02w5\n"
-.stringn "隷属とはいえ、\x02w5\x02w5ラグズは生きている。\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_15|\x04s1000|\x02w4ならばこれ以上戦いを\x02w2\n"
-.stringn "拡げることは\x02w5\x02w3避けねばならぬ。\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_16|\x04s1000|女神が眠りにつかれて\x02w5\x02w4\n"
-.stringn "まだ１５０年にも満たぬ。\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_17|\x04s1000|こうなる前は、\x02w5\x02w3ラグズがベオクに対し\x02w5\x02w3\n"
-.stringn "優勢であった時代もあった。\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_18|\x04s1000|残り８５０年\x02mc……\x02md\x02w5\x02w5\x02w5\x02w2時が経てば、\x02w5\x02w5\x02w3\n"
-.stringn "また\x02w4\x02w2立場が揺らぎ移ろうこともあろう。\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_19|\x04s1000|私は動かぬ。\x02w5\x02w5\x02w5\x02w5\x02w3\x02w2\n"
-.stringn "最初に国を分けた時から決めていたこと。\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_20|\x04s1000|ラグズとベオク、\x02w5\x02w5\x02w5\x02w5\x02w2\n"
-.stringn "一方が滅びを迎えるか\x02mc……\x02md\x02w5\x02w5\x02w2\n"
-.stringn "大陸を巻き込むような戦が起きるか\x02mc……\x02md\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_21|\x04s1000|そのような破滅の危機が訪れぬ限り、\x02w5\x02w5\x02w5\x02w3\x02w2\x02w1\n"
-.stringn "ゴルドアが動くことはない。\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_22|\x04s1000|ですが、\x02w5\x02w5それでは現在\n"
-.stringn "虐げられているラグズは\x02mc……\x02md\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_23|\x04s1000|いま\x02w4この時を生きている\n"
-.stringn "彼らは\x02w2どうなるのです？\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_24|\x04s1000|犠牲は、\x02w5\x02w2やむを得ぬ。\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_25|\x04s1000|\x02mc……\x02md\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_26|\x04s1000|どこへ行くのだ。\x11\x01P\x02v0\x01*\x01H\x04V0VOICE_KAISOU_WAY4_1_27|\x04s1000|ベグニオンへ。\x02w5\x02w5\x02w4\x02w2\x02w1\n"
-.stringn "そこで\x02w3解決の手立てを探します。\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_28|\x04s1000|\x02w2生来の力を失いしそなたに\x02w5\x02w4\x02w3\n"
-.stringn "なにができるというのだ。\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_29|\x04s1000|自らの身を\x02w5\x02w3\n"
-.stringn "危険にさらすだけではないか。\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_30|\x04s1000|それでも私は\x02mc……\x02md\x02w7\x02w2\n"
-.stringn "行かねばなりません。\x11\x01P\x02v0\x04FT2000|\x02F3"
+.stringn "\x02BO\x04R字幕会話|\x01c\x04FT2000|\x02F0\x04V0VOICE_KAISOU_WAY4_1_01|\x04s1000|그들을 구해야 해요.\x02w6\x02w3\n"
+.stringn "이러는 동안에도\x02mc……\x02md\x02w4\x02w3 베그니온에서는\n"
+.stringn "많은 라구즈들이 고통받고 있습니다.\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_02|\x04s1000|\x02w3\x02mc……\x02md이미 \x02w3취할 수 있는 방법은 썼다.\x11\x01P\x02v0\x01*\x01H\x04V0VOICE_KAISOU_WAY4_1_03|\x04s1000|경고만으로는 \x02w2아무것도 변하지 않습니다\x02mc…\x02md\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_04|\x04s1000|원로원의 대응을 기대하며,\x02w5\x02w3\n"
+.stringn "백 년 이상의 세월을 허비했어요.\x02w4\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_05|\x04s1000|행동을 취해야 합니다.\x02w5\x02w3\x02w3\n"
+.stringn "용린족이 움직이면 \x02w4\x02w2베그니온이라도\n"
+.stringn "완벽하게 무시할 수는\x02mc……\x02md\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_06|\x04s1000|고르드아는 \x02w3\x02w1다른 곳과 무관하다.\x02w5\x02w5\x02w2\n"
+.stringn "우리가 움직이면 \x02w4\x02w1싸움이 커진다.\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_07|\x04s1000|그것은 여신의 잠을 방해하고,\x02w5\x02w5\x02w4\x02w2\n"
+.stringn "세상을 멸망으로 이끄는 길\x02mc……\x02md\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_08|\x04s1000|여신과의 서약을\x02mc…\x02md\x02w5\x02w3\x02w2\n"
+.stringn "그대도 기억하고 있지 않은가.\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_09|\x04s1000|물론입니다.\x02w5\x02w5\x02w5\n"
+.stringn "오르티나도 \x02w2손도\n"
+.stringn "세상을 떠나고 말았어요.\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_10|\x04s1000|\x02w2여신과 직접 말을 나눈 자는,\x02w5\x02w5\n"
+.stringn "당신과 저밖에 남지 않았습니다.\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_11|\x04s1000|그렇다면\x02mc……\x02md\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_12|\x04s1000|만약 여신께서 깨어나,\x02w5\x02w5\n"
+.stringn "이 세계를 보신다면\x02w2\n"
+.stringn "어떻게 생각하실까요?\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_13|\x04s1000|라구즈가 가축처럼\x02w5\x02w5\n"
+.stringn "베오크에게 지배당하는 이 세계를\x02mc……\x02md\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_14|\x04s1000|\x02mc……\x02md나는 \x02w4\x02w2모든 것을 지켜볼 뿐이다.\x02w5\x02w5\x02w5\n"
+.stringn "예속되었다곤 하나 \x02w4\x02w3라구즈는 살아 있다.\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_15|\x04s1000|\x02w4그렇다면 이 이상 싸움이\x02w2\n"
+.stringn "확대되는 것은 \x02w4\x02w3피해야만 한다.\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_16|\x04s1000|여신께서 잠에 빠진 지\x02w5\x02w4\n"
+.stringn "아직 150년도 지나지 않았다.\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_17|\x04s1000|이렇게 되기 전에는 \x02w3\x02w2라구즈가 베오크보다\x02w5\x02w3\n"
+.stringn "우세하던 시절도 있었지.\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_18|\x04s1000|남은 850년\x02mc……\x02md\x02w5\x02w5\x02w4\x02w2 시간이 지나면,\x02w5\x02w5\x02w3\n"
+.stringn "또 \x02w2\x02w2입지가 흔들려 바뀌는 일도 있을 것이다.\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_19|\x04s1000|나는 움직이지 않는다.\x02w5\x02w4\x02w3\x02w2\x02w2\x02w2\n"
+.stringn "처음 나라를 나눌 때부터 정한 일이다.\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_20|\x04s1000|라구즈와 베오크,\x02w5\x02w5\x02w5\x02w5\x02w2\n"
+.stringn "한쪽이 멸망을 맞이하거나\x02mc……\x02md\x02w5\x02w5\x02w2\n"
+.stringn "대륙을 말려들게 하는 전쟁이 일어나거나\x02mc……\x02md\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_21|\x04s1000|그러한 파멸의 위기가 오지 않는 한,\x02w5\x02w5\x02w5\x02w3\x02w1\x02w1\n"
+.stringn "고르드아가 움직이는 일은 없다.\x02w5\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_22|\x04s1000|하지만, \x02w5\x02w5그럼 현재\n"
+.stringn "학대받고 있는 라구즈는\x02mc……\x02md\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_23|\x04s1000|지금 \x02w4이때를 살아가고 있는\n"
+.stringn "그들은 \x02w2어떻게 되나요?\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_24|\x04s1000|희생은 \x02w5\x02w2불가피하다.\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_25|\x04s1000|\x02mc……\x02md\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_26|\x04s1000|어디로 가는 건가.\x11\x01P\x02v0\x01*\x01H\x04V0VOICE_KAISOU_WAY4_1_27|\x04s1000|베그니온으로요.\x02w5\x02w5\x02w4\x02w4\x02w1\n"
+.stringn "거기서 \x02w3해결할 방법을 찾겠습니다.\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_28|\x04s1000|\x02w2타고난 힘을 잃은 그대가\x02w5\x02w4\x02w3\n"
+.stringn "무엇을 할 수 있단 말인가.\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_29|\x04s1000|자신의 몸을\x02w5\x02w3\n"
+.stringn "위험에 빠뜨릴 뿐이다.\x11\x01P\x02v0\x04V0VOICE_KAISOU_WAY4_1_30|\x04s1000|그래도 저는\x02mc……\x02md\x02w7\x02w2\n"
+.stringn "가야만 해요.\x11\x01P\x02v0\x04FT2000|\x02F3"
 db 0
 .align 4
 //MS_0407c_PEN4_01
 
 //0x2660
 Text_2640:
-.stringn "\x05FL|ENA|GORT||\x04R上下会話|\x0700\x080Dゴート、\x02w2そこを退いてください。\x11\n"
-.stringn "\x0711\x081Dそれはできません。\x02w4\n"
-.stringn "王命でございますからな。\x11\n"
-.stringn "\x0700やはり\x02mc……\x02md\x02w4無理なのですね。\x11\n"
-.stringn "\x0711私は愚かでございますから。\x02w4\n"
-.stringn "王に従う以外の道を持ちません。\x11\n"
-.stringn "\x0700愚かなのは王命に逆らい、\x02w2\n"
-.stringn "女神にすら逆らおうとしている\n"
-.stringn "私たちかもしれません。\x11\x10でも、\x02w2それでも\x02mc……\x02md\x11\n"
-.stringn "\x0711イナ殿。\x02w4\n"
-.stringn "王子を\x02mc……\x02md\x02w4クルトナーガ様を\n"
-.stringn "お頼み申します。\x02w4なにとぞ\x02mc……\x02md\x11\n"
-.stringn "\x0700\x02mc…\x02mdはい。\x02w4約束します。\x02w4\n"
-.stringn "この命に代えても\x02mc……\x02md\x02mc！\x02md\x11"
+.stringn "\x05FL|ENA|GORT||\x04R上下会話|\x0700\x080D고트, \x02w2거기서 물러나세요.\x11\n"
+.stringn "\x0711\x081D그럴 순 없습니다.\x02w4\n"
+.stringn "왕명이니.\x11\n"
+.stringn "\x0700역시\x02mc……\x02md\x02w4 소용없는 거군요.\x11\n"
+.stringn "\x0711저는 어리석으니까요.\x02w4\n"
+.stringn "왕을 따르는 것 외에 도리가 없습니다.\x11\n"
+.stringn "\x0700어리석은 것은 왕명을 거스르고,\x02w2\n"
+.stringn "여신께조차 거스르려고 하는\n"
+.stringn "우리일 수도 있어요.\x11\x10하지만, \x02w2그래도\x02mc……\x02md\x11\n"
+.stringn "\x0711이나님.\x02w4\n"
+.stringn "왕자님을\x02mc……\x02md\x02w4 쿠르트나가님을\n"
+.stringn "부탁드립니다.\x02w4 부디\x02mc……\x02md\x11\n"
+.stringn "\x0700\x02mc…\x02md네. \x02w4약속할게요.\x02w4\n"
+.stringn "이 목숨과 대신해서라도\x02mc……\x02md\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0407c_TALK_G_Ena
 
 //0x2424
 Text_2404:
-.stringn "\x05FL|GORT|KURTHNAGA||\x04R上下会話|\x0700\x080D困ったことになってしまいましたな\x02mc…\x02md\x02w4\n"
-.stringn "私がお守りすべき王子と\n"
-.stringn "このように相対することになろうとは。\x11\n"
-.stringn "\x0711\x081Dゴート、\x02w2そこを通してくれ\x02mc！\x02md\x02w4\n"
-.stringn "私はどうしても父に\x02mc……\x02md\x11\n"
-.stringn "\x0700王命なれば、\x02w2ここを\n"
-.stringn "お通しすることはかないません。\x11\n"
-.stringn "\x0711私と\x02mc……\x02md\x02w4戦うと？\x11\n"
-.stringn "\x0700とんでもない\x02mc！\x02md\x02w4\n"
-.stringn "王子と戦うつもりはありません。\x11\x10私にできるのは\x02mc……\x02md\x02w4\n"
-.stringn "ただこうして、\x02w2\n"
-.stringn "ここに立っていることだけ。\x11\n"
-.stringn "\x0711ゴート\x02mc……\x02md\x02mc！\x02md\x11\n"
-.stringn "\x0700王子のお側に仕えさせていただき、\x02w2\n"
-.stringn "このゴート、\x02w2幸せでございました。\x02w4\n"
-.stringn "どうぞ、\x02w3お健やかに。\x11"
+.stringn "\x05FL|GORT|KURTHNAGA||\x04R上下会話|\x0700\x080D곤란하게 되었군요\x02mc…\x02md\x02w4\n"
+.stringn "제가 지켜드려야 할 왕자님과\n"
+.stringn "이렇게 마주하게 될 줄이야.\x11\n"
+.stringn "\x0711\x081D고트, \x02w2거길 지나가게 해 줘\x02mc!\x02md\x02w4\n"
+.stringn "나는 어떻게 해서든 아버님께\x02mc……\x02md\x11\n"
+.stringn "\x0700왕명이 아니면 \x02w2여기를\n"
+.stringn "지나가게 해 드릴 순 없습니다.\x11\n"
+.stringn "\x0711나랑\x02mc……\x02md\x02w4 싸우겠다고?\x11\n"
+.stringn "\x0700그럴 리가요\x02mc!\x02md\x02w4\n"
+.stringn "왕자님과 싸울 생각은 없습니다.\x11\x10제가 할 수 있는 건\x02mc……\x02md\x02w4\n"
+.stringn "그저 이렇게\x02w2\n"
+.stringn "서 있는 것뿐이죠.\x11\n"
+.stringn "\x0711고트\x02mc……\x02md\x02mc!\x02md\x11\n"
+.stringn "\x0700왕자님을 모실 수 있어서\x02w2\n"
+.stringn "저 고트는 \x02w2행복했습니다.\x02w4\n"
+.stringn "부디, \x02w3건강하시길.\x11"
 db 0
 .align 4
 //MS_0407c_TALK_G_Kur
 
 //0x2308
 Text_22E8:
-.stringn "\x05FL|ENA|NASIR||\x04R上下会話|\x0700\x080Dナーシル\x02mc……\x02md\x02w4\n"
-.stringn "王に従うのですね？\x11\n"
-.stringn "\x0711\x081D一度、\x02w2背いた私だからこそ\x02mc…\x02md\x02w4\n"
-.stringn "此度は王命を守る。\x02w4\n"
-.stringn "イナは\x02mc……\x02md\x11\n"
-.stringn "\x0700\x02mc……\x02md\x02w3はい\x02mc…\x02md\x02w4\n"
-.stringn "申し訳\x02mc…\x02md\x02w2ありません。\x11\n"
-.stringn "\x0711\x01s\x02mc……\x02mdそれでいい。\x02w4\n"
-.stringn "おまえは王子とともに在れ。\x11"
+.stringn "\x05FL|ENA|NASIR||\x04R上下会話|\x0700\x080D나시르\x02mc……\x02md\x02w4\n"
+.stringn "왕을 따르기로 한 거군요?\x11\n"
+.stringn "\x0711\x081D한 번 \x02w2등졌던 나이기에\x02mc…\x02md\x02w4\n"
+.stringn "이번에는 왕명을 지키기로 했다.\x02w4\n"
+.stringn "이나는\x02mc……\x02md\x11\n"
+.stringn "\x0700\x02mc……\x02md\x02w3네\x02mc…\x02md\x02w4\n"
+.stringn "죄송\x02mc…\x02md\x02w2합니다.\x11\n"
+.stringn "\x0711\x01s\x02mc……\x02md그걸로 좋다.\x02w4\n"
+.stringn "너는 왕자님과 함께 있어라.\x11"
 db 0
 .align 4
 //MS_0407c_TALK_N_Ena
 
 //0x2160
 Text_2140:
-.stringn "\x05FL|KURTHNAGA|NASIR||\x04R上下会話|\x0700\x080Dナーシル\x02mc！\x02md\x02w4\n"
-.stringn "父上をお止めしてくれ\x02mc！！\x02md\x11\n"
-.stringn "\x0711\x081D\x02mc……\x02md\x02w3私たちは罪を犯しました。\x02w4\n"
-.stringn "王のお心も知らず、\x02w2\n"
-.stringn "戦いを拡大させてしまいました。\x11\n"
-.stringn "罪は償わなければなりません。\x11\n"
-.stringn "\x0700それが、\x02w2私ひとりのことならば\x02mc…\x02md\x02w4\n"
-.stringn "罰はいくらでも受けよう。\x11\x10だが、\x02w2罪なき赤子が\n"
-.stringn "石にされていいはずはない\x02mc！\x02md\x11\n"
-.stringn "\x0711\x02ec\x02mc……\x02md決めたのです。\x02w4\n"
-.stringn "もう二度と\x02w3\n"
-.stringn "私は王に逆らわないと。\x11"
+.stringn "\x05FL|KURTHNAGA|NASIR||\x04R上下会話|\x0700\x080D나시르\x02mc!\x02md\x02w4\n"
+.stringn "아버님을 멈춰 주세요\x02mc!!\x02md\x11\n"
+.stringn "\x0711\x081D\x02mc……\x02md\x02w3우리는 죄를 지었습니다.\x02w4\n"
+.stringn "왕의 마음도 모르고\x02w2\n"
+.stringn "전쟁을 확대시키고 말았습니다.\x11\n"
+.stringn "죄는 갚아야 합니다.\x11\n"
+.stringn "\x0700그것이 \x02w2저 혼자의 일이라면\x02mc…\x02md\x02w4\n"
+.stringn "벌은 얼마든지 받도록 할게요.\x11\x10하지만, \x02w2죄 없는 아기가\n"
+.stringn "돌이 되면 안 되는 거잖아요\x02mc!\x02md\x11\n"
+.stringn "\x0711\x02ec\x02mc……\x02md이미 마음을 정했습니다.\x02w4\n"
+.stringn "저는 이제 두 번 다시\x02w3\n"
+.stringn "왕께 거스르지 않을 겁니다.\x11"
 db 0
 .align 4
 //MS_0407c_TALK_N_Kur
 
 //0x2B90
 Text_2B70:
-.stringn "\x05FL|DHEGINHANSEA|LEARNE||\x04R上下会話|\x0700\x080D鷺の姫よ。\x02w4\n"
-.stringn "そなたは戦う力を持たぬ者\x02mc……\x02md\x02w4\n"
-.stringn "退くがよい。\x11\n"
-.stringn "\x0711\x081D#F01\x02O2kanasii...\x02w4\n"
-.stringn "#F01\x02O2Ojisamanokokoro...\x02w3kanasimide ippai...\x02w4\n"
-.stringn "#F01\x02O2Doushite?\x02w3 Watashinihanashite.\x11\n"
-.stringn "\x0700そなたには\x02mc……\x02md\x02w4関わりのないことだ。\x11"
+.stringn "\x05FL|DHEGINHANSEA|LEARNE||\x04R上下会話|\x0700\x080D백로공주여.\x02w4\n"
+.stringn "그대는 싸울 힘을 갖지 못한 자\x02mc……\x02md\x02w4\n"
+.stringn "물러나거라.\x11\n"
+.stringn "\x0711\x081D#F01\x02O2seulpeo...\x02w4\n"
+.stringn "#F01\x02O2Oajeossiui maeum... \x02w3seulpeumi gadeuk...\x02w4\n"
+.stringn "#F01\x02O2Eojjaeseo? \x02w3Nahante yaegihae.\x11\n"
+.stringn "\x0700그대와는\x02mc……\x02md\x02w4 상관없는 일이다.\x11"
 db 0
 .align 4
 //MS_0407c_TK_Lea_D
 
 //0x2854
 Text_2834:
-.stringn "\x05FL|RAFIEL|DHEGINHANSEA||\x04R上下会話|\x0701\x081D黒竜王様\x02mc……\x02md\x02w4\n"
-.stringn "私にはわかりません\x02mc……\x02md\x11\x10なぜ、\x02w2戦わなければ\n"
-.stringn "ならないのですか？\x11\x10このようなこと\x02mc……\x02md\x02w4\n"
-.stringn "私には\x02mc……\x02md\x02w4\n"
-.stringn "耐えられません\x02mc……\x02md\x11\x10これ以上争っても\x02mc……\x02md\x02w4\n"
-.stringn "悲しみが増すだけでは\n"
-.stringn "ありませんか\x02mc……\x02md\x11\n"
+.stringn "\x05FL|RAFIEL|DHEGINHANSEA||\x04R上下会話|\x0701\x081D흑룡왕님\x02mc……\x02md\x02w4\n"
+.stringn "저는 모르겠습니다\x02mc……\x02md\x11\x10어째서 \x02w2싸워야만\n"
+.stringn "하는 건가요?\x11\x10이런 일이 일어나다니\x02mc……\x02md\x02w4\n"
+.stringn "저는\x02mc……\x02md\x02w4\n"
+.stringn "견딜 수 없습니다\x02mc……\x02md\x11\x10이 이상 싸워도\x02mc……\x02md\x02w4\n"
+.stringn "슬픔만 더해지는 것밖에\n"
+.stringn "없지 않습니까\x02mc……\x02md\x11\n"
 .stringn "\x0710\x080D\x02mc……\x02md\x02w4\n"
-.stringn "そなたの姿\x02mc……\x02md\x02w4\n"
-.stringn "昔の友を思い出させる\x02mc……\x02md\x11\x10誰より優しく、\x02w2\n"
-.stringn "それゆえに弱かったあの男\x02mc……\x02md\x11\x10埒もない感傷よ\x02mc……\x02md\x02w4\n"
-.stringn "わしは変わらぬ。\x02w4\n"
-.stringn "ただ女神の裁きを受け入れるのみ。\x11"
+.stringn "그대의 모습\x02mc……\x02md\x02w4\n"
+.stringn "옛 벗을 생각나게 하는군\x02mc……\x02md\x11\x10누구보다 상냥하고,\x02w2\n"
+.stringn "그렇기에 약했던 그 남자\x02mc……\x02md\x11\x10부질없는 감상이군\x02mc……\x02md\x02w4\n"
+.stringn "나는 변하지 않는다.\x02w4\n"
+.stringn "그저 여신의 심판을 받아들일 뿐.\x11"
 db 0
 .align 4
 //MS_0407c_TK_Raf_D
 
 //0x2A48
 Text_2A28:
-.stringn "\x05FL|RIEUSION|DHEGINHANSEA||\x04R上下会話|\x0701\x081D黒竜王、\x02w3\n"
-.stringn "あなたはこの地上で\n"
-.stringn "最も強い力を持つ存在\x02mc……\x02md\x11\x10その力を、\x02w2\n"
-.stringn "なぜ人々を救うために\n"
-.stringn "向けてくださらないのか？\x11\n"
-.stringn "\x0710\x080Dかつて\x02mc……\x02md\x02w4\n"
-.stringn "我が友も同じことを言った。\x11\x10だがあの時も今も、\x02w2\n"
-.stringn "わしの答えは変わらぬ。\x02w4\n"
-.stringn "変わってはならぬのだ。\x11\x10わしはただ\n"
-.stringn "女神の意に従うのみ。\x11"
+.stringn "\x05FL|RIEUSION|DHEGINHANSEA||\x04R上下会話|\x0701\x081D흑룡왕,\x02w3\n"
+.stringn "당신은 이 땅 위에서\n"
+.stringn "가장 강한 힘을 지닌 존재\x02mc……\x02md\x11\x10어째서 그 힘을\x02w2\n"
+.stringn "사람들을 구하기 위해\n"
+.stringn "쓰지 않는 겁니까?\x11\n"
+.stringn "\x0710\x080D일찍이\x02mc……\x02md\x02w4\n"
+.stringn "내 벗도 똑같이 말했다.\x11\x10허나 그때도 지금도,\x02w2\n"
+.stringn "나의 대답은 변함없다.\x02w4\n"
+.stringn "변해서는 안 되는 것이다.\x11\x10나는 그저\n"
+.stringn "여신의 뜻에 따를 뿐.\x11"
 db 0
 .align 4
 //MS_0407c_TK_Rie_D

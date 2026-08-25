@@ -5815,7 +5815,7 @@ db 0
 
 //0x1A24
 Text_1A04:
-.stringn "Technical  Assistant"
+.stringn "Technical Assistant"
 db 0
 .align 4
 //MED_STAFFROLL_L275_L

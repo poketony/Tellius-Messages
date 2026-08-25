@@ -112,7 +112,7 @@ Text_D5C:
 .stringn "그곳이라면 \x02w2이 주변 사람 말고는\x02w2\n"
 .stringn "장소를 알 수 없을 거다.\x11\n"
 .stringn "\x0733그럼 \x02w23시간 후에 쿠누 숲에서 보자.\x11\n"
-.stringn "\x04FT1000|"
+.stringn "\x04FT1500|"
 db 0
 .align 4
 //MS_0103_ED_02
@@ -120,7 +120,8 @@ db 0
 //0xF10
 Text_EF0:
 .stringn "\x05FL|MICAIAH_B|DUMMY1||\x04R上下会話|\x0701\x081D\x02mc!!\x02md\x11\n"
-.stringn "\x0710\x04NF0D|호오, \x02w2눈치챘나.\x11"
+.stringn "\x0710\x04NF0D|호오, \x02w2눈치챘나.\x11\n"
+.stringn "\x0701\x02mc…………\x02md\x11"
 db 0
 .align 4
 //MS_0103_ED_03
@@ -138,7 +139,7 @@ Text_F44:
 .stringn "시스터는\x02mc…\x02md\x11\n"
 .stringn "\x0701훗,\x02w4 여기 있다.\x11\n"
 .stringn "\x0720\x080D미카야씨\x02mc…\x02md 윽\x02mc!!\x02md\x11\n"
-.stringn "\x0714놔 줘.\x02w4\n"
+.stringn "\x0714놔줘.\x02w4\n"
 .stringn "그녀는 우리들의 동료가 아니야\x02mc…\x02md\x11\n"
 .stringn "\x0701그렇게는 안 되지.\x02w4\n"
 .stringn "중요한 인질이니까, \x02w2너처럼.\x11\n"
@@ -178,7 +179,7 @@ db 0
 //0x500
 Text_4E0:
 .stringn "\x05FL|SOTHE||\x04R上下会話|\x0704\x084D자 그럼, \x02w2이걸로 열쇠는 됐고.\x02w4\n"
-.stringn "이제 모두를 \x02w2어떻게\n"
+.stringn "문제는 이제 시스터를 \x02w2어떻게\n"
 .stringn "여기까지 데리고 오냐인데\x02mc…\x02md\x11"
 db 0
 .align 4
@@ -214,7 +215,7 @@ Text_628:
 .stringn "놈들을 놓쳐서는 안 된다\x02mc!\x02md\x11\n"
 .stringn "\x0714넵\x02mc!\x02md\x11\x10\x09\x02w4\x0721\x01s이봐, \x02w2하나만 더.\x11\x10\x0C14\x084D\x0C21여자는 반드시 생포해라.\x02w4\n"
 .stringn "알겠나?\x11\n"
-.stringn "\x0714네\x02mc…\x02md\x02w2넵\x02mc!!\x02md\x11\n"
+.stringn "\x0714아\x02mc…\x02md\x02w2 넵\x02mc!!\x02md\x11\n"
 .stringn "\x04FT1200|"
 db 0
 .align 4
@@ -237,7 +238,8 @@ Text_0:
 .stringn "더 기분이 좋은걸.\x11\x10그치, \x02w2윤느.\x01*\x01H\x11\n"
 .stringn "\x09\x02w3\x0725\x085D의외로 \x02w1야성적이네.\x02w2\n"
 .stringn "미카야는.\x11\n"
-.stringn "\x0734\x084D\x01s조금은 \x02w2본받지 그래?\x11"
+.stringn "\x0734\x084D\x01s조금은 \x02w2본받지 그래?\x11\n"
+.stringn "\x0C25\x0F\x0C34\x09\x02w4"
 db 0
 .align 4
 //MS_0103_OP_01

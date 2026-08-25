@@ -1211,7 +1211,7 @@ db 0
 
 //0x1F66C
 Text_1F64C:
-.stringn "저장합니다 괜찮겠습니까?"
+.stringn "저장합니다. 괜찮겠습니까?"
 db 0
 .align 4
 //FM_Q_SURE_SAVE
@@ -17502,7 +17502,7 @@ db 0
 
 //0x11270
 Text_11250:
-.stringn "\x04Rダイアログ会話|\x02sd이 장부터 『거점』을 사용할 수 있습니다.\x02w4\n"
+.stringn "\x04Rダイアログ会話|\x02sd이 장부터 『거점』을 쓰게 됩니다.\x02w4\n"
 .stringn "『거점』에서는 동료의 소지품을\n"
 .stringn "정리하거나 \x02w2부족한 무기,\x02w1\n"
 .stringn "상처약 등을 살 수 있습니다.\x11"
@@ -28834,7 +28834,7 @@ db 0
 
 //0x21BE0
 Text_21BC0:
-.stringn "は行"
+.stringn "하행"
 db 0
 .align 4
 //MT_HA

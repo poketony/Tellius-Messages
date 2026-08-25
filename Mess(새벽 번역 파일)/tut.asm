@@ -638,8 +638,8 @@ db 0
 //0x1B2C
 Text_1B0C:
 .stringn "@\x05FL|ANNA||\x04RTUT小会話|\x02nc\x0702\x082D오른쪽 아래의 윈도우에는\x02w2\n"
-.stringn "지금 선택하고 있는 무기의 정보가\n"
-.stringn "표시돼.\x11\x10공격에 사용할 무기를 선택하고\x02w2\n"
+.stringn "지금 선택하고 있는 무기의\n"
+.stringn "정보가 표시돼.\x11\x10공격에 쓸 무기를 선택하고\x02w2\n"
 .stringn "@[A]를 누르면\x11\x10그 무기를 장비한 채로\x02w2\n"
 .stringn "배틀이 진행될 거야.\x11"
 db 0
@@ -726,8 +726,8 @@ db 0
 Text_23AC:
 .stringn "\x05FL|ANNA||\x04RTUT会話|\x0701\x01s\x081D음, \x02w2제대로 적 유닛을 쓰러뜨렸네.\x02w4\n"
 .stringn "게다가 \x02w2아군 유닛의 대미지는\n"
-.stringn "두 명 다 「0」\x02mc……\x02md\x02w3 완벽해\x02mc!\x02md\x11\x10이렇게\x02w2\n"
-.stringn "1명의 적에게 2명 이상의 아군으로 공격하는 게\x02mc…\x02md\x02w4\n"
+.stringn "두 명 다 「0」\x02mc……\x02md\x02w3 완벽해\x02mc!\x02md\x11\x10이렇게 1명의 적에게\x02w2\n"
+.stringn "2명 이상의 아군으로 공격하는 게\x02mc…\x02md\x02w4\n"
 .stringn "바로 연계 공격이야.\x11\x10이번처럼\x02w2\n"
 .stringn "상대가 직접 공격만 하는 유닛이라면,\x11\x10간접 공격으로 시작해서\x02w2\n"
 .stringn "대미지를 「0」\x02mc…\x02md\x02w3까진 아니더라도\x02w2\n"
@@ -1445,7 +1445,7 @@ db 0
 
 //0x92A8
 Text_9288:
-.stringn "\x05FL|ANNA||\x04RTUT小会話|\x02nc\x0701\x081D우선 《HP》\x02w3\n"
+.stringn "\x05FL|ANNA||\x04RTUT小会話|\x02nc\x0701\x081D우선 《HP》,\x02w3\n"
 .stringn "유닛의 체력이야.\x11\x10이게 「0」\x02w1이 되면\x02w2\n"
 .stringn "그 유닛은 두 번 다시 전투에\n"
 .stringn "참가할 수 없게 돼.\x11\x10아군 유닛의 체력은\n"
@@ -1458,7 +1458,7 @@ db 0
 
 //0x93A4
 Text_9384:
-.stringn "\x05FL|ANNA||\x04RTUT小会話|\x02nc\x0701\x081D다음은 《위력》\x02w3\n"
+.stringn "\x05FL|ANNA||\x04RTUT小会話|\x02nc\x0701\x081D다음은 《위력》,\x02w3\n"
 .stringn "상대에게 주는 대미지야.\x11\x10아군 유닛이 공격할 때,\x02w2\n"
 .stringn "상대의 HP에서 이 수치를 빼면\x02w2\n"
 .stringn "공격 후 상대의 HP를 알 수 있어.\x11\x10이 경우\x02w2\n"
@@ -1473,7 +1473,7 @@ db 0
 
 //0x9530
 Text_9510:
-.stringn "\x05FL|ANNA||\x04RTUT小会話|\x02nc\x0701\x081D그리고 《명중》\x02w3\n"
+.stringn "\x05FL|ANNA||\x04RTUT小会話|\x02nc\x0701\x081D그리고 《명중》,\x02w3\n"
 .stringn "공격이 성공할 확률이야.\x11\x10수치가 클수록\x02w2\n"
 .stringn "공격이 잘 맞지.\x11\x10이 경우 \x02w2아군 유닛은\n"
 .stringn "96퍼센트의 확률로\n"
@@ -1487,7 +1487,7 @@ db 0
 
 //0x9658
 Text_9638:
-.stringn "\x05FL|ANNA||\x04RTUT小会話|\x02nc\x0701\x081D마지막으로 《필살》\x02w3\n"
+.stringn "\x05FL|ANNA||\x04RTUT小会話|\x02nc\x0701\x081D마지막으로 《필살》,\x02w3\n"
 .stringn "공격에서 필살이 발동할\n"
 .stringn "확률이야.\x11\x10필살이 발동하면,\x02w2\n"
 .stringn "위력이 평소의 3배가 돼.\x11\x10예를 들면 지금 조작하고 있는\n"
@@ -1500,7 +1500,7 @@ db 0
 
 //0x9764
 Text_9744:
-.stringn "@\x05FL|ANNA||\x04RTUT小会話|\x02nc\x0701\x081D여튼, \x02w2여기 4개의 정보는\x02w2\n"
+.stringn "@\x05FL|ANNA||\x04RTUT小会話|\x02nc\x0701\x081D아무튼, \x02w2여기 4개의 정보는\x02w2\n"
 .stringn "싸우는 상대에 의해서 변화해.\x11\x10여기서 일단 \x02w3@[B]를 눌러서\n"
 .stringn "취소하고,\x11\x10오른쪽에 있는 적 유닛과의\n"
 .stringn "정보를 보면\x02mc…\x02md\x11"
@@ -1526,8 +1526,8 @@ db 0
 Text_9928:
 .stringn "\x05FL|ANNA||\x04RTUT会話|\x0701\x01s\x081D응, \x02w2적 유닛을 쓰러뜨렸어.\x11\x10이런 느낌으로\x02w2\n"
 .stringn "여러 명의 적의 정보를 비교하며 싸우면\x02w3\n"
-.stringn "전투를 효율적으로 진행할 수 있어.\x11\x10이상으로 「기본 전략(전투 정보)」에 대한 지침은\n"
-.stringn "끝이야.\x11"
+.stringn "전투를 효율적으로 진행할 수 있어.\x11\x10이상으로 「기본 전략(전투 정보)」에 대한\n"
+.stringn "지침은 끝이야.\x11"
 db 0
 .align 4
 //MS_T03攻撃２_08
@@ -2018,7 +2018,7 @@ db 0
 
 //0xAE4C
 Text_AE2C:
-.stringn "\x05FL|ANNA||\x04RTUT会話|\x0701\x01a\x081D이렇게 「반격」\x02w1을 받아 버리지.\x11\x10\x01s무기에는 「직접·간접」\x02w1 둘 다 되는 것도 있으니까\x02w2\n"
+.stringn "\x05FL|ANNA||\x04RTUT会話|\x0701\x01a\x081D이렇게 「반격」\x02w1을 받아 버리지.\x11\x10\x01s무기에는 「직접·간접」\x02w1 둘 다 되는 것도 있으니\x02w2\n"
 .stringn "싸우기 전에 적 유닛이 장비하고 있는\n"
 .stringn "무기를 확인해 둬.\x11"
 db 0
@@ -2351,9 +2351,9 @@ db 0
 
 //0xB870
 Text_B850:
-.stringn "\x05FL|ANNA||\x04RTUT会話|\x0701\x01s\x081D이상으로 「승리 조건(적장 격파)」에 대한 지침은\n"
-.stringn "끝이야.\x11\x10적장\x02mc……\x02md\x02w4 보스 유닛만 쓰러뜨리면 되는\n"
-.stringn "맵이지만, \x02w3그만큼\x02w2\n"
+.stringn "\x05FL|ANNA||\x04RTUT会話|\x0701\x01s\x081D이상으로 「승리 조건(적장 격파)」에 대한\n"
+.stringn "지침은 끝이야.\x11\x10적장\x02mc……\x02md\x02w4 보스 유닛만\n"
+.stringn "쓰러뜨리면 되는 맵이지만, \x02w3그만큼\x02w2\n"
 .stringn "갑작스럽게 맵 클리어가 될 때도 있어.\x11\x10보스 유닛과의 싸움이 다가오면\x02w2\n"
 .stringn "놓친 것이 없나\x02w2\n"
 .stringn "생각하면서 싸워 줘.\x11"

@@ -139,7 +139,7 @@ Text_132C:
 .stringn "시스터는\x02mc…\x02md\x11\n"
 .stringn "\x0701훗,\x02w4 여기 있다.\x11\n"
 .stringn "\x0720\x080D미카야씨\x02mc…\x02md 윽\x02mc!!\x02md\x11\n"
-.stringn "\x0714놔 줘.\x02w4\n"
+.stringn "\x0714놔줘.\x02w4\n"
 .stringn "그녀는 우리들의 동료가 아니야\x02mc…\x02md\x11\n"
 .stringn "\x0701그렇게는 안 되지.\x02w4\n"
 .stringn "중요한 인질이니까, \x02w2너처럼.\x11\n"
