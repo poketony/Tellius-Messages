@@ -688,7 +688,7 @@ Text_1F44:
 .stringn "마도서 「파이어」\x02w1를\n"
 .stringn "장비하고 있네.\x11\x10마법은 \x02w2인접한 곳을 공격하는 \x02w3≪직접 공격≫과\n"
 .stringn "1칸 떨어진 곳을 공격하는 \x02w3≪간접 공격≫\n"
-.stringn "양쪽이 가능해.\x11\x10우선, \x02w2간접 공격할 수 있는 위치\x02mc…\x02md\x02w3\n"
+.stringn "둘 다 가능해.\x11\x10우선, \x02w2간접 공격할 수 있는 위치\x02mc…\x02md\x02w3\n"
 .stringn "적으로부터 1칸 떨어진 곳에서\n"
 .stringn "공격해 볼게.\x11"
 db 0
@@ -788,10 +788,10 @@ Text_6320:
 .stringn "@\x05FL|ANNA||\x02BO\x04RTUT小会話|\x02nc\x0702\x082D그러면\x02w3\n"
 .stringn "두 개의 윈도우가\n"
 .stringn "표시돼.\x11\x01*\x01H\n"
-.stringn "\x10위에는 \x02w3인도하는 쪽의 체력과\n"
+.stringn "\x10위에 \x02w3인도하는 쪽의 체력과\n"
 .stringn "인도될 유닛의\n"
 .stringn "체력이 표시되고,\x11\x01*\x01H\n"
-.stringn "\x10아래에는 \x02w3인수하는 쪽의 체력과\n"
+.stringn "\x10아래에 \x02w3인수하는 쪽의 체력과\n"
 .stringn "인수 후의 스테이터스 변화가\n"
 .stringn "적혀 있지.\x11\x10인수하는 쪽 유닛은\n"
 .stringn "그 유닛을\n"
@@ -1086,7 +1086,7 @@ db 0
 //0x57B8
 Text_5798:
 .stringn "\x05FL|ANNA||\x04RTUT会話|\x0701\x01s\x081D자, \x02w2이런 느낌으로\n"
-.stringn "구출한 유닛을 내리는 거야.\x11\x10하지만 \x02w2내린 유닛은\x02w2\n"
+.stringn "구출한 유닛을 내려 줬어.\x11\x10하지만 \x02w2내린 유닛은\x02w2\n"
 .stringn "그 턴 동안 행동할 수 없으니까\n"
 .stringn "조심해.\x11"
 db 0
@@ -1956,7 +1956,7 @@ db 0
 Text_B204:
 .stringn "\x05FL|ANNA||\x04RTUT小会話|\x02nc\x0702\x082D자, \x02w3이렇게\n"
 .stringn "「롱 아치」라고 하는\n"
-.stringn "무기가 표시될 거야.\x11\x10사용할 수 있는 횟수는 적지만,\x02w3\n"
+.stringn "무기가 표시될 거야.\x11\x10쓸 수 있는 횟수는 적지만,\x02w3\n"
 .stringn "이걸로 공격하면 돼.\x11"
 db 0
 .align 4
@@ -2843,10 +2843,10 @@ Text_C7B4:
 .stringn "관계도가 표시될 거야.\x11\x01*\x01H\n"
 .stringn "\x10오른쪽이 「이론」 마법\n"
 .stringn "「화염」, \x02w1「바람」, \x02w1「번개」\x02w1의\n"
-.stringn "관계를 나타내고 있는 그림이고,\x11\x01*\x01H\n"
+.stringn "관계를 나타낸 그림이고,\x11\x01*\x01H\n"
 .stringn "\x10왼쪽이 그 이외의\n"
 .stringn "「이론」, \x02w1「빛」, \x02w1「어둠」\x02w1의\n"
-.stringn "관계를 표시하고 있는 그림이지.\x11"
+.stringn "관계를 나타낸 그림이지.\x11"
 db 0
 .align 4
 //MS_T05魔法３すくみ_05
@@ -2913,8 +2913,8 @@ Text_F5B4:
 .stringn "무기 정보의 사정이\n"
 .stringn "「1」\x02w1이라고 되어 있지?\x11\x10이건 \x02w3이 유닛이\n"
 .stringn "장비하고 있는\n"
-.stringn "철의 도끼가\x11\x10인접하지 않으면\n"
-.stringn "공격할 수 없는 무기라는 뜻이야.\x11\x10적을 공격해도\x02w3\n"
+.stringn "철의 도끼가\x11\x10인접해야 공격을\n"
+.stringn "할 수 있는 무기라는 뜻이야.\x11\x10적을 공격해도\x02w3\n"
 .stringn "다음 턴에 \x02w3공격을\n"
 .stringn "받아 버리겠지.\x11\x10그럼 다음으로 도끼 기사를\n"
 .stringn "봐 보자.\x11"
@@ -3105,7 +3105,7 @@ Text_EA90:
 .stringn "\x05FL|ANNA||\x02BO\x04RTUT会話|\x0700\x01s\x080D그리고\x02w3\n"
 .stringn "색적 맵에는 이렇게 생긴 게\n"
 .stringn "배치된 경우도 있어.\x11\x01*\x01H\n"
-.stringn "\x10이걸 모닥불이라고 하지.\x11"
+.stringn "\x10이걸 화톳불이라고 하지.\x11"
 db 0
 .align 4
 //MS_T06索敵２_06
@@ -4098,7 +4098,7 @@ db 0
 //0x145A8
 Text_14588:
 .stringn "\x05FL|ANNA||\x04RTUT会話|\x0701\x01s\x081D이처럼\x02w3\n"
-.stringn "「화신」했던 라구즈 유닛의 공격은\n"
+.stringn "「화신」한 라구즈 유닛의 공격은\n"
 .stringn "무척 강력해.\x11\x10하지만 \x02w2라구즈는\x02w2\n"
 .stringn "계속 화신해 있을 수는 없어.\x11\x10화신 중에는 \x02w2턴이 경과할 때마다\x02w2\n"
 .stringn "게이지가 줄어들어.\x02w4\n"
@@ -4113,7 +4113,7 @@ Text_146C0:
 .stringn "\x05FL|ANNA||\x04RTUT会話|\x0701\x01s\x081D화신이 풀려 버려.\x02w4\n"
 .stringn "그리고, \x02w2또 게이지가 채워지면 화신\x02mc……\x02md\x02w4\n"
 .stringn "이걸 \x02w1반복하는 거야.\x11\x10화신하지 않았을 때,\x02w2\n"
-.stringn "라구즈 유닛은 공격을 걸 수 없어.\x11\x10라구즈 유닛과 싸울 때는\x02w2\n"
+.stringn "라구즈 유닛은 공격할 수 없어.\x11\x10라구즈 유닛과 싸울 때는\x02w2\n"
 .stringn "화신하지 않았을 때가 기회야.\x02w4\n"
 .stringn "하지만,\x11"
 db 0

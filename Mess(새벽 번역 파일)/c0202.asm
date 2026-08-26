@@ -74,7 +74,7 @@ db 0
 
 //0x2E8C
 Text_2E6C:
-.stringn "\x05FL|YEARDLEY||\x04R上下会話|\x0700\x080D내\x02mc…\x02md\x02w4내 임무가\x02mc……\x02md\x02w4\n"
+.stringn "\x05FL|YEARDLEY||\x04R上下会話|\x0700\x080D내\x02mc…\x02md\x02w4 내 임무가\x02mc……\x02md\x02w4\n"
 .stringn "이런 변경의\x02mc……\x02md\x02w4 마을 따위에서\x02mc……\x02md\x02w4\n"
 .stringn "루드벡님\x02mc…\x02md 용서\x02mc…\x02md를\x02mc………\x02md\x11"
 db 0
@@ -124,7 +124,7 @@ db 0
 
 //0x31BC
 Text_319C:
-.stringn "\x05FL|YOUNGMAN1|YOUNGMAN2_1|NEPHENEE|CHAP||\x02BO\x04R上下会話|\x0704\x084D아\x02mc……\x02md\x02w4아파\x02mc……\x02md\x02w4\n"
+.stringn "\x05FL|YOUNGMAN1|YOUNGMAN2_1|NEPHENEE|CHAP||\x02BO\x04R上下会話|\x0704\x084D아\x02mc……\x02md\x02w4 아파\x02mc……\x02md\x02w4\n"
 .stringn "뼈가\x02mc……\x02md\x02w4 뼈가\x02mc……\x02md\x11\n"
 .stringn "\x09\x02w4\x0715\x085D이, \x02w2이렇게까지\n"
 .stringn "할 필요는 없었잖아\x02mc!\x02md\x11\x10살인자\x02mc!\x02md\x02w4\n"
@@ -136,7 +136,7 @@ Text_319C:
 .stringn "데인에 맞설 수 있을 리 없다고\n"
 .stringn "도망쳐 숨는 사이에 말이여.\x11\x10내는 데인병을 여러 명 죽였제.\x02w4\n"
 .stringn "정확히는, \x02w2이런 식으로\x02mc……\x02md\x01*\x01H\x11\n"
-.stringn "\x0700\x080D\x02mc!\x02md\x02w4 그, \x02w2그마\x02mc…\x02md\x02w3\x02mc…\x02md그만해 줘\x02mc!\x02md\x02w4\n"
+.stringn "\x0700\x080D\x02mc!\x02md\x02w4 그, \x02w2그마\x02mc…\x02md\x02w3\x02mc…\x02md 그만해 줘\x02mc!\x02md\x02w4\n"
 .stringn "내, \x02w2내가, \x02w3내가 잘못했어\x02mc!\x02md\x11\x10이젠 용서해 줘\x02mc……\x02md\x02w3 용서해 주세요\x02mc……\x02md\x02w4\n"
 .stringn "\x02mc……\x02md으으\x02mc…\x02md\x02w3\x02mc…\x02md으\x02mc……\x02md\x11\n"
 .stringn "\x0731\x02mc……\x02md\x02w4\n"

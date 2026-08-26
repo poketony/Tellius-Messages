@@ -10433,7 +10433,7 @@ db 0
 
 //0x3B24
 Text_3B04:
-.stringn "이치의 권속"
+.stringn "이론의 권속"
 db 0
 .align 4
 //MG_理の眷属
@@ -19388,7 +19388,7 @@ db 0
 
 //0x430
 Text_410:
-.stringn "이치"
+.stringn "이론"
 db 0
 .align 4
 //MIK_ELM
@@ -25936,7 +25936,7 @@ db 0
 
 //0x2C50
 Text_2C30:
-.stringn "クイックワープ"
+.stringn "퀵 워프"
 db 0
 .align 4
 //MSID_QUICKWARP
