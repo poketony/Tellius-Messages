@@ -895,10 +895,10 @@ MS_31_BT_R3
 선으로 남을지 [Pause=2]악으로 남을지[FreezeMouth]…[UnfreezeMouth][A][ClearBox]그건 모든 것이[FreezeMouth]…[UnfreezeMouth][Pause=4]
 끝나 봐야 아는 법이다.[A]
 [S_Target=1][FreezeMouth]…………[UnfreezeMouth][Pause=5]
-당신과 대치하여[FreezeMouth]…[UnfreezeMouth][Pause=3] 대화을 나눈 지금[FreezeMouth]…[UnfreezeMouth][Pause=4]
+당신과 대치하여[FreezeMouth]…[UnfreezeMouth][Pause=3] 대화를 나눈 지금[FreezeMouth]…[UnfreezeMouth][Pause=4]
 드디어 결심이 섰다.[A][ClearBox]데인 왕국 장군 타우로니오――[Pause=4]
 주군을 죽였다는 오명[FreezeMouth]…[UnfreezeMouth][Pause=3]
-이 몸으로 달게 받아들이겠다[FreezeMouth]![UnfreezeMouth][A][X]
+이 몸으로 달게 받겠다[FreezeMouth]![UnfreezeMouth][A][X]
 
 MS_31_BT_R4
 

@@ -356,8 +356,8 @@ MS_26_ED_02_3
 오랜만에 뵙습니다.[A]
 [F_Target=0][ClearBox]우선 축사부터 하도록 하지.[Pause=4]
 개선을 축하하네, [Pause=2]엘린시아 공주.[A]
-[F_Target=3][ClearBox]감사합니다.[A][ClearBox]앞으로 [Pause=2]갈리아 왕국와 함께 
-싸울 수 있다고 듣고[FreezeMouth]…[UnfreezeMouth][Pause=4] 무척 든든하다고 생각했어요.[Pause=2]
+[F_Target=3][ClearBox]감사합니다.[A][ClearBox]앞으로 [Pause=2]갈리아 왕국과 함께 
+싸울 수 있다니[FreezeMouth]…[UnfreezeMouth][Pause=4] 무척 든든해요.[Pause=2]
 재차 [Pause=2]감사드립니다.[A]
 [F_Target=0][ClearBox]이 단기간에 [Pause=2]용케 여기까지
 전황을 뒤집을 수 있었군[FreezeMouth]…[UnfreezeMouth][Pause=4]

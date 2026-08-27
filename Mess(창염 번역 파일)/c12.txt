@@ -414,7 +414,7 @@ $Ub$H[F_Target=4][LoadPortrait_L=DARKKNIGHT][F_Target=4][ClearBox][FreezeMouth]�
 [F_Target=1][ClearBox]모처럼 와 주신 것은 황송하지만,[Pause=2]
 각하께서 직접 나서신다면[Pause=2]
 눈 깜짝할 사이에 [Pause=2]모든 것이 끝나 버릴 겁니다.[A][ClearBox]제 부대의 병사들은 모두 [Pause=2]싸움에 굶주려 있습니다.[Pause=4]
-부디 저희들을 즐거움을 빼앗기지 않도록[Pause=2]
+부디 저희들의 즐거움을 빼앗기지 않도록[Pause=2]
 사양하고 싶습니다만?[A]
 [F_Target=4][ClearBox]상관없다.[A][ClearBox]그럼, 전부
 귀공의 지휘에 맡기도록 하지.[Pause=4]
@@ -443,8 +443,8 @@ MS_12_EV_START
 MS_12_EV_JILL
 
 [Scene=上下会話][Face='JILL' Pos='0'][S_Target=0]하알 대장님[FreezeMouth]![UnfreezeMouth][Pause=4]
-태평하게 자고 있을
-때가 아닙니다[FreezeMouth]![UnfreezeMouth][A][ClearBox]반수가 나왔다는 것 같아요[FreezeMouth]!![UnfreezeMouth][Pause=3]
+태평하게 자고 있을 때가 
+아닙니다[FreezeMouth]![UnfreezeMouth][A][ClearBox]반수가 나온 것 같아요[FreezeMouth]!![UnfreezeMouth][Pause=3]
 우리 부대도 출격하죠[FreezeMouth]![UnfreezeMouth][A]
 [S_Target=1][FaceCommand=c][Face='HAAR' Pos='1'][S_Target=1]흐아암[FreezeMouth]…[UnfreezeMouth][Pause=3][FaceCommand=d]
 [FreezeMouth]…[UnfreezeMouth]관둬.[A][ClearBox]우리들이 안 해도[Pause=2]

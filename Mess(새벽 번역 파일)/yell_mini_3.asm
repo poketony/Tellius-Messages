@@ -2473,7 +2473,7 @@ db 0
 //0x7DC
 Text_7BC:
 .stringn "\x05FL|SIGRUN||\x0701\x01s\x081D영광입니다.\x02w4\n"
-.stringn "기께이 함께하겠습니다.\x11"
+.stringn "기꺼이 함께하겠습니다.\x11"
 db 0
 .align 4
 //MMY_SIGRUN_RECV_0_B
@@ -2497,7 +2497,7 @@ db 0
 //0x818
 Text_7F8:
 .stringn "\x05FL|SIGRUN||\x0701\x01s\x081D영광이네.\x02w4\n"
-.stringn "기께이 함께할게.\x11"
+.stringn "기꺼이 함께할게.\x11"
 db 0
 .align 4
 //MMY_SIGRUN_RECV_1_B

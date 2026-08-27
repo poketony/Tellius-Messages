@@ -889,7 +889,7 @@ MS_11_ED05_02
 목숨과 맞바꾸는 건[FreezeMouth]…[UnfreezeMouth][Pause=4]
 고민이 되는걸.[A]
 [F_Target=1][ClearBox][FaceCommand=S]후후[Pause=2] 정직한 분이시군요.[Pause=4]
-하지만[FreezeMouth]…[UnfreezeMouth][Pause=4] 정말로 그 자리에 있는다면[Pause=2]
+하지만[FreezeMouth]…[UnfreezeMouth][Pause=4] 정말로 그 자리에 있다면[Pause=2]
 당신 같은 분은 망설이지 않을 겁니다.[A][ClearBox]상처를 입은 사람을 보면
 반사적으로 몸이 움직일 테니까요[FreezeMouth]…[UnfreezeMouth][Pause=4] 그렇죠?[A]
 [F_Target=3][ClearBox][FreezeMouth]……[UnfreezeMouth]너, [Pause=2]누구야?[Pause=4]

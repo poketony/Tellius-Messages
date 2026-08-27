@@ -700,7 +700,7 @@ MS_15_ED_02
 하찮은 긍지에 매달리는 게[Pause=2]
 페니키스의 방식이었지.[A][ClearBox][FaceCommand=S]『베그니온의 배만 습격한다』라고 해 놓고,[Pause=2]
 사실은 다른 곳에 돌릴 만한 병사가 없었다는 걸
-순순이 인정하면 어때?[A]
+순순히 인정하는 게 어때?[A]
 [F_Target=4][ClearBox][FreezeMouth]……[UnfreezeMouth]뭐라고?[A]
 $Ub$H[F_Target=4][FaceCommand=D][F_Target=4][LoadPortrait_L=DHEGINHANSEA][F_Target=4][ClearBox]둘 다 적당히 하도록[FreezeMouth]![UnfreezeMouth][A]
 $Ub$H[F_Target=4][ClearBox][FreezeMouth]…[UnfreezeMouth]키르바스 왕 네사라여.[Pause=4]
@@ -887,7 +887,7 @@ MS_15_INFO_05
 넌 [Pause=2]분명 여기서
 천마 기사로서 일하고 있었잖아?[A][ClearBox]아는 사람들과도 만날 수 있고
 기쁘지 않아?[A]
-[F_Target=1][ClearBox]그 반대에요[FreezeMouth]![UnfreezeMouth][Pause=4][FaceCommand=c]
+[F_Target=1][ClearBox]그 반대예요[FreezeMouth]![UnfreezeMouth][Pause=4][FaceCommand=c]
 정말 [Pause=2]부끄러워서[FreezeMouth]…[UnfreezeMouth][Pause=3]
 계속 얼굴을 들 수가 없었다고요~[FreezeMouth]![UnfreezeMouth][A]
 [F_Target=3][ClearBox]??[A]

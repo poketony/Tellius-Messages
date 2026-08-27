@@ -180,7 +180,7 @@ db 0
 Text_CC8:
 .stringn "\x05FL|CAHITALENO||\x04R上下会話|\x0700\x080D죽음을\x02mc!\x02md\x02w4\n"
 .stringn "그 사악한 본성에\x02w3\n"
-.stringn "걸맞는 죽음을\x02mc!\x02md\x11"
+.stringn "걸맞은 죽음을\x02mc!\x02md\x11"
 db 0
 .align 4
 //MS_0402_BT

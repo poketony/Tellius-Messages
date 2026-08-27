@@ -44,7 +44,7 @@ Text_5148:
 .stringn "\x0716\x01s틀리지 않아서 다행이군요.\x02w4\n"
 .stringn "부디 \x02w2받아 주십시오.\x11\n"
 .stringn "\x0705정말 받아도 되나요?\x11\n"
-.stringn "\x0716저와 마라드군를 \x02w3이 군에\n"
+.stringn "\x0716저와 마라드군을 \x02w3이 군에\n"
 .stringn "가세시켜 주신 것에 대한\x02w3\n"
 .stringn "답례입니다.\x11\n"
 .stringn "\x0705감사합니다.\x02w4\n"

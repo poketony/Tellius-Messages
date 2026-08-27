@@ -1048,7 +1048,7 @@ Text_322C:
 .stringn "중 한 명인 누미다 공작.\n"
 .stringn "데인 주둔군 총사령관.\n"
 .stringn "사리사욕을 채우기 위해 데인 국내에서\n"
-.stringn "여러 만행를 저질러 왔다."
+.stringn "여러 만행을 저질러 왔다."
 db 0
 .align 4
 //MDIC_NUMIDA

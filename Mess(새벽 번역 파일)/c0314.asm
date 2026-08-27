@@ -1241,7 +1241,7 @@ Text_27D8:
 .stringn "\x09\x02w4\x0711\x081D즉시 치료를\x02mc……\x02md\x11\n"
 .stringn "\x0720\x080D\x02eo\x02mc…\x02md필요 없어요\x02mc!\x02md\x11\x10\x02mc……\x02md\x02w3이런 상처는\x02mc……\x02md\x02w4\x02mc…\x02md 괜찮아요\x02mc…\x02md\x11\x10당신을 희생하면서까지\x02mc…\x02md\x02w2 계속 살아가라고\n"
 .stringn "듣는 것에 비하면\x02mc……\x02md\x02w4\n"
-.stringn "고통 따윈\x02mc…\x02md\x02w3 없는 거나 마찬가지에요\x02mc……\x02md\x11\n"
+.stringn "고통 따윈\x02mc…\x02md\x02w3 없는 거나 마찬가지예요\x02mc……\x02md\x11\n"
 .stringn "\x0711\x02mc………\x02md\x02w3미카야\x02mc……\x02md\x11\n"
 .stringn "\x0C20\x0F\x0C11\x09\x02w5"
 db 0

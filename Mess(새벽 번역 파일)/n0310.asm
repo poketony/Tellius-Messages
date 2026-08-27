@@ -39,7 +39,7 @@ db 0
 Text_2A70:
 .stringn "\x05FL|L_MAKAROV|L_CALILL|L_LARGO|L_AMY|L_DUMMY1|L_MARCIA|L_STELLA||\x04R背景会話|\x0C01\x0E1D\x0C13\x0E3D\x0C24\x084D\x04Bデイン-酒場|\x02w4\x0713내란 사태 후에는\x02w3\n"
 .stringn "제국군의 침공 소동인가\x02mc……\x02md\x02w4\n"
-.stringn "산 너머 산\x02mc…\x02md\x02w3 바쁘네 바뻐.\x11\n"
+.stringn "산 넘어 산이네\x02mc…\x02md\x02w3 바쁘다 바빠.\x11\n"
 .stringn "\x0701정말 \x02w3곤란하다고\x02mc……\x02md\x11\x10크리미아는 이제 평화로워졌으니까\x02w3\n"
 .stringn "한동안 쉴 수 있을 거라고\n"
 .stringn "생각했는데.\x11\n"

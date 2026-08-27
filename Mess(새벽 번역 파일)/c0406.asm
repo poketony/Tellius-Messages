@@ -385,7 +385,7 @@ Text_35A4:
 .stringn "끔찍한 라구즈 실험의 흔적\x02mc………\x02md\x11\x10거기 있었던 잔해\x02mc…\x02md\x02w4\n"
 .stringn "거기서 맡은 썩은 냄새\x02mc……\x02md\x02w4\n"
 .stringn "지금도 잘 기억하고 있어.\x11\n"
-.stringn "\x02mc……\x02md\x02w3잊혀질 리가 없지\x02mc!\x02md\x11\n"
+.stringn "\x02mc……\x02md\x02w3잊을 리가 없지\x02mc!\x02md\x11\n"
 .stringn "\x0711\x081D무슨 소리냐\x02mc!\x02md\x02w4\n"
 .stringn "그건 내가 사랑하는 실험의 성과다\x02mc!\x02md\x02w4\n"
 .stringn "내 전부라고\x02mc!\x02md\x11\n"
