@@ -193,7 +193,7 @@ Text_7C4:
 .stringn "\x0700\x02mc……\x02md。\x02w4\n"
 .stringn "\x02mc……\x02md잘 모르겠지만,\x02w2\n"
 .stringn "아마\x02mc………\x02md 둘 다 아닐까.\n"
-.stringn "\x0711그렇구나\x02mc…\x02md\x11\x10\x09\x0C00\x09\x0C11\x081D 검이 공명하고 있어\x02mc…\x02md\x11\x10신검 에탈드\x02mc…\x02md\x02w4\n"
+.stringn "\x0711그렇구나\x02mc…\x02md\x11\x10\x09\x0C00\x09\x0C11\x081D 검이 공명하고 있어\x02mc…\x02md\x11\x10신검 에타르드\x02mc…\x02md\x02w4\n"
 .stringn "네가 들고 있는 검\n"
 .stringn "라그넬과 짝을 이루는 것.\x11\x10네가 가져가 주었으면\n"
 .stringn "하는 게 아닐까?"

@@ -396,7 +396,7 @@ db 0
 
 //0x2C38
 Text_2C18:
-.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0700\x080D신검 \x02w1에탈드\x02mc…\x02md\x02w4\n"
+.stringn "\x05FL|MICAIAH3_Y||\x04R上下会話|\x0700\x080D신검 \x02w1에타르드\x02mc…\x02md\x02w4\n"
 .stringn "네가 가지고 있는 검\x02w2\n"
 .stringn "라그넬과 \x02w1짝을 이루는 것.\x11\x10네게 \x02w2가져가 달라고\n"
 .stringn "말하는 게 아닐까?\x11"
@@ -747,7 +747,7 @@ db 0
 
 //0x2CE0
 Text_2CC0:
-.stringn "\x05FL|IKE||\x04R上下会話|\x0700\x080D에탈드\x02mc…\x02md\x02w4\n"
+.stringn "\x05FL|IKE||\x04R上下会話|\x0700\x080D에타르드\x02mc…\x02md\x02w4\n"
 .stringn "아버지의 목숨을 \x02w2앗아 간 검\x02mc……\x02md\x11"
 db 0
 .align 4

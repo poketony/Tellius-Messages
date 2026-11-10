@@ -376,7 +376,7 @@ Text_4A74:
 .stringn "무기와 갑옷\x02mc…\x02md\x02w3인가요.\x11\n"
 .stringn "\x0720어딘가 \x02w1비장한 검은 갑옷 녀석과\x02w3\n"
 .stringn "괜시리 오지랖이 넓은 베오크가\x02w2\n"
-.stringn "애용했었지.\x11\x10에탈드인가 \x02w2라그넬인가\x02w3\n"
+.stringn "애용했었지.\x11\x10에타르드인가 \x02w2라그넬인가\x02w3\n"
 .stringn "분명 \x02w2그런 이름의 검이었을 텐데.\x11\n"
 .stringn "\x0714\x01s잘 \x02w1알고 계시네요?\x11\n"
 .stringn "\x0720돈이 될 만한 물건은 \x02w2조금 봐 뒀거든.\x02w5\n"

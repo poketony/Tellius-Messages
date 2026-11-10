@@ -18016,7 +18016,7 @@ db 0
 
 //0x1FF8
 Text_1FD8:
-.stringn "에탈드"
+.stringn "에타르드"
 db 0
 .align 4
 //MIID_ETTARD

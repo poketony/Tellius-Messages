@@ -2293,7 +2293,7 @@ db 0
 
 //0x54E8
 Text_54C8:
-.stringn "에탈드"
+.stringn "에타르드"
 db 0
 .align 4
 //MDIN_エタルド
